@@ -1,0 +1,4 @@
+<map id="SFMLCombat::choixObjet" name="SFMLCombat::choixObjet">
+<area shape="rect" id="node2" href="$class_s_f_m_l_combat.html#ad72f480db9eb3f134e3736b1acb228c8" title="Reflexion de l&#39;IA sur l&#39;action à effectuer. " alt="" coords="227,5,401,32"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_combat.html#a116d70985530e3c46e5b60adc910a1fb" title="La boucle principale de Jeu (version combat IA) " alt="" coords="449,5,628,32"/>
+</map>

@@ -1,0 +1,5 @@
+Lamantine 0 1 8 317 284 262 262 262 384 
+Eau/Coquilame.
+Eau/Hydrocanon.
+Eau/Hydroblast.
+Eau/Surf.

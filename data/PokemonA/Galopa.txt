@@ -1,0 +1,5 @@
+Galopa 0 0 -1 284 262 284 328 339 334
+Feu/Boutefeu.
+Feu/Canicule.
+Feu/Feu saint.
+Feu/Roue de feu.

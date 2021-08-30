@@ -1,0 +1,5 @@
+Mewtwo 0 9 -1 306 306 447 350 394 416
+Psy/Choc mental.
+Psy/Cauchemar.
+Psy/Rafale psy.
+Tenebre/Morsure.

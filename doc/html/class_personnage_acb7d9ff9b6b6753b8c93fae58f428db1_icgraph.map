@@ -1,0 +1,9 @@
+<map id="Personnage::getSacRef" name="Personnage::getSacRef">
+<area shape="rect" id="node2" href="$class_s_f_m_l_combat.html#a82520574af06d7d4bcb145f0a37fe691" title="Dessine les sprites des objets. " alt="" coords="215,5,405,32"/>
+<area shape="rect" id="node7" href="$class_s_f_m_l_combat.html#acc968da97d4c933f516e67b0356e3d73" title="Affichage textuel des actions effectués. " alt="" coords="215,56,405,83"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_combat.html#a55c6728be410efdf2ca919a9ee44728a" title="Boucle d&#39;affichage du menu objet. " alt="" coords="453,5,611,32"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_combat.html#ab856672c59db95d55c7c28cd3a1eee93" title="SFMLCombat::changerMenu" alt="" coords="659,5,848,32"/>
+<area shape="rect" id="node5" href="$class_s_f_m_l_combat.html#a39155235e6275b4d63b9317b9561843e" title="La boucle principale de Jeu. " alt="" coords="902,5,1069,32"/>
+<area shape="rect" id="node6" href="$class_s_f_m_l_combat.html#a116d70985530e3c46e5b60adc910a1fb" title="La boucle principale de Jeu (version combat IA) " alt="" coords="896,56,1075,83"/>
+<area shape="rect" id="node8" href="$class_s_f_m_l_combat.html#a4b2bed6ea12c96a58e55d968b1652597" title="Boucle d&#39;affichage des actions. " alt="" coords="667,56,839,83"/>
+</map>

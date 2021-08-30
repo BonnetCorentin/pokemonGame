@@ -1,0 +1,5 @@
+Grotadmorv 0 13 -1 328 273 251 339 218 414 
+Poison/Acide.
+Poison/Bomb beurk.
+Poison/Detritus.
+Poison/Dard venin.

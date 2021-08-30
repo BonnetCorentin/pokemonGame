@@ -1,0 +1,5 @@
+Raikou 0 5 -1 328 273 361 295 361 384
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

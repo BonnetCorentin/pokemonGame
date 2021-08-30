@@ -1,0 +1,5 @@
+Arbok 0 13 -1 282 260 251 295 284 324
+Poison/Acide.
+Poison/Bomb beurk.
+Poison/Detritus.
+Poison/Dard venin.

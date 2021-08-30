@@ -1,0 +1,13 @@
+<map id="Objet::getNomObjet" name="Objet::getNomObjet">
+<area shape="rect" id="node2" href="$class_objet.html#a1e7b9c9e5cc9417b182258bcb7a0ae21" title="test toutes les fonctions de la classe " alt="" coords="213,5,362,32"/>
+<area shape="rect" id="node3" href="$class_personnage.html#a8b827a72e42d38de1b6d29dee145a4b5" title="test toutes les fonctions de la classe " alt="" coords="194,56,381,83"/>
+<area shape="rect" id="node4" href="$class_sac.html#ad8d86e7c53ae92e33c8eb89ca5033b55" title="Accesseur du nom d&#39;un objet du sac. " alt="" coords="208,107,367,133"/>
+<area shape="rect" id="node6" href="$class_s_f_m_l_combat.html#a82520574af06d7d4bcb145f0a37fe691" title="Dessine les sprites des objets. " alt="" coords="192,157,383,184"/>
+<area shape="rect" id="node11" href="$class_s_f_m_l_combat.html#acc968da97d4c933f516e67b0356e3d73" title="Affichage textuel des actions effectués. " alt="" coords="431,208,621,235"/>
+<area shape="rect" id="node5" href="$class_sac.html#abe28c6d7970457e6ebf9850a762054e5" title="test toutes les fonctions de la classe " alt="" coords="455,107,597,133"/>
+<area shape="rect" id="node7" href="$class_s_f_m_l_combat.html#a55c6728be410efdf2ca919a9ee44728a" title="Boucle d&#39;affichage du menu objet. " alt="" coords="447,157,605,184"/>
+<area shape="rect" id="node8" href="$class_s_f_m_l_combat.html#ab856672c59db95d55c7c28cd3a1eee93" title="SFMLCombat::changerMenu" alt="" coords="669,157,859,184"/>
+<area shape="rect" id="node9" href="$class_s_f_m_l_combat.html#a39155235e6275b4d63b9317b9561843e" title="La boucle principale de Jeu. " alt="" coords="913,157,1079,184"/>
+<area shape="rect" id="node10" href="$class_s_f_m_l_combat.html#a116d70985530e3c46e5b60adc910a1fb" title="La boucle principale de Jeu (version combat IA) " alt="" coords="907,208,1085,235"/>
+<area shape="rect" id="node12" href="$class_s_f_m_l_combat.html#a4b2bed6ea12c96a58e55d968b1652597" title="Boucle d&#39;affichage des actions. " alt="" coords="678,208,850,235"/>
+</map>

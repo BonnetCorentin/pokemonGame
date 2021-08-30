@@ -1,0 +1,74 @@
+\hypertarget{class_combat}{}\section{Combat Class Reference}
+\label{class_combat}\index{Combat@{Combat}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_combat_af420be03c806ef847c0542ab0d7223f9}\label{class_combat_af420be03c806ef847c0542ab0d7223f9}} 
+{\bfseries Combat} (\hyperlink{class_joueur}{Joueur} \&perso, \hyperlink{class_adversaire}{Adversaire} \&dress)
+\item 
+\mbox{\Hypertarget{class_combat_a6f3c9e5df27cfb30359dcb0425a45f6d}\label{class_combat_a6f3c9e5df27cfb30359dcb0425a45f6d}} 
+\hyperlink{class_pokemon}{Pokemon} {\bfseries get\+Poke\+Perso} () const
+\item 
+\mbox{\Hypertarget{class_combat_aa06e658e7fb4ab91174ba4d832588bae}\label{class_combat_aa06e658e7fb4ab91174ba4d832588bae}} 
+\hyperlink{class_pokemon}{Pokemon} {\bfseries get\+Poke\+Adversaire} () const
+\item 
+\mbox{\Hypertarget{class_combat_a9a44a83a9c1fe5d67f0b620dab547e56}\label{class_combat_a9a44a83a9c1fe5d67f0b620dab547e56}} 
+\hyperlink{class_pokemon}{Pokemon} $\ast$ {\bfseries get\+Poke\+Perso\+Ref} ()
+\item 
+\mbox{\Hypertarget{class_combat_a4f02e335d825eb98b64d5410a590b9f8}\label{class_combat_a4f02e335d825eb98b64d5410a590b9f8}} 
+\hyperlink{class_pokemon}{Pokemon} $\ast$ {\bfseries get\+Poke\+Adversaire\+Ref} ()
+\item 
+\mbox{\Hypertarget{class_combat_a3784ddbca993b5ad0fb0d4dd382f919a}\label{class_combat_a3784ddbca993b5ad0fb0d4dd382f919a}} 
+\hyperlink{class_joueur}{Joueur} {\bfseries get\+Joueur} () const
+\item 
+\mbox{\Hypertarget{class_combat_a018644148fc62da9c8abfafc166713c4}\label{class_combat_a018644148fc62da9c8abfafc166713c4}} 
+\hyperlink{class_adversaire}{Adversaire} {\bfseries get\+Adversaire} () const
+\item 
+\mbox{\Hypertarget{class_combat_af72bd31264a8cdeeb3f3f8c30c727d33}\label{class_combat_af72bd31264a8cdeeb3f3f8c30c727d33}} 
+\hyperlink{class_joueur}{Joueur} $\ast$ {\bfseries get\+Joueur\+Ref} ()
+\item 
+\mbox{\Hypertarget{class_combat_a59088f5725884e9c363ad72a946c82ef}\label{class_combat_a59088f5725884e9c363ad72a946c82ef}} 
+\hyperlink{class_adversaire}{Adversaire} $\ast$ {\bfseries get\+Adversaire\+Ref} ()
+\item 
+\mbox{\Hypertarget{class_combat_ac02efb89c200ba49e86bb74fdc7dba21}\label{class_combat_ac02efb89c200ba49e86bb74fdc7dba21}} 
+int {\bfseries get\+Joueur\+Gagnant} ()
+\item 
+\mbox{\Hypertarget{class_combat_aed2119127fb9b7ed023dd481927c27aa}\label{class_combat_aed2119127fb9b7ed023dd481927c27aa}} 
+int {\bfseries get\+Qui\+Joue} () const
+\item 
+\mbox{\Hypertarget{class_combat_a292caf86cb2c8ecbf9ecd055e6a028c0}\label{class_combat_a292caf86cb2c8ecbf9ecd055e6a028c0}} 
+void {\bfseries set\+Qui\+Joue} (unsigned int i)
+\item 
+\mbox{\Hypertarget{class_combat_a7ff4ea33e3bafa37fd8f5a0754955b4f}\label{class_combat_a7ff4ea33e3bafa37fd8f5a0754955b4f}} 
+void {\bfseries set\+J1} (\hyperlink{class_joueur}{Joueur} \&joueur)
+\item 
+\mbox{\Hypertarget{class_combat_a2093b3be4975b62aa546d54f108834f3}\label{class_combat_a2093b3be4975b62aa546d54f108834f3}} 
+void {\bfseries set\+J2} (\hyperlink{class_adversaire}{Adversaire} \&adversaire)
+\item 
+\mbox{\Hypertarget{class_combat_a567eab49812ecbd2d694e8cf064e800a}\label{class_combat_a567eab49812ecbd2d694e8cf064e800a}} 
+void {\bfseries changer\+De\+Pokemon} (unsigned int i)
+\item 
+\mbox{\Hypertarget{class_combat_a2848c91d76a09943dd5effb1904f1937}\label{class_combat_a2848c91d76a09943dd5effb1904f1937}} 
+void {\bfseries changer\+Qui\+Joue} ()
+\item 
+\mbox{\Hypertarget{class_combat_a735c71f16ce62c1dbe3a40cdca6ca44b}\label{class_combat_a735c71f16ce62c1dbe3a40cdca6ca44b}} 
+bool {\bfseries lancer\+Attaque} (unsigned int i)
+\item 
+\mbox{\Hypertarget{class_combat_a3ab678df151ed9210806f89d1aeb47ab}\label{class_combat_a3ab678df151ed9210806f89d1aeb47ab}} 
+bool {\bfseries utiliser\+Objet} (\hyperlink{class_pokemon}{Pokemon} \&Pkmn, unsigned int i)
+\item 
+\mbox{\Hypertarget{class_combat_abbaadce2f31d9b12645481cc74a021b2}\label{class_combat_abbaadce2f31d9b12645481cc74a021b2}} 
+bool {\bfseries fin\+De\+Jeu} ()
+\item 
+\mbox{\Hypertarget{class_combat_ad1fb106750152c5008a04efc5b2b432d}\label{class_combat_ad1fb106750152c5008a04efc5b2b432d}} 
+int {\bfseries calcul\+Priorite} ()
+\item 
+\mbox{\Hypertarget{class_combat_ab8ad53e804e2dccddf100af63d5892e6}\label{class_combat_ab8ad53e804e2dccddf100af63d5892e6}} 
+void {\bfseries test\+Regression} ()
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/corentin/\+Documents/lifap4/src/\+Combat/Combat.\+h\item 
+/home/corentin/\+Documents/lifap4/src/\+Combat/Combat.\+cpp\end{DoxyCompactItemize}

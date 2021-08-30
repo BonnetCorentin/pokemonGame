@@ -1,0 +1,5 @@
+Coconfort 0 2 13 163 218 163 163 185 294
+Insecte/Megacorne.
+Insecte/Double dard.
+Insecte/Plaie Croix.
+Insecte/Dard nuee. 

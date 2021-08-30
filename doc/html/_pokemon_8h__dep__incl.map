@@ -1,0 +1,15 @@
+<map id="/home/corentin/Documents/lifap4/src/Pokemon/Pokemon.h" name="/home/corentin/Documents/lifap4/src/Pokemon/Pokemon.h">
+<area shape="rect" id="node2" href="$_personnage_8h.html" title="Module gérant un Personnage dans PokePEIP. " alt="" coords="559,95,738,151"/>
+<area shape="rect" id="node11" href="$_s_f_m_l_pokedex_8h.html" title="Documentation du module SFMLPokedex. " alt="" coords="686,199,865,255"/>
+<area shape="rect" id="node14" href="$_pokemon_8cpp.html" title="Fichier d&#39;implémentation de la classe Pokemon. " alt="" coords="812,102,1035,143"/>
+<area shape="rect" id="node3" href="$_combat_8h.html" title="Documentation du module Combat. Le module Combat représente un combat entre deux joueurs, et chaque joueur combat avec une équipe de 6 Pokemon. " alt="" coords="217,206,408,247"/>
+<area shape="rect" id="node5" href="$_s_f_m_l_charger_8h_source.html" title="/home/corentin/Documents\l/lifap4/src/SFMLCharger\l/SFMLCharger.h" alt="" coords="454,407,633,463"/>
+<area shape="rect" id="node10" href="$_personnage_8cpp.html" title="Fichier d&#39;implémentation de la classe Personnage. " alt="" coords="433,199,611,255"/>
+<area shape="rect" id="node4" href="$_combat_8cpp.html" title="Fichier d&#39;implémentation de la classe Combat.cpp. " alt="" coords="5,310,209,351"/>
+<area shape="rect" id="node8" href="$_s_f_m_l_8h.html" title="Documentation du module SFML.cpp. " alt="" coords="233,310,448,351"/>
+<area shape="rect" id="node6" href="$_s_f_m_l_charger_8cpp.html" title="Fichier d&#39;implémentation de la classe SFMLCharger.cpp. " alt="" coords="777,511,955,567"/>
+<area shape="rect" id="node7" href="$_s_f_m_l_menu_8cpp.html" title="Fichier d&#39;implémentation de la classe SFMLMenu.cpp. " alt="" coords="420,518,667,559"/>
+<area shape="rect" id="node9" href="$_s_f_m_l_8cpp.html" title="Fichier d&#39;implémentation de la classe SFML.cpp. " alt="" coords="251,407,430,463"/>
+<area shape="rect" id="node12" href="$_s_f_m_l_menu_8h.html" title="Documentation du module SFMLMenu. " alt="" coords="657,414,889,455"/>
+<area shape="rect" id="node13" href="$_s_f_m_l_pokedex_8cpp.html" title="Fichier d&#39;implémentation de la classe SFMLPokedex.cpp. " alt="" coords="737,303,915,359"/>
+</map>

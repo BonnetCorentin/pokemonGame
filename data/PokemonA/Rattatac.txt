@@ -1,0 +1,5 @@
+Rattatac 0 6 -1 262 240 218 287 322 314 
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

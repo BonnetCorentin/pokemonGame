@@ -1,0 +1,5 @@
+Taupiqueur 0 14 -1 207 163 185 229 317 224 
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

@@ -1,0 +1,5 @@
+Papilusion 0 2 7 284 218 306 207 262 324
+Plante/Canon Graine.
+Plante/Fouet lianes.
+Plante/Lame feuille.
+Plante/Poing Dard.

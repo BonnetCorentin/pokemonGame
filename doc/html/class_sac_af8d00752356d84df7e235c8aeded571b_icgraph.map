@@ -1,0 +1,11 @@
+<map id="Sac::getIemeObjet" name="Sac::getIemeObjet">
+<area shape="rect" id="node2" href="$class_personnage.html#a32cf123b507c36c8adbf9bd22cb0b9a2" title="Accesseur d&#39;un objet dans le sac. " alt="" coords="184,56,387,83"/>
+<area shape="rect" id="node9" href="$class_s_f_m_l_combat.html#aa22c1c2665846e97e2eef331af8420d1" title="Choix de l&#39;objet à utiliser. " alt="" coords="199,107,372,133"/>
+<area shape="rect" id="node3" href="$class_combat.html#a3ab678df151ed9210806f89d1aeb47ab" title="Utilise un Objet. " alt="" coords="455,5,601,32"/>
+<area shape="rect" id="node8" href="$class_personnage.html#a8b827a72e42d38de1b6d29dee145a4b5" title="test toutes les fonctions de la classe " alt="" coords="435,56,621,83"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_combat.html#acc968da97d4c933f516e67b0356e3d73" title="Affichage textuel des actions effectués. " alt="" coords="669,9,860,36"/>
+<area shape="rect" id="node5" href="$class_s_f_m_l_combat.html#a4b2bed6ea12c96a58e55d968b1652597" title="Boucle d&#39;affichage des actions. " alt="" coords="908,21,1080,48"/>
+<area shape="rect" id="node6" href="$class_s_f_m_l_combat.html#a39155235e6275b4d63b9317b9561843e" title="La boucle principale de Jeu. " alt="" coords="1134,21,1301,48"/>
+<area shape="rect" id="node7" href="$class_s_f_m_l_combat.html#a116d70985530e3c46e5b60adc910a1fb" title="La boucle principale de Jeu (version combat IA) " alt="" coords="1128,75,1307,101"/>
+<area shape="rect" id="node10" href="$class_s_f_m_l_combat.html#ad72f480db9eb3f134e3736b1acb228c8" title="Reflexion de l&#39;IA sur l&#39;action à effectuer. " alt="" coords="677,81,852,108"/>
+</map>

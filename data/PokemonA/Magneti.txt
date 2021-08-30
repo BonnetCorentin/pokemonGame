@@ -1,0 +1,5 @@
+Magneti 0 5 3 229 262 317 185 207 254 
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

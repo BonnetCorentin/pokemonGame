@@ -1,0 +1,5 @@
+Leviator 0 1 7 328 282 240 383 287 394
+Eau/Coquilame.
+Eau/Hydrocanon.
+Eau/Hydroblast.
+Eau/Surf.

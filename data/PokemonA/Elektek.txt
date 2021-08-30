@@ -1,0 +1,5 @@
+Elektek 0 5 -1 295 234 317 291 339 334 
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

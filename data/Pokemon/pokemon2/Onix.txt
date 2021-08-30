@@ -1,0 +1,5 @@
+Onix 0 10 14 207 460 174 207 262 274
+Normal/Belier.
+Normal/Charge.
+Normal/Combo Griffe.
+Normal/Coupe. 

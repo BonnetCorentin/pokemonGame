@@ -1,0 +1,5 @@
+Aeromite 0 2 13 273 240 306 251 306 344 
+Insecte/Megacorne.
+Insecte/Double dard.
+Insecte/Plaie Croix.
+Insecte/Dard nuee.

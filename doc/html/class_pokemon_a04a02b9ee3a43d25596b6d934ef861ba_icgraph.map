@@ -1,0 +1,8 @@
+<map id="Pokemon::getVitesse" name="Pokemon::getVitesse">
+<area shape="rect" id="node2" href="$class_combat.html#ad1fb106750152c5008a04efc5b2b432d" title="Calcul de la priorité. " alt="" coords="218,5,369,32"/>
+<area shape="rect" id="node3" href="$class_pokemon.html#a1702b9d4b17a506f4f14a1f0ac142553" title="test toutes les fonctions de la classe " alt="" coords="207,56,380,83"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_combat.html#af3dbb1374820d004fdf5907397760335" title="Calcul de la priorité des Joueurs. " alt="" coords="200,107,387,133"/>
+<area shape="rect" id="node5" href="$class_s_f_m_l_combat.html#a4b2bed6ea12c96a58e55d968b1652597" title="Boucle d&#39;affichage des actions. " alt="" coords="435,107,607,133"/>
+<area shape="rect" id="node6" href="$class_s_f_m_l_combat.html#a39155235e6275b4d63b9317b9561843e" title="La boucle principale de Jeu. " alt="" coords="661,81,827,108"/>
+<area shape="rect" id="node7" href="$class_s_f_m_l_combat.html#a116d70985530e3c46e5b60adc910a1fb" title="La boucle principale de Jeu (version combat IA) " alt="" coords="655,132,833,159"/>
+</map>

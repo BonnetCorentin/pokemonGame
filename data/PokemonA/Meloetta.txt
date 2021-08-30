@@ -1,0 +1,5 @@
+Meloetta 0 6 9 390 278 390 278 306 404
+Normal/Belier.
+Normal/Charge.
+Normal/Combo Griffe.
+Normal/Coupe. 

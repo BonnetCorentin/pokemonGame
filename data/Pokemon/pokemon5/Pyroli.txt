@@ -1,0 +1,5 @@
+Pyroli 0 0 -1 350 240 317 394 251 334
+Feu/Boutefeu.
+Feu/Canicule.
+Feu/Feu saint.
+Feu/Roue de feu.

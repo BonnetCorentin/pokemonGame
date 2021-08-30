@@ -1,0 +1,5 @@
+Ortide 0 15 13 273 262 295 251 196 324
+Plante/Canon Graine.
+Plante/Fouet lianes.
+Plante/Lame feuille.
+Plante/Poing Dard.

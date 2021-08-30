@@ -1,0 +1,5 @@
+Cobaltium 0 3 16 267 392 306 306 346 386
+Electrik/Plasma punch.
+Eau/Hydrocanon.
+Feu/Roue de feu.
+Plante/Vegan Attack.

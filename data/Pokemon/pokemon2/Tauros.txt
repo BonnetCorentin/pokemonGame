@@ -1,0 +1,5 @@
+Tauros 0 6 -1 262 317 196 328 350 354 
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

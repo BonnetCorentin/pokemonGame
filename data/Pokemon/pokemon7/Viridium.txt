@@ -1,0 +1,5 @@
+Viridium 0 15 16 392 267 306 306 346 386
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

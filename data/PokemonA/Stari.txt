@@ -1,0 +1,5 @@
+Stari 0 1 -1 229 229 262 207 295 264 
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

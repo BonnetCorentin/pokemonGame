@@ -1,0 +1,5 @@
+<map id="SFMLCombat::choixPokemon" name="SFMLCombat::choixPokemon">
+<area shape="rect" id="node2" href="$class_s_f_m_l_combat.html#a97bf8a2d3300663aacbb8899bbbf3472" title="Test si un des Pokemon combattant est KO (version combat contre IA) " alt="" coords="251,5,455,47"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_combat.html#ad72f480db9eb3f134e3736b1acb228c8" title="Reflexion de l&#39;IA sur l&#39;action à effectuer. " alt="" coords="265,71,440,98"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_combat.html#a116d70985530e3c46e5b60adc910a1fb" title="La boucle principale de Jeu (version combat IA) " alt="" coords="503,42,681,69"/>
+</map>

@@ -1,0 +1,5 @@
+Palkia 0 1 4 372 328 438 372 328 384
+Glace/Laser glace.
+Glace/Onde boreale.
+Glace/Poudreuse.
+Glace/Vente glace.

@@ -1,0 +1,5 @@
+Nidoqueen 0 13 14 295 300 273 289 276 384 
+Normal/Belier.
+Normal/Charge.
+Normal/Combo Griffe.
+Normal/Coupe. 

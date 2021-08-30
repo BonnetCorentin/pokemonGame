@@ -1,0 +1,5 @@
+Terrakium 0 10 16 306 306 267 392 346 386 
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

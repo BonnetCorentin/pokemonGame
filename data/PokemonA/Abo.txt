@@ -1,0 +1,5 @@
+Abo 0 13 -1 227 205 196 240 229 274
+Poison/Acide.
+Poison/Bomb beurk.
+Poison/Detritus.
+Poison/Dard venin.

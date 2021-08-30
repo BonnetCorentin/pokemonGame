@@ -1,0 +1,5 @@
+Excelangue 0 6 -1 273 273 240 229 174 284
+Normal/Belier.
+Normal/Charge.
+Normal/Combo Griffe.
+Normal/Coupe.  

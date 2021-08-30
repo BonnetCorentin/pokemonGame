@@ -1,0 +1,5 @@
+Ponyta 0 0 -1 251 229 251 295 306 304 
+Feu/Boutefeu.
+Feu/Canicule.
+Feu/Feu saint.
+Feu/Roue de feu.

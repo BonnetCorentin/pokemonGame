@@ -1,0 +1,667 @@
+\hypertarget{class_combat}{}\section{Référence de la classe Combat}
+\label{class_combat}\index{Combat@{Combat}}
+
+
+La classe gérant le combat.  
+
+
+
+
+{\ttfamily \#include \char`\"{}src/\+Combat/\+Combat.\+h\char`\"{}}
+
+
+
+Graphe de collaboration de Combat\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_combat__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_combat_a4c2dfed2f9da749ae341de25c7427f73}{Combat} ()
+\begin{DoxyCompactList}\small\item\em Constructeur de \hyperlink{class_combat}{Combat}. \end{DoxyCompactList}\item 
+\hyperlink{class_combat_af420be03c806ef847c0542ab0d7223f9}{Combat} (\hyperlink{class_joueur}{Joueur} \&perso, \hyperlink{class_adversaire}{Adversaire} \&dress)
+\begin{DoxyCompactList}\small\item\em Constructeur de \hyperlink{class_combat}{Combat}. \end{DoxyCompactList}\item 
+\hyperlink{class_combat_a044df77ec24b76ca8b1cc3dde0de5049}{$\sim$\+Combat} ()
+\begin{DoxyCompactList}\small\item\em Destructeur de \hyperlink{class_combat}{Combat}. \end{DoxyCompactList}\item 
+\hyperlink{class_pokemon}{Pokemon} \hyperlink{class_combat_a6f3c9e5df27cfb30359dcb0425a45f6d}{get\+Poke\+Perso} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de Poke\+Perso. \end{DoxyCompactList}\item 
+\hyperlink{class_pokemon}{Pokemon} \hyperlink{class_combat_aa06e658e7fb4ab91174ba4d832588bae}{get\+Poke\+Adversaire} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de Poke\+Perso. \end{DoxyCompactList}\item 
+\hyperlink{class_pokemon}{Pokemon} $\ast$ \hyperlink{class_combat_a9a44a83a9c1fe5d67f0b620dab547e56}{get\+Poke\+Perso\+Ref} ()
+\begin{DoxyCompactList}\small\item\em Accesseur/\+Mutateur de Poke\+Perso. \end{DoxyCompactList}\item 
+\hyperlink{class_pokemon}{Pokemon} $\ast$ \hyperlink{class_combat_a4f02e335d825eb98b64d5410a590b9f8}{get\+Poke\+Adversaire\+Ref} ()
+\begin{DoxyCompactList}\small\item\em Accesseur/\+Mutateur de Poke\+Adversaire. \end{DoxyCompactList}\item 
+\hyperlink{class_joueur}{Joueur} \hyperlink{class_combat_a3784ddbca993b5ad0fb0d4dd382f919a}{get\+Joueur} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de \hyperlink{class_joueur}{Joueur}. \end{DoxyCompactList}\item 
+\hyperlink{class_adversaire}{Adversaire} \hyperlink{class_combat_a018644148fc62da9c8abfafc166713c4}{get\+Adversaire} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de \hyperlink{class_adversaire}{Adversaire}. \end{DoxyCompactList}\item 
+\hyperlink{class_joueur}{Joueur} $\ast$ \hyperlink{class_combat_af72bd31264a8cdeeb3f3f8c30c727d33}{get\+Joueur\+Ref} ()
+\begin{DoxyCompactList}\small\item\em Accesseur/\+Mutateur de \hyperlink{class_joueur}{Joueur}. \end{DoxyCompactList}\item 
+\hyperlink{class_adversaire}{Adversaire} $\ast$ \hyperlink{class_combat_a59088f5725884e9c363ad72a946c82ef}{get\+Adversaire\+Ref} ()
+\begin{DoxyCompactList}\small\item\em Accesseur/\+Mutateur de \hyperlink{class_adversaire}{Adversaire}. \end{DoxyCompactList}\item 
+int \hyperlink{class_combat_a7faa6a3b11778224b04524db1418d67f}{get\+Joueur\+Gagnant} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de joueur\+Gagnant. \end{DoxyCompactList}\item 
+int \hyperlink{class_combat_aed2119127fb9b7ed023dd481927c27aa}{get\+Qui\+Joue} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de qui\+Joue. \end{DoxyCompactList}\item 
+void \hyperlink{class_combat_a292caf86cb2c8ecbf9ecd055e6a028c0}{set\+Qui\+Joue} (unsigned int i)
+\begin{DoxyCompactList}\small\item\em Mutateur de qui\+Joue. \end{DoxyCompactList}\item 
+void \hyperlink{class_combat_a7ff4ea33e3bafa37fd8f5a0754955b4f}{set\+J1} (\hyperlink{class_joueur}{Joueur} \&\hyperlink{class_combat_adfc70215a221f8a5071f7e435719f011}{joueur})
+\begin{DoxyCompactList}\small\item\em Mutateur de \hyperlink{class_joueur}{Joueur}. \end{DoxyCompactList}\item 
+void \hyperlink{class_combat_a2093b3be4975b62aa546d54f108834f3}{set\+J2} (\hyperlink{class_adversaire}{Adversaire} \&adversaire)
+\begin{DoxyCompactList}\small\item\em Mutateur de \hyperlink{class_adversaire}{Adversaire}. \end{DoxyCompactList}\item 
+void \hyperlink{class_combat_a567eab49812ecbd2d694e8cf064e800a}{changer\+De\+Pokemon} (unsigned int i)
+\begin{DoxyCompactList}\small\item\em Changer de \hyperlink{class_pokemon}{Pokemon}. \end{DoxyCompactList}\item 
+void \hyperlink{class_combat_a2848c91d76a09943dd5effb1904f1937}{changer\+Qui\+Joue} ()
+\begin{DoxyCompactList}\small\item\em Changer le tour de Jeu. \end{DoxyCompactList}\item 
+int \hyperlink{class_combat_a310a968bf21791e88753ca6c6a024d8d}{lancer\+Attaque} (unsigned int i)
+\begin{DoxyCompactList}\small\item\em Lance une attaque. \end{DoxyCompactList}\item 
+bool \hyperlink{class_combat_a3ab678df151ed9210806f89d1aeb47ab}{utiliser\+Objet} (\hyperlink{class_pokemon}{Pokemon} \&Pkmn, unsigned int i)
+\begin{DoxyCompactList}\small\item\em Utilise un \hyperlink{class_objet}{Objet}. \end{DoxyCompactList}\item 
+bool \hyperlink{class_combat_abbaadce2f31d9b12645481cc74a021b2}{fin\+De\+Jeu} ()
+\begin{DoxyCompactList}\small\item\em Test si le combat est fini. \end{DoxyCompactList}\item 
+int \hyperlink{class_combat_ad1fb106750152c5008a04efc5b2b432d}{calcul\+Priorite} ()
+\begin{DoxyCompactList}\small\item\em Calcul de la priorité. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_combat_ab8ad53e804e2dccddf100af63d5892e6}\label{class_combat_ab8ad53e804e2dccddf100af63d5892e6}} 
+void \hyperlink{class_combat_ab8ad53e804e2dccddf100af63d5892e6}{test\+Regression} ()
+\begin{DoxyCompactList}\small\item\em Test regression. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Fonctions membres privées}
+\begin{DoxyCompactItemize}
+\item 
+float \hyperlink{class_combat_a08f55247e72fa775222b4f0dcc210f23}{Calcul\+S\+T\+AB} (const \hyperlink{class_attaque}{Attaque} \&attack\+Choisi, const \hyperlink{class_pokemon}{Pokemon} \&Pkmn\+Attack)
+\begin{DoxyCompactList}\small\item\em Calcul du S\+T\+AB. \end{DoxyCompactList}\item 
+float \hyperlink{class_combat_a0bd1f896d7e1667fd5ea86658d30d2c9}{Calcul\+Efficacite\+Type} (const \hyperlink{class_attaque}{Attaque} \&attack\+Choisi, const \hyperlink{class_pokemon}{Pokemon} \&Pkmn\+Def)
+\begin{DoxyCompactList}\small\item\em Calcul de l\textquotesingle{}éfficacité. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_joueur}{Joueur} $\ast$ \hyperlink{class_combat_adfc70215a221f8a5071f7e435719f011}{joueur}
+\begin{DoxyCompactList}\small\item\em Le joueur participant aux combats. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_combat_a612d3e13c7836b178e3948bd1f311da3}\label{class_combat_a612d3e13c7836b178e3948bd1f311da3}} 
+\hyperlink{class_adversaire}{Adversaire} $\ast$ {\bfseries adversaire}
+\item 
+int \hyperlink{class_combat_a3eb02966f9dc1782e6314683aa784813}{joueur\+Gagnant}
+\begin{DoxyCompactList}\small\item\em Indice du gagant. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_combat_a815de57c00a1b43c53ea930b74198b2c}{qui\+Joue}
+\begin{DoxyCompactList}\small\item\em Indice du tour. \end{DoxyCompactList}\item 
+\hyperlink{class_pokemon}{Pokemon} $\ast$ \hyperlink{class_combat_acd7f1ec3ffd1779ea492d46189cccb47}{Poke\+Perso}
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_pokemon}{Pokemon} combattant du \hyperlink{class_joueur}{Joueur}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_combat_a63934d3e11592de4cf78f7645f56f7a8}\label{class_combat_a63934d3e11592de4cf78f7645f56f7a8}} 
+\hyperlink{class_pokemon}{Pokemon} $\ast$ {\bfseries Poke\+Adversaire}
+\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+La classe gérant le combat. 
+
+Le module \hyperlink{class_combat}{Combat} consiste en la gestion du combat et donc de chaque actions possible durant un combat. 
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_combat_a4c2dfed2f9da749ae341de25c7427f73}\label{class_combat_a4c2dfed2f9da749ae341de25c7427f73}} 
+\index{Combat@{Combat}!Combat@{Combat}}
+\index{Combat@{Combat}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{Combat()}{Combat()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Combat\+::\+Combat (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructeur de \hyperlink{class_combat}{Combat}. 
+
+Construit un objet de type \hyperlink{class_combat}{Combat} \mbox{\Hypertarget{class_combat_af420be03c806ef847c0542ab0d7223f9}\label{class_combat_af420be03c806ef847c0542ab0d7223f9}} 
+\index{Combat@{Combat}!Combat@{Combat}}
+\index{Combat@{Combat}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{Combat()}{Combat()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Combat\+::\+Combat (\begin{DoxyParamCaption}\item[{\hyperlink{class_joueur}{Joueur} \&}]{perso,  }\item[{\hyperlink{class_adversaire}{Adversaire} \&}]{dress }\end{DoxyParamCaption})}
+
+
+
+Constructeur de \hyperlink{class_combat}{Combat}. 
+
+Construit un objet de type \hyperlink{class_combat}{Combat}, en utilisant un \hyperlink{class_joueur}{Joueur} et un \hyperlink{class_adversaire}{Adversaire} prédéfini Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_combat_af420be03c806ef847c0542ab0d7223f9_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_combat_a044df77ec24b76ca8b1cc3dde0de5049}\label{class_combat_a044df77ec24b76ca8b1cc3dde0de5049}} 
+\index{Combat@{Combat}!````~Combat@{$\sim$\+Combat}}
+\index{````~Combat@{$\sim$\+Combat}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{$\sim$\+Combat()}{~Combat()}}
+{\footnotesize\ttfamily Combat\+::$\sim$\+Combat (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructeur de \hyperlink{class_combat}{Combat}. 
+
+Construit un objet de type \hyperlink{class_combat}{Combat} Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_combat_a044df77ec24b76ca8b1cc3dde0de5049_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_combat_a0bd1f896d7e1667fd5ea86658d30d2c9}\label{class_combat_a0bd1f896d7e1667fd5ea86658d30d2c9}} 
+\index{Combat@{Combat}!Calcul\+Efficacite\+Type@{Calcul\+Efficacite\+Type}}
+\index{Calcul\+Efficacite\+Type@{Calcul\+Efficacite\+Type}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{Calcul\+Efficacite\+Type()}{CalculEfficaciteType()}}
+{\footnotesize\ttfamily float Combat\+::\+Calcul\+Efficacite\+Type (\begin{DoxyParamCaption}\item[{const \hyperlink{class_attaque}{Attaque} \&}]{attack\+Choisi,  }\item[{const \hyperlink{class_pokemon}{Pokemon} \&}]{Pkmn\+Def }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Calcul de l\textquotesingle{}éfficacité. 
+
+Un multiplicateur est appliqué sur les dégats en fonction de l\textquotesingle{}élément de l\textquotesingle{}attaque et des éléments du \hyperlink{class_pokemon}{Pokemon} recevant l\textquotesingle{}attaque. 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em attack\+Choisi} & L\textquotesingle{}attaque lancé par le \hyperlink{class_pokemon}{Pokemon}. \\
+\hline
+\mbox{\tt in}  & {\em Pkmn\+Def} & Le \hyperlink{class_pokemon}{Pokemon} qui recoit l\textquotesingle{}attaque. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Le multiplicateur de dégats. 
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_combat_a0bd1f896d7e1667fd5ea86658d30d2c9_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_combat_a0bd1f896d7e1667fd5ea86658d30d2c9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_combat_ad1fb106750152c5008a04efc5b2b432d}\label{class_combat_ad1fb106750152c5008a04efc5b2b432d}} 
+\index{Combat@{Combat}!calcul\+Priorite@{calcul\+Priorite}}
+\index{calcul\+Priorite@{calcul\+Priorite}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{calcul\+Priorite()}{calculPriorite()}}
+{\footnotesize\ttfamily int Combat\+::calcul\+Priorite (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Calcul de la priorité. 
+
+Si les deux personnages choissisent d\textquotesingle{}attaquer, le calcul de la priorité en fonction de la vitesse de chaque \hyperlink{class_pokemon}{Pokemon} peut-\/être effectué. \begin{DoxyReturn}{Renvoie}
+L\textquotesingle{}indice du personnage ayant la priorité. 
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{class_combat_ad1fb106750152c5008a04efc5b2b432d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_combat_a08f55247e72fa775222b4f0dcc210f23}\label{class_combat_a08f55247e72fa775222b4f0dcc210f23}} 
+\index{Combat@{Combat}!Calcul\+S\+T\+AB@{Calcul\+S\+T\+AB}}
+\index{Calcul\+S\+T\+AB@{Calcul\+S\+T\+AB}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{Calcul\+S\+T\+A\+B()}{CalculSTAB()}}
+{\footnotesize\ttfamily float Combat\+::\+Calcul\+S\+T\+AB (\begin{DoxyParamCaption}\item[{const \hyperlink{class_attaque}{Attaque} \&}]{attack\+Choisi,  }\item[{const \hyperlink{class_pokemon}{Pokemon} \&}]{Pkmn\+Attack }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Calcul du S\+T\+AB. 
+
+Un multiplicateur est appliqué sur les dégats si l\textquotesingle{}élément de l\textquotesingle{}attaque correspond à l\textquotesingle{}un des éléments du \hyperlink{class_pokemon}{Pokemon}. 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em attack\+Choisi} & L\textquotesingle{}attaque lancé par le \hyperlink{class_pokemon}{Pokemon}. \\
+\hline
+\mbox{\tt in}  & {\em Pkmn\+Attack} & Le \hyperlink{class_pokemon}{Pokemon} qui attaque. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Le multiplicateur de dégats. 
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{class_combat_a08f55247e72fa775222b4f0dcc210f23_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_combat_a08f55247e72fa775222b4f0dcc210f23_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_combat_a567eab49812ecbd2d694e8cf064e800a}\label{class_combat_a567eab49812ecbd2d694e8cf064e800a}} 
+\index{Combat@{Combat}!changer\+De\+Pokemon@{changer\+De\+Pokemon}}
+\index{changer\+De\+Pokemon@{changer\+De\+Pokemon}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{changer\+De\+Pokemon()}{changerDePokemon()}}
+{\footnotesize\ttfamily void Combat\+::changer\+De\+Pokemon (\begin{DoxyParamCaption}\item[{unsigned int}]{i }\end{DoxyParamCaption})}
+
+
+
+Changer de \hyperlink{class_pokemon}{Pokemon}. 
+
+Permet de changer le \hyperlink{class_pokemon}{Pokemon} actuellemnt sur le terrain de \hyperlink{class_combat}{Combat} par un autre de l\textquotesingle{}équipe du personnage, s\textquotesingle{}applique sur le personnage dont l\textquotesingle{}indice qui\+Joue correspond. 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & Indice du \hyperlink{class_pokemon}{Pokemon} qu\textquotesingle{}on veut faire rentrer sur le terrain. \\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_combat_a567eab49812ecbd2d694e8cf064e800a_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_combat_a567eab49812ecbd2d694e8cf064e800a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_combat_a2848c91d76a09943dd5effb1904f1937}\label{class_combat_a2848c91d76a09943dd5effb1904f1937}} 
+\index{Combat@{Combat}!changer\+Qui\+Joue@{changer\+Qui\+Joue}}
+\index{changer\+Qui\+Joue@{changer\+Qui\+Joue}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{changer\+Qui\+Joue()}{changerQuiJoue()}}
+{\footnotesize\ttfamily void Combat\+::changer\+Qui\+Joue (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Changer le tour de Jeu. 
+
+Changer de tour de Jeu, donc du tour du J1 au J2, puis J2 au J1. Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_combat_a2848c91d76a09943dd5effb1904f1937_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_combat_abbaadce2f31d9b12645481cc74a021b2}\label{class_combat_abbaadce2f31d9b12645481cc74a021b2}} 
+\index{Combat@{Combat}!fin\+De\+Jeu@{fin\+De\+Jeu}}
+\index{fin\+De\+Jeu@{fin\+De\+Jeu}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{fin\+De\+Jeu()}{finDeJeu()}}
+{\footnotesize\ttfamily bool Combat\+::fin\+De\+Jeu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Test si le combat est fini. 
+
+Renvoie un booléen dépendant de si le combat est terminé ou non. \begin{DoxyReturn}{Renvoie}
+Un booléen permettant de savoir si le combat est terminé. 
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_combat_abbaadce2f31d9b12645481cc74a021b2_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_combat_abbaadce2f31d9b12645481cc74a021b2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_combat_a018644148fc62da9c8abfafc166713c4}\label{class_combat_a018644148fc62da9c8abfafc166713c4}} 
+\index{Combat@{Combat}!get\+Adversaire@{get\+Adversaire}}
+\index{get\+Adversaire@{get\+Adversaire}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{get\+Adversaire()}{getAdversaire()}}
+{\footnotesize\ttfamily \hyperlink{class_adversaire}{Adversaire} Combat\+::get\+Adversaire (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de \hyperlink{class_adversaire}{Adversaire}. 
+
+Renvoie l\textquotesingle{}\hyperlink{class_adversaire}{Adversaire} de combat \begin{DoxyReturn}{Renvoie}
+La variable \hyperlink{class_adversaire}{Adversaire} de \hyperlink{class_combat}{Combat} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_combat_a59088f5725884e9c363ad72a946c82ef}\label{class_combat_a59088f5725884e9c363ad72a946c82ef}} 
+\index{Combat@{Combat}!get\+Adversaire\+Ref@{get\+Adversaire\+Ref}}
+\index{get\+Adversaire\+Ref@{get\+Adversaire\+Ref}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{get\+Adversaire\+Ref()}{getAdversaireRef()}}
+{\footnotesize\ttfamily \hyperlink{class_adversaire}{Adversaire} $\ast$ Combat\+::get\+Adversaire\+Ref (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Accesseur/\+Mutateur de \hyperlink{class_adversaire}{Adversaire}. 
+
+Renvoie un pointeur sur l\textquotesingle{}\hyperlink{class_adversaire}{Adversaire} de combat \begin{DoxyReturn}{Renvoie}
+Un pointeur sur la variable \hyperlink{class_adversaire}{Adversaire} de \hyperlink{class_combat}{Combat} 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_combat_a59088f5725884e9c363ad72a946c82ef_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_combat_a3784ddbca993b5ad0fb0d4dd382f919a}\label{class_combat_a3784ddbca993b5ad0fb0d4dd382f919a}} 
+\index{Combat@{Combat}!get\+Joueur@{get\+Joueur}}
+\index{get\+Joueur@{get\+Joueur}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{get\+Joueur()}{getJoueur()}}
+{\footnotesize\ttfamily \hyperlink{class_joueur}{Joueur} Combat\+::get\+Joueur (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de \hyperlink{class_joueur}{Joueur}. 
+
+Renvoie le \hyperlink{class_joueur}{Joueur} de combat \begin{DoxyReturn}{Renvoie}
+La variable \hyperlink{class_joueur}{Joueur} de \hyperlink{class_combat}{Combat} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_combat_a7faa6a3b11778224b04524db1418d67f}\label{class_combat_a7faa6a3b11778224b04524db1418d67f}} 
+\index{Combat@{Combat}!get\+Joueur\+Gagnant@{get\+Joueur\+Gagnant}}
+\index{get\+Joueur\+Gagnant@{get\+Joueur\+Gagnant}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{get\+Joueur\+Gagnant()}{getJoueurGagnant()}}
+{\footnotesize\ttfamily int Combat\+::get\+Joueur\+Gagnant (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de joueur\+Gagnant. 
+
+Renvoie l\textquotesingle{}indice du gagnant \begin{DoxyReturn}{Renvoie}
+L\textquotesingle{}indice du personnage gagnant 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_combat_a7faa6a3b11778224b04524db1418d67f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_combat_af72bd31264a8cdeeb3f3f8c30c727d33}\label{class_combat_af72bd31264a8cdeeb3f3f8c30c727d33}} 
+\index{Combat@{Combat}!get\+Joueur\+Ref@{get\+Joueur\+Ref}}
+\index{get\+Joueur\+Ref@{get\+Joueur\+Ref}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{get\+Joueur\+Ref()}{getJoueurRef()}}
+{\footnotesize\ttfamily \hyperlink{class_joueur}{Joueur} $\ast$ Combat\+::get\+Joueur\+Ref (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Accesseur/\+Mutateur de \hyperlink{class_joueur}{Joueur}. 
+
+Renvoie un pointeur sur le \hyperlink{class_joueur}{Joueur} de combat \begin{DoxyReturn}{Renvoie}
+Un pointeur sur la variable \hyperlink{class_joueur}{Joueur} de \hyperlink{class_combat}{Combat} 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_combat_af72bd31264a8cdeeb3f3f8c30c727d33_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_combat_aa06e658e7fb4ab91174ba4d832588bae}\label{class_combat_aa06e658e7fb4ab91174ba4d832588bae}} 
+\index{Combat@{Combat}!get\+Poke\+Adversaire@{get\+Poke\+Adversaire}}
+\index{get\+Poke\+Adversaire@{get\+Poke\+Adversaire}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{get\+Poke\+Adversaire()}{getPokeAdversaire()}}
+{\footnotesize\ttfamily \hyperlink{class_pokemon}{Pokemon} Combat\+::get\+Poke\+Adversaire (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de Poke\+Perso. 
+
+Renvoie le \hyperlink{class_pokemon}{Pokemon} au combat de \hyperlink{class_adversaire}{Adversaire} \begin{DoxyReturn}{Renvoie}
+Le \hyperlink{class_pokemon}{Pokemon} sur le terrain de \hyperlink{class_combat}{Combat} du \hyperlink{class_adversaire}{Adversaire} 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_combat_aa06e658e7fb4ab91174ba4d832588bae_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_combat_a4f02e335d825eb98b64d5410a590b9f8}\label{class_combat_a4f02e335d825eb98b64d5410a590b9f8}} 
+\index{Combat@{Combat}!get\+Poke\+Adversaire\+Ref@{get\+Poke\+Adversaire\+Ref}}
+\index{get\+Poke\+Adversaire\+Ref@{get\+Poke\+Adversaire\+Ref}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{get\+Poke\+Adversaire\+Ref()}{getPokeAdversaireRef()}}
+{\footnotesize\ttfamily \hyperlink{class_pokemon}{Pokemon} $\ast$ Combat\+::get\+Poke\+Adversaire\+Ref (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Accesseur/\+Mutateur de Poke\+Adversaire. 
+
+Renvoie un pointeur sur le \hyperlink{class_pokemon}{Pokemon} au combat de \hyperlink{class_adversaire}{Adversaire} \begin{DoxyReturn}{Renvoie}
+Un pointeur sur le \hyperlink{class_pokemon}{Pokemon} sur le terrain de \hyperlink{class_combat}{Combat} du \hyperlink{class_adversaire}{Adversaire} 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_combat_a4f02e335d825eb98b64d5410a590b9f8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_combat_a6f3c9e5df27cfb30359dcb0425a45f6d}\label{class_combat_a6f3c9e5df27cfb30359dcb0425a45f6d}} 
+\index{Combat@{Combat}!get\+Poke\+Perso@{get\+Poke\+Perso}}
+\index{get\+Poke\+Perso@{get\+Poke\+Perso}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{get\+Poke\+Perso()}{getPokePerso()}}
+{\footnotesize\ttfamily \hyperlink{class_pokemon}{Pokemon} Combat\+::get\+Poke\+Perso (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de Poke\+Perso. 
+
+Renvoie le \hyperlink{class_pokemon}{Pokemon} au combat de \hyperlink{class_joueur}{Joueur} \begin{DoxyReturn}{Renvoie}
+Le \hyperlink{class_pokemon}{Pokemon} sur le terrain de \hyperlink{class_combat}{Combat} du \hyperlink{class_joueur}{Joueur} 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_combat_a6f3c9e5df27cfb30359dcb0425a45f6d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_combat_a9a44a83a9c1fe5d67f0b620dab547e56}\label{class_combat_a9a44a83a9c1fe5d67f0b620dab547e56}} 
+\index{Combat@{Combat}!get\+Poke\+Perso\+Ref@{get\+Poke\+Perso\+Ref}}
+\index{get\+Poke\+Perso\+Ref@{get\+Poke\+Perso\+Ref}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{get\+Poke\+Perso\+Ref()}{getPokePersoRef()}}
+{\footnotesize\ttfamily \hyperlink{class_pokemon}{Pokemon} $\ast$ Combat\+::get\+Poke\+Perso\+Ref (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Accesseur/\+Mutateur de Poke\+Perso. 
+
+Renvoie un pointeur sur le \hyperlink{class_pokemon}{Pokemon} au combat de \hyperlink{class_joueur}{Joueur} \begin{DoxyReturn}{Renvoie}
+Un pointeur sur le \hyperlink{class_pokemon}{Pokemon} sur le terrain de \hyperlink{class_combat}{Combat} du \hyperlink{class_joueur}{Joueur} 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_combat_a9a44a83a9c1fe5d67f0b620dab547e56_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_combat_aed2119127fb9b7ed023dd481927c27aa}\label{class_combat_aed2119127fb9b7ed023dd481927c27aa}} 
+\index{Combat@{Combat}!get\+Qui\+Joue@{get\+Qui\+Joue}}
+\index{get\+Qui\+Joue@{get\+Qui\+Joue}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{get\+Qui\+Joue()}{getQuiJoue()}}
+{\footnotesize\ttfamily int Combat\+::get\+Qui\+Joue (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de qui\+Joue. 
+
+Renvoie l\textquotesingle{}indice de celui qui joue \begin{DoxyReturn}{Renvoie}
+L\textquotesingle{}indice du personnage etant entrain de joueur 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_combat_aed2119127fb9b7ed023dd481927c27aa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_combat_a310a968bf21791e88753ca6c6a024d8d}\label{class_combat_a310a968bf21791e88753ca6c6a024d8d}} 
+\index{Combat@{Combat}!lancer\+Attaque@{lancer\+Attaque}}
+\index{lancer\+Attaque@{lancer\+Attaque}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{lancer\+Attaque()}{lancerAttaque()}}
+{\footnotesize\ttfamily int Combat\+::lancer\+Attaque (\begin{DoxyParamCaption}\item[{unsigned int}]{i }\end{DoxyParamCaption})}
+
+
+
+Lance une attaque. 
+
+Lance une attaque du \hyperlink{class_pokemon}{Pokemon} du personnage correspondant à l\textquotesingle{}indice qui\+Joue sur le \hyperlink{class_pokemon}{Pokemon} du personnage adversaire. 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & Indice de l\textquotesingle{}attaque utilisé. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Un indice permettant de savoir si l\textquotesingle{}attaque c\textquotesingle{}est bien effectué. 
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_combat_a310a968bf21791e88753ca6c6a024d8d_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_combat_a310a968bf21791e88753ca6c6a024d8d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_combat_a7ff4ea33e3bafa37fd8f5a0754955b4f}\label{class_combat_a7ff4ea33e3bafa37fd8f5a0754955b4f}} 
+\index{Combat@{Combat}!set\+J1@{set\+J1}}
+\index{set\+J1@{set\+J1}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{set\+J1()}{setJ1()}}
+{\footnotesize\ttfamily void Combat\+::set\+J1 (\begin{DoxyParamCaption}\item[{\hyperlink{class_joueur}{Joueur} \&}]{joueur }\end{DoxyParamCaption})}
+
+
+
+Mutateur de \hyperlink{class_joueur}{Joueur}. 
+
+Modifie le \hyperlink{class_joueur}{Joueur} 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em joueur} & \hyperlink{class_joueur}{Joueur} par lequel on remplace l\textquotesingle{}actuel \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_combat_a2093b3be4975b62aa546d54f108834f3}\label{class_combat_a2093b3be4975b62aa546d54f108834f3}} 
+\index{Combat@{Combat}!set\+J2@{set\+J2}}
+\index{set\+J2@{set\+J2}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{set\+J2()}{setJ2()}}
+{\footnotesize\ttfamily void Combat\+::set\+J2 (\begin{DoxyParamCaption}\item[{\hyperlink{class_adversaire}{Adversaire} \&}]{adversaire }\end{DoxyParamCaption})}
+
+
+
+Mutateur de \hyperlink{class_adversaire}{Adversaire}. 
+
+Modifie le \hyperlink{class_adversaire}{Adversaire}. 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em adversaire} & \hyperlink{class_adversaire}{Adversaire} par lequel on remplace l\textquotesingle{}actuel. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_combat_a292caf86cb2c8ecbf9ecd055e6a028c0}\label{class_combat_a292caf86cb2c8ecbf9ecd055e6a028c0}} 
+\index{Combat@{Combat}!set\+Qui\+Joue@{set\+Qui\+Joue}}
+\index{set\+Qui\+Joue@{set\+Qui\+Joue}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{set\+Qui\+Joue()}{setQuiJoue()}}
+{\footnotesize\ttfamily void Combat\+::set\+Qui\+Joue (\begin{DoxyParamCaption}\item[{unsigned int}]{i }\end{DoxyParamCaption})}
+
+
+
+Mutateur de qui\+Joue. 
+
+Modifie l\textquotesingle{}indice de celui qui joue 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & Indice de celui qui joue \\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_combat_a292caf86cb2c8ecbf9ecd055e6a028c0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_combat_a3ab678df151ed9210806f89d1aeb47ab}\label{class_combat_a3ab678df151ed9210806f89d1aeb47ab}} 
+\index{Combat@{Combat}!utiliser\+Objet@{utiliser\+Objet}}
+\index{utiliser\+Objet@{utiliser\+Objet}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{utiliser\+Objet()}{utiliserObjet()}}
+{\footnotesize\ttfamily bool Combat\+::utiliser\+Objet (\begin{DoxyParamCaption}\item[{\hyperlink{class_pokemon}{Pokemon} \&}]{Pkmn,  }\item[{unsigned int}]{i }\end{DoxyParamCaption})}
+
+
+
+Utilise un \hyperlink{class_objet}{Objet}. 
+
+Utilise un objet du personnage correspondant à l\textquotesingle{}indice qui\+Joue sur son \hyperlink{class_pokemon}{Pokemon} étant actuellement en combat. 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt out}  & {\em Pkmn} & Le \hyperlink{class_pokemon}{Pokemon} sur lequel l\textquotesingle{}objet est utilisé. \\
+\hline
+\mbox{\tt in}  & {\em i} & Indice de l\textquotesingle{}objet utilisé. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Un booléen permettant de savoir si l\textquotesingle{}objet a bien été appliqué. 
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_combat_a3ab678df151ed9210806f89d1aeb47ab_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_combat_a3ab678df151ed9210806f89d1aeb47ab_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Documentation des données membres}
+\mbox{\Hypertarget{class_combat_adfc70215a221f8a5071f7e435719f011}\label{class_combat_adfc70215a221f8a5071f7e435719f011}} 
+\index{Combat@{Combat}!joueur@{joueur}}
+\index{joueur@{joueur}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{joueur}{joueur}}
+{\footnotesize\ttfamily \hyperlink{class_joueur}{Joueur} $\ast$ Combat\+::joueur\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Le joueur participant aux combats. 
+
+\hyperlink{class_joueur}{Joueur} correspond au personnage qu\textquotesingle{}incarne l\textquotesingle{}utilisateur principale. \mbox{\Hypertarget{class_combat_a3eb02966f9dc1782e6314683aa784813}\label{class_combat_a3eb02966f9dc1782e6314683aa784813}} 
+\index{Combat@{Combat}!joueur\+Gagnant@{joueur\+Gagnant}}
+\index{joueur\+Gagnant@{joueur\+Gagnant}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{joueur\+Gagnant}{joueurGagnant}}
+{\footnotesize\ttfamily int Combat\+::joueur\+Gagnant\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indice du gagant. 
+
+Indice indiquant quel joueur a gagné. \mbox{\Hypertarget{class_combat_acd7f1ec3ffd1779ea492d46189cccb47}\label{class_combat_acd7f1ec3ffd1779ea492d46189cccb47}} 
+\index{Combat@{Combat}!Poke\+Perso@{Poke\+Perso}}
+\index{Poke\+Perso@{Poke\+Perso}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{Poke\+Perso}{PokePerso}}
+{\footnotesize\ttfamily \hyperlink{class_pokemon}{Pokemon} $\ast$ Combat\+::\+Poke\+Perso\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+\hyperlink{class_pokemon}{Pokemon} combattant du \hyperlink{class_joueur}{Joueur}. 
+
+\hyperlink{class_pokemon}{Pokemon} combattant de l\textquotesingle{}\hyperlink{class_adversaire}{Adversaire}.
+
+Correspond au \hyperlink{class_pokemon}{Pokemon} du \hyperlink{class_joueur}{Joueur} étant actuellement sur le terrain de combat.
+
+Correspond au \hyperlink{class_pokemon}{Pokemon} de l\textquotesingle{}\hyperlink{class_adversaire}{Adversaire} étant actuellement sur le terrain de combat. \mbox{\Hypertarget{class_combat_a815de57c00a1b43c53ea930b74198b2c}\label{class_combat_a815de57c00a1b43c53ea930b74198b2c}} 
+\index{Combat@{Combat}!qui\+Joue@{qui\+Joue}}
+\index{qui\+Joue@{qui\+Joue}!Combat@{Combat}}
+\subsubsection{\texorpdfstring{qui\+Joue}{quiJoue}}
+{\footnotesize\ttfamily unsigned int Combat\+::qui\+Joue\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Indice du tour. 
+
+Indice indiquant quel joueur doit jouer. 
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+/home/corentin/\+Documents/lifap4/src/\+Combat/\hyperlink{_combat_8h}{Combat.\+h}\item 
+/home/corentin/\+Documents/lifap4/src/\+Combat/\hyperlink{_combat_8cpp}{Combat.\+cpp}\end{DoxyCompactItemize}

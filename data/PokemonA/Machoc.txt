@@ -1,0 +1,5 @@
+Machoc 0 16 -1 185 218 185 284 185 344 
+Normal/Belier.
+Normal/Charge.
+Normal/Combo Griffe.
+Normal/Coupe. 

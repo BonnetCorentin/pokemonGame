@@ -1,0 +1,8 @@
+<map id="/home/corentin/Documents/lifap4/src/Combat/Combat.cpp" name="/home/corentin/Documents/lifap4/src/Combat/Combat.cpp">
+<area shape="rect" id="node2" href="$_combat_8h.html" title="Documentation du module Combat. Le module Combat représente un combat entre deux joueurs, et chaque joueur combat avec une équipe de 6 Pokemon. " alt="" coords="421,95,499,121"/>
+<area shape="rect" id="node3" href="$_personnage_8h.html" title="Module gérant un Personnage dans PokePEIP. " alt="" coords="296,169,483,196"/>
+<area shape="rect" id="node5" href="$_pokemon_8h.html" title="Classe Pokemon qui gère un pokémon et qui contient son type d&#39;objet,son nom,sa description et sa quan..." alt="" coords="234,244,393,271"/>
+<area shape="rect" id="node11" href="$_sac_8h_source.html" title="../Sac/Sac.h" alt="" coords="417,244,511,271"/>
+<area shape="rect" id="node6" href="$_objet_8h.html" title="Module gérant un objet dans le jeu PokePEIP. " alt="" coords="409,319,519,345"/>
+<area shape="rect" id="node7" href="$_attaque_8h.html" title="Documentation du module Attaque. Le module Attaque représente les attaques qui seront utilisés par le..." alt="" coords="245,319,384,345"/>
+</map>

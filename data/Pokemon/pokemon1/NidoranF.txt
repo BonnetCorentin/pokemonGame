@@ -1,0 +1,5 @@
+NidoranF 0 13 -1 196 223 196 212 199 314 
+Normal/Belier.
+Normal/Charge.
+Normal/Combo Griffe.
+Normal/Coupe. 

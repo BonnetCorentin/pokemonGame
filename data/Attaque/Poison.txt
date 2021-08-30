@@ -1,0 +1,11 @@
+
+Acide. 
+13 100 40 30 1.
+Bomb beurk.
+13 100 90 10 1. 
+Dard venin. 
+13 100 15 25 0.
+Detritus. 
+13 100 65 20 1.
+Gaz Puant.
+13 70 30 20 1.

@@ -1,0 +1,18 @@
+<map id="Personnage::getIemePokemon" name="Personnage::getIemePokemon">
+<area shape="rect" id="node2" href="$class_combat.html#abbaadce2f31d9b12645481cc74a021b2" title="Test si le combat est fini. " alt="" coords="295,13,423,40"/>
+<area shape="rect" id="node7" href="$class_personnage.html#a6727627eb37382d3d8f12514551df9bd" title="surcharge de l&#39;opérateur égal " alt="" coords="282,64,437,91"/>
+<area shape="rect" id="node8" href="$class_joueur.html#a0bf50be14471ba0c0944b31c70bf6ad3" title="charge dans un fichier tout le contenu du joueur " alt="" coords="534,133,713,160"/>
+<area shape="rect" id="node15" href="$class_personnage.html#a8b827a72e42d38de1b6d29dee145a4b5" title="test toutes les fonctions de la classe " alt="" coords="266,165,453,192"/>
+<area shape="rect" id="node16" href="$class_s_f_m_l_pokedex.html#a0b447d5b74964d395264d6d5e50aadbd" title="La boucle principale du Pokedex avec joueur. " alt="" coords="255,217,464,258"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_combat.html#af7ddb137c3bbaff70d2c566137c2cbb7" title="Test si une équipe Pokemon entière est KO. " alt="" coords="512,5,735,32"/>
+<area shape="rect" id="node5" href="$class_s_f_m_l_combat.html#a97bf8a2d3300663aacbb8899bbbf3472" title="Test si un des Pokemon combattant est KO (version combat contre IA) " alt="" coords="521,57,725,98"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_combat.html#a39155235e6275b4d63b9317b9561843e" title="La boucle principale de Jeu. " alt="" coords="815,5,981,32"/>
+<area shape="rect" id="node6" href="$class_s_f_m_l_combat.html#a116d70985530e3c46e5b60adc910a1fb" title="La boucle principale de Jeu (version combat IA) " alt="" coords="809,64,987,91"/>
+<area shape="rect" id="node9" href="$class_s_f_m_l_charger.html#a4c3135a3fa16c88f94cbef9c2ca2c2d8" title="S&#39;occupe d&#39;initialiser un nouveau joueur puis de le sauvegarder dans un fichier. " alt="" coords="783,137,1013,178"/>
+<area shape="rect" id="node10" href="$class_s_f_m_l_charger.html#a75660d35cc51c9efa18f1b3b46af14bc" title="En fonction de l&#39;action du joueur, action va appeller de nouvelle fonction. " alt="" coords="1061,173,1208,200"/>
+<area shape="rect" id="node11" href="$class_s_f_m_l_charger.html#ae0c05ca2ca2080579fe94cc5e8f8b00c" title="La boucle principale de Jeu et qui permet de démarrer le jeu et encapsuler toutes les autres boucles ..." alt="" coords="1256,173,1460,200"/>
+<area shape="rect" id="node12" href="$class_s_f_m_l_menu.html#abbed99b9e874fd8e3f40a7b748576182" title="Le choix de l&#39;action. " alt="" coords="1528,148,1660,175"/>
+<area shape="rect" id="node14" href="$class_s_f_m_l_menu.html#aea4285a4b09f175d67fd96aa8456b213" title="Clic souris. " alt="" coords="1508,199,1680,225"/>
+<area shape="rect" id="node13" href="$class_s_f_m_l_menu.html#ab7eeb1a042f076ec28ce301c1d8d3660" title="La boucle principale de Jeu. " alt="" coords="1728,173,1919,200"/>
+<area shape="rect" id="node17" href="$class_s_f_m_l_charger.html#a67c610529df46560908104f963d741f1" title="S&#39;occupe d&#39;initialiser les pokémons du joueur. " alt="" coords="526,203,721,229"/>
+</map>

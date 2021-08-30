@@ -1,0 +1,9 @@
+<map id="Sac::setQuantiteObjetIeme" name="Sac::setQuantiteObjetIeme">
+<area shape="rect" id="node2" href="$class_sac.html#a0cf1af6ea1eb5a6f64f8b37a3f2d5a4b" title="Constructeur par défaut qui initialise le sac avec des objets et met leur quantité à 5..." alt="" coords="307,5,383,32"/>
+<area shape="rect" id="node3" href="$class_sac.html#a568f800ad7ed33cafc6351cd778ac017" title="Met toutes les quantités des objets du sac à 5. " alt="" coords="298,56,391,83"/>
+<area shape="rect" id="node5" href="$class_sac.html#af291d902c93e5157bcfa5d2f24bff291" title="Met toutes les quantités des objets du sac à 0. " alt="" coords="293,107,397,133"/>
+<area shape="rect" id="node6" href="$class_sac.html#a1dee8b8525a1e9c00a8f0f3da5cdd4d2" title="Augmente la quantité d&#39;un objet du sac. " alt="" coords="233,208,456,235"/>
+<area shape="rect" id="node8" href="$class_sac.html#aac56c261612ca7c522ebee38644fbb98" title="Diminue la quantité d&#39;un objet du sac. " alt="" coords="239,157,450,184"/>
+<area shape="rect" id="node4" href="$class_sac.html#abe28c6d7970457e6ebf9850a762054e5" title="test toutes les fonctions de la classe " alt="" coords="521,132,663,159"/>
+<area shape="rect" id="node7" href="$class_personnage.html#a70fb0f0180dd625cf96dfc469ae5710e" title="Mutateur d&#39;un objet du sac. " alt="" coords="504,208,680,235"/>
+</map>

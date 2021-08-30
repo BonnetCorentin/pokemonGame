@@ -1,0 +1,5 @@
+<map id="SFMLMenu::fermerJeu" name="SFMLMenu::fermerJeu">
+<area shape="rect" id="node2" href="$class_s_f_m_l_menu.html#abbed99b9e874fd8e3f40a7b748576182" title="Le choix de l&#39;action. " alt="" coords="228,5,360,32"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_menu.html#ab7eeb1a042f076ec28ce301c1d8d3660" title="La boucle principale de Jeu. " alt="" coords="428,56,619,83"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_menu.html#aea4285a4b09f175d67fd96aa8456b213" title="Clic souris. " alt="" coords="208,107,380,133"/>
+</map>

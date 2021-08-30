@@ -1,0 +1,5 @@
+Evoli 0 6 -1 251 218 207 229 229 314 
+Normal/Belier.
+Normal/Charge.
+Normal/Combo Griffe.
+Normal/Coupe. 

@@ -1,0 +1,9 @@
+
+Morsure.
+11 100 60 25 0.
+Poursuite. 
+11 100 40 20 0.
+Tranche nuit.
+11 100 70 15 0.
+Trou noir.
+11 80 20 10 1.

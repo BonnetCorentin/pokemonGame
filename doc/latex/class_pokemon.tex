@@ -1,0 +1,556 @@
+\hypertarget{class_pokemon}{}\section{Référence de la classe Pokemon}
+\label{class_pokemon}\index{Pokemon@{Pokemon}}
+
+
+Graphe de collaboration de Pokemon\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=160pt]{class_pokemon__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_pokemon_a059e2fca08b08cd218c262f937399ed9}\label{class_pokemon_a059e2fca08b08cd218c262f937399ed9}} 
+\hyperlink{class_pokemon_a059e2fca08b08cd218c262f937399ed9}{Pokemon} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut qui initialise son nom à \char`\"{}\+Pikachu\char`\"{},son niveau avant d\textquotesingle{}être débloqué à 0, son premier type à electrik,son deuxième type à pas\+Type, ses attaques à des attaques par défaut et toutes ses statistiques à 200. \end{DoxyCompactList}\item 
+\hyperlink{class_pokemon_ae1906b0167eca061432bef507414de10}{Pokemon} (const std \+::string \&nom\+Pokemon, unsigned int defense\+Spe, unsigned int defense\+Phy, unsigned int attaque\+Spe, unsigned int attaque\+Phy, unsigned int vit, unsigned int P\+V\+Pokemon, const int \&type1, const int \&type2)
+\begin{DoxyCompactList}\small\item\em Constructeur qui initialise le pokémon avec des paramètres. \end{DoxyCompactList}\item 
+int \hyperlink{class_pokemon_a3d9cc7fe1b38d8d8ea3ef499116c0eac}{get\+Type\+Ieme} (unsigned int i) const
+\begin{DoxyCompactList}\small\item\em Accesseur d\textquotesingle{}un type du tableau. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_pokemon_a5f932295f014353aeead20e0225b6eee}{get\+Defense\+Speciale} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de la variable defense\+Speciale. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_pokemon_a90e8c3b16d39995fcbcfd01834f57be7}{get\+Defense\+Physique} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de la variable defense\+Physique. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_pokemon_a27ae3d139d0c958b2f605743eb8f8a6d}{get\+Attaque\+Physique} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de la variable attaque\+Physique. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_pokemon_ace1c2940d8870b907cc2b0cd29f6efba}{get\+Attaque\+Speciale} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de la variable attaque\+Speciale. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_pokemon_a04a02b9ee3a43d25596b6d934ef861ba}{get\+Vitesse} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de la variable vitesse. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_pokemon_a97e2f2b4b811d5e2bbcb038fb70f57ce}{get\+PV} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de la variable Nb\+PV. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_pokemon_af11b525fb21bb7fbb86c43d1ddad738a}{get\+P\+V\+Max} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de la variable Nb\+P\+V\+Max. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_pokemon_a84a91b991611246fa387ede48e18d357}{get\+Niveau\+Avant\+Debloque} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de la variable niveau\+Avant\+Debloque. \end{DoxyCompactList}\item 
+\hyperlink{class_attaque}{Attaque} \& \hyperlink{class_pokemon_aad16e1f997ee22fe4f0ec385c5bdbc55}{get\+Ieme\+Attaque} (unsigned int i)
+\begin{DoxyCompactList}\small\item\em Accesseur d\textquotesingle{}une attaque du tableau d\textquotesingle{}attaque par référence. \end{DoxyCompactList}\item 
+\hyperlink{class_attaque}{Attaque} $\ast$ \hyperlink{class_pokemon_a5688276dbf96174ceccec44d416f2df6}{get\+Ieme\+Attaque\+Ref} (unsigned int i)
+\begin{DoxyCompactList}\small\item\em Accesseur d\textquotesingle{}une attaque du tableau d\textquotesingle{}attaque par pointeur. \end{DoxyCompactList}\item 
+std \+::string \hyperlink{class_pokemon_aca789a69b00c4e4189571507539bbc30}{get\+Nom} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de la variable nom. \end{DoxyCompactList}\item 
+void \hyperlink{class_pokemon_ac5ce7b3dd6a431cbc5d73c27e4aeac36}{gagne\+Vie} (unsigned int vie)
+\begin{DoxyCompactList}\small\item\em Augmente Nb\+PV du nombre de la variable passé en paramètre. \end{DoxyCompactList}\item 
+void \hyperlink{class_pokemon_aa036561ffd7e31e668b37785e88a8c51}{perdre\+Vie} (unsigned int vie)
+\begin{DoxyCompactList}\small\item\em Baisse Nb\+PV du nombre de la variable passé en paramètre. \end{DoxyCompactList}\item 
+void \hyperlink{class_pokemon_a52226bbf55f0721dcc143061aeaffd5c}{set\+Ieme\+Attaque} (const \hyperlink{class_attaque}{Attaque} \&attaque, unsigned int i)
+\begin{DoxyCompactList}\small\item\em Mutateur d\textquotesingle{}une attaque du tableau d\textquotesingle{}attaque. \end{DoxyCompactList}\item 
+void \hyperlink{class_pokemon_a2cc7213be7abb087f4b55b2a55816e55}{set\+PV} (unsigned int i)
+\begin{DoxyCompactList}\small\item\em Mutateur de la variable Nb\+PV. \end{DoxyCompactList}\item 
+void \hyperlink{class_pokemon_af8bb49fc8e2afaec5cdfdb764d0a2485}{set\+Nom} (const std\+::string \&name)
+\begin{DoxyCompactList}\small\item\em Mutateur de la variable nom. \end{DoxyCompactList}\item 
+\hyperlink{class_pokemon}{Pokemon} \& \hyperlink{class_pokemon_aa991f8c70046ffb8739bba5f09a6dd79}{operator=} (const \hyperlink{class_pokemon}{Pokemon} \&Pkmn)
+\begin{DoxyCompactList}\small\item\em surcharge de l\textquotesingle{}opérateur égal \end{DoxyCompactList}\item 
+void \hyperlink{class_pokemon_a30cc5a78e55f02b460c37f9b326864d9}{sauvegarder\+Pokemon} (const std\+::string \&chemin\+Sauvegarde) const
+\begin{DoxyCompactList}\small\item\em charge dans un fichier tout le contenu du pokemon \end{DoxyCompactList}\item 
+void \hyperlink{class_pokemon_a26771eddf70badfce2fe1aeaf2d89b81}{charger\+Pokemon} (const std\+::string \&chemin)
+\begin{DoxyCompactList}\small\item\em charge dans le pokemon tous les informations contenues dans un fichier \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_pokemon_a1702b9d4b17a506f4f14a1f0ac142553}\label{class_pokemon_a1702b9d4b17a506f4f14a1f0ac142553}} 
+void \hyperlink{class_pokemon_a1702b9d4b17a506f4f14a1f0ac142553}{test\+Regression} ()
+\begin{DoxyCompactList}\small\item\em test toutes les fonctions de la classe \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_pokemon_afcc837b67ac3d801100f25faefe68814}\label{class_pokemon_afcc837b67ac3d801100f25faefe68814}} 
+std \+::string \hyperlink{class_pokemon_afcc837b67ac3d801100f25faefe68814}{nom}
+\begin{DoxyCompactList}\small\item\em chaîne de caractère contenant le nom du pokémon \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_pokemon_a644ed65bf19036ea1dff2a363f445492}\label{class_pokemon_a644ed65bf19036ea1dff2a363f445492}} 
+unsigned int \hyperlink{class_pokemon_a644ed65bf19036ea1dff2a363f445492}{niveau\+Avant\+Debloque}
+\begin{DoxyCompactList}\small\item\em entier positif contenant le niveau avant de pouvoir débloquer le pokémon \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_pokemon_a397369731c4147a99338e0b372a13add}\label{class_pokemon_a397369731c4147a99338e0b372a13add}} 
+\hyperlink{_attaque_8h_a1d1cfd8ffb84e947f82999c682b666a7}{Type} \hyperlink{class_pokemon_a397369731c4147a99338e0b372a13add}{type} \mbox{[}2\mbox{]}
+\begin{DoxyCompactList}\small\item\em tableau de deux Type contenant tous les types du pokémon \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_pokemon_a678ccdbecac87b185e5b271f0b307642}\label{class_pokemon_a678ccdbecac87b185e5b271f0b307642}} 
+\hyperlink{class_attaque}{Attaque} \hyperlink{class_pokemon_a678ccdbecac87b185e5b271f0b307642}{tab\+Attaque} \mbox{[}4\mbox{]}
+\begin{DoxyCompactList}\small\item\em tableau de quatre \hyperlink{class_attaque}{Attaque} contenant toutes les attaques du pokémon \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_pokemon_ae0577fc5911b5b030c746c009116a715}\label{class_pokemon_ae0577fc5911b5b030c746c009116a715}} 
+unsigned int \hyperlink{class_pokemon_ae0577fc5911b5b030c746c009116a715}{defense\+Speciale}
+\begin{DoxyCompactList}\small\item\em entier positif contenant la défense spéciale du pokémon \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_pokemon_a6ba9a414290c82370a265f68a7e0da6f}\label{class_pokemon_a6ba9a414290c82370a265f68a7e0da6f}} 
+unsigned int \hyperlink{class_pokemon_a6ba9a414290c82370a265f68a7e0da6f}{defense\+Physique}
+\begin{DoxyCompactList}\small\item\em entier positif contenant la défense physique du pokémon \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_pokemon_ace51c2fd6a66232e70c5a877cc48c72c}\label{class_pokemon_ace51c2fd6a66232e70c5a877cc48c72c}} 
+unsigned int \hyperlink{class_pokemon_ace51c2fd6a66232e70c5a877cc48c72c}{attaque\+Speciale}
+\begin{DoxyCompactList}\small\item\em entier positif contenant l\textquotesingle{}attaque spéciale du pokémon \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_pokemon_a147d68da1bc4e822840560cb91940b4f}\label{class_pokemon_a147d68da1bc4e822840560cb91940b4f}} 
+unsigned int \hyperlink{class_pokemon_a147d68da1bc4e822840560cb91940b4f}{attaque\+Physique}
+\begin{DoxyCompactList}\small\item\em entier positif contenant l\textquotesingle{}attaque physique du pokémon \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_pokemon_ad115734dea9e1f27afb693c06bb9d41f}\label{class_pokemon_ad115734dea9e1f27afb693c06bb9d41f}} 
+unsigned int \hyperlink{class_pokemon_ad115734dea9e1f27afb693c06bb9d41f}{vitesse}
+\begin{DoxyCompactList}\small\item\em entier positif contenant la vitesse du pokémon \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_pokemon_a67d3d4e657454325695d19c50539a773}\label{class_pokemon_a67d3d4e657454325695d19c50539a773}} 
+unsigned int \hyperlink{class_pokemon_a67d3d4e657454325695d19c50539a773}{nb\+PV}
+\begin{DoxyCompactList}\small\item\em entier positif contenant le nombre de PV du pokémon \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_pokemon_ab2185ee35df1099c7aed7e2f4c1b1f69}\label{class_pokemon_ab2185ee35df1099c7aed7e2f4c1b1f69}} 
+unsigned int \hyperlink{class_pokemon_ab2185ee35df1099c7aed7e2f4c1b1f69}{nb\+P\+V\+Max}
+\begin{DoxyCompactList}\small\item\em entier positif contenant le nombre de PV max du pokémon \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_pokemon_ae1906b0167eca061432bef507414de10}\label{class_pokemon_ae1906b0167eca061432bef507414de10}} 
+\index{Pokemon@{Pokemon}!Pokemon@{Pokemon}}
+\index{Pokemon@{Pokemon}!Pokemon@{Pokemon}}
+\subsubsection{\texorpdfstring{Pokemon()}{Pokemon()}}
+{\footnotesize\ttfamily Pokemon\+::\+Pokemon (\begin{DoxyParamCaption}\item[{const std \+::string \&}]{nom\+Pokemon,  }\item[{unsigned int}]{defense\+Spe,  }\item[{unsigned int}]{defense\+Phy,  }\item[{unsigned int}]{attaque\+Spe,  }\item[{unsigned int}]{attaque\+Phy,  }\item[{unsigned int}]{vit,  }\item[{unsigned int}]{P\+V\+Pokemon,  }\item[{const int \&}]{type1,  }\item[{const int \&}]{type2 }\end{DoxyParamCaption})}
+
+
+
+Constructeur qui initialise le pokémon avec des paramètres. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em nom\+Pokemon} & chaîne de caractère contenant le nom du pokémon à copier \\
+\hline
+\mbox{\tt in}  & {\em defense\+Spe} & entier positif contenant la défense spéciale du pokémon à copier \\
+\hline
+\mbox{\tt in}  & {\em defense\+Phy} & entier positif contenant la défense physique du pokémon à copier \\
+\hline
+\mbox{\tt in}  & {\em attaque\+Spe} & entier positif contenant l\textquotesingle{}attaque spéciale du pokémon à copier \\
+\hline
+\mbox{\tt in}  & {\em attaque\+Phy} & entier positif contenant l\textquotesingle{}attaque physique du pokémon à copier \\
+\hline
+\mbox{\tt in}  & {\em vit} & entier positif contenant la vitesse du pokémon à copier \\
+\hline
+\mbox{\tt in}  & {\em P\+V\+Pokemon} & entier positif contenant les PV du pokémon à copier \\
+\hline
+\mbox{\tt in}  & {\em type1} & entier positif contenant le premier type du pokémon à copier \\
+\hline
+\mbox{\tt in}  & {\em type2} & entier positif contenant le deuxième type du pokémon à copier \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_pokemon_a26771eddf70badfce2fe1aeaf2d89b81}\label{class_pokemon_a26771eddf70badfce2fe1aeaf2d89b81}} 
+\index{Pokemon@{Pokemon}!charger\+Pokemon@{charger\+Pokemon}}
+\index{charger\+Pokemon@{charger\+Pokemon}!Pokemon@{Pokemon}}
+\subsubsection{\texorpdfstring{charger\+Pokemon()}{chargerPokemon()}}
+{\footnotesize\ttfamily void Pokemon\+::charger\+Pokemon (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{chemin }\end{DoxyParamCaption})}
+
+
+
+charge dans le pokemon tous les informations contenues dans un fichier 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em chemin\+Sauvegarde} & chaîne de caractère contenant le chemin vers le fichier \\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pokemon_a26771eddf70badfce2fe1aeaf2d89b81_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pokemon_a26771eddf70badfce2fe1aeaf2d89b81_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_pokemon_ac5ce7b3dd6a431cbc5d73c27e4aeac36}\label{class_pokemon_ac5ce7b3dd6a431cbc5d73c27e4aeac36}} 
+\index{Pokemon@{Pokemon}!gagne\+Vie@{gagne\+Vie}}
+\index{gagne\+Vie@{gagne\+Vie}!Pokemon@{Pokemon}}
+\subsubsection{\texorpdfstring{gagne\+Vie()}{gagneVie()}}
+{\footnotesize\ttfamily void Pokemon\+::gagne\+Vie (\begin{DoxyParamCaption}\item[{unsigned int}]{vie }\end{DoxyParamCaption})}
+
+
+
+Augmente Nb\+PV du nombre de la variable passé en paramètre. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em vie} & entier postif contenant le nombre de PV à restaurer au pokemon \\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pokemon_ac5ce7b3dd6a431cbc5d73c27e4aeac36_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_pokemon_a27ae3d139d0c958b2f605743eb8f8a6d}\label{class_pokemon_a27ae3d139d0c958b2f605743eb8f8a6d}} 
+\index{Pokemon@{Pokemon}!get\+Attaque\+Physique@{get\+Attaque\+Physique}}
+\index{get\+Attaque\+Physique@{get\+Attaque\+Physique}!Pokemon@{Pokemon}}
+\subsubsection{\texorpdfstring{get\+Attaque\+Physique()}{getAttaquePhysique()}}
+{\footnotesize\ttfamily unsigned int Pokemon\+::get\+Attaque\+Physique (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de la variable attaque\+Physique. 
+
+\begin{DoxyReturn}{Renvoie}
+retourne un entier postif contenant l\textquotesingle{}attaque physique du pokemon 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pokemon_a27ae3d139d0c958b2f605743eb8f8a6d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_pokemon_ace1c2940d8870b907cc2b0cd29f6efba}\label{class_pokemon_ace1c2940d8870b907cc2b0cd29f6efba}} 
+\index{Pokemon@{Pokemon}!get\+Attaque\+Speciale@{get\+Attaque\+Speciale}}
+\index{get\+Attaque\+Speciale@{get\+Attaque\+Speciale}!Pokemon@{Pokemon}}
+\subsubsection{\texorpdfstring{get\+Attaque\+Speciale()}{getAttaqueSpeciale()}}
+{\footnotesize\ttfamily unsigned int Pokemon\+::get\+Attaque\+Speciale (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de la variable attaque\+Speciale. 
+
+\begin{DoxyReturn}{Renvoie}
+retourne un entier postif contenant l\textquotesingle{}attaque spéciale du pokemon 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pokemon_ace1c2940d8870b907cc2b0cd29f6efba_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_pokemon_a90e8c3b16d39995fcbcfd01834f57be7}\label{class_pokemon_a90e8c3b16d39995fcbcfd01834f57be7}} 
+\index{Pokemon@{Pokemon}!get\+Defense\+Physique@{get\+Defense\+Physique}}
+\index{get\+Defense\+Physique@{get\+Defense\+Physique}!Pokemon@{Pokemon}}
+\subsubsection{\texorpdfstring{get\+Defense\+Physique()}{getDefensePhysique()}}
+{\footnotesize\ttfamily unsigned int Pokemon\+::get\+Defense\+Physique (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de la variable defense\+Physique. 
+
+\begin{DoxyReturn}{Renvoie}
+retourne un entier postif contenant la défense physique du pokemon 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pokemon_a90e8c3b16d39995fcbcfd01834f57be7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_pokemon_a5f932295f014353aeead20e0225b6eee}\label{class_pokemon_a5f932295f014353aeead20e0225b6eee}} 
+\index{Pokemon@{Pokemon}!get\+Defense\+Speciale@{get\+Defense\+Speciale}}
+\index{get\+Defense\+Speciale@{get\+Defense\+Speciale}!Pokemon@{Pokemon}}
+\subsubsection{\texorpdfstring{get\+Defense\+Speciale()}{getDefenseSpeciale()}}
+{\footnotesize\ttfamily unsigned int Pokemon\+::get\+Defense\+Speciale (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de la variable defense\+Speciale. 
+
+\begin{DoxyReturn}{Renvoie}
+retourne un entier postif contenant la défense spéciale du pokemon 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pokemon_a5f932295f014353aeead20e0225b6eee_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_pokemon_aad16e1f997ee22fe4f0ec385c5bdbc55}\label{class_pokemon_aad16e1f997ee22fe4f0ec385c5bdbc55}} 
+\index{Pokemon@{Pokemon}!get\+Ieme\+Attaque@{get\+Ieme\+Attaque}}
+\index{get\+Ieme\+Attaque@{get\+Ieme\+Attaque}!Pokemon@{Pokemon}}
+\subsubsection{\texorpdfstring{get\+Ieme\+Attaque()}{getIemeAttaque()}}
+{\footnotesize\ttfamily \hyperlink{class_attaque}{Attaque} \& Pokemon\+::get\+Ieme\+Attaque (\begin{DoxyParamCaption}\item[{unsigned int}]{i }\end{DoxyParamCaption})}
+
+
+
+Accesseur d\textquotesingle{}une attaque du tableau d\textquotesingle{}attaque par référence. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & entier postif contenant l\textquotesingle{}index de l\textquotesingle{}attaque à retourner \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne une référence vers une attaque du tableau d\textquotesingle{}attaque 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pokemon_aad16e1f997ee22fe4f0ec385c5bdbc55_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_pokemon_a5688276dbf96174ceccec44d416f2df6}\label{class_pokemon_a5688276dbf96174ceccec44d416f2df6}} 
+\index{Pokemon@{Pokemon}!get\+Ieme\+Attaque\+Ref@{get\+Ieme\+Attaque\+Ref}}
+\index{get\+Ieme\+Attaque\+Ref@{get\+Ieme\+Attaque\+Ref}!Pokemon@{Pokemon}}
+\subsubsection{\texorpdfstring{get\+Ieme\+Attaque\+Ref()}{getIemeAttaqueRef()}}
+{\footnotesize\ttfamily \hyperlink{class_attaque}{Attaque} $\ast$ Pokemon\+::get\+Ieme\+Attaque\+Ref (\begin{DoxyParamCaption}\item[{unsigned int}]{i }\end{DoxyParamCaption})}
+
+
+
+Accesseur d\textquotesingle{}une attaque du tableau d\textquotesingle{}attaque par pointeur. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & entier postif contenant l\textquotesingle{}index de l\textquotesingle{}attaque à retourner \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un pointeur vers une attaque du tableau d\textquotesingle{}attaque 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pokemon_a5688276dbf96174ceccec44d416f2df6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_pokemon_a84a91b991611246fa387ede48e18d357}\label{class_pokemon_a84a91b991611246fa387ede48e18d357}} 
+\index{Pokemon@{Pokemon}!get\+Niveau\+Avant\+Debloque@{get\+Niveau\+Avant\+Debloque}}
+\index{get\+Niveau\+Avant\+Debloque@{get\+Niveau\+Avant\+Debloque}!Pokemon@{Pokemon}}
+\subsubsection{\texorpdfstring{get\+Niveau\+Avant\+Debloque()}{getNiveauAvantDebloque()}}
+{\footnotesize\ttfamily unsigned int Pokemon\+::get\+Niveau\+Avant\+Debloque (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de la variable niveau\+Avant\+Debloque. 
+
+\begin{DoxyReturn}{Renvoie}
+retourne un entier postif contenant le niveau avant de débloquer le pokemon 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pokemon_a84a91b991611246fa387ede48e18d357_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_pokemon_aca789a69b00c4e4189571507539bbc30}\label{class_pokemon_aca789a69b00c4e4189571507539bbc30}} 
+\index{Pokemon@{Pokemon}!get\+Nom@{get\+Nom}}
+\index{get\+Nom@{get\+Nom}!Pokemon@{Pokemon}}
+\subsubsection{\texorpdfstring{get\+Nom()}{getNom()}}
+{\footnotesize\ttfamily std\+::string Pokemon\+::get\+Nom (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de la variable nom. 
+
+\begin{DoxyReturn}{Renvoie}
+retourne une chaîne de caractère contenant le nom du pokemon 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pokemon_aca789a69b00c4e4189571507539bbc30_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_pokemon_a97e2f2b4b811d5e2bbcb038fb70f57ce}\label{class_pokemon_a97e2f2b4b811d5e2bbcb038fb70f57ce}} 
+\index{Pokemon@{Pokemon}!get\+PV@{get\+PV}}
+\index{get\+PV@{get\+PV}!Pokemon@{Pokemon}}
+\subsubsection{\texorpdfstring{get\+P\+V()}{getPV()}}
+{\footnotesize\ttfamily unsigned int Pokemon\+::get\+PV (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de la variable Nb\+PV. 
+
+\begin{DoxyReturn}{Renvoie}
+retourne un entier postif contenant les PV du pokemon 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pokemon_a97e2f2b4b811d5e2bbcb038fb70f57ce_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_pokemon_af11b525fb21bb7fbb86c43d1ddad738a}\label{class_pokemon_af11b525fb21bb7fbb86c43d1ddad738a}} 
+\index{Pokemon@{Pokemon}!get\+P\+V\+Max@{get\+P\+V\+Max}}
+\index{get\+P\+V\+Max@{get\+P\+V\+Max}!Pokemon@{Pokemon}}
+\subsubsection{\texorpdfstring{get\+P\+V\+Max()}{getPVMax()}}
+{\footnotesize\ttfamily unsigned int Pokemon\+::get\+P\+V\+Max (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de la variable Nb\+P\+V\+Max. 
+
+\begin{DoxyReturn}{Renvoie}
+retourne un entier postif contenant les PV max du pokemon 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pokemon_af11b525fb21bb7fbb86c43d1ddad738a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_pokemon_a3d9cc7fe1b38d8d8ea3ef499116c0eac}\label{class_pokemon_a3d9cc7fe1b38d8d8ea3ef499116c0eac}} 
+\index{Pokemon@{Pokemon}!get\+Type\+Ieme@{get\+Type\+Ieme}}
+\index{get\+Type\+Ieme@{get\+Type\+Ieme}!Pokemon@{Pokemon}}
+\subsubsection{\texorpdfstring{get\+Type\+Ieme()}{getTypeIeme()}}
+{\footnotesize\ttfamily int Pokemon\+::get\+Type\+Ieme (\begin{DoxyParamCaption}\item[{unsigned int}]{i }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur d\textquotesingle{}un type du tableau. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & entier postif contenant l\textquotesingle{}index du type à retourner \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un entier contenant le type du pokemon 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pokemon_a3d9cc7fe1b38d8d8ea3ef499116c0eac_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_pokemon_a04a02b9ee3a43d25596b6d934ef861ba}\label{class_pokemon_a04a02b9ee3a43d25596b6d934ef861ba}} 
+\index{Pokemon@{Pokemon}!get\+Vitesse@{get\+Vitesse}}
+\index{get\+Vitesse@{get\+Vitesse}!Pokemon@{Pokemon}}
+\subsubsection{\texorpdfstring{get\+Vitesse()}{getVitesse()}}
+{\footnotesize\ttfamily unsigned int Pokemon\+::get\+Vitesse (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de la variable vitesse. 
+
+\begin{DoxyReturn}{Renvoie}
+retourne un entier postif contenant la vitesse du pokemon 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pokemon_a04a02b9ee3a43d25596b6d934ef861ba_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_pokemon_aa991f8c70046ffb8739bba5f09a6dd79}\label{class_pokemon_aa991f8c70046ffb8739bba5f09a6dd79}} 
+\index{Pokemon@{Pokemon}!operator=@{operator=}}
+\index{operator=@{operator=}!Pokemon@{Pokemon}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \hyperlink{class_pokemon}{Pokemon} \& Pokemon\+::operator= (\begin{DoxyParamCaption}\item[{const \hyperlink{class_pokemon}{Pokemon} \&}]{Pkmn }\end{DoxyParamCaption})}
+
+
+
+surcharge de l\textquotesingle{}opérateur égal 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em Pkmn} & \hyperlink{class_pokemon}{Pokemon} contenant le pokemon à copier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne une réference sur l\textquotesingle{}instance \hyperlink{class_pokemon}{Pokemon} 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_pokemon_aa036561ffd7e31e668b37785e88a8c51}\label{class_pokemon_aa036561ffd7e31e668b37785e88a8c51}} 
+\index{Pokemon@{Pokemon}!perdre\+Vie@{perdre\+Vie}}
+\index{perdre\+Vie@{perdre\+Vie}!Pokemon@{Pokemon}}
+\subsubsection{\texorpdfstring{perdre\+Vie()}{perdreVie()}}
+{\footnotesize\ttfamily void Pokemon\+::perdre\+Vie (\begin{DoxyParamCaption}\item[{unsigned int}]{vie }\end{DoxyParamCaption})}
+
+
+
+Baisse Nb\+PV du nombre de la variable passé en paramètre. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em vie} & entier postif contenant le nombre de PV à enlever au pokemon \\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pokemon_aa036561ffd7e31e668b37785e88a8c51_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_pokemon_a30cc5a78e55f02b460c37f9b326864d9}\label{class_pokemon_a30cc5a78e55f02b460c37f9b326864d9}} 
+\index{Pokemon@{Pokemon}!sauvegarder\+Pokemon@{sauvegarder\+Pokemon}}
+\index{sauvegarder\+Pokemon@{sauvegarder\+Pokemon}!Pokemon@{Pokemon}}
+\subsubsection{\texorpdfstring{sauvegarder\+Pokemon()}{sauvegarderPokemon()}}
+{\footnotesize\ttfamily void Pokemon\+::sauvegarder\+Pokemon (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{chemin\+Sauvegarde }\end{DoxyParamCaption}) const}
+
+
+
+charge dans un fichier tout le contenu du pokemon 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em } & \\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pokemon_a30cc5a78e55f02b460c37f9b326864d9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_pokemon_a52226bbf55f0721dcc143061aeaffd5c}\label{class_pokemon_a52226bbf55f0721dcc143061aeaffd5c}} 
+\index{Pokemon@{Pokemon}!set\+Ieme\+Attaque@{set\+Ieme\+Attaque}}
+\index{set\+Ieme\+Attaque@{set\+Ieme\+Attaque}!Pokemon@{Pokemon}}
+\subsubsection{\texorpdfstring{set\+Ieme\+Attaque()}{setIemeAttaque()}}
+{\footnotesize\ttfamily void Pokemon\+::set\+Ieme\+Attaque (\begin{DoxyParamCaption}\item[{const \hyperlink{class_attaque}{Attaque} \&}]{attaque,  }\item[{unsigned int}]{i }\end{DoxyParamCaption})}
+
+
+
+Mutateur d\textquotesingle{}une attaque du tableau d\textquotesingle{}attaque. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em attaque} & \hyperlink{class_attaque}{Attaque} contenant l\textquotesingle{}attaque du pokemon à copier \\
+\hline
+\mbox{\tt in}  & {\em i} & entier postif contenant l\textquotesingle{}index du tableau d\textquotesingle{}attaque à changer \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_pokemon_af8bb49fc8e2afaec5cdfdb764d0a2485}\label{class_pokemon_af8bb49fc8e2afaec5cdfdb764d0a2485}} 
+\index{Pokemon@{Pokemon}!set\+Nom@{set\+Nom}}
+\index{set\+Nom@{set\+Nom}!Pokemon@{Pokemon}}
+\subsubsection{\texorpdfstring{set\+Nom()}{setNom()}}
+{\footnotesize\ttfamily void Pokemon\+::set\+Nom (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{name }\end{DoxyParamCaption})}
+
+
+
+Mutateur de la variable nom. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em name} & chaîne de caractère contenant le nom du pokemon à copier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_pokemon_a2cc7213be7abb087f4b55b2a55816e55}\label{class_pokemon_a2cc7213be7abb087f4b55b2a55816e55}} 
+\index{Pokemon@{Pokemon}!set\+PV@{set\+PV}}
+\index{set\+PV@{set\+PV}!Pokemon@{Pokemon}}
+\subsubsection{\texorpdfstring{set\+P\+V()}{setPV()}}
+{\footnotesize\ttfamily void Pokemon\+::set\+PV (\begin{DoxyParamCaption}\item[{unsigned int}]{i }\end{DoxyParamCaption})}
+
+
+
+Mutateur de la variable Nb\+PV. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & entier postif contenant le nombre de PV du pokemon à copier \\
+\hline
+\end{DoxyParams}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+/home/corentin/\+Documents/lifap4/src/\+Pokemon/\hyperlink{_pokemon_8h}{Pokemon.\+h}\item 
+/home/corentin/\+Documents/lifap4/src/\+Pokemon/\hyperlink{_pokemon_8cpp}{Pokemon.\+cpp}\end{DoxyCompactItemize}

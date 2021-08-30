@@ -1,0 +1,5 @@
+M.Mime 0 9 -1 372 251 328 207 306 284 
+Normal/Belier.
+Normal/Charge.
+Normal/Combo Griffe.
+Normal/Coupe.

@@ -1,0 +1,5 @@
+Kicklee 0 16 -1 350 225 185 372 300 304 
+Normal/Belier.
+Normal/Charge.
+Normal/Combo Griffe.
+Normal/Coupe. 

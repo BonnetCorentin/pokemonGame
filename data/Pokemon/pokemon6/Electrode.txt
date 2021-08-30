@@ -1,0 +1,5 @@
+Electrode 0 5 -1 284 262 284 218 416 324 
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

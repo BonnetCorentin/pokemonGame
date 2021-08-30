@@ -1,0 +1,5 @@
+<map id="Combat::~Combat" name="Combat::~Combat">
+<area shape="rect" id="node2" href="$class_combat.html#a7faa6a3b11778224b04524db1418d67f" title="Accesseur de joueurGagnant. " alt="" coords="184,5,367,32"/>
+<area shape="rect" id="node3" href="$class_joueur.html#abec464c3958916f951e19ba5e12d0dbc" title="Accesseur de la variable niveau. " alt="" coords="211,56,339,83"/>
+<area shape="rect" id="node4" href="$class_joueur.html#afce34539fafa99280cf5976c36c1ea12" title="Augmente la variable niveau de 1. " alt="" coords="190,107,361,133"/>
+</map>

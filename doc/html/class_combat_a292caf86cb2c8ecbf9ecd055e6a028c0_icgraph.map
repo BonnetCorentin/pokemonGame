@@ -1,0 +1,8 @@
+<map id="Combat::setQuiJoue" name="Combat::setQuiJoue">
+<area shape="rect" id="node2" href="$class_s_f_m_l_combat.html#af7ddb137c3bbaff70d2c566137c2cbb7" title="Test si une équipe Pokemon entière est KO. " alt="" coords="448,5,671,32"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_combat.html#a4b2bed6ea12c96a58e55d968b1652597" title="Boucle d&#39;affichage des actions. " alt="" coords="473,68,645,95"/>
+<area shape="rect" id="node6" href="$class_s_f_m_l_combat.html#af3dbb1374820d004fdf5907397760335" title="Calcul de la priorité des Joueurs. " alt="" coords="205,93,391,120"/>
+<area shape="rect" id="node7" href="$class_s_f_m_l_combat.html#a97bf8a2d3300663aacbb8899bbbf3472" title="Test si un des Pokemon combattant est KO (version combat contre IA) " alt="" coords="196,145,400,186"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_combat.html#a39155235e6275b4d63b9317b9561843e" title="La boucle principale de Jeu. " alt="" coords="725,37,891,64"/>
+<area shape="rect" id="node5" href="$class_s_f_m_l_combat.html#a116d70985530e3c46e5b60adc910a1fb" title="La boucle principale de Jeu (version combat IA) " alt="" coords="719,104,897,131"/>
+</map>

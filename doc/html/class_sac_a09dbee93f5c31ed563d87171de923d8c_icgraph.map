@@ -1,0 +1,6 @@
+<map id="Sac::getQuantiteObjetIeme" name="Sac::getQuantiteObjetIeme">
+<area shape="rect" id="node2" href="$class_sac.html#a1dee8b8525a1e9c00a8f0f3da5cdd4d2" title="Augmente la quantité d&#39;un objet du sac. " alt="" coords="233,5,456,32"/>
+<area shape="rect" id="node4" href="$class_sac.html#abe28c6d7970457e6ebf9850a762054e5" title="test toutes les fonctions de la classe " alt="" coords="521,56,663,83"/>
+<area shape="rect" id="node5" href="$class_sac.html#aac56c261612ca7c522ebee38644fbb98" title="Diminue la quantité d&#39;un objet du sac. " alt="" coords="239,107,450,133"/>
+<area shape="rect" id="node3" href="$class_personnage.html#a70fb0f0180dd625cf96dfc469ae5710e" title="Mutateur d&#39;un objet du sac. " alt="" coords="504,5,680,32"/>
+</map>

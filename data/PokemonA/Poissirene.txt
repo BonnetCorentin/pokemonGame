@@ -1,0 +1,5 @@
+Poissirene 0 1 -1 218 240 185 256 247 294 
+Eau/Coquilame.
+Eau/Hydrocanon.
+Eau/Hydroblast.
+Eau/Surf.

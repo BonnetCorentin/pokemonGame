@@ -1,0 +1,5 @@
+<map id="SFMLMenu::couperSon" name="SFMLMenu::couperSon">
+<area shape="rect" id="node2" href="$class_s_f_m_l_menu.html#a82219455a672aebd4f214ca006dfd7c0" title="Augmente/diminue le son. " alt="" coords="212,5,364,32"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_menu.html#aea4285a4b09f175d67fd96aa8456b213" title="Clic souris. " alt="" coords="412,56,584,83"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_menu.html#ab7eeb1a042f076ec28ce301c1d8d3660" title="La boucle principale de Jeu. " alt="" coords="632,31,823,57"/>
+</map>

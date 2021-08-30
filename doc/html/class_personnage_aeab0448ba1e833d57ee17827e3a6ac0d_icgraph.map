@@ -1,0 +1,17 @@
+<map id="Personnage::getIemePokemonRef" name="Personnage::getIemePokemonRef">
+<area shape="rect" id="node2" href="$class_combat.html#af420be03c806ef847c0542ab0d7223f9" title="Constructeur de Combat. " alt="" coords="322,5,445,32"/>
+<area shape="rect" id="node3" href="$class_combat.html#a567eab49812ecbd2d694e8cf064e800a" title="Changer de Pokemon. " alt="" coords="286,208,481,235"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_combat.html#ab8d4dfb3e7e4ca9722e52c1ef5fa897d" title="Boucle d&#39;affichage du menu Changer de Pokemon. " alt="" coords="539,107,769,133"/>
+<area shape="rect" id="node10" href="$class_s_f_m_l_combat.html#acc968da97d4c933f516e67b0356e3d73" title="Affichage textuel des actions effectués. " alt="" coords="559,259,749,285"/>
+<area shape="rect" id="node12" href="$class_s_f_m_l_combat.html#aea2c9616512a2cb0c5e7e2f676a5daab" title="Dessine l&#39;écran de fin de partie. " alt="" coords="279,157,488,184"/>
+<area shape="rect" id="node14" href="$class_s_f_m_l_combat.html#a22523f39138086a3b118a896ca214c4d" title="Dessine les sprites des Pokemon. " alt="" coords="276,107,491,133"/>
+<area shape="rect" id="node15" href="$class_s_f_m_l_combat.html#a4d5b43087452661e39479026a886d1b6" title="Choix du Pokemon à faire rentrer sur le terrain. " alt="" coords="555,309,753,336"/>
+<area shape="rect" id="node9" href="$class_s_f_m_l_combat.html#a97bf8a2d3300663aacbb8899bbbf3472" title="Test si un des Pokemon combattant est KO (version combat contre IA) " alt="" coords="827,193,1031,234"/>
+<area shape="rect" id="node5" href="$class_s_f_m_l_combat.html#af7ddb137c3bbaff70d2c566137c2cbb7" title="Test si une équipe Pokemon entière est KO. " alt="" coords="817,141,1040,168"/>
+<area shape="rect" id="node7" href="$class_s_f_m_l_combat.html#ab856672c59db95d55c7c28cd3a1eee93" title="SFMLCombat::changerMenu" alt="" coords="834,91,1023,117"/>
+<area shape="rect" id="node6" href="$class_s_f_m_l_combat.html#a39155235e6275b4d63b9317b9561843e" title="La boucle principale de Jeu. " alt="" coords="1094,141,1261,168"/>
+<area shape="rect" id="node8" href="$class_s_f_m_l_combat.html#a116d70985530e3c46e5b60adc910a1fb" title="La boucle principale de Jeu (version combat IA) " alt="" coords="1088,229,1267,256"/>
+<area shape="rect" id="node11" href="$class_s_f_m_l_combat.html#a4b2bed6ea12c96a58e55d968b1652597" title="Boucle d&#39;affichage des actions. " alt="" coords="843,259,1015,285"/>
+<area shape="rect" id="node13" href="$class_s_f_m_l_combat.html#ace8cd35d8b2bbc86478a7a28bf0996b4" title="Boucle d&#39;affichage de fin de partie. " alt="" coords="567,157,741,184"/>
+<area shape="rect" id="node16" href="$class_s_f_m_l_combat.html#ad72f480db9eb3f134e3736b1acb228c8" title="Reflexion de l&#39;IA sur l&#39;action à effectuer. " alt="" coords="841,309,1016,336"/>
+</map>

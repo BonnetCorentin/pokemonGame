@@ -1,0 +1,5 @@
+Boustiflor 0 15 13 207 218 295 306 229 334 
+Poison/Acide.
+Poison/Bomb beurk.
+Poison/Detritus.
+Poison/Dard venin.

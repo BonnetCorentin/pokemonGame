@@ -1,0 +1,5 @@
+<map id="Graphe hiérarchique des classes" name="Graphe hiérarchique des classes">
+<area shape="rect" id="node1" href="$class_personnage.html" title="Classe Personnage qui gère un personnage et qui contient son nom, son équipe pokémon et son sac..." alt="" coords="5,31,96,57"/>
+<area shape="rect" id="node2" href="$class_adversaire.html" title="Classe Adversaire hérité de la classe Personnage qui gère un adversaire et qui contient son nombre de..." alt="" coords="144,5,228,32"/>
+<area shape="rect" id="node3" href="$class_joueur.html" title="Classe Joueur hérité de la classe Personnage qui gère un joueur et qui contient son nombre de défaite..." alt="" coords="155,56,217,83"/>
+</map>

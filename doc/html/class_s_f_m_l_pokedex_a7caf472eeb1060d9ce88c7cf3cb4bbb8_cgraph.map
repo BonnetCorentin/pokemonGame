@@ -1,0 +1,10 @@
+<map id="SFMLPokedex::boucleAffichage" name="SFMLPokedex::boucleAffichage">
+<area shape="rect" id="node2" href="$class_s_f_m_l_pokedex.html#ae5f87a7a8a5cb0e6d151f15646d7e4af" title="Remet un rectangle a default. " alt="" coords="269,5,476,32"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_pokedex.html#a9528e644324e4b4c6f0b0a3e7fcdde79" title="Change de page. " alt="" coords="275,57,470,98"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_pokedex.html#a94f3d84825cc9bac5efff4123b7cc154" title="Change de page. " alt="" coords="534,89,726,116"/>
+<area shape="rect" id="node5" href="$class_s_f_m_l_pokedex.html#a9760b492343dc3c07d49ec86f2160a95" title="Dessine l&#39;espace du bas. " alt="" coords="279,173,467,200"/>
+<area shape="rect" id="node8" href="$class_s_f_m_l_pokedex.html#a4cec507ffcc5916c32c8b14211c991fa" title="Lance le tutoriel. " alt="" coords="263,224,482,251"/>
+<area shape="rect" id="node9" href="$class_s_f_m_l_pokedex.html#a7693d7d78e637f1839f0459985cb59e3" title="Dessiner le Pokémon. " alt="" coords="263,275,483,301"/>
+<area shape="rect" id="node6" href="$class_s_f_m_l_pokedex.html#a3729d8001348235c5ad12245cdb61b28" title="Recupere un Pokémon. " alt="" coords="531,166,729,207"/>
+<area shape="rect" id="node7" href="$class_s_f_m_l_pokedex.html#a16ac63df885664b02c66b06dd1cfa9ef" title="Recupere type d&#39;un Pokémon. " alt="" coords="777,166,976,207"/>
+</map>

@@ -1,0 +1,5 @@
+Lokhlass 0 1 8 317 284 295 295 240 464 
+Eau/Coquilame.
+Eau/Hydrocanon.
+Eau/Hydroblast.
+Eau/Surf.

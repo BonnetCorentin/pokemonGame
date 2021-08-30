@@ -1,0 +1,5 @@
+Nidoking 0 13 14 273 278 295 311 295 366
+Normal/Belier.
+Normal/Charge.
+Normal/Combo Griffe.
+Normal/Coupe. 

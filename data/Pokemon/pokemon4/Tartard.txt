@@ -1,0 +1,5 @@
+Tartard 0 1 16 306 317 262 295 262 384 
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

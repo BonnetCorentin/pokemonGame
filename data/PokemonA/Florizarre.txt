@@ -1,0 +1,5 @@
+Florizarre 0 15 13 328 291 328 289 284 364 
+Plante/Canon Graine.
+Plante/Fouet lianes.
+Plante/Lame feuille.
+Plante/Poing Dard.

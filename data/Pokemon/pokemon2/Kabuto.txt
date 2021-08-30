@@ -1,0 +1,5 @@
+Kabuto 0 1 10 207 306 229 284 229 264 
+Insecte/Megacorne.
+Insecte/Double dard.
+Insecte/Plaie Croix.
+Insecte/Dard nuee.

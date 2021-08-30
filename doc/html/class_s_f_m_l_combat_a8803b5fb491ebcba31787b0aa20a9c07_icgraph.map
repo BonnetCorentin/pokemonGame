@@ -1,0 +1,5 @@
+<map id="SFMLCombat::affAttaque" name="SFMLCombat::affAttaque">
+<area shape="rect" id="node2" href="$class_s_f_m_l_combat.html#ab856672c59db95d55c7c28cd3a1eee93" title="SFMLCombat::changerMenu" alt="" coords="224,31,413,57"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_combat.html#a39155235e6275b4d63b9317b9561843e" title="La boucle principale de Jeu. " alt="" coords="467,5,634,32"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_combat.html#a116d70985530e3c46e5b60adc910a1fb" title="La boucle principale de Jeu (version combat IA) " alt="" coords="461,56,640,83"/>
+</map>

@@ -1,0 +1,445 @@
+\hypertarget{class_attaque}{}\section{Référence de la classe Attaque}
+\label{class_attaque}\index{Attaque@{Attaque}}
+
+
+La classe représentant les Attaques des \hyperlink{class_pokemon}{Pokemon}.  
+
+
+
+
+{\ttfamily \#include \char`\"{}src/\+Attaque/\+Attaque.\+h\char`\"{}}
+
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_attaque_a1683db1342d1d26f9fc2162ef1975b23}{Attaque} ()
+\begin{DoxyCompactList}\small\item\em Constructeur de \hyperlink{class_attaque}{Attaque}. \end{DoxyCompactList}\item 
+\hyperlink{class_attaque_a1f2944283be354dcc2a19f84a537281c}{Attaque} (const std\+::string \&nom\+Attaque, const \hyperlink{_attaque_8h_a1d1cfd8ffb84e947f82999c682b666a7}{Type} \&t, unsigned int pp, unsigned int Puissance, unsigned int Precision, const \hyperlink{_attaque_8h_acefba67470a7a2e69ed731d28d318e64}{Type\+Attaque} \&tA)
+\begin{DoxyCompactList}\small\item\em Constructeur de \hyperlink{class_attaque}{Attaque}. \end{DoxyCompactList}\item 
+void \hyperlink{class_attaque_a6e0b308dd1d9ddab688378e2630cb597}{set\+Nb\+PP} (unsigned int nb)
+\begin{DoxyCompactList}\small\item\em Mutateur de nb\+PP. \end{DoxyCompactList}\item 
+void \hyperlink{class_attaque_a15bcb3d5d9add6357427cfb399e5584a}{set\+Nom} (std\+::string \hyperlink{class_attaque_a4adbe83e5fca0bd7533b32ff382dc682}{nom})
+\begin{DoxyCompactList}\small\item\em Mutateur de nom. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_attaque_a92ae062d505e82c80621069dc6a917d1}{get\+Puissance} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de Puissance. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_attaque_ada8c22f0becc001b46e6a7f2da00a1ef}{get\+Precision} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de Précision. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_attaque_aa95b1e494a9c24dfd28c585e46cd1eb8}{get\+Nb\+PP} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de nb\+PP. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_attaque_a651deeca5e47dd04929bd1c9d013c86e}{get\+Nb\+P\+P\+Max} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de nb\+P\+P\+Max. \end{DoxyCompactList}\item 
+\hyperlink{_attaque_8h_acefba67470a7a2e69ed731d28d318e64}{Type\+Attaque} \hyperlink{class_attaque_acb25c596d5b90b2330d3188749bc130d}{get\+Type\+Attaque} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de type\+Attaque. \end{DoxyCompactList}\item 
+std \+::string \hyperlink{class_attaque_a2d3e865f856f681f79934680b25ac372}{get\+Nom} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de nom. \end{DoxyCompactList}\item 
+\hyperlink{_attaque_8h_a1d1cfd8ffb84e947f82999c682b666a7}{Type} \hyperlink{class_attaque_af43d72ec9abad98f04e21e245cece692}{get\+Type} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de type. \end{DoxyCompactList}\item 
+void \hyperlink{class_attaque_ac6a1ff465a27d926b72807354e6587eb}{rentrer\+Attaque\+Fichier} (const std \+::string \&fichier, const std\+::string \&attack)
+\begin{DoxyCompactList}\small\item\em Charge une attaque à partir d\textquotesingle{}un fichier. \end{DoxyCompactList}\item 
+void \hyperlink{class_attaque_a8017dbfbf4af62e113d27d093a2786c6}{test\+Regression} ()
+\begin{DoxyCompactList}\small\item\em Charge une attaque à partir d\textquotesingle{}un fichier. \end{DoxyCompactList}\item 
+void \hyperlink{class_attaque_ad6320c58f467865c778aae13c75c558f}{baisser\+Nb\+PP} ()
+\begin{DoxyCompactList}\small\item\em Baisse le nombre de PP de l\textquotesingle{}attaque de 1 unité \end{DoxyCompactList}\item 
+\hyperlink{class_attaque}{Attaque} \& \hyperlink{class_attaque_a21b14fe41db692f8e38aa1821a3519b9}{operator=} (const \hyperlink{class_attaque}{Attaque} \&attaque)
+\begin{DoxyCompactList}\small\item\em Opérateur égale de \hyperlink{class_attaque}{Attaque}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+std \+::string \hyperlink{class_attaque_a4adbe83e5fca0bd7533b32ff382dc682}{nom}
+\begin{DoxyCompactList}\small\item\em Nom de l\textquotesingle{}\hyperlink{class_attaque}{Attaque}. \end{DoxyCompactList}\item 
+\hyperlink{_attaque_8h_a1d1cfd8ffb84e947f82999c682b666a7}{Type} \hyperlink{class_attaque_a0a681a8a1fcefacefc6386c151cab12d}{type}
+\begin{DoxyCompactList}\small\item\em Element de l\textquotesingle{}attaque. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_attaque_aa6b498ab7188fa4120473ea99b5dd1ab}{nb\+PP}
+\begin{DoxyCompactList}\small\item\em nb\+PP de l\textquotesingle{}attaque. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_attaque_a3103b16987d3457eef9e503d5af8bee9}{nb\+P\+P\+Max}
+\begin{DoxyCompactList}\small\item\em nb\+P\+P\+Max de l\textquotesingle{}attaque. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_attaque_acfa274f467927adfb0a99ecf009d9490}{puissance}
+\begin{DoxyCompactList}\small\item\em Puissance de l\textquotesingle{}attaque. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_attaque_a221655b057b96a0cd5eb58309b99c8dd}{precision}
+\begin{DoxyCompactList}\small\item\em Précision de l\textquotesingle{}attaque. \end{DoxyCompactList}\item 
+\hyperlink{_attaque_8h_acefba67470a7a2e69ed731d28d318e64}{Type\+Attaque} \hyperlink{class_attaque_a8a430c66f761bd2786f2746f292c7425}{type\+Attaque}
+\begin{DoxyCompactList}\small\item\em Type de l\textquotesingle{}attaque. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+La classe représentant les Attaques des \hyperlink{class_pokemon}{Pokemon}. 
+
+Le module \hyperlink{class_attaque}{Attaque} représente les attaques utilisés par les \hyperlink{class_pokemon}{Pokemon} durant, plusieurs statistiques différents sont associés à chaque attaque. 
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_attaque_a1683db1342d1d26f9fc2162ef1975b23}\label{class_attaque_a1683db1342d1d26f9fc2162ef1975b23}} 
+\index{Attaque@{Attaque}!Attaque@{Attaque}}
+\index{Attaque@{Attaque}!Attaque@{Attaque}}
+\subsubsection{\texorpdfstring{Attaque()}{Attaque()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Attaque\+::\+Attaque (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructeur de \hyperlink{class_attaque}{Attaque}. 
+
+Construit un objet de type \hyperlink{class_attaque}{Attaque} \mbox{\Hypertarget{class_attaque_a1f2944283be354dcc2a19f84a537281c}\label{class_attaque_a1f2944283be354dcc2a19f84a537281c}} 
+\index{Attaque@{Attaque}!Attaque@{Attaque}}
+\index{Attaque@{Attaque}!Attaque@{Attaque}}
+\subsubsection{\texorpdfstring{Attaque()}{Attaque()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Attaque\+::\+Attaque (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{nom\+Attaque,  }\item[{const \hyperlink{_attaque_8h_a1d1cfd8ffb84e947f82999c682b666a7}{Type} \&}]{t,  }\item[{unsigned int}]{pp,  }\item[{unsigned int}]{Puissance,  }\item[{unsigned int}]{Precision,  }\item[{const \hyperlink{_attaque_8h_acefba67470a7a2e69ed731d28d318e64}{Type\+Attaque} \&}]{tA }\end{DoxyParamCaption})}
+
+
+
+Constructeur de \hyperlink{class_attaque}{Attaque}. 
+
+Construit un objet de type \hyperlink{class_attaque}{Attaque} avec toutes les statistiques 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em nom\+Attaque} & Nom de l\textquotesingle{}attaque \\
+\hline
+\mbox{\tt in}  & {\em t} & Élément de l\textquotesingle{}attaque \\
+\hline
+\mbox{\tt in}  & {\em pp} & Nombre de PP de l\textquotesingle{}attaque \\
+\hline
+\mbox{\tt in}  & {\em Puissance} & Puissance de l\textquotesingle{}attaque \\
+\hline
+\mbox{\tt in}  & {\em Precision} & Précision de l\textquotesingle{}attaque \\
+\hline
+\mbox{\tt in}  & {\em eA} & Effet de l\textquotesingle{}attaque \\
+\hline
+\mbox{\tt in}  & {\em desc} & Description de l\textquotesingle{}attaque \\
+\hline
+\mbox{\tt in}  & {\em tA} & Type de l\textquotesingle{}attaque \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_attaque_ad6320c58f467865c778aae13c75c558f}\label{class_attaque_ad6320c58f467865c778aae13c75c558f}} 
+\index{Attaque@{Attaque}!baisser\+Nb\+PP@{baisser\+Nb\+PP}}
+\index{baisser\+Nb\+PP@{baisser\+Nb\+PP}!Attaque@{Attaque}}
+\subsubsection{\texorpdfstring{baisser\+Nb\+P\+P()}{baisserNbPP()}}
+{\footnotesize\ttfamily void Attaque\+::baisser\+Nb\+PP (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Baisse le nombre de PP de l\textquotesingle{}attaque de 1 unité 
+
+Diminue d\textquotesingle{}1 le nombre de PP de l\textquotesingle{}attaque sur laquel on l\textquotesingle{}applique Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_attaque_ad6320c58f467865c778aae13c75c558f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_attaque_aa95b1e494a9c24dfd28c585e46cd1eb8}\label{class_attaque_aa95b1e494a9c24dfd28c585e46cd1eb8}} 
+\index{Attaque@{Attaque}!get\+Nb\+PP@{get\+Nb\+PP}}
+\index{get\+Nb\+PP@{get\+Nb\+PP}!Attaque@{Attaque}}
+\subsubsection{\texorpdfstring{get\+Nb\+P\+P()}{getNbPP()}}
+{\footnotesize\ttfamily unsigned int Attaque\+::get\+Nb\+PP (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de nb\+PP. 
+
+Renvoie le nombre de PP de l\textquotesingle{}attaque \begin{DoxyReturn}{Renvoie}
+Le paramètre nb\+PP de l\textquotesingle{}attaque 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_attaque_aa95b1e494a9c24dfd28c585e46cd1eb8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_attaque_a651deeca5e47dd04929bd1c9d013c86e}\label{class_attaque_a651deeca5e47dd04929bd1c9d013c86e}} 
+\index{Attaque@{Attaque}!get\+Nb\+P\+P\+Max@{get\+Nb\+P\+P\+Max}}
+\index{get\+Nb\+P\+P\+Max@{get\+Nb\+P\+P\+Max}!Attaque@{Attaque}}
+\subsubsection{\texorpdfstring{get\+Nb\+P\+P\+Max()}{getNbPPMax()}}
+{\footnotesize\ttfamily unsigned int Attaque\+::get\+Nb\+P\+P\+Max (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de nb\+P\+P\+Max. 
+
+Renvoie le nombre de PP Max de l\textquotesingle{}attaque \begin{DoxyReturn}{Renvoie}
+Le paramètre nb\+P\+P\+Max de l\textquotesingle{}attaque 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_attaque_a651deeca5e47dd04929bd1c9d013c86e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_attaque_a2d3e865f856f681f79934680b25ac372}\label{class_attaque_a2d3e865f856f681f79934680b25ac372}} 
+\index{Attaque@{Attaque}!get\+Nom@{get\+Nom}}
+\index{get\+Nom@{get\+Nom}!Attaque@{Attaque}}
+\subsubsection{\texorpdfstring{get\+Nom()}{getNom()}}
+{\footnotesize\ttfamily std\+::string Attaque\+::get\+Nom (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de nom. 
+
+Renvoie le nom de l\textquotesingle{}attaque \begin{DoxyReturn}{Renvoie}
+Le paramètre nom de l\textquotesingle{}attaque 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_attaque_a2d3e865f856f681f79934680b25ac372_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_attaque_ada8c22f0becc001b46e6a7f2da00a1ef}\label{class_attaque_ada8c22f0becc001b46e6a7f2da00a1ef}} 
+\index{Attaque@{Attaque}!get\+Precision@{get\+Precision}}
+\index{get\+Precision@{get\+Precision}!Attaque@{Attaque}}
+\subsubsection{\texorpdfstring{get\+Precision()}{getPrecision()}}
+{\footnotesize\ttfamily unsigned int Attaque\+::get\+Precision (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de Précision. 
+
+Renvoie la précision de l\textquotesingle{}attaque \begin{DoxyReturn}{Renvoie}
+Le paramètre précision de l\textquotesingle{}attaque 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_attaque_ada8c22f0becc001b46e6a7f2da00a1ef_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_attaque_a92ae062d505e82c80621069dc6a917d1}\label{class_attaque_a92ae062d505e82c80621069dc6a917d1}} 
+\index{Attaque@{Attaque}!get\+Puissance@{get\+Puissance}}
+\index{get\+Puissance@{get\+Puissance}!Attaque@{Attaque}}
+\subsubsection{\texorpdfstring{get\+Puissance()}{getPuissance()}}
+{\footnotesize\ttfamily unsigned int Attaque\+::get\+Puissance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de Puissance. 
+
+Renvoie la puissance de l\textquotesingle{}attaque \begin{DoxyReturn}{Renvoie}
+Le paramètre Puissance de l\textquotesingle{}attaque 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_attaque_a92ae062d505e82c80621069dc6a917d1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_attaque_af43d72ec9abad98f04e21e245cece692}\label{class_attaque_af43d72ec9abad98f04e21e245cece692}} 
+\index{Attaque@{Attaque}!get\+Type@{get\+Type}}
+\index{get\+Type@{get\+Type}!Attaque@{Attaque}}
+\subsubsection{\texorpdfstring{get\+Type()}{getType()}}
+{\footnotesize\ttfamily \hyperlink{_attaque_8h_a1d1cfd8ffb84e947f82999c682b666a7}{Type} Attaque\+::get\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de type. 
+
+Renvoie l\textquotesingle{}élément de l\textquotesingle{}attaque \begin{DoxyReturn}{Renvoie}
+Le paramètre type de l\textquotesingle{}attaque 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_attaque_af43d72ec9abad98f04e21e245cece692_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_attaque_acb25c596d5b90b2330d3188749bc130d}\label{class_attaque_acb25c596d5b90b2330d3188749bc130d}} 
+\index{Attaque@{Attaque}!get\+Type\+Attaque@{get\+Type\+Attaque}}
+\index{get\+Type\+Attaque@{get\+Type\+Attaque}!Attaque@{Attaque}}
+\subsubsection{\texorpdfstring{get\+Type\+Attaque()}{getTypeAttaque()}}
+{\footnotesize\ttfamily \hyperlink{_attaque_8h_acefba67470a7a2e69ed731d28d318e64}{Type\+Attaque} Attaque\+::get\+Type\+Attaque (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de type\+Attaque. 
+
+Renvoie le type de l\textquotesingle{}attaque \begin{DoxyReturn}{Renvoie}
+Le paramètre type\+Attaque de l\textquotesingle{}attaque 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_attaque_acb25c596d5b90b2330d3188749bc130d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_attaque_a21b14fe41db692f8e38aa1821a3519b9}\label{class_attaque_a21b14fe41db692f8e38aa1821a3519b9}} 
+\index{Attaque@{Attaque}!operator=@{operator=}}
+\index{operator=@{operator=}!Attaque@{Attaque}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \hyperlink{class_attaque}{Attaque} \& Attaque\+::operator= (\begin{DoxyParamCaption}\item[{const \hyperlink{class_attaque}{Attaque} \&}]{attaque }\end{DoxyParamCaption})}
+
+
+
+Opérateur égale de \hyperlink{class_attaque}{Attaque}. 
+
+Effectue une copie compléte des données d\textquotesingle{}\hyperlink{class_attaque}{Attaque} 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em attaque} & L\textquotesingle{}attaque qui est utilisé pour effectuer la copie \\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{class_attaque_a21b14fe41db692f8e38aa1821a3519b9_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_attaque_ac6a1ff465a27d926b72807354e6587eb}\label{class_attaque_ac6a1ff465a27d926b72807354e6587eb}} 
+\index{Attaque@{Attaque}!rentrer\+Attaque\+Fichier@{rentrer\+Attaque\+Fichier}}
+\index{rentrer\+Attaque\+Fichier@{rentrer\+Attaque\+Fichier}!Attaque@{Attaque}}
+\subsubsection{\texorpdfstring{rentrer\+Attaque\+Fichier()}{rentrerAttaqueFichier()}}
+{\footnotesize\ttfamily void Attaque\+::rentrer\+Attaque\+Fichier (\begin{DoxyParamCaption}\item[{const std \+::string \&}]{fichier,  }\item[{const std\+::string \&}]{attack }\end{DoxyParamCaption})}
+
+
+
+Charge une attaque à partir d\textquotesingle{}un fichier. 
+
+Permet de charger une attaque à partir d\textquotesingle{}un fichier 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em fichier} & Chemin d\textquotesingle{}accès vers le fichier \\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_attaque_ac6a1ff465a27d926b72807354e6587eb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_attaque_a6e0b308dd1d9ddab688378e2630cb597}\label{class_attaque_a6e0b308dd1d9ddab688378e2630cb597}} 
+\index{Attaque@{Attaque}!set\+Nb\+PP@{set\+Nb\+PP}}
+\index{set\+Nb\+PP@{set\+Nb\+PP}!Attaque@{Attaque}}
+\subsubsection{\texorpdfstring{set\+Nb\+P\+P()}{setNbPP()}}
+{\footnotesize\ttfamily void Attaque\+::set\+Nb\+PP (\begin{DoxyParamCaption}\item[{unsigned int}]{nb }\end{DoxyParamCaption})}
+
+
+
+Mutateur de nb\+PP. 
+
+Modifie nb\+PP 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em nb} & Nombre de pp \\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_attaque_a6e0b308dd1d9ddab688378e2630cb597_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_attaque_a15bcb3d5d9add6357427cfb399e5584a}\label{class_attaque_a15bcb3d5d9add6357427cfb399e5584a}} 
+\index{Attaque@{Attaque}!set\+Nom@{set\+Nom}}
+\index{set\+Nom@{set\+Nom}!Attaque@{Attaque}}
+\subsubsection{\texorpdfstring{set\+Nom()}{setNom()}}
+{\footnotesize\ttfamily void Attaque\+::set\+Nom (\begin{DoxyParamCaption}\item[{std\+::string}]{nom }\end{DoxyParamCaption})}
+
+
+
+Mutateur de nom. 
+
+Modifie nom 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em nom} & Nom de l\textquotesingle{}attaque \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_attaque_a8017dbfbf4af62e113d27d093a2786c6}\label{class_attaque_a8017dbfbf4af62e113d27d093a2786c6}} 
+\index{Attaque@{Attaque}!test\+Regression@{test\+Regression}}
+\index{test\+Regression@{test\+Regression}!Attaque@{Attaque}}
+\subsubsection{\texorpdfstring{test\+Regression()}{testRegression()}}
+{\footnotesize\ttfamily void Attaque\+::test\+Regression (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Charge une attaque à partir d\textquotesingle{}un fichier. 
+
+Permet de charger une attaque à partir d\textquotesingle{}un fichier Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_attaque_a8017dbfbf4af62e113d27d093a2786c6_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Documentation des données membres}
+\mbox{\Hypertarget{class_attaque_aa6b498ab7188fa4120473ea99b5dd1ab}\label{class_attaque_aa6b498ab7188fa4120473ea99b5dd1ab}} 
+\index{Attaque@{Attaque}!nb\+PP@{nb\+PP}}
+\index{nb\+PP@{nb\+PP}!Attaque@{Attaque}}
+\subsubsection{\texorpdfstring{nb\+PP}{nbPP}}
+{\footnotesize\ttfamily unsigned int Attaque\+::nb\+PP\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+nb\+PP de l\textquotesingle{}attaque. 
+
+nb\+PP correspond au nombre de fois que l\textquotesingle{}attaque peut-\/être utilisé avant de devoir la recharger, nb\+PP baisse d\textquotesingle{}un à chaque utilisation de l\textquotesingle{}attaque. \mbox{\Hypertarget{class_attaque_a3103b16987d3457eef9e503d5af8bee9}\label{class_attaque_a3103b16987d3457eef9e503d5af8bee9}} 
+\index{Attaque@{Attaque}!nb\+P\+P\+Max@{nb\+P\+P\+Max}}
+\index{nb\+P\+P\+Max@{nb\+P\+P\+Max}!Attaque@{Attaque}}
+\subsubsection{\texorpdfstring{nb\+P\+P\+Max}{nbPPMax}}
+{\footnotesize\ttfamily unsigned int Attaque\+::nb\+P\+P\+Max\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+nb\+P\+P\+Max de l\textquotesingle{}attaque. 
+
+nb\+P\+P\+Max correspond à nb\+PP au moment de la création de l\textquotesingle{}attaque. \mbox{\Hypertarget{class_attaque_a4adbe83e5fca0bd7533b32ff382dc682}\label{class_attaque_a4adbe83e5fca0bd7533b32ff382dc682}} 
+\index{Attaque@{Attaque}!nom@{nom}}
+\index{nom@{nom}!Attaque@{Attaque}}
+\subsubsection{\texorpdfstring{nom}{nom}}
+{\footnotesize\ttfamily std\+::strign Attaque\+::nom\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Nom de l\textquotesingle{}\hyperlink{class_attaque}{Attaque}. 
+
+nom correspond au nom associé a l\textquotesingle{}\hyperlink{class_attaque}{Attaque}. \mbox{\Hypertarget{class_attaque_a221655b057b96a0cd5eb58309b99c8dd}\label{class_attaque_a221655b057b96a0cd5eb58309b99c8dd}} 
+\index{Attaque@{Attaque}!precision@{precision}}
+\index{precision@{precision}!Attaque@{Attaque}}
+\subsubsection{\texorpdfstring{precision}{precision}}
+{\footnotesize\ttfamily unsigned int Attaque\+::precision\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Précision de l\textquotesingle{}attaque. 
+
+Précision correspond à la précision de l\textquotesingle{}attaque, ce qui est équivalent au chance que l\textquotesingle{}attaque touche son adversaires. \mbox{\Hypertarget{class_attaque_acfa274f467927adfb0a99ecf009d9490}\label{class_attaque_acfa274f467927adfb0a99ecf009d9490}} 
+\index{Attaque@{Attaque}!puissance@{puissance}}
+\index{puissance@{puissance}!Attaque@{Attaque}}
+\subsubsection{\texorpdfstring{puissance}{puissance}}
+{\footnotesize\ttfamily unsigned int Attaque\+::puissance\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Puissance de l\textquotesingle{}attaque. 
+
+Puissance correspond à la puissance de l\textquotesingle{}attaque, cela servira durant le calcul des dégâts d\textquotesingle{}une attaque. \mbox{\Hypertarget{class_attaque_a0a681a8a1fcefacefc6386c151cab12d}\label{class_attaque_a0a681a8a1fcefacefc6386c151cab12d}} 
+\index{Attaque@{Attaque}!type@{type}}
+\index{type@{type}!Attaque@{Attaque}}
+\subsubsection{\texorpdfstring{type}{type}}
+{\footnotesize\ttfamily \hyperlink{_attaque_8h_a1d1cfd8ffb84e947f82999c682b666a7}{Type} Attaque\+::type\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Element de l\textquotesingle{}attaque. 
+
+type correspond à l\textquotesingle{}élément associé à l\textquotesingle{}attaque (feu, eau, plante, etc...). \mbox{\Hypertarget{class_attaque_a8a430c66f761bd2786f2746f292c7425}\label{class_attaque_a8a430c66f761bd2786f2746f292c7425}} 
+\index{Attaque@{Attaque}!type\+Attaque@{type\+Attaque}}
+\index{type\+Attaque@{type\+Attaque}!Attaque@{Attaque}}
+\subsubsection{\texorpdfstring{type\+Attaque}{typeAttaque}}
+{\footnotesize\ttfamily \hyperlink{_attaque_8h_acefba67470a7a2e69ed731d28d318e64}{Type\+Attaque} Attaque\+::type\+Attaque\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Type de l\textquotesingle{}attaque. 
+
+type\+Attaque correspond à la manière dont l\textquotesingle{}attaque est infligé, sur un coup physique ou plutôt spéciale. 
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+/home/corentin/\+Documents/lifap4/src/\+Attaque/\hyperlink{_attaque_8h}{Attaque.\+h}\item 
+/home/corentin/\+Documents/lifap4/src/\+Attaque/\hyperlink{_attaque_8cpp}{Attaque.\+cpp}\end{DoxyCompactItemize}

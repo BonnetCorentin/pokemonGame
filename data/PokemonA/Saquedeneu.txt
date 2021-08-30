@@ -1,0 +1,5 @@
+Saquedeneu 0 15 -1 196 361 328 229 240 334 
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

@@ -1,0 +1,19 @@
+
+Boutefeu. 
+0 120 100 15 0.
+Canicule. 
+0 95 90 10 1.
+Crocs feu. 
+0 65 95 15 0.
+Deflagration. 
+0 110 85 5 1.
+Feu saint. 
+0 100 95 5 0.
+Flamme bleue.
+0 130 85 5 1.
+Flammeche.
+0 40 100 25 1.
+Poing de feu.
+0 75 100 150.
+Roue de feu. 
+0 60 100 25 0.

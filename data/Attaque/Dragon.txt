@@ -1,0 +1,21 @@
+
+Colere. 
+4 120 100 10 0.
+Draco Charge.
+4 100 75 10 0.
+Draco Choc. 
+4 85 100 10 0.
+Draco Griffe. 
+4 80 100 15 0.
+Draco Marteau. 
+4 90 100 15 0. 
+Draco Queue. 
+4 60 90 10 0.
+Draco Souffle. 
+4 60 100 20 1.
+Hurle temps.
+4 150 90 5 1.
+Ouragan.
+4 40 100 20 1.
+Vibrecaille
+4 110 100 5 1.

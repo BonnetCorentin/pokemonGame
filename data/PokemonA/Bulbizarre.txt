@@ -1,0 +1,5 @@
+Bulbizarre 0 15 13 251 216 251 216 207 294
+Plante/Canon Graine.
+Plante/Fouet lianes.
+Plante/Lame feuille.
+Plante/Poing Dard.

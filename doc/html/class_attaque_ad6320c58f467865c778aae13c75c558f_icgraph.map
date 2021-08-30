@@ -1,0 +1,7 @@
+<map id="Attaque::baisserNbPP" name="Attaque::baisserNbPP">
+<area shape="rect" id="node2" href="$class_combat.html#a310a968bf21791e88753ca6c6a024d8d" title="Lance une attaque. " alt="" coords="205,31,361,57"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_combat.html#acc968da97d4c933f516e67b0356e3d73" title="Affichage textuel des actions effectués. " alt="" coords="409,31,600,57"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_combat.html#a4b2bed6ea12c96a58e55d968b1652597" title="Boucle d&#39;affichage des actions. " alt="" coords="648,31,820,57"/>
+<area shape="rect" id="node5" href="$class_s_f_m_l_combat.html#a39155235e6275b4d63b9317b9561843e" title="La boucle principale de Jeu. " alt="" coords="874,5,1041,32"/>
+<area shape="rect" id="node6" href="$class_s_f_m_l_combat.html#a116d70985530e3c46e5b60adc910a1fb" title="La boucle principale de Jeu (version combat IA) " alt="" coords="868,56,1047,83"/>
+</map>

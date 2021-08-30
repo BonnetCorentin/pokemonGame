@@ -1,0 +1,5 @@
+Triopikeur 0 14 -1 262 218 218 284 372 274 
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

@@ -1,0 +1,5 @@
+Crustabri 0 1 8207 504 295 317 262 304
+Eau/Coquilame.
+Eau/Hydrocanon.
+Eau/Hydroblast.
+Eau/Surf.

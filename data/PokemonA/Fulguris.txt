@@ -1,0 +1,5 @@
+Fulguris 0 5 7 284 262 383 361 353 362 
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

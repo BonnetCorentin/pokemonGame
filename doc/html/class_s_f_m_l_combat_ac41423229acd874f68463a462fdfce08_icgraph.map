@@ -1,0 +1,6 @@
+<map id="SFMLCombat::seDeplacerObjet" name="SFMLCombat::seDeplacerObjet">
+<area shape="rect" id="node2" href="$class_s_f_m_l_combat.html#a55c6728be410efdf2ca919a9ee44728a" title="Boucle d&#39;affichage du menu objet. " alt="" coords="261,31,419,57"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_combat.html#ab856672c59db95d55c7c28cd3a1eee93" title="SFMLCombat::changerMenu" alt="" coords="467,31,656,57"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_combat.html#a39155235e6275b4d63b9317b9561843e" title="La boucle principale de Jeu. " alt="" coords="710,5,877,32"/>
+<area shape="rect" id="node5" href="$class_s_f_m_l_combat.html#a116d70985530e3c46e5b60adc910a1fb" title="La boucle principale de Jeu (version combat IA) " alt="" coords="704,56,883,83"/>
+</map>

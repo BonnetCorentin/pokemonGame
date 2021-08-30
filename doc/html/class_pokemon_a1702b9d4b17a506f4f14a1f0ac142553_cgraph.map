@@ -1,0 +1,12 @@
+<map id="Pokemon::testRegression" name="Pokemon::testRegression">
+<area shape="rect" id="node2" href="$class_pokemon.html#a26771eddf70badfce2fe1aeaf2d89b81" title="charge dans le pokemon tous les informations contenues dans un fichier " alt="" coords="252,5,435,32"/>
+<area shape="rect" id="node3" href="$class_pokemon.html#a5f932295f014353aeead20e0225b6eee" title="Accesseur de la variable defenseSpeciale. " alt="" coords="242,56,445,83"/>
+<area shape="rect" id="node4" href="$class_pokemon.html#ace1c2940d8870b907cc2b0cd29f6efba" title="Accesseur de la variable attaqueSpeciale. " alt="" coords="244,107,443,133"/>
+<area shape="rect" id="node5" href="$class_pokemon.html#a90e8c3b16d39995fcbcfd01834f57be7" title="Accesseur de la variable defensePhysique. " alt="" coords="240,157,447,184"/>
+<area shape="rect" id="node6" href="$class_pokemon.html#a27ae3d139d0c958b2f605743eb8f8a6d" title="Accesseur de la variable attaquePhysique. " alt="" coords="242,208,445,235"/>
+<area shape="rect" id="node7" href="$class_pokemon.html#a84a91b991611246fa387ede48e18d357" title="Accesseur de la variable niveauAvantDebloque. " alt="" coords="227,259,460,285"/>
+<area shape="rect" id="node8" href="$class_pokemon.html#aca789a69b00c4e4189571507539bbc30" title="Accesseur de la variable nom. " alt="" coords="278,309,409,336"/>
+<area shape="rect" id="node9" href="$class_pokemon.html#a04a02b9ee3a43d25596b6d934ef861ba" title="Accesseur de la variable vitesse. " alt="" coords="270,360,417,387"/>
+<area shape="rect" id="node10" href="$class_pokemon.html#af11b525fb21bb7fbb86c43d1ddad738a" title="Accesseur de la variable NbPVMax. " alt="" coords="270,411,417,437"/>
+<area shape="rect" id="node11" href="$class_pokemon.html#a3d9cc7fe1b38d8d8ea3ef499116c0eac" title="Accesseur d&#39;un type du tableau. " alt="" coords="263,461,424,488"/>
+</map>

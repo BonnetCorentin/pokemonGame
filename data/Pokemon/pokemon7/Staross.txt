@@ -1,0 +1,5 @@
+Staross 0 1 9 295 295 328 273 361 324
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

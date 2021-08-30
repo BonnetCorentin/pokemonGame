@@ -1,0 +1,23 @@
+<map id="SFMLCombat::affChangerPokemon" name="SFMLCombat::affChangerPokemon">
+<area shape="rect" id="node2" href="$class_combat.html#aed2119127fb9b7ed023dd481927c27aa" title="Accesseur de quiJoue. " alt="" coords="604,179,747,205"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_combat.html#a2665ce99eeccb4bdb1e032086a9feb04" title="Test si un des Pokemon combattant est KO. " alt="" coords="309,613,491,640"/>
+<area shape="rect" id="node5" href="$class_pokemon.html#a97e2f2b4b811d5e2bbcb038fb70f57ce" title="Accesseur de la variable NbPV. " alt="" coords="615,487,736,513"/>
+<area shape="rect" id="node7" href="$class_combat.html#af72bd31264a8cdeeb3f3f8c30c727d33" title="Accesseur/Mutateur de Joueur. " alt="" coords="598,247,753,273"/>
+<area shape="rect" id="node8" href="$class_personnage.html#aeab0448ba1e833d57ee17827e3a6ac0d" title="Accesseur d&#39;un pokémon du tableau de pokémon par référence. " alt="" coords="564,56,787,83"/>
+<area shape="rect" id="node9" href="$class_combat.html#a59088f5725884e9c363ad72a946c82ef" title="Accesseur/Mutateur de Adversaire. " alt="" coords="587,305,764,332"/>
+<area shape="rect" id="node10" href="$class_combat.html#a567eab49812ecbd2d694e8cf064e800a" title="Changer de Pokemon. " alt="" coords="303,5,497,32"/>
+<area shape="rect" id="node12" href="$class_s_f_m_l_combat.html#ad6e349e747401615a1c3d5c56e59be76" title="Modifie positionPokemon. " alt="" coords="284,107,516,133"/>
+<area shape="rect" id="node14" href="$class_s_f_m_l_combat.html#a5d363c2d06e7f0505990bf12866d0595" title="SFMLCombat::initFightWindow" alt="" coords="298,411,502,437"/>
+<area shape="rect" id="node15" href="$class_s_f_m_l_combat.html#aba0eacdc425cc859b8533060ead79564" title="SFMLCombat::initMenuWindow" alt="" coords="297,461,503,488"/>
+<area shape="rect" id="node16" href="$class_s_f_m_l_combat.html#a9a9295e8e7f369f0443ee5618004f0d9" title="SFMLCombat::selectionMenu" alt="" coords="303,512,497,539"/>
+<area shape="rect" id="node17" href="$class_s_f_m_l_combat.html#ab5de8e3048e2549352cea43a3ff636d4" title="SFMLCombat::affPokemon" alt="" coords="309,664,491,691"/>
+<area shape="rect" id="node19" href="$class_s_f_m_l_combat.html#ad5ab6d579c0da644135ae1e51e44f890" title="SFMLCombat::affBarreDeVie" alt="" coords="303,563,497,589"/>
+<area shape="rect" id="node21" href="$class_s_f_m_l_combat.html#a22523f39138086a3b118a896ca214c4d" title="Dessine les sprites des Pokemon. " alt="" coords="293,309,507,336"/>
+<area shape="rect" id="node22" href="$class_s_f_m_l_combat.html#ab37fca053d9f0e3529502c69f0de1055" title="Dessine le curseur de sélection. " alt="" coords="293,715,507,757"/>
+<area shape="rect" id="node4" href="$class_combat.html#a9a44a83a9c1fe5d67f0b620dab547e56" title="Accesseur/Mutateur de PokePerso. " alt="" coords="586,613,765,640"/>
+<area shape="rect" id="node6" href="$class_combat.html#a4f02e335d825eb98b64d5410a590b9f8" title="Accesseur/Mutateur de PokeAdversaire. " alt="" coords="572,664,779,691"/>
+<area shape="rect" id="node11" href="$class_combat.html#a2848c91d76a09943dd5effb1904f1937" title="Changer le tour de Jeu. " alt="" coords="590,5,761,32"/>
+<area shape="rect" id="node13" href="$class_s_f_m_l_combat.html#ab0728cc1b2fcc52112165ec8e3e14eb6" title="Calcul de la prochaine position Pokemon. " alt="" coords="574,107,777,149"/>
+<area shape="rect" id="node18" href="$class_pokemon.html#aca789a69b00c4e4189571507539bbc30" title="Accesseur de la variable nom. " alt="" coords="610,563,741,589"/>
+<area shape="rect" id="node20" href="$class_pokemon.html#af11b525fb21bb7fbb86c43d1ddad738a" title="Accesseur de la variable NbPVMax. " alt="" coords="602,385,749,412"/>
+</map>

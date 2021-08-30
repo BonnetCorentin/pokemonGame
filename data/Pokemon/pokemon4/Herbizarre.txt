@@ -1,0 +1,5 @@
+Herbizarre 0 15 13 284 247 284 245 240 324
+Plante/Canon Graine.
+Plante/Fouet lianes.
+Plante/Lame feuille.
+Plante/Poing Dard.

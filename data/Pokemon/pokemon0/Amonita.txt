@@ -1,0 +1,5 @@
+Amonita 0 1 10 226 328 306 196 185 274 
+Eau/Coquilame.
+Eau/Hydrocanon.
+Eau/Hydroblast.
+Eau/Surf.

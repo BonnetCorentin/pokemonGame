@@ -1,0 +1,5 @@
+Smogogo 0 13 -1 262 372 295 306 140 334
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

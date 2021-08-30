@@ -1,0 +1,5 @@
+Canarticho 0 6 7 245 229 236 251 240 308 
+Plante/Canon Graine.
+Plante/Fouet lianes.
+Plante/Lame feuille.
+Plante/Poing Dard.

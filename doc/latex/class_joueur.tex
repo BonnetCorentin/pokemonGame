@@ -1,0 +1,253 @@
+\hypertarget{class_joueur}{}\section{Référence de la classe Joueur}
+\label{class_joueur}\index{Joueur@{Joueur}}
+
+
+Classe \hyperlink{class_joueur}{Joueur} hérité de la classe \hyperlink{class_personnage}{Personnage} qui gère un joueur et qui contient son nombre de défaites,de victoires,son niveau et son argent.  
+
+
+
+
+{\ttfamily \#include $<$Personnage.\+h$>$}
+
+
+
+Graphe d\textquotesingle{}héritage de Joueur\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=148pt]{class_joueur__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Graphe de collaboration de Joueur\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=226pt]{class_joueur__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_joueur_add6c98be3020651d84f6d75ccc1d867e}\label{class_joueur_add6c98be3020651d84f6d75ccc1d867e}} 
+\hyperlink{class_joueur_add6c98be3020651d84f6d75ccc1d867e}{Joueur} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut qui appel le constructeur par défaut de \hyperlink{class_personnage}{Personnage} et qui initialise nb\+Defaites à 0,nb\+Victoires à 0,niveau à 0 et l\textquotesingle{}argent à 0. \end{DoxyCompactList}\item 
+\hyperlink{class_joueur_a38f10c26b532efd5b461a1cca84f4cdd}{Joueur} (const std\+::string \&n)
+\begin{DoxyCompactList}\small\item\em Constructeur qui appelle le constructeur de \hyperlink{class_personnage}{Personnage} avec un paramètre et qui initialise nb\+Defaites à 0,nb\+Victoires à 0,niveau à 0 et l\textquotesingle{}argent à 0. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_joueur_ae06420103fca19bb0dca8ba9ed261bd6}{get\+Argent} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de la variable argent. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_joueur_ae411355727ca5cd183183ba992693180}{get\+Nb\+Victoires} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de la variable nb\+Victoires. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_joueur_a82a78911f157c2fee8a7587064a4ce25}{get\+Nb\+Defaites} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de la variable nb\+Defaites. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_joueur_abec464c3958916f951e19ba5e12d0dbc}{get\+Niveau} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de la variable niveau. \end{DoxyCompactList}\item 
+void \hyperlink{class_joueur_a816878a126e2e8a4610f782b4a06f53f}{recevoir\+Argent} (unsigned int n)
+\begin{DoxyCompactList}\small\item\em Augmente la variable argent. \end{DoxyCompactList}\item 
+void \hyperlink{class_joueur_ae496646b2078c86011fa200b631168ca}{depenser\+Argent} (unsigned int n)
+\begin{DoxyCompactList}\small\item\em Diminue la variable argent. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_joueur_a2eeebb62c0f67eabb58a4d62280675c7}\label{class_joueur_a2eeebb62c0f67eabb58a4d62280675c7}} 
+void \hyperlink{class_joueur_a2eeebb62c0f67eabb58a4d62280675c7}{augmenter\+Nb\+Defaites} ()
+\begin{DoxyCompactList}\small\item\em Augmente la variable nb\+Defaites de 1. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_joueur_a8b3c0fa5871ae9320182090d22cfae69}\label{class_joueur_a8b3c0fa5871ae9320182090d22cfae69}} 
+void {\bfseries set\+Niveau} (unsigned int i)
+\item 
+\mbox{\Hypertarget{class_joueur_a30e0e5b06537c5a7d5853230b1da9509}\label{class_joueur_a30e0e5b06537c5a7d5853230b1da9509}} 
+void \hyperlink{class_joueur_a30e0e5b06537c5a7d5853230b1da9509}{augmenter\+Nb\+Victoires} ()
+\begin{DoxyCompactList}\small\item\em Augemente la variable nb\+Victoires de 1. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_joueur_afce34539fafa99280cf5976c36c1ea12}\label{class_joueur_afce34539fafa99280cf5976c36c1ea12}} 
+void \hyperlink{class_joueur_afce34539fafa99280cf5976c36c1ea12}{augmenter\+Niveau} ()
+\begin{DoxyCompactList}\small\item\em Augmente la variable niveau de 1. \end{DoxyCompactList}\item 
+bool \hyperlink{class_joueur_a2bf2a581a2e4de27a812e21b360ab9f3}{charger\+Joueur} ()
+\begin{DoxyCompactList}\small\item\em charge dans le joueur tous les informations contenues dans un fichier \end{DoxyCompactList}\item 
+bool \hyperlink{class_joueur_a0bf50be14471ba0c0944b31c70bf6ad3}{sauvegarder\+Joueur} () const
+\begin{DoxyCompactList}\small\item\em charge dans un fichier tout le contenu du joueur \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_joueur_afdef85975e261b9b315e4629c5f75817}\label{class_joueur_afdef85975e261b9b315e4629c5f75817}} 
+unsigned int \hyperlink{class_joueur_afdef85975e261b9b315e4629c5f75817}{nb\+Defaites}
+\begin{DoxyCompactList}\small\item\em entier positif contenant le nombre de défaites du joueur \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_joueur_a64c3df68468d8c3a08ebeae05c144d7f}\label{class_joueur_a64c3df68468d8c3a08ebeae05c144d7f}} 
+unsigned int \hyperlink{class_joueur_a64c3df68468d8c3a08ebeae05c144d7f}{nb\+Victoires}
+\begin{DoxyCompactList}\small\item\em entier positif contenant le nombre de victoires du joueur \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_joueur_a094214899e05a45eb3807b9874fbdf66}\label{class_joueur_a094214899e05a45eb3807b9874fbdf66}} 
+unsigned int \hyperlink{class_joueur_a094214899e05a45eb3807b9874fbdf66}{niveau}
+\begin{DoxyCompactList}\small\item\em entier positif contenant le niveau du joueur \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_joueur_a591be8b0a344a918d728f12fefd08005}\label{class_joueur_a591be8b0a344a918d728f12fefd08005}} 
+unsigned int \hyperlink{class_joueur_a591be8b0a344a918d728f12fefd08005}{argent}
+\begin{DoxyCompactList}\small\item\em entier positif contenant l\textquotesingle{}argent du joueur \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Classe \hyperlink{class_joueur}{Joueur} hérité de la classe \hyperlink{class_personnage}{Personnage} qui gère un joueur et qui contient son nombre de défaites,de victoires,son niveau et son argent. 
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_joueur_a38f10c26b532efd5b461a1cca84f4cdd}\label{class_joueur_a38f10c26b532efd5b461a1cca84f4cdd}} 
+\index{Joueur@{Joueur}!Joueur@{Joueur}}
+\index{Joueur@{Joueur}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{Joueur()}{Joueur()}}
+{\footnotesize\ttfamily Joueur\+::\+Joueur (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{n }\end{DoxyParamCaption})}
+
+
+
+Constructeur qui appelle le constructeur de \hyperlink{class_personnage}{Personnage} avec un paramètre et qui initialise nb\+Defaites à 0,nb\+Victoires à 0,niveau à 0 et l\textquotesingle{}argent à 0. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em n} & nom du personnage à copier \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_joueur_a2bf2a581a2e4de27a812e21b360ab9f3}\label{class_joueur_a2bf2a581a2e4de27a812e21b360ab9f3}} 
+\index{Joueur@{Joueur}!charger\+Joueur@{charger\+Joueur}}
+\index{charger\+Joueur@{charger\+Joueur}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{charger\+Joueur()}{chargerJoueur()}}
+{\footnotesize\ttfamily bool Joueur\+::charger\+Joueur (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+charge dans le joueur tous les informations contenues dans un fichier 
+
+\begin{DoxyReturn}{Renvoie}
+retourne un booléen contenant 1 si le chargement c\textquotesingle{}est bien passée sinon 0 
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_joueur_a2bf2a581a2e4de27a812e21b360ab9f3_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_joueur_a2bf2a581a2e4de27a812e21b360ab9f3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_joueur_ae496646b2078c86011fa200b631168ca}\label{class_joueur_ae496646b2078c86011fa200b631168ca}} 
+\index{Joueur@{Joueur}!depenser\+Argent@{depenser\+Argent}}
+\index{depenser\+Argent@{depenser\+Argent}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{depenser\+Argent()}{depenserArgent()}}
+{\footnotesize\ttfamily void Joueur\+::depenser\+Argent (\begin{DoxyParamCaption}\item[{unsigned int}]{n }\end{DoxyParamCaption})}
+
+
+
+Diminue la variable argent. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em n} & entier postif contenant l\textquotesingle{}argent à enlever \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_joueur_ae06420103fca19bb0dca8ba9ed261bd6}\label{class_joueur_ae06420103fca19bb0dca8ba9ed261bd6}} 
+\index{Joueur@{Joueur}!get\+Argent@{get\+Argent}}
+\index{get\+Argent@{get\+Argent}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{get\+Argent()}{getArgent()}}
+{\footnotesize\ttfamily unsigned int Joueur\+::get\+Argent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de la variable argent. 
+
+\begin{DoxyReturn}{Renvoie}
+retourne un entier positif contenant l\textquotesingle{}argent du joueur 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_joueur_a82a78911f157c2fee8a7587064a4ce25}\label{class_joueur_a82a78911f157c2fee8a7587064a4ce25}} 
+\index{Joueur@{Joueur}!get\+Nb\+Defaites@{get\+Nb\+Defaites}}
+\index{get\+Nb\+Defaites@{get\+Nb\+Defaites}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{get\+Nb\+Defaites()}{getNbDefaites()}}
+{\footnotesize\ttfamily unsigned int Joueur\+::get\+Nb\+Defaites (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de la variable nb\+Defaites. 
+
+\begin{DoxyReturn}{Renvoie}
+retourne un entier positif contenant le nombre de défaites du joueur 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_joueur_ae411355727ca5cd183183ba992693180}\label{class_joueur_ae411355727ca5cd183183ba992693180}} 
+\index{Joueur@{Joueur}!get\+Nb\+Victoires@{get\+Nb\+Victoires}}
+\index{get\+Nb\+Victoires@{get\+Nb\+Victoires}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{get\+Nb\+Victoires()}{getNbVictoires()}}
+{\footnotesize\ttfamily unsigned int Joueur\+::get\+Nb\+Victoires (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de la variable nb\+Victoires. 
+
+\begin{DoxyReturn}{Renvoie}
+retourne un entier positif contenant le nombre de victoires du joueur 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_joueur_abec464c3958916f951e19ba5e12d0dbc}\label{class_joueur_abec464c3958916f951e19ba5e12d0dbc}} 
+\index{Joueur@{Joueur}!get\+Niveau@{get\+Niveau}}
+\index{get\+Niveau@{get\+Niveau}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{get\+Niveau()}{getNiveau()}}
+{\footnotesize\ttfamily unsigned int Joueur\+::get\+Niveau (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de la variable niveau. 
+
+\begin{DoxyReturn}{Renvoie}
+retourne un entier positif contenant le niveau du joueur 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_joueur_abec464c3958916f951e19ba5e12d0dbc_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_joueur_a816878a126e2e8a4610f782b4a06f53f}\label{class_joueur_a816878a126e2e8a4610f782b4a06f53f}} 
+\index{Joueur@{Joueur}!recevoir\+Argent@{recevoir\+Argent}}
+\index{recevoir\+Argent@{recevoir\+Argent}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{recevoir\+Argent()}{recevoirArgent()}}
+{\footnotesize\ttfamily void Joueur\+::recevoir\+Argent (\begin{DoxyParamCaption}\item[{unsigned int}]{n }\end{DoxyParamCaption})}
+
+
+
+Augmente la variable argent. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em n} & entier postif contenant l\textquotesingle{}argent à ajouter \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_joueur_a0bf50be14471ba0c0944b31c70bf6ad3}\label{class_joueur_a0bf50be14471ba0c0944b31c70bf6ad3}} 
+\index{Joueur@{Joueur}!sauvegarder\+Joueur@{sauvegarder\+Joueur}}
+\index{sauvegarder\+Joueur@{sauvegarder\+Joueur}!Joueur@{Joueur}}
+\subsubsection{\texorpdfstring{sauvegarder\+Joueur()}{sauvegarderJoueur()}}
+{\footnotesize\ttfamily bool Joueur\+::sauvegarder\+Joueur (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+charge dans un fichier tout le contenu du joueur 
+
+\begin{DoxyReturn}{Renvoie}
+retourne un booléen contenant 1 si la sauvergarde c\textquotesingle{}est bien passée sinon 0 
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_joueur_a0bf50be14471ba0c0944b31c70bf6ad3_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_joueur_a0bf50be14471ba0c0944b31c70bf6ad3_icgraph}
+\end{center}
+\end{figure}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+/home/corentin/\+Documents/lifap4/src/\+Personnage/\hyperlink{_personnage_8h}{Personnage.\+h}\item 
+/home/corentin/\+Documents/lifap4/src/\+Personnage/\hyperlink{_personnage_8cpp}{Personnage.\+cpp}\end{DoxyCompactItemize}

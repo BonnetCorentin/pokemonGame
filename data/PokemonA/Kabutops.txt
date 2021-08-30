@@ -1,0 +1,5 @@
+Kabutops 0 10 1 262 339 251 361 284 324
+Insecte/Megacorne.
+Insecte/Double dard.
+Insecte/Plaie Croix.
+Insecte/Dard nuee.

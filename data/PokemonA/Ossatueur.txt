@@ -1,0 +1,5 @@
+Ossatueur 0 14 -1 284 350 218 284 207 324
+Normal/Belier.
+Normal/Charge.
+Normal/Combo Griffe.
+Normal/Coupe. 

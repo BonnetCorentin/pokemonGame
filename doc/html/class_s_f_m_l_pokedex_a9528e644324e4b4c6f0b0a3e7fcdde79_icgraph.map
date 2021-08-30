@@ -1,0 +1,11 @@
+<map id="SFMLPokedex::ChangerPageSouris" name="SFMLPokedex::ChangerPageSouris">
+<area shape="rect" id="node2" href="$class_s_f_m_l_pokedex.html#a7caf472eeb1060d9ce88c7cf3cb4bbb8" title="La boucle principale du Pokedex. " alt="" coords="1221,5,1431,32"/>
+<area shape="rect" id="node5" href="$class_s_f_m_l_pokedex.html#a0b447d5b74964d395264d6d5e50aadbd" title="La boucle principale du Pokedex avec joueur. " alt="" coords="248,57,457,98"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_menu.html#ab7eeb1a042f076ec28ce301c1d8d3660" title="La boucle principale de Jeu. " alt="" coords="1699,45,1889,72"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_menu.html#aea4285a4b09f175d67fd96aa8456b213" title="Clic souris. " alt="" coords="1479,45,1651,72"/>
+<area shape="rect" id="node6" href="$class_s_f_m_l_charger.html#a67c610529df46560908104f963d741f1" title="S&#39;occupe d&#39;initialiser les pokémons du joueur. " alt="" coords="505,64,700,91"/>
+<area shape="rect" id="node7" href="$class_s_f_m_l_charger.html#a4c3135a3fa16c88f94cbef9c2ca2c2d8" title="S&#39;occupe d&#39;initialiser un nouveau joueur puis de le sauvegarder dans un fichier. " alt="" coords="748,57,979,98"/>
+<area shape="rect" id="node8" href="$class_s_f_m_l_charger.html#a75660d35cc51c9efa18f1b3b46af14bc" title="En fonction de l&#39;action du joueur, action va appeller de nouvelle fonction. " alt="" coords="1027,85,1173,112"/>
+<area shape="rect" id="node9" href="$class_s_f_m_l_charger.html#ae0c05ca2ca2080579fe94cc5e8f8b00c" title="La boucle principale de Jeu et qui permet de démarrer le jeu et encapsuler toutes les autres boucles ..." alt="" coords="1224,85,1428,112"/>
+<area shape="rect" id="node10" href="$class_s_f_m_l_menu.html#abbed99b9e874fd8e3f40a7b748576182" title="Le choix de l&#39;action. " alt="" coords="1499,96,1631,123"/>
+</map>

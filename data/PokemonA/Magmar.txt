@@ -1,0 +1,5 @@
+Magmar 0 0 -1 295 234 328 317 313 334 
+Feu/Boutefeu.
+Feu/Canicule.
+Feu/Feu saint.
+Feu/Roue de feu.

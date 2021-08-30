@@ -1,0 +1,5 @@
+Roucarnage 0 6 7 262 273 262 284 309 370
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

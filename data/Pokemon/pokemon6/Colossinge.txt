@@ -1,0 +1,5 @@
+Colossinge 0 16 -1 262 240 240 339 317 334
+Normal/Belier.
+Normal/Charge.
+Normal/Combo Griffe.
+Normal/Coupe. 

@@ -1,0 +1,8 @@
+<map id="Attaque::testRegression" name="Attaque::testRegression">
+<area shape="rect" id="node2" href="$class_attaque.html#a2d3e865f856f681f79934680b25ac372" title="Accesseur de nom. " alt="" coords="239,5,360,32"/>
+<area shape="rect" id="node3" href="$class_attaque.html#af43d72ec9abad98f04e21e245cece692" title="Accesseur de type. " alt="" coords="238,56,361,83"/>
+<area shape="rect" id="node4" href="$class_attaque.html#a92ae062d505e82c80621069dc6a917d1" title="Accesseur de Puissance. " alt="" coords="222,107,377,133"/>
+<area shape="rect" id="node5" href="$class_attaque.html#ada8c22f0becc001b46e6a7f2da00a1ef" title="Accesseur de Précision. " alt="" coords="226,157,373,184"/>
+<area shape="rect" id="node6" href="$class_attaque.html#aa95b1e494a9c24dfd28c585e46cd1eb8" title="Accesseur de nbPP. " alt="" coords="235,208,363,235"/>
+<area shape="rect" id="node7" href="$class_attaque.html#acb25c596d5b90b2330d3188749bc130d" title="Accesseur de typeAttaque. " alt="" coords="216,259,383,285"/>
+</map>

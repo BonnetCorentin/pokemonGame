@@ -1,0 +1,5 @@
+Carabaffe 0 1 -1 284 284 251 247 236 322
+Eau/Coquilame.
+Eau/Hydrocanon.
+Eau/Hydroblast.
+Eau/Surf.

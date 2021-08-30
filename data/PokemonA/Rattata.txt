@@ -1,0 +1,5 @@
+Rattata 0 6 -1 185 185 163 232 267 264
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

@@ -1,0 +1,380 @@
+\hypertarget{class_personnage}{}\section{Référence de la classe Personnage}
+\label{class_personnage}\index{Personnage@{Personnage}}
+
+
+Classe \hyperlink{class_personnage}{Personnage} qui gère un personnage et qui contient son nom, son équipe pokémon et son sac.  
+
+
+
+
+{\ttfamily \#include $<$Personnage.\+h$>$}
+
+
+
+Graphe d\textquotesingle{}héritage de Personnage\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=208pt]{class_personnage__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Graphe de collaboration de Personnage\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=226pt]{class_personnage__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_personnage_abec36eb0310adc71f3375297fc590c65}\label{class_personnage_abec36eb0310adc71f3375297fc590c65}} 
+\hyperlink{class_personnage_abec36eb0310adc71f3375297fc590c65}{Personnage} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut qui initialise le nom du personnage à \char`\"{}\+Default\char`\"{}. \end{DoxyCompactList}\item 
+\hyperlink{class_personnage_a5aaac2a4ab4d33e721c3d118de4e9785}{Personnage} (const std\+::string \&n)
+\begin{DoxyCompactList}\small\item\em Constructeur qui initialise le nom du personnage avec la chaîne de paramètre passé en paramètre. \end{DoxyCompactList}\item 
+std\+::string \hyperlink{class_personnage_a411597dd00afced2f6eeb70461833dbe}{get\+Nom} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de la variable nom. \end{DoxyCompactList}\item 
+\hyperlink{class_pokemon}{Pokemon} \hyperlink{class_personnage_abd45dd4e1a4099a6300c037fc41e1037}{get\+Ieme\+Pokemon} (unsigned int i) const
+\begin{DoxyCompactList}\small\item\em Accesseur d\textquotesingle{}un pokémon du tableau de pokémon. \end{DoxyCompactList}\item 
+\hyperlink{class_pokemon}{Pokemon} $\ast$ \hyperlink{class_personnage_aeab0448ba1e833d57ee17827e3a6ac0d}{get\+Ieme\+Pokemon\+Ref} (unsigned int i)
+\begin{DoxyCompactList}\small\item\em Accesseur d\textquotesingle{}un pokémon du tableau de pokémon par référence. \end{DoxyCompactList}\item 
+\hyperlink{class_pokemon}{Pokemon} $\ast$ \hyperlink{class_personnage_a853a057817adeacdf048534cf30254d2}{get\+Equipe\+Pokemon} ()
+\begin{DoxyCompactList}\small\item\em Accesseur du tableau de pokémon par référence. \end{DoxyCompactList}\item 
+\hyperlink{class_objet}{Objet} \hyperlink{class_personnage_a32cf123b507c36c8adbf9bd22cb0b9a2}{get\+Objet\+Dans\+Sac} (unsigned int i) const
+\begin{DoxyCompactList}\small\item\em Accesseur d\textquotesingle{}un objet dans le sac. \end{DoxyCompactList}\item 
+\hyperlink{class_objet}{Objet} $\ast$ \hyperlink{class_personnage_a6b3462a550a38c9e9163495c2b2015f4}{get\+Objet\+Dans\+Sac\+Ref} (unsigned int i)
+\begin{DoxyCompactList}\small\item\em Accesseur d\textquotesingle{}un objet dans le sac par référence. \end{DoxyCompactList}\item 
+\hyperlink{class_sac}{Sac} \hyperlink{class_personnage_aa6dd3ce808644f01d0cdb891f67e896c}{get\+Sac} () const
+\begin{DoxyCompactList}\small\item\em Accesseur du sac. \end{DoxyCompactList}\item 
+\hyperlink{class_sac}{Sac} $\ast$ \hyperlink{class_personnage_acb7d9ff9b6b6753b8c93fae58f428db1}{get\+Sac\+Ref} ()
+\begin{DoxyCompactList}\small\item\em Accesseur du sac par référence. \end{DoxyCompactList}\item 
+void \hyperlink{class_personnage_a46d6d6f6f9b647c04c1cad509bec0935}{set\+Nom} (const std\+::string \&n)
+\begin{DoxyCompactList}\small\item\em Mutateur de la variable nom. \end{DoxyCompactList}\item 
+void \hyperlink{class_personnage_ae9e94e72e002695ae1461aa538e5e880}{set\+Ieme\+Pokemon} (const \hyperlink{class_pokemon}{Pokemon} \&pokemon, unsigned int i)
+\begin{DoxyCompactList}\small\item\em Mutateur d\textquotesingle{}un pokémon du tableu de pokémon. \end{DoxyCompactList}\item 
+void \hyperlink{class_personnage_a70fb0f0180dd625cf96dfc469ae5710e}{recevoir\+Objet} (const \hyperlink{class_objet}{Objet} \&objet)
+\begin{DoxyCompactList}\small\item\em Mutateur d\textquotesingle{}un objet du sac. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_personnage_a8b827a72e42d38de1b6d29dee145a4b5}\label{class_personnage_a8b827a72e42d38de1b6d29dee145a4b5}} 
+void \hyperlink{class_personnage_a8b827a72e42d38de1b6d29dee145a4b5}{test\+Regression} ()
+\begin{DoxyCompactList}\small\item\em test toutes les fonctions de la classe \end{DoxyCompactList}\item 
+\hyperlink{class_personnage}{Personnage} \& \hyperlink{class_personnage_a6727627eb37382d3d8f12514551df9bd}{operator=} (const \hyperlink{class_personnage}{Personnage} \&Perso)
+\begin{DoxyCompactList}\small\item\em surcharge de l\textquotesingle{}opérateur égal \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_personnage_a2fa5fc776898b5f501709d439cc1a81f}\label{class_personnage_a2fa5fc776898b5f501709d439cc1a81f}} 
+std\+::string \hyperlink{class_personnage_a2fa5fc776898b5f501709d439cc1a81f}{nom}
+\begin{DoxyCompactList}\small\item\em chaine de caractère contenant le nom du personnage \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_personnage_a1df050fd3c57bd7548f3cc6a71d24478}\label{class_personnage_a1df050fd3c57bd7548f3cc6a71d24478}} 
+\hyperlink{class_pokemon}{Pokemon} \hyperlink{class_personnage_a1df050fd3c57bd7548f3cc6a71d24478}{equipe\+Pokemon} \mbox{[}6\mbox{]}
+\begin{DoxyCompactList}\small\item\em tableau de six pokémons contenant tous les pokémons du personnage \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_personnage_ace76f2960aae4315d034704670410ef2}\label{class_personnage_ace76f2960aae4315d034704670410ef2}} 
+\hyperlink{class_sac}{Sac} \hyperlink{class_personnage_ace76f2960aae4315d034704670410ef2}{sac}
+\begin{DoxyCompactList}\small\item\em sac contenant tous les objets du personnage \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Classe \hyperlink{class_personnage}{Personnage} qui gère un personnage et qui contient son nom, son équipe pokémon et son sac. 
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_personnage_a5aaac2a4ab4d33e721c3d118de4e9785}\label{class_personnage_a5aaac2a4ab4d33e721c3d118de4e9785}} 
+\index{Personnage@{Personnage}!Personnage@{Personnage}}
+\index{Personnage@{Personnage}!Personnage@{Personnage}}
+\subsubsection{\texorpdfstring{Personnage()}{Personnage()}}
+{\footnotesize\ttfamily Personnage\+::\+Personnage (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{n }\end{DoxyParamCaption})}
+
+
+
+Constructeur qui initialise le nom du personnage avec la chaîne de paramètre passé en paramètre. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em n} & chaîne de caractère contenant le nom du personnage à copier \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_personnage_a853a057817adeacdf048534cf30254d2}\label{class_personnage_a853a057817adeacdf048534cf30254d2}} 
+\index{Personnage@{Personnage}!get\+Equipe\+Pokemon@{get\+Equipe\+Pokemon}}
+\index{get\+Equipe\+Pokemon@{get\+Equipe\+Pokemon}!Personnage@{Personnage}}
+\subsubsection{\texorpdfstring{get\+Equipe\+Pokemon()}{getEquipePokemon()}}
+{\footnotesize\ttfamily \hyperlink{class_pokemon}{Pokemon} $\ast$ Personnage\+::get\+Equipe\+Pokemon (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Accesseur du tableau de pokémon par référence. 
+
+\begin{DoxyReturn}{Renvoie}
+retourne un pointeur sur le tableau de pokémon 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_personnage_abd45dd4e1a4099a6300c037fc41e1037}\label{class_personnage_abd45dd4e1a4099a6300c037fc41e1037}} 
+\index{Personnage@{Personnage}!get\+Ieme\+Pokemon@{get\+Ieme\+Pokemon}}
+\index{get\+Ieme\+Pokemon@{get\+Ieme\+Pokemon}!Personnage@{Personnage}}
+\subsubsection{\texorpdfstring{get\+Ieme\+Pokemon()}{getIemePokemon()}}
+{\footnotesize\ttfamily \hyperlink{class_pokemon}{Pokemon} Personnage\+::get\+Ieme\+Pokemon (\begin{DoxyParamCaption}\item[{unsigned int}]{i }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur d\textquotesingle{}un pokémon du tableau de pokémon. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & entier positif contenant l\textquotesingle{}index du tableau à accéder \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un pokémon contenu dans le tableau de pokémon 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_personnage_abd45dd4e1a4099a6300c037fc41e1037_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_personnage_aeab0448ba1e833d57ee17827e3a6ac0d}\label{class_personnage_aeab0448ba1e833d57ee17827e3a6ac0d}} 
+\index{Personnage@{Personnage}!get\+Ieme\+Pokemon\+Ref@{get\+Ieme\+Pokemon\+Ref}}
+\index{get\+Ieme\+Pokemon\+Ref@{get\+Ieme\+Pokemon\+Ref}!Personnage@{Personnage}}
+\subsubsection{\texorpdfstring{get\+Ieme\+Pokemon\+Ref()}{getIemePokemonRef()}}
+{\footnotesize\ttfamily \hyperlink{class_pokemon}{Pokemon} $\ast$ Personnage\+::get\+Ieme\+Pokemon\+Ref (\begin{DoxyParamCaption}\item[{unsigned int}]{i }\end{DoxyParamCaption})}
+
+
+
+Accesseur d\textquotesingle{}un pokémon du tableau de pokémon par référence. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & entier positif contenant l\textquotesingle{}index du tableau à accéder \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un pointeur sur un pokémon contenu dans le tableau de pokémon 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_personnage_aeab0448ba1e833d57ee17827e3a6ac0d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_personnage_a411597dd00afced2f6eeb70461833dbe}\label{class_personnage_a411597dd00afced2f6eeb70461833dbe}} 
+\index{Personnage@{Personnage}!get\+Nom@{get\+Nom}}
+\index{get\+Nom@{get\+Nom}!Personnage@{Personnage}}
+\subsubsection{\texorpdfstring{get\+Nom()}{getNom()}}
+{\footnotesize\ttfamily std\+::string Personnage\+::get\+Nom (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de la variable nom. 
+
+\begin{DoxyReturn}{Renvoie}
+retourne une chaîne de caractère contenant le nom du personnage 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_personnage_a411597dd00afced2f6eeb70461833dbe_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_personnage_a32cf123b507c36c8adbf9bd22cb0b9a2}\label{class_personnage_a32cf123b507c36c8adbf9bd22cb0b9a2}} 
+\index{Personnage@{Personnage}!get\+Objet\+Dans\+Sac@{get\+Objet\+Dans\+Sac}}
+\index{get\+Objet\+Dans\+Sac@{get\+Objet\+Dans\+Sac}!Personnage@{Personnage}}
+\subsubsection{\texorpdfstring{get\+Objet\+Dans\+Sac()}{getObjetDansSac()}}
+{\footnotesize\ttfamily \hyperlink{class_objet}{Objet} Personnage\+::get\+Objet\+Dans\+Sac (\begin{DoxyParamCaption}\item[{unsigned int}]{i }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur d\textquotesingle{}un objet dans le sac. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em } & \\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_personnage_a32cf123b507c36c8adbf9bd22cb0b9a2_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_personnage_a32cf123b507c36c8adbf9bd22cb0b9a2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_personnage_a6b3462a550a38c9e9163495c2b2015f4}\label{class_personnage_a6b3462a550a38c9e9163495c2b2015f4}} 
+\index{Personnage@{Personnage}!get\+Objet\+Dans\+Sac\+Ref@{get\+Objet\+Dans\+Sac\+Ref}}
+\index{get\+Objet\+Dans\+Sac\+Ref@{get\+Objet\+Dans\+Sac\+Ref}!Personnage@{Personnage}}
+\subsubsection{\texorpdfstring{get\+Objet\+Dans\+Sac\+Ref()}{getObjetDansSacRef()}}
+{\footnotesize\ttfamily \hyperlink{class_objet}{Objet} $\ast$ Personnage\+::get\+Objet\+Dans\+Sac\+Ref (\begin{DoxyParamCaption}\item[{unsigned int}]{i }\end{DoxyParamCaption})}
+
+
+
+Accesseur d\textquotesingle{}un objet dans le sac par référence. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em } & \\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_personnage_a6b3462a550a38c9e9163495c2b2015f4_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_personnage_a6b3462a550a38c9e9163495c2b2015f4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_personnage_aa6dd3ce808644f01d0cdb891f67e896c}\label{class_personnage_aa6dd3ce808644f01d0cdb891f67e896c}} 
+\index{Personnage@{Personnage}!get\+Sac@{get\+Sac}}
+\index{get\+Sac@{get\+Sac}!Personnage@{Personnage}}
+\subsubsection{\texorpdfstring{get\+Sac()}{getSac()}}
+{\footnotesize\ttfamily \hyperlink{class_sac}{Sac} Personnage\+::get\+Sac (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur du sac. 
+
+\begin{DoxyReturn}{Renvoie}
+retourne le sac 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_personnage_aa6dd3ce808644f01d0cdb891f67e896c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_personnage_acb7d9ff9b6b6753b8c93fae58f428db1}\label{class_personnage_acb7d9ff9b6b6753b8c93fae58f428db1}} 
+\index{Personnage@{Personnage}!get\+Sac\+Ref@{get\+Sac\+Ref}}
+\index{get\+Sac\+Ref@{get\+Sac\+Ref}!Personnage@{Personnage}}
+\subsubsection{\texorpdfstring{get\+Sac\+Ref()}{getSacRef()}}
+{\footnotesize\ttfamily \hyperlink{class_sac}{Sac} $\ast$ Personnage\+::get\+Sac\+Ref (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Accesseur du sac par référence. 
+
+\begin{DoxyReturn}{Renvoie}
+retourne un pointeur sur le sac 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_personnage_acb7d9ff9b6b6753b8c93fae58f428db1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_personnage_a6727627eb37382d3d8f12514551df9bd}\label{class_personnage_a6727627eb37382d3d8f12514551df9bd}} 
+\index{Personnage@{Personnage}!operator=@{operator=}}
+\index{operator=@{operator=}!Personnage@{Personnage}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \hyperlink{class_personnage}{Personnage} \& Personnage\+::operator= (\begin{DoxyParamCaption}\item[{const \hyperlink{class_personnage}{Personnage} \&}]{Perso }\end{DoxyParamCaption})}
+
+
+
+surcharge de l\textquotesingle{}opérateur égal 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em Perso} & \hyperlink{class_personnage}{Personnage} contenant le personnage à copier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne une réference sur l\textquotesingle{}instance \hyperlink{class_personnage}{Personnage} 
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_personnage_a6727627eb37382d3d8f12514551df9bd_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_personnage_a70fb0f0180dd625cf96dfc469ae5710e}\label{class_personnage_a70fb0f0180dd625cf96dfc469ae5710e}} 
+\index{Personnage@{Personnage}!recevoir\+Objet@{recevoir\+Objet}}
+\index{recevoir\+Objet@{recevoir\+Objet}!Personnage@{Personnage}}
+\subsubsection{\texorpdfstring{recevoir\+Objet()}{recevoirObjet()}}
+{\footnotesize\ttfamily void Personnage\+::recevoir\+Objet (\begin{DoxyParamCaption}\item[{const \hyperlink{class_objet}{Objet} \&}]{objet }\end{DoxyParamCaption})}
+
+
+
+Mutateur d\textquotesingle{}un objet du sac. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em objet} & \hyperlink{class_objet}{Objet} contenant l\textquotesingle{}objet à copier \\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_personnage_a70fb0f0180dd625cf96dfc469ae5710e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_personnage_ae9e94e72e002695ae1461aa538e5e880}\label{class_personnage_ae9e94e72e002695ae1461aa538e5e880}} 
+\index{Personnage@{Personnage}!set\+Ieme\+Pokemon@{set\+Ieme\+Pokemon}}
+\index{set\+Ieme\+Pokemon@{set\+Ieme\+Pokemon}!Personnage@{Personnage}}
+\subsubsection{\texorpdfstring{set\+Ieme\+Pokemon()}{setIemePokemon()}}
+{\footnotesize\ttfamily void Personnage\+::set\+Ieme\+Pokemon (\begin{DoxyParamCaption}\item[{const \hyperlink{class_pokemon}{Pokemon} \&}]{pokemon,  }\item[{unsigned int}]{i }\end{DoxyParamCaption})}
+
+
+
+Mutateur d\textquotesingle{}un pokémon du tableu de pokémon. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em pokemon} & \hyperlink{class_pokemon}{Pokemon} contenant le pokémon à copier \\
+\hline
+\mbox{\tt in}  & {\em i} & entier positif contenant l\textquotesingle{}index du pokemon à changer \\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_personnage_ae9e94e72e002695ae1461aa538e5e880_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_personnage_a46d6d6f6f9b647c04c1cad509bec0935}\label{class_personnage_a46d6d6f6f9b647c04c1cad509bec0935}} 
+\index{Personnage@{Personnage}!set\+Nom@{set\+Nom}}
+\index{set\+Nom@{set\+Nom}!Personnage@{Personnage}}
+\subsubsection{\texorpdfstring{set\+Nom()}{setNom()}}
+{\footnotesize\ttfamily void Personnage\+::set\+Nom (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{n }\end{DoxyParamCaption})}
+
+
+
+Mutateur de la variable nom. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em n} & chaîne de caractère contenant le nom du personnage à copier \\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_personnage_a46d6d6f6f9b647c04c1cad509bec0935_icgraph}
+\end{center}
+\end{figure}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+/home/corentin/\+Documents/lifap4/src/\+Personnage/\hyperlink{_personnage_8h}{Personnage.\+h}\item 
+/home/corentin/\+Documents/lifap4/src/\+Personnage/\hyperlink{_personnage_8cpp}{Personnage.\+cpp}\end{DoxyCompactItemize}

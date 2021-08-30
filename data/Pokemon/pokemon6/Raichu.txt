@@ -1,0 +1,5 @@
+Raichu 0 5 -1 284 229 306 306 328 324
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch. 

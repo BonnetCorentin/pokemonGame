@@ -1,0 +1,9 @@
+<map id="SFMLCombat::calculProchainePositionPokemon" name="SFMLCombat::calculProchainePositionPokemon">
+<area shape="rect" id="node2" href="$class_s_f_m_l_combat.html#ad6e349e747401615a1c3d5c56e59be76" title="Modifie positionPokemon. " alt="" coords="256,56,488,83"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_combat.html#ab8d4dfb3e7e4ca9722e52c1ef5fa897d" title="Boucle d&#39;affichage du menu Changer de Pokemon. " alt="" coords="536,56,767,83"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_combat.html#af7ddb137c3bbaff70d2c566137c2cbb7" title="Test si une équipe Pokemon entière est KO. " alt="" coords="815,5,1037,32"/>
+<area shape="rect" id="node6" href="$class_s_f_m_l_combat.html#ab856672c59db95d55c7c28cd3a1eee93" title="SFMLCombat::changerMenu" alt="" coords="831,56,1021,83"/>
+<area shape="rect" id="node8" href="$class_s_f_m_l_combat.html#a97bf8a2d3300663aacbb8899bbbf3472" title="Test si un des Pokemon combattant est KO (version combat contre IA) " alt="" coords="824,107,1028,149"/>
+<area shape="rect" id="node5" href="$class_s_f_m_l_combat.html#a39155235e6275b4d63b9317b9561843e" title="La boucle principale de Jeu. " alt="" coords="1091,31,1258,57"/>
+<area shape="rect" id="node7" href="$class_s_f_m_l_combat.html#a116d70985530e3c46e5b60adc910a1fb" title="La boucle principale de Jeu (version combat IA) " alt="" coords="1085,85,1264,112"/>
+</map>

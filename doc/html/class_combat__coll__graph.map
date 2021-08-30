@@ -1,0 +1,9 @@
+<map id="Combat" name="Combat">
+<area shape="rect" id="node2" href="$class_joueur.html" title="Classe Joueur hérité de la classe Personnage qui gère un joueur et qui contient son nombre de défaite..." alt="" coords="163,288,224,315"/>
+<area shape="rect" id="node3" href="$class_personnage.html" title="Classe Personnage qui gère un personnage et qui contient son nom, son équipe pokémon et son sac..." alt="" coords="76,184,167,211"/>
+<area shape="rect" id="node8" href="$class_adversaire.html" title="Classe Adversaire hérité de la classe Personnage qui gère un adversaire et qui contient son nombre de..." alt="" coords="54,288,138,315"/>
+<area shape="rect" id="node4" href="$class_sac.html" title="Sac" alt="" coords="61,95,107,121"/>
+<area shape="rect" id="node5" href="$class_objet.html" title="Classe Objet qui gère un objet et qui contient son type d&#39;objet,son nom,sa description et sa quantité..." alt="" coords="5,5,59,32"/>
+<area shape="rect" id="node6" href="$class_pokemon.html" title="Pokemon" alt="" coords="140,95,217,121"/>
+<area shape="rect" id="node7" href="$class_attaque.html" title="La classe représentant les Attaques des Pokemon. " alt="" coords="145,5,212,32"/>
+</map>

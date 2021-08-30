@@ -1,0 +1,13 @@
+
+Blizzard.
+8 110 70 5 1.
+Laser glace
+8 90 100 10 1.
+Onde boreale. 
+8 65 100 20 1.
+Poing glace. 
+8 75 100 15 0. 
+Poudreuse. 
+8 40 100 25 1.
+Vente glace.
+8 55 95 15 1.

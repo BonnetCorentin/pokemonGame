@@ -1,0 +1,5 @@
+Shaymin 0 15 -1 328 328 328 328 328 404
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

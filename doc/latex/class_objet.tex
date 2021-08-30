@@ -1,0 +1,205 @@
+\hypertarget{class_objet}{}\section{Référence de la classe Objet}
+\label{class_objet}\index{Objet@{Objet}}
+
+
+Classe \hyperlink{class_objet}{Objet} qui gère un objet et qui contient son type d\textquotesingle{}objet,son nom,sa description et sa quantité  
+
+
+
+
+{\ttfamily \#include $<$Objet.\+h$>$}
+
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_objet_aefdd826d50085897e4894ffef4597d04}\label{class_objet_aefdd826d50085897e4894ffef4597d04}} 
+\hyperlink{class_objet_aefdd826d50085897e4894ffef4597d04}{Objet} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut qui initialise le type d\textquotesingle{}objet à Default, le nom\+Objet à \char`\"{}\+N\+U\+L\+L\char`\"{}, la description à \char`\"{}\+Aucune description\char`\"{} et la quantite à 0. \end{DoxyCompactList}\item 
+int \hyperlink{class_objet_ab75ba7bf1170582a4d50ba8848be2848}{get\+Type\+Objet} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de la variable Type\+Objet. \end{DoxyCompactList}\item 
+std\+::string \hyperlink{class_objet_a29be0a2d83cdebac4fedd495e3824515}{get\+Nom\+Objet} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de la variable nom\+Objet. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_objet_a3352afeefcae6415b3c73112fd588ab5}{get\+Quantite} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de la variable quantite. \end{DoxyCompactList}\item 
+void \hyperlink{class_objet_a2183a02ee228f3ba1e52e0e5b9904dce}{set\+Type\+Objet} (const Type\+Objet \&type)
+\begin{DoxyCompactList}\small\item\em Mutateur de la variable type\+Objet. \end{DoxyCompactList}\item 
+void \hyperlink{class_objet_a666418b066069a2a5e35f88dc1f77f0f}{set\+Nom\+Objet} (const std\+::string \&nom)
+\begin{DoxyCompactList}\small\item\em Mutateur de la variable nom\+Objet. \end{DoxyCompactList}\item 
+void \hyperlink{class_objet_a92eac9151b39f0a03a94ba02f25018c9}{set\+Quantite} (unsigned int nombre)
+\begin{DoxyCompactList}\small\item\em Mutateur de la variable quantite. \end{DoxyCompactList}\item 
+\hyperlink{class_objet}{Objet} \& \hyperlink{class_objet_a9e4b0fb73f3a95425f0239c91c7513f4}{operator=} (const \hyperlink{class_objet}{Objet} \&objet)
+\begin{DoxyCompactList}\small\item\em surcharge de l\textquotesingle{}opérateur égal \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_objet_aa39f9e7546969cc0a53a2412deb4d27a}\label{class_objet_aa39f9e7546969cc0a53a2412deb4d27a}} 
+void \hyperlink{class_objet_aa39f9e7546969cc0a53a2412deb4d27a}{baisser\+Quantite} ()
+\begin{DoxyCompactList}\small\item\em baisse la quantité de l\textquotesingle{}objet de un \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_objet_a1e7b9c9e5cc9417b182258bcb7a0ae21}\label{class_objet_a1e7b9c9e5cc9417b182258bcb7a0ae21}} 
+void \hyperlink{class_objet_a1e7b9c9e5cc9417b182258bcb7a0ae21}{test\+Regression} ()
+\begin{DoxyCompactList}\small\item\em test toutes les fonctions de la classe \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_objet_a7561dbf89b5c4e9262198c502c070642}\label{class_objet_a7561dbf89b5c4e9262198c502c070642}} 
+Type\+Objet \hyperlink{class_objet_a7561dbf89b5c4e9262198c502c070642}{type\+Objet}
+\begin{DoxyCompactList}\small\item\em enum Type\+Objet contenant le type de l\textquotesingle{}objet (entre -\/1 et 15) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_objet_a958a8478200ad06343102d7709643e5c}\label{class_objet_a958a8478200ad06343102d7709643e5c}} 
+std\+::string \hyperlink{class_objet_a958a8478200ad06343102d7709643e5c}{nom\+Objet}
+\begin{DoxyCompactList}\small\item\em chaîne de caractère contenant le nom de l\textquotesingle{}objet \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_objet_a8ab48702d757dbea52a03aa0d4de9de9}\label{class_objet_a8ab48702d757dbea52a03aa0d4de9de9}} 
+unsigned int \hyperlink{class_objet_a8ab48702d757dbea52a03aa0d4de9de9}{quantite}
+\begin{DoxyCompactList}\small\item\em entier positif contenant la quantité de l\textquotesingle{}objet \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Classe \hyperlink{class_objet}{Objet} qui gère un objet et qui contient son type d\textquotesingle{}objet,son nom,sa description et sa quantité 
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_objet_a29be0a2d83cdebac4fedd495e3824515}\label{class_objet_a29be0a2d83cdebac4fedd495e3824515}} 
+\index{Objet@{Objet}!get\+Nom\+Objet@{get\+Nom\+Objet}}
+\index{get\+Nom\+Objet@{get\+Nom\+Objet}!Objet@{Objet}}
+\subsubsection{\texorpdfstring{get\+Nom\+Objet()}{getNomObjet()}}
+{\footnotesize\ttfamily std\+::string Objet\+::get\+Nom\+Objet (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de la variable nom\+Objet. 
+
+\begin{DoxyReturn}{Renvoie}
+retourne une chaîne de caractère contenant le nom de l\textquotesingle{}objet 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_objet_a29be0a2d83cdebac4fedd495e3824515_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_objet_a3352afeefcae6415b3c73112fd588ab5}\label{class_objet_a3352afeefcae6415b3c73112fd588ab5}} 
+\index{Objet@{Objet}!get\+Quantite@{get\+Quantite}}
+\index{get\+Quantite@{get\+Quantite}!Objet@{Objet}}
+\subsubsection{\texorpdfstring{get\+Quantite()}{getQuantite()}}
+{\footnotesize\ttfamily unsigned int Objet\+::get\+Quantite (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de la variable quantite. 
+
+\begin{DoxyReturn}{Renvoie}
+retourne un entier positif contenant la quantité de l\textquotesingle{}objet 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_objet_a3352afeefcae6415b3c73112fd588ab5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_objet_ab75ba7bf1170582a4d50ba8848be2848}\label{class_objet_ab75ba7bf1170582a4d50ba8848be2848}} 
+\index{Objet@{Objet}!get\+Type\+Objet@{get\+Type\+Objet}}
+\index{get\+Type\+Objet@{get\+Type\+Objet}!Objet@{Objet}}
+\subsubsection{\texorpdfstring{get\+Type\+Objet()}{getTypeObjet()}}
+{\footnotesize\ttfamily int Objet\+::get\+Type\+Objet (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de la variable Type\+Objet. 
+
+\begin{DoxyReturn}{Renvoie}
+retourne en entier contenant le type de l\textquotesingle{}objet 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_objet_ab75ba7bf1170582a4d50ba8848be2848_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_objet_a9e4b0fb73f3a95425f0239c91c7513f4}\label{class_objet_a9e4b0fb73f3a95425f0239c91c7513f4}} 
+\index{Objet@{Objet}!operator=@{operator=}}
+\index{operator=@{operator=}!Objet@{Objet}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \hyperlink{class_objet}{Objet} \& Objet\+::operator= (\begin{DoxyParamCaption}\item[{const \hyperlink{class_objet}{Objet} \&}]{objet }\end{DoxyParamCaption})}
+
+
+
+surcharge de l\textquotesingle{}opérateur égal 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em objet} & \hyperlink{class_objet}{Objet} contenant l\textquotesingle{}objet à copier \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne une réference sur l\textquotesingle{}instance objet 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_objet_a666418b066069a2a5e35f88dc1f77f0f}\label{class_objet_a666418b066069a2a5e35f88dc1f77f0f}} 
+\index{Objet@{Objet}!set\+Nom\+Objet@{set\+Nom\+Objet}}
+\index{set\+Nom\+Objet@{set\+Nom\+Objet}!Objet@{Objet}}
+\subsubsection{\texorpdfstring{set\+Nom\+Objet()}{setNomObjet()}}
+{\footnotesize\ttfamily void Objet\+::set\+Nom\+Objet (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{nom }\end{DoxyParamCaption})}
+
+
+
+Mutateur de la variable nom\+Objet. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em nom} & chaîne de caractère contenant le nom de l\textquotesingle{}objet à copier \\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_objet_a666418b066069a2a5e35f88dc1f77f0f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_objet_a92eac9151b39f0a03a94ba02f25018c9}\label{class_objet_a92eac9151b39f0a03a94ba02f25018c9}} 
+\index{Objet@{Objet}!set\+Quantite@{set\+Quantite}}
+\index{set\+Quantite@{set\+Quantite}!Objet@{Objet}}
+\subsubsection{\texorpdfstring{set\+Quantite()}{setQuantite()}}
+{\footnotesize\ttfamily void Objet\+::set\+Quantite (\begin{DoxyParamCaption}\item[{unsigned int}]{nombre }\end{DoxyParamCaption})}
+
+
+
+Mutateur de la variable quantite. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em nombre} & entier positif contenant la quantité de l\textquotesingle{}objet à copier \\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_objet_a92eac9151b39f0a03a94ba02f25018c9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_objet_a2183a02ee228f3ba1e52e0e5b9904dce}\label{class_objet_a2183a02ee228f3ba1e52e0e5b9904dce}} 
+\index{Objet@{Objet}!set\+Type\+Objet@{set\+Type\+Objet}}
+\index{set\+Type\+Objet@{set\+Type\+Objet}!Objet@{Objet}}
+\subsubsection{\texorpdfstring{set\+Type\+Objet()}{setTypeObjet()}}
+{\footnotesize\ttfamily void Objet\+::set\+Type\+Objet (\begin{DoxyParamCaption}\item[{const Type\+Objet \&}]{type }\end{DoxyParamCaption})}
+
+
+
+Mutateur de la variable type\+Objet. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em type} & type de l\textquotesingle{}objet à copier \\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_objet_a2183a02ee228f3ba1e52e0e5b9904dce_icgraph}
+\end{center}
+\end{figure}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+/home/corentin/\+Documents/lifap4/src/\+Objet/\hyperlink{_objet_8h}{Objet.\+h}\item 
+/home/corentin/\+Documents/lifap4/src/\+Objet/\hyperlink{_objet_8cpp}{Objet.\+cpp}\end{DoxyCompactItemize}

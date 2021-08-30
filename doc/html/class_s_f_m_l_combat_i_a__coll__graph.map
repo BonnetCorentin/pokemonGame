@@ -1,0 +1,10 @@
+<map id="SFMLCombatIA" name="SFMLCombatIA">
+<area shape="rect" id="node3" href="$class_combat.html" title="La classe gérant le combat. " alt="" coords="109,377,177,404"/>
+<area shape="rect" id="node4" href="$class_joueur.html" title="Classe Joueur hérité de la classe Personnage qui gère un joueur et qui contient son nombre de défaite..." alt="" coords="114,288,175,315"/>
+<area shape="rect" id="node5" href="$class_personnage.html" title="Classe Personnage qui gère un personnage et qui contient son nom, son équipe pokémon et son sac..." alt="" coords="99,184,190,211"/>
+<area shape="rect" id="node10" href="$class_adversaire.html" title="Classe Adversaire hérité de la classe Personnage qui gère un adversaire et qui contient son nombre de..." alt="" coords="5,288,89,315"/>
+<area shape="rect" id="node6" href="$class_sac.html" title="Classe Sac qui gère un sac et qui contient un tableau d&#39;objet. " alt="" coords="86,95,131,121"/>
+<area shape="rect" id="node7" href="$class_objet.html" title="Classe Objet qui gère un objet et qui contient son type d&#39;objet,son nom,sa description et sa quantité..." alt="" coords="30,5,83,32"/>
+<area shape="rect" id="node8" href="$class_pokemon.html" title="Classe Pokemon qui gère un pokémon et qui contient son type d&#39;objet,son nom,sa description et sa quan..." alt="" coords="165,95,242,121"/>
+<area shape="rect" id="node9" href="$class_attaque.html" title="La classe représentant les Attaques des Pokemon. " alt="" coords="170,5,237,32"/>
+</map>

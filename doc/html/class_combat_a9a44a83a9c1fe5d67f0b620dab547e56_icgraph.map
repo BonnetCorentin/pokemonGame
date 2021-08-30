@@ -1,0 +1,19 @@
+<map id="Combat::getPokePersoRef" name="Combat::getPokePersoRef">
+<area shape="rect" id="node2" href="$class_s_f_m_l_combat.html#af7ddb137c3bbaff70d2c566137c2cbb7" title="Test si une équipe Pokemon entière est KO. " alt="" coords="752,35,975,62"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_combat.html#a2665ce99eeccb4bdb1e032086a9feb04" title="Test si un des Pokemon combattant est KO. " alt="" coords="237,390,420,416"/>
+<area shape="rect" id="node8" href="$class_s_f_m_l_combat.html#a97bf8a2d3300663aacbb8899bbbf3472" title="Test si un des Pokemon combattant est KO (version combat contre IA) " alt="" coords="761,542,965,584"/>
+<area shape="rect" id="node9" href="$class_s_f_m_l_combat.html#a4b2bed6ea12c96a58e55d968b1652597" title="Boucle d&#39;affichage des actions. " alt="" coords="503,136,675,163"/>
+<area shape="rect" id="node10" href="$class_s_f_m_l_combat.html#acc968da97d4c933f516e67b0356e3d73" title="Affichage textuel des actions effectués. " alt="" coords="233,187,424,214"/>
+<area shape="rect" id="node11" href="$class_s_f_m_l_combat.html#af3dbb1374820d004fdf5907397760335" title="Calcul de la priorité des Joueurs. " alt="" coords="235,86,422,112"/>
+<area shape="rect" id="node12" href="$class_s_f_m_l_combat.html#ab5de8e3048e2549352cea43a3ff636d4" title="SFMLCombat::affPokemon" alt="" coords="238,339,419,366"/>
+<area shape="rect" id="node15" href="$class_s_f_m_l_combat.html#ad5ab6d579c0da644135ae1e51e44f890" title="SFMLCombat::affBarreDeVie" alt="" coords="232,238,425,264"/>
+<area shape="rect" id="node16" href="$class_s_f_m_l_combat.html#a83899ae7d061225976857060d2a16388" title="SFMLCombat::ecrireAttaque" alt="" coords="235,288,423,315"/>
+<area shape="rect" id="node17" href="$class_s_f_m_l_combat.html#ab1f7a0fa82f0cfd9c0a0e1c321f5f7e7" title="Choix de l&#39;attaque à lancer. " alt="" coords="495,607,682,634"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_combat.html#a39155235e6275b4d63b9317b9561843e" title="La boucle principale de Jeu. " alt="" coords="1029,187,1195,214"/>
+<area shape="rect" id="node5" href="$class_s_f_m_l_combat.html#ab8d4dfb3e7e4ca9722e52c1ef5fa897d" title="Boucle d&#39;affichage du menu Changer de Pokemon. " alt="" coords="473,390,704,416"/>
+<area shape="rect" id="node6" href="$class_s_f_m_l_combat.html#ab856672c59db95d55c7c28cd3a1eee93" title="SFMLCombat::changerMenu" alt="" coords="769,339,958,366"/>
+<area shape="rect" id="node7" href="$class_s_f_m_l_combat.html#a116d70985530e3c46e5b60adc910a1fb" title="La boucle principale de Jeu (version combat IA) " alt="" coords="1023,415,1201,442"/>
+<area shape="rect" id="node13" href="$class_s_f_m_l_combat.html#a8803b5fb491ebcba31787b0aa20a9c07" title="Boucle d&#39;affichage du menu attaque. " alt="" coords="503,288,674,315"/>
+<area shape="rect" id="node14" href="$class_s_f_m_l_combat.html#a55c6728be410efdf2ca919a9ee44728a" title="Boucle d&#39;affichage du menu objet. " alt="" coords="510,339,667,366"/>
+<area shape="rect" id="node18" href="$class_s_f_m_l_combat.html#ad72f480db9eb3f134e3736b1acb228c8" title="Reflexion de l&#39;IA sur l&#39;action à effectuer. " alt="" coords="776,608,951,635"/>
+</map>

@@ -1,0 +1,113 @@
+\hypertarget{class_animated_sprite}{}\section{Référence de la classe Animated\+Sprite}
+\label{class_animated_sprite}\index{Animated\+Sprite@{Animated\+Sprite}}
+
+
+Graphe d\textquotesingle{}héritage de Animated\+Sprite\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=264pt]{class_animated_sprite__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Graphe de collaboration de Animated\+Sprite\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{class_animated_sprite__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_animated_sprite_a097ab8444824e7085d71a1f7144e7763}\label{class_animated_sprite_a097ab8444824e7085d71a1f7144e7763}} 
+{\bfseries Animated\+Sprite} (sf\+::\+Time frame\+Time=sf\+::seconds(0.\+2f), bool paused=false, bool looped=true)
+\item 
+\mbox{\Hypertarget{class_animated_sprite_a17a41ff812631a9d8947d272933d6696}\label{class_animated_sprite_a17a41ff812631a9d8947d272933d6696}} 
+void {\bfseries update} (sf\+::\+Time delta\+Time)
+\item 
+\mbox{\Hypertarget{class_animated_sprite_ab1afc57d90d57a0c4bc4f5b090f2dacf}\label{class_animated_sprite_ab1afc57d90d57a0c4bc4f5b090f2dacf}} 
+void {\bfseries set\+Animation} (const \hyperlink{class_animation}{Animation} \&animation)
+\item 
+\mbox{\Hypertarget{class_animated_sprite_af598fab5c3599ccc5ed1e2d4fefa68cc}\label{class_animated_sprite_af598fab5c3599ccc5ed1e2d4fefa68cc}} 
+void {\bfseries set\+Frame\+Time} (sf\+::\+Time time)
+\item 
+\mbox{\Hypertarget{class_animated_sprite_a203b968f1cb374cca5dbc89716174020}\label{class_animated_sprite_a203b968f1cb374cca5dbc89716174020}} 
+void {\bfseries play} ()
+\item 
+\mbox{\Hypertarget{class_animated_sprite_a9ea345649a4e012d096bc04aafe1ecb0}\label{class_animated_sprite_a9ea345649a4e012d096bc04aafe1ecb0}} 
+void {\bfseries play} (const \hyperlink{class_animation}{Animation} \&animation)
+\item 
+\mbox{\Hypertarget{class_animated_sprite_a48384db59427423b5c1d98f6ee94fe45}\label{class_animated_sprite_a48384db59427423b5c1d98f6ee94fe45}} 
+void {\bfseries pause} ()
+\item 
+\mbox{\Hypertarget{class_animated_sprite_af9734f4346d3d2370322b2dcaeef133c}\label{class_animated_sprite_af9734f4346d3d2370322b2dcaeef133c}} 
+void {\bfseries stop} ()
+\item 
+\mbox{\Hypertarget{class_animated_sprite_a855a5a48ea2e1c51c7c9304857dd2f8c}\label{class_animated_sprite_a855a5a48ea2e1c51c7c9304857dd2f8c}} 
+void {\bfseries set\+Looped} (bool looped)
+\item 
+\mbox{\Hypertarget{class_animated_sprite_a1a96a0f6570efddd2eb26f89bc5b6f50}\label{class_animated_sprite_a1a96a0f6570efddd2eb26f89bc5b6f50}} 
+void {\bfseries set\+Color} (const sf\+::\+Color \&color)
+\item 
+\mbox{\Hypertarget{class_animated_sprite_a03bacdbaf638cb6f7987e342980206c2}\label{class_animated_sprite_a03bacdbaf638cb6f7987e342980206c2}} 
+const \hyperlink{class_animation}{Animation} $\ast$ {\bfseries get\+Animation} () const
+\item 
+\mbox{\Hypertarget{class_animated_sprite_ac4c88435c8698f452629c5cd78bfb3c9}\label{class_animated_sprite_ac4c88435c8698f452629c5cd78bfb3c9}} 
+sf\+::\+Float\+Rect {\bfseries get\+Local\+Bounds} () const
+\item 
+\mbox{\Hypertarget{class_animated_sprite_a86dca0906c53b3e630aaeac2f0085a0e}\label{class_animated_sprite_a86dca0906c53b3e630aaeac2f0085a0e}} 
+sf\+::\+Float\+Rect {\bfseries get\+Global\+Bounds} () const
+\item 
+\mbox{\Hypertarget{class_animated_sprite_aaf2c2fb0e1487e689af4a6bbeb7e3e85}\label{class_animated_sprite_aaf2c2fb0e1487e689af4a6bbeb7e3e85}} 
+bool {\bfseries is\+Looped} () const
+\item 
+\mbox{\Hypertarget{class_animated_sprite_a55f450add05d45e5369a6ad24f9e438f}\label{class_animated_sprite_a55f450add05d45e5369a6ad24f9e438f}} 
+bool {\bfseries is\+Playing} () const
+\item 
+\mbox{\Hypertarget{class_animated_sprite_a5291f8e24fe2c6e4284bc7ff9499ef77}\label{class_animated_sprite_a5291f8e24fe2c6e4284bc7ff9499ef77}} 
+sf\+::\+Time {\bfseries get\+Frame\+Time} () const
+\item 
+\mbox{\Hypertarget{class_animated_sprite_a0b3e38fffdc1d29f46fa08df9ef2a747}\label{class_animated_sprite_a0b3e38fffdc1d29f46fa08df9ef2a747}} 
+void {\bfseries set\+Frame} (std\+::size\+\_\+t new\+Frame, bool reset\+Time=true)
+\end{DoxyCompactItemize}
+\subsection*{Fonctions membres privées}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_animated_sprite_a7564b36acb807662e09a87e5eb45e59a}\label{class_animated_sprite_a7564b36acb807662e09a87e5eb45e59a}} 
+virtual void {\bfseries draw} (sf\+::\+Render\+Target \&target, sf\+::\+Render\+States states) const
+\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_animated_sprite_afd9382a05230debb398d514a071dde7f}\label{class_animated_sprite_afd9382a05230debb398d514a071dde7f}} 
+const \hyperlink{class_animation}{Animation} $\ast$ {\bfseries m\+\_\+animation}
+\item 
+\mbox{\Hypertarget{class_animated_sprite_afce08b67e38c971bd1b5ad7f6a554c6d}\label{class_animated_sprite_afce08b67e38c971bd1b5ad7f6a554c6d}} 
+sf\+::\+Time {\bfseries m\+\_\+frame\+Time}
+\item 
+\mbox{\Hypertarget{class_animated_sprite_ab87ffbc20845fe5a385aa54bcd5474e1}\label{class_animated_sprite_ab87ffbc20845fe5a385aa54bcd5474e1}} 
+sf\+::\+Time {\bfseries m\+\_\+current\+Time}
+\item 
+\mbox{\Hypertarget{class_animated_sprite_ab8b8a4ffdfb805d1398df75c75a6968c}\label{class_animated_sprite_ab8b8a4ffdfb805d1398df75c75a6968c}} 
+std\+::size\+\_\+t {\bfseries m\+\_\+current\+Frame}
+\item 
+\mbox{\Hypertarget{class_animated_sprite_a5254968002ee38358d213d0635bc850c}\label{class_animated_sprite_a5254968002ee38358d213d0635bc850c}} 
+bool {\bfseries m\+\_\+is\+Paused}
+\item 
+\mbox{\Hypertarget{class_animated_sprite_a4f9785ba745693bfcb8c184fe106e03a}\label{class_animated_sprite_a4f9785ba745693bfcb8c184fe106e03a}} 
+bool {\bfseries m\+\_\+is\+Looped}
+\item 
+\mbox{\Hypertarget{class_animated_sprite_a817156ebd0f7867a89352a6e94717af5}\label{class_animated_sprite_a817156ebd0f7867a89352a6e94717af5}} 
+const sf\+::\+Texture $\ast$ {\bfseries m\+\_\+texture}
+\item 
+\mbox{\Hypertarget{class_animated_sprite_a27a110055fb89389a0e3d523ebd49738}\label{class_animated_sprite_a27a110055fb89389a0e3d523ebd49738}} 
+sf\+::\+Vertex {\bfseries m\+\_\+vertices} \mbox{[}4\mbox{]}
+\end{DoxyCompactItemize}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+/home/corentin/\+Documents/lifap4/src/\+Animation\+Sprite/Animation\+Sprite.\+h\item 
+/home/corentin/\+Documents/lifap4/src/\+Animation\+Sprite/Animation\+Sprite.\+cpp\end{DoxyCompactItemize}

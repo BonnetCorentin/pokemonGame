@@ -1,0 +1,5 @@
+Mackogneur 0 16 -1 295 284 251 394 229 384 
+Normal/Belier.
+Normal/Charge.
+Normal/Combo Griffe.
+Normal/Coupe. 

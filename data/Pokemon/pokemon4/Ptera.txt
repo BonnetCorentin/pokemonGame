@@ -1,0 +1,5 @@
+Ptera 0 10 7 273 251 240 339 394 364 
+Eau/Coquilame.
+Eau/Hydrocanon.
+Eau/Hydroblast.
+Eau/Surf.

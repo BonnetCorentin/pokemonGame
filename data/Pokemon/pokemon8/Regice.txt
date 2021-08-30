@@ -1,0 +1,5 @@
+Regice 0 8 -1 548 328 328 218 218 364 
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

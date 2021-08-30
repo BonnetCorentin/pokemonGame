@@ -1,0 +1,5 @@
+Soporifik 0 9 -1 306 207 203 214 201 324 
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

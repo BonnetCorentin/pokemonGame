@@ -1,0 +1,5 @@
+Rayquaza 0 4 7 306 306 438 438 317 414
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

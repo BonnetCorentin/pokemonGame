@@ -1,0 +1,5 @@
+Entei 0 0 -1 273 295 306 361 328 434 
+Feu/Boutefeu.
+Feu/Canicule.
+Feu/Feu saint.
+Feu/Roue de feu.

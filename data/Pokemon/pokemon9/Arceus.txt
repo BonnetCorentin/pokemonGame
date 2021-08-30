@@ -1,0 +1,5 @@
+Arceus 0 6 -1 372 372 372 372 372 444 
+Electrik/Plasma punch.
+Eau/Hydrocanon.
+Feu/Roue de feu.
+Plante/Vegan Attack.

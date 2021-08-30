@@ -1,0 +1,34 @@
+<map id="SFMLMenu::action" name="SFMLMenu::action">
+<area shape="rect" id="node2" href="$class_s_f_m_l_charger.html#ae0c05ca2ca2080579fe94cc5e8f8b00c" title="La boucle principale de Jeu et qui permet de démarrer le jeu et encapsuler toutes les autres boucles ..." alt="" coords="185,258,389,285"/>
+<area shape="rect" id="node32" href="$class_s_f_m_l_menu.html#a4eda2cf8b00a4446674430cce575cbb5" title="Lance le tutoriel. " alt="" coords="217,309,357,335"/>
+<area shape="rect" id="node33" href="$class_s_f_m_l_menu.html#a1b9503962b7b6589b8a2dbd50f5a0d48" title="Ferme le jeu. " alt="" coords="210,359,365,386"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_charger.html#a95d81b6e6b28deb26f571d58bba3765c" title="Dessine avec le format selection un rectangle en fonction de la postion. " alt="" coords="437,207,652,234"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_charger.html#a75660d35cc51c9efa18f1b3b46af14bc" title="En fonction de l&#39;action du joueur, action va appeller de nouvelle fonction. " alt="" coords="471,258,618,285"/>
+<area shape="rect" id="node31" href="$class_s_f_m_l_charger.html#a8383210117de42ee9eb4f2642cde599e" title="Dessine avec le format defaut un rectangle en fonction de la postion. " alt="" coords="443,309,646,335"/>
+<area shape="rect" id="node5" href="$class_adversaire.html#a5540f25c07c308dcc31328501a980c1c" title="charge dans un fichier tout le contenu de l&#39;adversaire " alt="" coords="1497,26,1694,53"/>
+<area shape="rect" id="node10" href="$class_joueur.html#abec464c3958916f951e19ba5e12d0dbc" title="Accesseur de la variable niveau. " alt="" coords="1531,767,1659,794"/>
+<area shape="rect" id="node11" href="$class_joueur.html#a2bf2a581a2e4de27a812e21b360ab9f3" title="charge dans le joueur tous les informations contenues dans un fichier " alt="" coords="1520,77,1671,103"/>
+<area shape="rect" id="node12" href="$class_s_f_m_l_charger.html#a4c3135a3fa16c88f94cbef9c2ca2c2d8" title="S&#39;occupe d&#39;initialiser un nouveau joueur puis de le sauvegarder dans un fichier. " alt="" coords="700,221,931,263"/>
+<area shape="rect" id="node13" href="$class_s_f_m_l_charger.html#a67c610529df46560908104f963d741f1" title="S&#39;occupe d&#39;initialiser les pokémons du joueur. " alt="" coords="979,287,1173,314"/>
+<area shape="rect" id="node30" href="$class_s_f_m_l_charger.html#a988a052585ee0fe9e61535d5027a6f81" title="S&#39;occupe d&#39;initialiser un nouveau joueur puis de le sauvegarder dans un fichier. " alt="" coords="719,582,911,609"/>
+<area shape="rect" id="node6" href="$class_personnage.html#a46d6d6f6f9b647c04c1cad509bec0935" title="Mutateur de la variable nom. " alt="" coords="1788,26,1933,53"/>
+<area shape="rect" id="node7" href="$class_pokemon.html#a26771eddf70badfce2fe1aeaf2d89b81" title="charge dans le pokemon tous les informations contenues dans un fichier " alt="" coords="1769,127,1952,154"/>
+<area shape="rect" id="node9" href="$class_personnage.html#ae9e94e72e002695ae1461aa538e5e880" title="Mutateur d&#39;un pokémon du tableu de pokémon. " alt="" coords="1760,77,1961,103"/>
+<area shape="rect" id="node8" href="$class_attaque.html#ac6a1ff465a27d926b72807354e6587eb" title="Charge une attaque à partir d&#39;un fichier. " alt="" coords="2011,127,2207,154"/>
+<area shape="rect" id="node26" href="$class_joueur.html#a0bf50be14471ba0c0944b31c70bf6ad3" title="charge dans un fichier tout le contenu du joueur " alt="" coords="1237,229,1415,255"/>
+<area shape="rect" id="node14" href="$class_s_f_m_l_pokedex.html#a0b447d5b74964d395264d6d5e50aadbd" title="La boucle principale du Pokedex avec joueur. " alt="" coords="1221,465,1431,507"/>
+<area shape="rect" id="node15" href="$class_s_f_m_l_pokedex.html#ae5f87a7a8a5cb0e6d151f15646d7e4af" title="Remet un rectangle a default. " alt="" coords="1492,650,1699,677"/>
+<area shape="rect" id="node16" href="$class_s_f_m_l_pokedex.html#a9528e644324e4b4c6f0b0a3e7fcdde79" title="Change de page. " alt="" coords="1498,701,1693,743"/>
+<area shape="rect" id="node17" href="$class_s_f_m_l_pokedex.html#a94f3d84825cc9bac5efff4123b7cc154" title="Change de page. " alt="" coords="1765,654,1957,681"/>
+<area shape="rect" id="node18" href="$class_s_f_m_l_pokedex.html#a9760b492343dc3c07d49ec86f2160a95" title="Dessine l&#39;espace du bas. " alt="" coords="1501,447,1689,474"/>
+<area shape="rect" id="node21" href="$class_s_f_m_l_pokedex.html#a4cec507ffcc5916c32c8b14211c991fa" title="Lance le tutoriel. " alt="" coords="1486,498,1705,525"/>
+<area shape="rect" id="node22" href="$class_s_f_m_l_pokedex.html#af47eb49ddd0c3651f390b45b6697c2d2" title="La fonction de chargement. " alt="" coords="1501,381,1689,423"/>
+<area shape="rect" id="node23" href="$class_s_f_m_l_pokedex.html#a7693d7d78e637f1839f0459985cb59e3" title="Dessiner le Pokémon. " alt="" coords="1485,549,1705,575"/>
+<area shape="rect" id="node24" href="$class_personnage.html#abd45dd4e1a4099a6300c037fc41e1037" title="Accesseur d&#39;un pokémon du tableau de pokémon. " alt="" coords="1495,279,1696,306"/>
+<area shape="rect" id="node25" href="$class_pokemon.html#aca789a69b00c4e4189571507539bbc30" title="Accesseur de la variable nom. " alt="" coords="1530,330,1661,357"/>
+<area shape="rect" id="node19" href="$class_s_f_m_l_pokedex.html#a3729d8001348235c5ad12245cdb61b28" title="Recupere un Pokémon. " alt="" coords="1761,440,1960,481"/>
+<area shape="rect" id="node20" href="$class_s_f_m_l_pokedex.html#a16ac63df885664b02c66b06dd1cfa9ef" title="Recupere type d&#39;un Pokémon. " alt="" coords="2009,440,2208,481"/>
+<area shape="rect" id="node27" href="$class_personnage.html#a411597dd00afced2f6eeb70461833dbe" title="Accesseur de la variable nom. " alt="" coords="1523,178,1668,205"/>
+<area shape="rect" id="node28" href="$class_pokemon.html#a84a91b991611246fa387ede48e18d357" title="Accesseur de la variable niveauAvantDebloque. " alt="" coords="1479,229,1712,255"/>
+<area shape="rect" id="node29" href="$class_pokemon.html#a30cc5a78e55f02b460c37f9b326864d9" title="charge dans un fichier tout le contenu du pokemon " alt="" coords="1490,127,1701,154"/>
+</map>

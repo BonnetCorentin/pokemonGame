@@ -1,0 +1,5 @@
+Pikachu 0 5 -1 196 174 218 229 306 274
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

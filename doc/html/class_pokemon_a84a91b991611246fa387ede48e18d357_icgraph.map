@@ -1,0 +1,10 @@
+<map id="Pokemon::getNiveauAvantDebloque" name="Pokemon::getNiveauAvantDebloque">
+<area shape="rect" id="node2" href="$class_joueur.html#a0bf50be14471ba0c0944b31c70bf6ad3" title="charge dans un fichier tout le contenu du joueur " alt="" coords="287,31,465,57"/>
+<area shape="rect" id="node9" href="$class_pokemon.html#a1702b9d4b17a506f4f14a1f0ac142553" title="test toutes les fonctions de la classe " alt="" coords="289,81,463,108"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_charger.html#a4c3135a3fa16c88f94cbef9c2ca2c2d8" title="S&#39;occupe d&#39;initialiser un nouveau joueur puis de le sauvegarder dans un fichier. " alt="" coords="513,23,744,65"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_charger.html#a75660d35cc51c9efa18f1b3b46af14bc" title="En fonction de l&#39;action du joueur, action va appeller de nouvelle fonction. " alt="" coords="792,31,939,57"/>
+<area shape="rect" id="node5" href="$class_s_f_m_l_charger.html#ae0c05ca2ca2080579fe94cc5e8f8b00c" title="La boucle principale de Jeu et qui permet de démarrer le jeu et encapsuler toutes les autres boucles ..." alt="" coords="987,31,1191,57"/>
+<area shape="rect" id="node6" href="$class_s_f_m_l_menu.html#abbed99b9e874fd8e3f40a7b748576182" title="Le choix de l&#39;action. " alt="" coords="1259,5,1391,32"/>
+<area shape="rect" id="node8" href="$class_s_f_m_l_menu.html#aea4285a4b09f175d67fd96aa8456b213" title="Clic souris. " alt="" coords="1239,56,1411,83"/>
+<area shape="rect" id="node7" href="$class_s_f_m_l_menu.html#ab7eeb1a042f076ec28ce301c1d8d3660" title="La boucle principale de Jeu. " alt="" coords="1459,31,1649,57"/>
+</map>

@@ -1,0 +1,5 @@
+Ferosinge 0 16 -1 207 185 185 284 262 284
+Normal/Belier.
+Normal/Charge.
+Normal/Combo Griffe.
+Normal/Coupe. 

@@ -1,0 +1,13 @@
+
+Dard mortel. 
+2 30 100 25 0.
+Dard nuee. 
+2 25 95 20 0.
+Demi-Tour.
+2 70 100 20 0.
+Double dard.
+2 25 100 20 0.
+Megacorne.
+2 120 85 10 0.
+Plaie Croix. 
+2 80 100 15 0.

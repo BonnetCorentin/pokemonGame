@@ -1,0 +1,7 @@
+<map id="SFMLCharger::chargementNouveauJoueur" name="SFMLCharger::chargementNouveauJoueur">
+<area shape="rect" id="node2" href="$class_s_f_m_l_charger.html#a75660d35cc51c9efa18f1b3b46af14bc" title="En fonction de l&#39;action du joueur, action va appeller de nouvelle fonction. " alt="" coords="284,31,431,57"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_charger.html#ae0c05ca2ca2080579fe94cc5e8f8b00c" title="La boucle principale de Jeu et qui permet de démarrer le jeu et encapsuler toutes les autres boucles ..." alt="" coords="479,31,683,57"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_menu.html#abbed99b9e874fd8e3f40a7b748576182" title="Le choix de l&#39;action. " alt="" coords="751,5,883,32"/>
+<area shape="rect" id="node6" href="$class_s_f_m_l_menu.html#aea4285a4b09f175d67fd96aa8456b213" title="Clic souris. " alt="" coords="731,56,903,83"/>
+<area shape="rect" id="node5" href="$class_s_f_m_l_menu.html#ab7eeb1a042f076ec28ce301c1d8d3660" title="La boucle principale de Jeu. " alt="" coords="951,31,1141,57"/>
+</map>

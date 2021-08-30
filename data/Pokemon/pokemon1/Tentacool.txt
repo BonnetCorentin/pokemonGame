@@ -1,0 +1,5 @@
+Tentacool 0 1 16 328 185 218 196 262 284 
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

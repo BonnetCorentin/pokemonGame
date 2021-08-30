@@ -1,0 +1,5 @@
+Krabboss 0 1 -1 218 361 218 394 271 314
+Eau/Coquilame.
+Eau/Hydrocanon.
+Eau/Hydroblast.
+Eau/Surf.

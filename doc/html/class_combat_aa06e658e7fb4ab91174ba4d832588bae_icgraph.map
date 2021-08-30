@@ -1,0 +1,10 @@
+<map id="Combat::getPokeAdversaire" name="Combat::getPokeAdversaire">
+<area shape="rect" id="node2" href="$class_s_f_m_l_combat.html#af3dbb1374820d004fdf5907397760335" title="Calcul de la priorité des Joueurs. " alt="" coords="251,5,437,32"/>
+<area shape="rect" id="node6" href="$class_s_f_m_l_combat.html#ac8720bfe637fdaa932ef45240493bbd6" title="Chance d&#39;attaquer. " alt="" coords="243,56,445,83"/>
+<area shape="rect" id="node8" href="$class_s_f_m_l_combat.html#a00370ff45d848befb5d35c52bd1db2d5" title="Chance d&#39;utiliser un objet. " alt="" coords="252,107,436,133"/>
+<area shape="rect" id="node9" href="$class_s_f_m_l_combat.html#a4ba9a6e1f0c91eb425ac83649e443375" title="Chance de changer de Pokemon. " alt="" coords="240,157,448,184"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_combat.html#a4b2bed6ea12c96a58e55d968b1652597" title="Boucle d&#39;affichage des actions. " alt="" coords="497,12,669,39"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_combat.html#a39155235e6275b4d63b9317b9561843e" title="La boucle principale de Jeu. " alt="" coords="725,12,891,39"/>
+<area shape="rect" id="node5" href="$class_s_f_m_l_combat.html#a116d70985530e3c46e5b60adc910a1fb" title="La boucle principale de Jeu (version combat IA) " alt="" coords="719,88,897,115"/>
+<area shape="rect" id="node7" href="$class_s_f_m_l_combat.html#ad72f480db9eb3f134e3736b1acb228c8" title="Reflexion de l&#39;IA sur l&#39;action à effectuer. " alt="" coords="496,100,671,127"/>
+</map>

@@ -1,0 +1,5 @@
+Kokiyas 0 1 -1 163 328 207 251 196 364 
+Eau/Coquilame.
+Eau/Hydrocanon.
+Eau/Hydroblast.
+Eau/Surf.

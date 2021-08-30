@@ -1,0 +1,5 @@
+Crehelf 0 9 -1 394 394 273 273 317 354 
+Psy/Choc mental.
+Psy/Cauchemar.
+Psy/Rafale psy.
+Tenebre/Morsure.

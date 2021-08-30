@@ -1,0 +1,5 @@
+Regirock 0 10 -1 328 548 218 328 218 364 
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

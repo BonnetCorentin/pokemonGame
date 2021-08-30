@@ -1,0 +1,45 @@
+<map id="SFMLCombat::afficherAction" name="SFMLCombat::afficherAction">
+<area shape="rect" id="node2" href="$class_combat.html#aed2119127fb9b7ed023dd481927c27aa" title="Accesseur de quiJoue. " alt="" coords="276,208,419,235"/>
+<area shape="rect" id="node3" href="$class_combat.html#a9a44a83a9c1fe5d67f0b620dab547e56" title="Accesseur/Mutateur de PokePerso. " alt="" coords="258,259,437,285"/>
+<area shape="rect" id="node4" href="$class_combat.html#af72bd31264a8cdeeb3f3f8c30c727d33" title="Accesseur/Mutateur de Joueur. " alt="" coords="270,309,425,336"/>
+<area shape="rect" id="node5" href="$class_personnage.html#a411597dd00afced2f6eeb70461833dbe" title="Accesseur de la variable nom. " alt="" coords="275,360,420,387"/>
+<area shape="rect" id="node6" href="$class_combat.html#a4f02e335d825eb98b64d5410a590b9f8" title="Accesseur/Mutateur de PokeAdversaire. " alt="" coords="244,411,451,437"/>
+<area shape="rect" id="node7" href="$class_combat.html#a59088f5725884e9c363ad72a946c82ef" title="Accesseur/Mutateur de Adversaire. " alt="" coords="259,461,436,488"/>
+<area shape="rect" id="node8" href="$class_pokemon.html#a97e2f2b4b811d5e2bbcb038fb70f57ce" title="Accesseur de la variable NbPV. " alt="" coords="549,765,671,792"/>
+<area shape="rect" id="node9" href="$class_pokemon.html#aca789a69b00c4e4189571507539bbc30" title="Accesseur de la variable nom. " alt="" coords="282,968,413,995"/>
+<area shape="rect" id="node10" href="$class_combat.html#a310a968bf21791e88753ca6c6a024d8d" title="Lance une attaque. " alt="" coords="269,512,425,539"/>
+<area shape="rect" id="node27" href="$class_pokemon.html#a5688276dbf96174ceccec44d416f2df6" title="Accesseur d&#39;une attaque du tableau d&#39;attaque par pointeur. " alt="" coords="248,1019,447,1045"/>
+<area shape="rect" id="node28" href="$class_attaque.html#a2d3e865f856f681f79934680b25ac372" title="Accesseur de nom. " alt="" coords="287,1069,408,1096"/>
+<area shape="rect" id="node29" href="$class_combat.html#a3ab678df151ed9210806f89d1aeb47ab" title="Utilise un Objet. " alt="" coords="275,867,420,893"/>
+<area shape="rect" id="node34" href="$class_sac.html#a41f03b324ccd719767a473fca7d2e8ec" title="Accesseur d&#39;un objet du sac par référence. " alt="" coords="774,1208,926,1235"/>
+<area shape="rect" id="node41" href="$class_personnage.html#acb7d9ff9b6b6753b8c93fae58f428db1" title="Accesseur du sac par référence. " alt="" coords="267,1120,428,1147"/>
+<area shape="rect" id="node42" href="$class_objet.html#a29be0a2d83cdebac4fedd495e3824515" title="Accesseur de la variable nomObjet. " alt="" coords="278,1171,417,1197"/>
+<area shape="rect" id="node43" href="$class_combat.html#a567eab49812ecbd2d694e8cf064e800a" title="Changer de Pokemon. " alt="" coords="250,625,445,652"/>
+<area shape="rect" id="node44" href="$class_personnage.html#aeab0448ba1e833d57ee17827e3a6ac0d" title="Accesseur d&#39;un pokémon du tableau de pokémon par référence. " alt="" coords="499,664,721,691"/>
+<area shape="rect" id="node11" href="$class_pokemon.html#aad16e1f997ee22fe4f0ec385c5bdbc55" title="Accesseur d&#39;une attaque du tableau d&#39;attaque par référence. " alt="" coords="521,715,699,741"/>
+<area shape="rect" id="node12" href="$class_attaque.html#aa95b1e494a9c24dfd28c585e46cd1eb8" title="Accesseur de nbPP. " alt="" coords="546,512,674,539"/>
+<area shape="rect" id="node13" href="$class_combat.html#a08f55247e72fa775222b4f0dcc210f23" title="Calcul du STAB. " alt="" coords="536,563,684,589"/>
+<area shape="rect" id="node16" href="$class_combat.html#a0bd1f896d7e1667fd5ea86658d30d2c9" title="Calcul de l&#39;éfficacité. " alt="" coords="511,5,709,32"/>
+<area shape="rect" id="node17" href="$class_attaque.html#ada8c22f0becc001b46e6a7f2da00a1ef" title="Accesseur de Précision. " alt="" coords="537,56,683,83"/>
+<area shape="rect" id="node18" href="$class_attaque.html#acb25c596d5b90b2330d3188749bc130d" title="Accesseur de typeAttaque. " alt="" coords="527,107,693,133"/>
+<area shape="rect" id="node19" href="$class_pokemon.html#a27ae3d139d0c958b2f605743eb8f8a6d" title="Accesseur de la variable attaquePhysique. " alt="" coords="509,157,711,184"/>
+<area shape="rect" id="node20" href="$class_pokemon.html#a90e8c3b16d39995fcbcfd01834f57be7" title="Accesseur de la variable defensePhysique. " alt="" coords="507,208,713,235"/>
+<area shape="rect" id="node21" href="$class_pokemon.html#ace1c2940d8870b907cc2b0cd29f6efba" title="Accesseur de la variable attaqueSpeciale. " alt="" coords="511,259,709,285"/>
+<area shape="rect" id="node22" href="$class_pokemon.html#a5f932295f014353aeead20e0225b6eee" title="Accesseur de la variable defenseSpeciale. " alt="" coords="509,309,711,336"/>
+<area shape="rect" id="node23" href="$class_attaque.html#a92ae062d505e82c80621069dc6a917d1" title="Accesseur de Puissance. " alt="" coords="533,360,687,387"/>
+<area shape="rect" id="node24" href="$class_pokemon.html#aa036561ffd7e31e668b37785e88a8c51" title="Baisse NbPV du nombre de la variable passé en paramètre. " alt="" coords="540,411,680,437"/>
+<area shape="rect" id="node25" href="$class_attaque.html#ad6320c58f467865c778aae13c75c558f" title="Baisse le nombre de PP de l&#39;attaque de 1 unité " alt="" coords="534,461,686,488"/>
+<area shape="rect" id="node26" href="$class_combat.html#a2848c91d76a09943dd5effb1904f1937" title="Changer le tour de Jeu. " alt="" coords="525,613,695,640"/>
+<area shape="rect" id="node14" href="$class_attaque.html#af43d72ec9abad98f04e21e245cece692" title="Accesseur de type. " alt="" coords="789,132,911,159"/>
+<area shape="rect" id="node15" href="$class_pokemon.html#a3d9cc7fe1b38d8d8ea3ef499116c0eac" title="Accesseur d&#39;un type du tableau. " alt="" coords="769,436,931,463"/>
+<area shape="rect" id="node30" href="$class_personnage.html#a32cf123b507c36c8adbf9bd22cb0b9a2" title="Accesseur d&#39;un objet dans le sac. " alt="" coords="509,1069,711,1096"/>
+<area shape="rect" id="node32" href="$class_objet.html#a3352afeefcae6415b3c73112fd588ab5" title="Accesseur de la variable quantite. " alt="" coords="546,1019,674,1045"/>
+<area shape="rect" id="node33" href="$class_personnage.html#a6b3462a550a38c9e9163495c2b2015f4" title="Accesseur d&#39;un objet dans le sac par référence. " alt="" coords="521,1121,699,1162"/>
+<area shape="rect" id="node35" href="$class_objet.html#ab75ba7bf1170582a4d50ba8848be2848" title="Accesseur de la variable TypeObjet. " alt="" coords="541,1187,679,1213"/>
+<area shape="rect" id="node36" href="$class_pokemon.html#af11b525fb21bb7fbb86c43d1ddad738a" title="Accesseur de la variable NbPVMax. " alt="" coords="537,1237,683,1264"/>
+<area shape="rect" id="node37" href="$class_objet.html#aa39f9e7546969cc0a53a2412deb4d27a" title="baisse la quantité de l&#39;objet de un " alt="" coords="534,816,686,843"/>
+<area shape="rect" id="node38" href="$class_pokemon.html#ac5ce7b3dd6a431cbc5d73c27e4aeac36" title="Augmente NbPV du nombre de la variable passé en paramètre. " alt="" coords="541,867,679,893"/>
+<area shape="rect" id="node39" href="$class_attaque.html#a6e0b308dd1d9ddab688378e2630cb597" title="Mutateur de nbPP. " alt="" coords="546,917,674,944"/>
+<area shape="rect" id="node40" href="$class_attaque.html#a651deeca5e47dd04929bd1c9d013c86e" title="Accesseur de nbPPMax. " alt="" coords="533,968,687,995"/>
+<area shape="rect" id="node31" href="$class_sac.html#af8d00752356d84df7e235c8aeded571b" title="Accesseur d&#39;un objet du sac. " alt="" coords="785,1069,915,1096"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="SFMLCombat::ecrireAttaque" name="SFMLCombat::ecrireAttaque">
+<area shape="rect" id="node2" href="$class_combat.html#aed2119127fb9b7ed023dd481927c27aa" title="Accesseur de quiJoue. " alt="" coords="273,5,416,32"/>
+<area shape="rect" id="node3" href="$class_combat.html#a9a44a83a9c1fe5d67f0b620dab547e56" title="Accesseur/Mutateur de PokePerso. " alt="" coords="255,56,434,83"/>
+<area shape="rect" id="node4" href="$class_combat.html#a4f02e335d825eb98b64d5410a590b9f8" title="Accesseur/Mutateur de PokeAdversaire. " alt="" coords="241,107,448,133"/>
+<area shape="rect" id="node5" href="$class_pokemon.html#a5688276dbf96174ceccec44d416f2df6" title="Accesseur d&#39;une attaque du tableau d&#39;attaque par pointeur. " alt="" coords="245,157,444,184"/>
+<area shape="rect" id="node6" href="$class_attaque.html#a2d3e865f856f681f79934680b25ac372" title="Accesseur de nom. " alt="" coords="284,208,405,235"/>
+<area shape="rect" id="node7" href="$class_attaque.html#aa95b1e494a9c24dfd28c585e46cd1eb8" title="Accesseur de nbPP. " alt="" coords="281,259,409,285"/>
+<area shape="rect" id="node8" href="$class_attaque.html#a651deeca5e47dd04929bd1c9d013c86e" title="Accesseur de nbPPMax. " alt="" coords="268,309,421,336"/>
+<area shape="rect" id="node9" href="$class_attaque.html#a92ae062d505e82c80621069dc6a917d1" title="Accesseur de Puissance. " alt="" coords="267,360,422,387"/>
+<area shape="rect" id="node10" href="$class_attaque.html#ada8c22f0becc001b46e6a7f2da00a1ef" title="Accesseur de Précision. " alt="" coords="271,411,418,437"/>
+<area shape="rect" id="node11" href="$class_attaque.html#af43d72ec9abad98f04e21e245cece692" title="Accesseur de type. " alt="" coords="283,461,406,488"/>
+</map>

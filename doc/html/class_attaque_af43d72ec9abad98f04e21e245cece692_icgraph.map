@@ -1,0 +1,17 @@
+<map id="Attaque::getType" name="Attaque::getType">
+<area shape="rect" id="node2" href="$class_attaque.html#a21b14fe41db692f8e38aa1821a3519b9" title="Opérateur égale de Attaque. " alt="" coords="212,5,343,32"/>
+<area shape="rect" id="node3" href="$class_attaque.html#a8017dbfbf4af62e113d27d093a2786c6" title="Charge une attaque à partir d&#39;un fichier. " alt="" coords="196,56,359,83"/>
+<area shape="rect" id="node4" href="$class_combat.html#a08f55247e72fa775222b4f0dcc210f23" title="Calcul du STAB. " alt="" coords="203,208,351,235"/>
+<area shape="rect" id="node10" href="$class_combat.html#a0bd1f896d7e1667fd5ea86658d30d2c9" title="Calcul de l&#39;éfficacité. " alt="" coords="179,157,376,184"/>
+<area shape="rect" id="node11" href="$class_s_f_m_l_combat.html#a83899ae7d061225976857060d2a16388" title="SFMLCombat::ecrireAttaque" alt="" coords="427,113,615,140"/>
+<area shape="rect" id="node14" href="$class_s_f_m_l_combat.html#ac8720bfe637fdaa932ef45240493bbd6" title="Chance d&#39;attaquer. " alt="" coords="176,309,379,336"/>
+<area shape="rect" id="node16" href="$class_s_f_m_l_combat.html#ab1f7a0fa82f0cfd9c0a0e1c321f5f7e7" title="Choix de l&#39;attaque à lancer. " alt="" coords="184,259,371,285"/>
+<area shape="rect" id="node5" href="$class_combat.html#a310a968bf21791e88753ca6c6a024d8d" title="Lance une attaque. " alt="" coords="443,201,599,228"/>
+<area shape="rect" id="node6" href="$class_s_f_m_l_combat.html#acc968da97d4c933f516e67b0356e3d73" title="Affichage textuel des actions effectués. " alt="" coords="663,201,853,228"/>
+<area shape="rect" id="node7" href="$class_s_f_m_l_combat.html#a4b2bed6ea12c96a58e55d968b1652597" title="Boucle d&#39;affichage des actions. " alt="" coords="910,201,1082,228"/>
+<area shape="rect" id="node8" href="$class_s_f_m_l_combat.html#a39155235e6275b4d63b9317b9561843e" title="La boucle principale de Jeu. " alt="" coords="1145,151,1311,177"/>
+<area shape="rect" id="node9" href="$class_s_f_m_l_combat.html#a116d70985530e3c46e5b60adc910a1fb" title="La boucle principale de Jeu (version combat IA) " alt="" coords="1139,201,1317,228"/>
+<area shape="rect" id="node12" href="$class_s_f_m_l_combat.html#a8803b5fb491ebcba31787b0aa20a9c07" title="Boucle d&#39;affichage du menu attaque. " alt="" coords="673,139,843,165"/>
+<area shape="rect" id="node13" href="$class_s_f_m_l_combat.html#ab856672c59db95d55c7c28cd3a1eee93" title="SFMLCombat::changerMenu" alt="" coords="901,151,1091,177"/>
+<area shape="rect" id="node15" href="$class_s_f_m_l_combat.html#ad72f480db9eb3f134e3736b1acb228c8" title="Reflexion de l&#39;IA sur l&#39;action à effectuer. " alt="" coords="433,259,608,285"/>
+</map>

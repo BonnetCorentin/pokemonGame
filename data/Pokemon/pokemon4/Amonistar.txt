@@ -1,0 +1,5 @@
+Amonistar 0 1 10 262 383 361 240 229 244
+Eau/Coquilame.
+Eau/Hydrocanon.
+Eau/Hydroblast.
+Eau/Surf.

@@ -1,0 +1,5 @@
+<map id="Objet::setTypeObjet" name="Objet::setTypeObjet">
+<area shape="rect" id="node2" href="$class_objet.html#a1e7b9c9e5cc9417b182258bcb7a0ae21" title="test toutes les fonctions de la classe " alt="" coords="197,5,347,32"/>
+<area shape="rect" id="node3" href="$class_sac.html#a7b750145a41ee6598eba31d6568efa77" title="Mutateur du type d&#39;un objet du sac. " alt="" coords="192,56,352,83"/>
+<area shape="rect" id="node4" href="$class_sac.html#a0cf1af6ea1eb5a6f64f8b37a3f2d5a4b" title="Constructeur par défaut qui initialise le sac avec des objets et met leur quantité à 5..." alt="" coords="400,56,476,83"/>
+</map>

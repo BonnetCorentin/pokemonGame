@@ -1,0 +1,5 @@
+Cresselia 0 9 -1 394 372 273 264 295 444
+Psy/Choc mental.
+Psy/Cauchemar.
+Psy/Rafale psy.
+Tenebre/Morsure.

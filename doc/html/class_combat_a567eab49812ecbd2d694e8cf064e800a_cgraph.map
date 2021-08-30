@@ -1,0 +1,4 @@
+<map id="Combat::changerDePokemon" name="Combat::changerDePokemon">
+<area shape="rect" id="node2" href="$class_personnage.html#aeab0448ba1e833d57ee17827e3a6ac0d" title="Accesseur d&#39;un pokémon du tableau de pokémon par référence. " alt="" coords="248,5,471,32"/>
+<area shape="rect" id="node3" href="$class_combat.html#a2848c91d76a09943dd5effb1904f1937" title="Changer le tour de Jeu. " alt="" coords="274,56,445,83"/>
+</map>

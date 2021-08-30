@@ -1,0 +1,5 @@
+Goupix 0 0 -1 251 196 218 199 251 280 
+Feu/Boutefeu.
+Feu/Canicule.
+Feu/Feu saint.
+Feu/Roue de feu.

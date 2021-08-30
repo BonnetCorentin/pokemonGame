@@ -1,0 +1,5 @@
+Smogo 0 13 -1 207 317 240 251 185 284 
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

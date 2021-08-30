@@ -1,0 +1,9 @@
+<map id="SFMLCombat::affGagnant" name="SFMLCombat::affGagnant">
+<area shape="rect" id="node2" href="$class_s_f_m_l_combat.html#aea2c9616512a2cb0c5e7e2f676a5daab" title="Dessine l&#39;écran de fin de partie. " alt="" coords="228,132,437,159"/>
+<area shape="rect" id="node3" href="$class_combat.html#a7faa6a3b11778224b04524db1418d67f" title="Accesseur de joueurGagnant. " alt="" coords="505,5,688,32"/>
+<area shape="rect" id="node4" href="$class_combat.html#af72bd31264a8cdeeb3f3f8c30c727d33" title="Accesseur/Mutateur de Joueur. " alt="" coords="519,56,674,83"/>
+<area shape="rect" id="node5" href="$class_personnage.html#a411597dd00afced2f6eeb70461833dbe" title="Accesseur de la variable nom. " alt="" coords="524,107,669,133"/>
+<area shape="rect" id="node6" href="$class_combat.html#a59088f5725884e9c363ad72a946c82ef" title="Accesseur/Mutateur de Adversaire. " alt="" coords="508,157,685,184"/>
+<area shape="rect" id="node7" href="$class_personnage.html#aeab0448ba1e833d57ee17827e3a6ac0d" title="Accesseur d&#39;un pokémon du tableau de pokémon par référence. " alt="" coords="485,208,708,235"/>
+<area shape="rect" id="node8" href="$class_pokemon.html#aca789a69b00c4e4189571507539bbc30" title="Accesseur de la variable nom. " alt="" coords="531,259,662,285"/>
+</map>

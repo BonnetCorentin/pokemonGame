@@ -1,0 +1,7 @@
+<map id="/home/corentin/Documents/lifap4/src/SFMLPokedex/SFMLPokedex.h" name="/home/corentin/Documents/lifap4/src/SFMLPokedex/SFMLPokedex.h">
+<area shape="rect" id="node2" href="$_pokemon_8h.html" title="Classe Pokemon qui gère un pokémon et qui contient son type d&#39;objet,son nom,sa description et sa quan..." alt="" coords="125,184,283,211"/>
+<area shape="rect" id="node14" href="$_personnage_8h.html" title="Module gérant un Personnage dans PokePEIP. " alt="" coords="289,109,476,136"/>
+<area shape="rect" id="node3" href="$_objet_8h.html" title="Module gérant un objet dans le jeu PokePEIP. " alt="" coords="291,259,402,285"/>
+<area shape="rect" id="node5" href="$_attaque_8h.html" title="Documentation du module Attaque. Le module Attaque représente les attaques qui seront utilisés par le..." alt="" coords="77,259,216,285"/>
+<area shape="rect" id="node15" href="$_sac_8h_source.html" title="../Sac/Sac.h" alt="" coords="307,184,402,211"/>
+</map>

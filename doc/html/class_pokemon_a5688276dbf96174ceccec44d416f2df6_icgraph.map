@@ -1,0 +1,11 @@
+<map id="Pokemon::getIemeAttaqueRef" name="Pokemon::getIemeAttaqueRef">
+<area shape="rect" id="node2" href="$class_s_f_m_l_combat.html#acc968da97d4c933f516e67b0356e3d73" title="Affichage textuel des actions effectués. " alt="" coords="252,56,443,83"/>
+<area shape="rect" id="node6" href="$class_s_f_m_l_combat.html#a83899ae7d061225976857060d2a16388" title="SFMLCombat::ecrireAttaque" alt="" coords="253,5,441,32"/>
+<area shape="rect" id="node9" href="$class_s_f_m_l_combat.html#ab1f7a0fa82f0cfd9c0a0e1c321f5f7e7" title="Choix de l&#39;attaque à lancer. " alt="" coords="254,107,441,133"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_combat.html#a4b2bed6ea12c96a58e55d968b1652597" title="Boucle d&#39;affichage des actions. " alt="" coords="722,56,894,83"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_combat.html#a39155235e6275b4d63b9317b9561843e" title="La boucle principale de Jeu. " alt="" coords="957,5,1123,32"/>
+<area shape="rect" id="node5" href="$class_s_f_m_l_combat.html#a116d70985530e3c46e5b60adc910a1fb" title="La boucle principale de Jeu (version combat IA) " alt="" coords="951,56,1129,83"/>
+<area shape="rect" id="node7" href="$class_s_f_m_l_combat.html#a8803b5fb491ebcba31787b0aa20a9c07" title="Boucle d&#39;affichage du menu attaque. " alt="" coords="493,5,663,32"/>
+<area shape="rect" id="node8" href="$class_s_f_m_l_combat.html#ab856672c59db95d55c7c28cd3a1eee93" title="SFMLCombat::changerMenu" alt="" coords="713,5,903,32"/>
+<area shape="rect" id="node10" href="$class_s_f_m_l_combat.html#ad72f480db9eb3f134e3736b1acb228c8" title="Reflexion de l&#39;IA sur l&#39;action à effectuer. " alt="" coords="491,107,665,133"/>
+</map>

@@ -1,0 +1,5 @@
+Magneton 0 5 3 262 317 372 240 262 304
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

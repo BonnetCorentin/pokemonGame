@@ -1,0 +1,7 @@
+<map id="SFMLCombat::affBarreDeVie" name="SFMLCombat::affBarreDeVie">
+<area shape="rect" id="node2" href="$class_combat.html#a9a44a83a9c1fe5d67f0b620dab547e56" title="Accesseur/Mutateur de PokePerso. " alt="" coords="261,5,439,32"/>
+<area shape="rect" id="node3" href="$class_combat.html#a4f02e335d825eb98b64d5410a590b9f8" title="Accesseur/Mutateur de PokeAdversaire. " alt="" coords="247,56,453,83"/>
+<area shape="rect" id="node4" href="$class_pokemon.html#a97e2f2b4b811d5e2bbcb038fb70f57ce" title="Accesseur de la variable NbPV. " alt="" coords="289,107,411,133"/>
+<area shape="rect" id="node5" href="$class_pokemon.html#af11b525fb21bb7fbb86c43d1ddad738a" title="Accesseur de la variable NbPVMax. " alt="" coords="277,157,423,184"/>
+<area shape="rect" id="node6" href="$class_pokemon.html#aca789a69b00c4e4189571507539bbc30" title="Accesseur de la variable nom. " alt="" coords="285,208,415,235"/>
+</map>

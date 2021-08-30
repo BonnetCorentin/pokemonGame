@@ -1,0 +1,5 @@
+Machopeur 0 16 -1 240 262 218 328 207 364 
+Normal/Belier.
+Normal/Charge.
+Normal/Combo Griffe.
+Normal/Coupe. 

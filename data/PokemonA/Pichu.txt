@@ -1,0 +1,5 @@
+Pichu 0 5 -1 185 141 185 196 240 244 
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

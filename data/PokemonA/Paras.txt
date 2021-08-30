@@ -1,0 +1,5 @@
+Paras 0 2 15 229 229 207 262 163 274 
+Plante/Canon Graine.
+Plante/Fouet lianes.
+Plante/Lame feuille.
+Plante/Poing Dard.

@@ -1,0 +1,5 @@
+Aquali 0 1 -1 317 240 350 251 251 464 
+Eau/Coquilame.
+Eau/Hydrocanon.
+Eau/Hydroblast.
+Eau/Surf.

@@ -1,0 +1,8 @@
+<map id="Personnage::recevoirObjet" name="Personnage::recevoirObjet">
+<area shape="rect" id="node2" href="$class_objet.html#ab75ba7bf1170582a4d50ba8848be2848" title="Accesseur de la variable TypeObjet. " alt="" coords="271,5,410,32"/>
+<area shape="rect" id="node3" href="$class_sac.html#a1dee8b8525a1e9c00a8f0f3da5cdd4d2" title="Augmente la quantité d&#39;un objet du sac. " alt="" coords="229,56,452,83"/>
+<area shape="rect" id="node7" href="$class_objet.html#a3352afeefcae6415b3c73112fd588ab5" title="Accesseur de la variable quantite. " alt="" coords="728,81,856,108"/>
+<area shape="rect" id="node4" href="$class_sac.html#afa8ad056c3e5ac4de8daecc6d9772580" title="Mutateur de la quantité d&#39;un objet du sac. " alt="" coords="500,5,680,32"/>
+<area shape="rect" id="node6" href="$class_sac.html#a09dbee93f5c31ed563d87171de923d8c" title="Accesseur d&#39;un objet du sac. " alt="" coords="500,56,680,83"/>
+<area shape="rect" id="node5" href="$class_objet.html#a92eac9151b39f0a03a94ba02f25018c9" title="Mutateur de la variable quantite. " alt="" coords="728,5,856,32"/>
+</map>

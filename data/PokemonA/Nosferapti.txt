@@ -1,0 +1,5 @@
+Nosferapti 0 13 7 196 185 174 207 229 284 
+Normal/Belier.
+Normal/Charge.
+Normal/Combo Griffe.
+Normal/Coupe. 

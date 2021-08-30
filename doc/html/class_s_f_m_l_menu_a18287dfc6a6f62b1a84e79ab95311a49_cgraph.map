@@ -1,0 +1,15 @@
+<map id="SFMLMenu::SourisFerme" name="SFMLMenu::SourisFerme">
+<area shape="rect" id="node2" href="$class_s_f_m_l_menu.html#ab7eeb1a042f076ec28ce301c1d8d3660" title="La boucle principale de Jeu. " alt="" coords="224,249,415,275"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_menu.html#a563ba1ff94cc5a0a14345ef375f8549f" title="Initialise l&#39;accueil. " alt="" coords="480,5,645,47"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_menu.html#a324c14139ab2c9587a0df5050397fa95" title="Initialise le menu. " alt="" coords="464,71,661,98"/>
+<area shape="rect" id="node5" href="$class_s_f_m_l_menu.html#a57d8df3871bf10c7ba48dcebdbbd7359" title="Initialise le fond. " alt="" coords="465,122,660,149"/>
+<area shape="rect" id="node6" href="$class_s_f_m_l_menu.html#a1b9503962b7b6589b8a2dbd50f5a0d48" title="Ferme le jeu. " alt="" coords="711,173,865,199"/>
+<area shape="rect" id="node7" href="$class_s_f_m_l_menu.html#aea4285a4b09f175d67fd96aa8456b213" title="Clic souris. " alt="" coords="477,274,649,301"/>
+<area shape="rect" id="node9" href="$class_s_f_m_l_menu.html#a82219455a672aebd4f214ca006dfd7c0" title="Augmente/diminue le son. " alt="" coords="712,325,864,351"/>
+<area shape="rect" id="node11" href="$class_s_f_m_l_menu.html#acd577e51e9a54e6028976e5c739e5e92" title="Remet un rectangle a default. " alt="" coords="469,375,657,402"/>
+<area shape="rect" id="node12" href="$class_s_f_m_l_menu.html#a9277783624a1058bfa5cb7e9dbc16d5c" title="Met un rectangle d&#39;une autre couleur. " alt="" coords="463,426,663,453"/>
+<area shape="rect" id="node13" href="$class_s_f_m_l_menu.html#abbed99b9e874fd8e3f40a7b748576182" title="Le choix de l&#39;action. " alt="" coords="497,223,629,250"/>
+<area shape="rect" id="node14" href="$class_s_f_m_l_menu.html#a5f87fa77e5029f1d2127e6796c6b6fd1" title="Dessine. " alt="" coords="466,477,659,503"/>
+<area shape="rect" id="node8" href="$class_s_f_m_l_menu.html#a4eda2cf8b00a4446674430cce575cbb5" title="Lance le tutoriel. " alt="" coords="718,223,858,250"/>
+<area shape="rect" id="node10" href="$class_s_f_m_l_menu.html#a05f9dda2fac7c0c0a354c5caa5faccb5" title="Coupe le son. " alt="" coords="913,299,1072,326"/>
+</map>

@@ -1,0 +1,5 @@
+Ramoloss 0 1 9 196 251 196 251 141 384 
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

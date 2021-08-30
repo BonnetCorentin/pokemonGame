@@ -1,0 +1,39 @@
+type d'attaque:
+physique = 0
+speciale = 1
+pasTypeAttaque = -1
+
+Effet attaque:
+bruler = 0
+endormir = 1
+paralyser = 2
+etourdir = 3
+empoisoner = 4
+apeurer = 5
+geler = 6
+paseffet = -1
+
+type:
+feu 0
+eau 1
+insecte 2
+acier 3
+dragon 4
+electrik 5
+normal 6
+vol 7
+glace 8
+psy 9
+roche 10
+tenebre 11
+spectre 12
+poison 13
+sol 14
+plante 15
+combat 16
+fée 17
+pastype -1
+
+ORDRE:
+Nom 
+type precision puissance ppmax typeattaque

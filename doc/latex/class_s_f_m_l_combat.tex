@@ -1,0 +1,1359 @@
+\hypertarget{class_s_f_m_l_combat}{}\section{Référence de la classe S\+F\+M\+L\+Combat}
+\label{class_s_f_m_l_combat}\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+
+
+La classe gérant la partie I\+HM du combat.  
+
+
+
+
+{\ttfamily \#include \char`\"{}src/\+S\+F\+M\+L\+Combat/\+S\+F\+M\+L.\+h\char`\"{}}
+
+
+
+Graphe de collaboration de S\+F\+M\+L\+Combat\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_s_f_m_l_combat_a11ee4d8a8bc7f6cf85658af0f4b4b2a2}{S\+F\+M\+L\+Combat} (sf\+::\+Render\+Window \&menu\+Window, \hyperlink{class_combat}{Combat} \&combat\+En\+Cours)
+\begin{DoxyCompactList}\small\item\em Constructeur de \hyperlink{class_s_f_m_l_combat}{S\+F\+M\+L\+Combat}. \end{DoxyCompactList}\item 
+\hyperlink{class_s_f_m_l_combat_ac8e843e7ab09e8e8c18f9ddde4f17d6c}{S\+F\+M\+L\+Combat} (\hyperlink{class_combat}{Combat} \&combat\+En\+Cours)
+\begin{DoxyCompactList}\small\item\em Constructeur de \hyperlink{class_s_f_m_l_combat}{S\+F\+M\+L\+Combat}. \end{DoxyCompactList}\item 
+\hyperlink{class_s_f_m_l_combat_a28a895c7f9efdbe12cb47e3495500346}{S\+F\+M\+L\+Combat} (sf\+::\+Render\+Window \&menu\+Window)
+\begin{DoxyCompactList}\small\item\em Constructeur de \hyperlink{class_s_f_m_l_combat}{S\+F\+M\+L\+Combat}. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_combat_a39155235e6275b4d63b9317b9561843e}{aff\+Boucle} ()
+\begin{DoxyCompactList}\small\item\em La boucle principale de Jeu. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_combat_a116d70985530e3c46e5b60adc910a1fb}{aff\+Boucle\+IA} ()
+\begin{DoxyCompactList}\small\item\em La boucle principale de Jeu (version combat IA) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Fonctions membres privées}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_combat}{Combat} $\ast$ \hyperlink{class_s_f_m_l_combat_a1529363beee93ae18694046822ea2e53}{get\+Combat\+Ref} ()
+\begin{DoxyCompactList}\small\item\em Permet de récupérer un pointeur sur combat. \end{DoxyCompactList}\item 
+bool \hyperlink{class_s_f_m_l_combat_af7ddb137c3bbaff70d2c566137c2cbb7}{test\+Pokemon\+En\+Vie} ()
+\begin{DoxyCompactList}\small\item\em Test si une équipe \hyperlink{class_pokemon}{Pokemon} entière est KO. \end{DoxyCompactList}\item 
+int \hyperlink{class_s_f_m_l_combat_a2665ce99eeccb4bdb1e032086a9feb04}{pokemon\+KO} ()
+\begin{DoxyCompactList}\small\item\em Test si un des \hyperlink{class_pokemon}{Pokemon} combattant est KO. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_combat_ace8cd35d8b2bbc86478a7a28bf0996b4}{aff\+Gagnant} ()
+\begin{DoxyCompactList}\small\item\em Boucle d\textquotesingle{}affichage de fin de partie. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_combat_aea2c9616512a2cb0c5e7e2f676a5daab}{dessiner\+Gagnant} ()
+\begin{DoxyCompactList}\small\item\em Dessine l\textquotesingle{}écran de fin de partie. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_combat_a8803b5fb491ebcba31787b0aa20a9c07}{aff\+Attaque} ()
+\begin{DoxyCompactList}\small\item\em Boucle d\textquotesingle{}affichage du menu attaque. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_combat_a55c6728be410efdf2ca919a9ee44728a}{aff\+Objet} ()
+\begin{DoxyCompactList}\small\item\em Boucle d\textquotesingle{}affichage du menu objet. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_combat_a578125c9faee0eebfaa898b5d6ae6f6e}{dessiner\+Selection\+Objet} (int position\+Objet)
+\begin{DoxyCompactList}\small\item\em Dessine le curseur de sélection. \end{DoxyCompactList}\item 
+int \hyperlink{class_s_f_m_l_combat_a06e5c66f031d48316b7d779a9589c18e}{calcul\+Prochaine\+Position\+Objet} (sf\+::\+Event event, int position\+Objet)
+\begin{DoxyCompactList}\small\item\em Calcul de la prochaine position objet. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_combat_ac41423229acd874f68463a462fdfce08}{se\+Deplacer\+Objet} (sf\+::\+Event event, int \&position\+Objet)
+\begin{DoxyCompactList}\small\item\em Modifie position\+Objet. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_combat_a82520574af06d7d4bcb145f0a37fe691}{dessiner\+Objet} ()
+\begin{DoxyCompactList}\small\item\em Dessine les sprites des objets. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_combat_ab8d4dfb3e7e4ca9722e52c1ef5fa897d}{aff\+Changer\+Pokemon} ()
+\begin{DoxyCompactList}\small\item\em Boucle d\textquotesingle{}affichage du menu Changer de \hyperlink{class_pokemon}{Pokemon}. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_combat_ab37fca053d9f0e3529502c69f0de1055}{dessiner\+Selection\+Pokemon} (int position\+Pokemon)
+\begin{DoxyCompactList}\small\item\em Dessine le curseur de sélection. \end{DoxyCompactList}\item 
+int \hyperlink{class_s_f_m_l_combat_ab0728cc1b2fcc52112165ec8e3e14eb6}{calcul\+Prochaine\+Position\+Pokemon} (sf\+::\+Event event, int position\+Pokemon)
+\begin{DoxyCompactList}\small\item\em Calcul de la prochaine position \hyperlink{class_pokemon}{Pokemon}. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_combat_ad6e349e747401615a1c3d5c56e59be76}{se\+Deplacer\+Pokemon} (sf\+::\+Event event, int \&position\+Pokemon)
+\begin{DoxyCompactList}\small\item\em Modifie position\+Pokemon. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_combat_a22523f39138086a3b118a896ca214c4d}{dessiner\+Pokemon} ()
+\begin{DoxyCompactList}\small\item\em Dessine les sprites des \hyperlink{class_pokemon}{Pokemon}. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_combat_a4b2bed6ea12c96a58e55d968b1652597}{aff\+Combat} (int \&Choix\+Menu1, int \&Choix\+Bis1, int \&Choix\+Menu2, int \&Choix\+Bis2)
+\begin{DoxyCompactList}\small\item\em Boucle d\textquotesingle{}affichage des actions. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_combat_acc968da97d4c933f516e67b0356e3d73}{afficher\+Action} ()
+\begin{DoxyCompactList}\small\item\em Affichage textuel des actions effectués. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_combat_af3dbb1374820d004fdf5907397760335}{calcul\+Priorite} (int Choix\+Menu1, int Choix\+Bis1, int Choix\+Menu2, int Choix\+Bis2)
+\begin{DoxyCompactList}\small\item\em Calcul de la priorité des Joueurs. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_combat_a9d307eb8a3289a694486f30b56ca402d}{init\+Main\+Window} ()
+\item 
+void \hyperlink{class_s_f_m_l_combat_a5d363c2d06e7f0505990bf12866d0595}{init\+Fight\+Window} ()
+\item 
+void \hyperlink{class_s_f_m_l_combat_aba0eacdc425cc859b8533060ead79564}{init\+Menu\+Window} ()
+\item 
+void \hyperlink{class_s_f_m_l_combat_ab5de8e3048e2549352cea43a3ff636d4}{aff\+Pokemon} ()
+\item 
+void \hyperlink{class_s_f_m_l_combat_ae641a09e3a5a8e50b3fe8352207e4748}{aff\+Tour} ()
+\item 
+void \hyperlink{class_s_f_m_l_combat_ad5ab6d579c0da644135ae1e51e44f890}{aff\+Barre\+De\+Vie} ()
+\item 
+void \hyperlink{class_s_f_m_l_combat_a557bb97c785650b8d28ff913ca86081a}{ecrire\+Menu} ()
+\item 
+void \hyperlink{class_s_f_m_l_combat_a83899ae7d061225976857060d2a16388}{ecrire\+Attaque} ()
+\item 
+void \hyperlink{class_s_f_m_l_combat_a9a9295e8e7f369f0443ee5618004f0d9}{selection\+Menu} ()
+\item 
+int \hyperlink{class_s_f_m_l_combat_ab856672c59db95d55c7c28cd3a1eee93}{changer\+Menu} ()
+\item 
+void \hyperlink{class_s_f_m_l_combat_a796b43eec3296bc9d66e2618069f5abe}{se\+Deplacer} (sf\+::\+Event event)
+\item 
+int \hyperlink{class_s_f_m_l_combat_a2e7feee45aae418d7545cc71534e6148}{calcul\+Prochaine\+Position} (sf\+::\+Event event)
+\item 
+bool \hyperlink{class_s_f_m_l_combat_a97bf8a2d3300663aacbb8899bbbf3472}{test\+Pokemon\+En\+Vie\+IA} ()
+\begin{DoxyCompactList}\small\item\em Test si un des \hyperlink{class_pokemon}{Pokemon} combattant est KO (version combat contre IA) \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_combat_ad72f480db9eb3f134e3736b1acb228c8}{choix\+Menu} (int \&Choix\+Menu2, int \&Choix\+Bis2)
+\begin{DoxyCompactList}\small\item\em Reflexion de l\textquotesingle{}IA sur l\textquotesingle{}action à effectuer. \end{DoxyCompactList}\item 
+bool \hyperlink{class_s_f_m_l_combat_ac8720bfe637fdaa932ef45240493bbd6}{chance\+Attaquer} ()
+\begin{DoxyCompactList}\small\item\em Chance d\textquotesingle{}attaquer. \end{DoxyCompactList}\item 
+bool \hyperlink{class_s_f_m_l_combat_a00370ff45d848befb5d35c52bd1db2d5}{chance\+Objet} ()
+\begin{DoxyCompactList}\small\item\em Chance d\textquotesingle{}utiliser un objet. \end{DoxyCompactList}\item 
+bool \hyperlink{class_s_f_m_l_combat_a4ba9a6e1f0c91eb425ac83649e443375}{chance\+Pokemon} ()
+\begin{DoxyCompactList}\small\item\em Chance de changer de \hyperlink{class_pokemon}{Pokemon}. \end{DoxyCompactList}\item 
+int \hyperlink{class_s_f_m_l_combat_ab1f7a0fa82f0cfd9c0a0e1c321f5f7e7}{choix\+Attaque} ()
+\begin{DoxyCompactList}\small\item\em Choix de l\textquotesingle{}attaque à lancer. \end{DoxyCompactList}\item 
+int \hyperlink{class_s_f_m_l_combat_aa22c1c2665846e97e2eef331af8420d1}{choix\+Objet} ()
+\begin{DoxyCompactList}\small\item\em Choix de l\textquotesingle{}objet à utiliser. \end{DoxyCompactList}\item 
+int \hyperlink{class_s_f_m_l_combat_a4d5b43087452661e39479026a886d1b6}{choix\+Pokemon} ()
+\begin{DoxyCompactList}\small\item\em Choix du \hyperlink{class_pokemon}{Pokemon} à faire rentrer sur le terrain. \end{DoxyCompactList}\item 
+float \hyperlink{class_s_f_m_l_combat_a226dd0d639049753aef1fef95cf9a3f0}{Avantage\+Type} (const \hyperlink{class_pokemon}{Pokemon} \&Pkmn\+IA, const \hyperlink{_attaque_8h_a1d1cfd8ffb84e947f82999c682b666a7}{Type} \&type\+Joueur)
+\begin{DoxyCompactList}\small\item\em Calcul l\textquotesingle{}avantage d\textquotesingle{}un type par rapport aux types d\textquotesingle{}un \hyperlink{class_pokemon}{Pokemon}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+sf\+::\+Render\+Window $\ast$ \hyperlink{class_s_f_m_l_combat_a78da4b3f5a924922d26db0b756531505}{main\+Window}
+\begin{DoxyCompactList}\small\item\em Un pointeur sur la fenêtre de Jeu. \end{DoxyCompactList}\item 
+sf\+::\+Rectangle\+Shape \hyperlink{class_s_f_m_l_combat_a3dbd6e3e3626b934d91feeecfdc75f2f}{boite\+Attaquer}
+\begin{DoxyCompactList}\small\item\em Le rectangle définissant la boite \char`\"{}\+Attaquer\char`\"{}. \end{DoxyCompactList}\item 
+sf\+::\+Rectangle\+Shape \hyperlink{class_s_f_m_l_combat_a7a7d3634ff67cf57c61d343e07800586}{boite\+Objet}
+\begin{DoxyCompactList}\small\item\em Le rectangle définissant la boite \char`\"{}\+Utiliser objet\char`\"{}. \end{DoxyCompactList}\item 
+sf\+::\+Rectangle\+Shape \hyperlink{class_s_f_m_l_combat_a752cb4de138e2aa37f12c237efea253e}{boite\+Pokemon}
+\begin{DoxyCompactList}\small\item\em Le rectangle définissant la boite \char`\"{}\+Changer de Pokemon\char`\"{}. \end{DoxyCompactList}\item 
+sf\+::\+Rectangle\+Shape \hyperlink{class_s_f_m_l_combat_a0a9270612142eaa1406152265ba839b2}{boite\+Fuir}
+\begin{DoxyCompactList}\small\item\em Le rectangle définissant la boite \char`\"{}\+Fuir\char`\"{}. \end{DoxyCompactList}\item 
+sf\+::\+Rectangle\+Shape \hyperlink{class_s_f_m_l_combat_aced33a85a7133efb947d8c472f770ec1}{pkmn\+J1}
+\begin{DoxyCompactList}\small\item\em Le rectangle définissant le \hyperlink{class_pokemon}{Pokemon} du J1. \end{DoxyCompactList}\item 
+sf\+::\+Rectangle\+Shape \hyperlink{class_s_f_m_l_combat_ac85b298cc8a29f2ea61b5d1e76a4f427}{pkmn\+J2}
+\begin{DoxyCompactList}\small\item\em Le rectangle définissant la \hyperlink{class_pokemon}{Pokemon} du J2. \end{DoxyCompactList}\item 
+sf\+::\+Font \hyperlink{class_s_f_m_l_combat_a38592e5f22439c81e07f3ffee4012a5f}{font}
+\begin{DoxyCompactList}\small\item\em La police d\textquotesingle{}écriture utilisé pour l\textquotesingle{}affichage de texte. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_s_f_m_l_combat_aad9f3c91f2ec93a927d14d21d18df8bf}{dimX}
+\begin{DoxyCompactList}\small\item\em La largeur de la fenêtre de Jeu. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_s_f_m_l_combat_a07171a9f601831e2ffba2cab5c072bba}{dimY}
+\begin{DoxyCompactList}\small\item\em La hauteur de la fenêtre de Jeu. \end{DoxyCompactList}\item 
+int \hyperlink{class_s_f_m_l_combat_a21d930da921cc2aa1cdc55b417c2fe0b}{position}
+\begin{DoxyCompactList}\small\item\em La position du curseur dans les menus. \end{DoxyCompactList}\item 
+\hyperlink{class_combat}{Combat} $\ast$ \hyperlink{class_s_f_m_l_combat_a3bddd4f06e74010cb91565b6b23a2f22}{combat}
+\begin{DoxyCompactList}\small\item\em Le combat étant actuellement géré par le module. \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{class_s_f_m_l_combat_ac89c3f6d77a8238bf105586f861f1195}{Choix\+Menu}
+\begin{DoxyCompactList}\small\item\em Le pointeur sur le choix de Menu. \end{DoxyCompactList}\item 
+int $\ast$ \hyperlink{class_s_f_m_l_combat_ad76ea7634796fda2075edda681735375}{Choix\+Bis}
+\begin{DoxyCompactList}\small\item\em Le pointeur sur le choix de Bis. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+La classe gérant la partie I\+HM du combat. 
+
+Le module S\+F\+ML consiste en la gestion de l\textquotesingle{}affichage du combat ainsi que la communication Homme-\/\+Machine nécéssaire durant le combat.. 
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_s_f_m_l_combat_a11ee4d8a8bc7f6cf85658af0f4b4b2a2}\label{class_s_f_m_l_combat_a11ee4d8a8bc7f6cf85658af0f4b4b2a2}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{S\+F\+M\+L\+Combat()}{SFMLCombat()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily S\+F\+M\+L\+Combat\+::\+S\+F\+M\+L\+Combat (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{menu\+Window,  }\item[{\hyperlink{class_combat}{Combat} \&}]{combat\+En\+Cours }\end{DoxyParamCaption})}
+
+
+
+Constructeur de \hyperlink{class_s_f_m_l_combat}{S\+F\+M\+L\+Combat}. 
+
+Construit un objet de type \hyperlink{class_s_f_m_l_combat}{S\+F\+M\+L\+Combat} en utilisant une fenêtre déjà ouvertes et un combat déjà crée 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt out}  & {\em menu\+Window} & correspond à la fenêtre que \hyperlink{class_s_f_m_l_combat}{S\+F\+M\+L\+Combat} utilisera comme fenêtre de jeu. \\
+\hline
+\mbox{\tt out}  & {\em combat\+En\+Cours} & correspond au combat que \hyperlink{class_s_f_m_l_combat}{S\+F\+M\+L\+Combat} doit gérér pour le jeu \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_s_f_m_l_combat_ac8e843e7ab09e8e8c18f9ddde4f17d6c}\label{class_s_f_m_l_combat_ac8e843e7ab09e8e8c18f9ddde4f17d6c}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{S\+F\+M\+L\+Combat()}{SFMLCombat()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily S\+F\+M\+L\+Combat\+::\+S\+F\+M\+L\+Combat (\begin{DoxyParamCaption}\item[{\hyperlink{class_combat}{Combat} \&}]{combat\+En\+Cours }\end{DoxyParamCaption})}
+
+
+
+Constructeur de \hyperlink{class_s_f_m_l_combat}{S\+F\+M\+L\+Combat}. 
+
+Construit un objet de type \hyperlink{class_s_f_m_l_combat}{S\+F\+M\+L\+Combat} en utilisant un combat déjà crée 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt out}  & {\em combat\+En\+Cours} & correspond au combat que \hyperlink{class_s_f_m_l_combat}{S\+F\+M\+L\+Combat} doit gérér pour le jeu \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_s_f_m_l_combat_a28a895c7f9efdbe12cb47e3495500346}\label{class_s_f_m_l_combat_a28a895c7f9efdbe12cb47e3495500346}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{S\+F\+M\+L\+Combat()}{SFMLCombat()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily S\+F\+M\+L\+Combat\+::\+S\+F\+M\+L\+Combat (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{menu\+Window }\end{DoxyParamCaption})}
+
+
+
+Constructeur de \hyperlink{class_s_f_m_l_combat}{S\+F\+M\+L\+Combat}. 
+
+Construit un objet de type \hyperlink{class_s_f_m_l_combat}{S\+F\+M\+L\+Combat} en utilisant une fenêtre déjà ouvertes 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt out}  & {\em menu\+Window} & correspond à la fenêtre que \hyperlink{class_s_f_m_l_combat}{S\+F\+M\+L\+Combat} utilisera comme fenêtre de jeu. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_s_f_m_l_combat_a8803b5fb491ebcba31787b0aa20a9c07}\label{class_s_f_m_l_combat_a8803b5fb491ebcba31787b0aa20a9c07}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!aff\+Attaque@{aff\+Attaque}}
+\index{aff\+Attaque@{aff\+Attaque}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{aff\+Attaque()}{affAttaque()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::aff\+Attaque (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Boucle d\textquotesingle{}affichage du menu attaque. 
+
+Permet de gérer le menu d\textquotesingle{}attaque, et de gérer la selection d\textquotesingle{}une attaque Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a8803b5fb491ebcba31787b0aa20a9c07_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a8803b5fb491ebcba31787b0aa20a9c07_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_ad5ab6d579c0da644135ae1e51e44f890}\label{class_s_f_m_l_combat_ad5ab6d579c0da644135ae1e51e44f890}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!aff\+Barre\+De\+Vie@{aff\+Barre\+De\+Vie}}
+\index{aff\+Barre\+De\+Vie@{aff\+Barre\+De\+Vie}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{aff\+Barre\+De\+Vie()}{affBarreDeVie()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::aff\+Barre\+De\+Vie (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+$\vert$brief Affichage de la barre de vie
+
+Dessine la barre de vie pour chaque \hyperlink{class_pokemon}{Pokemon} étant en combat, et gére l\textquotesingle{}évolution de la vie au cours du combat Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_ad5ab6d579c0da644135ae1e51e44f890_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_ad5ab6d579c0da644135ae1e51e44f890_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_a39155235e6275b4d63b9317b9561843e}\label{class_s_f_m_l_combat_a39155235e6275b4d63b9317b9561843e}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!aff\+Boucle@{aff\+Boucle}}
+\index{aff\+Boucle@{aff\+Boucle}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{aff\+Boucle()}{affBoucle()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::aff\+Boucle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+La boucle principale de Jeu. 
+
+aff\+Boucle permet de démarrer le jeu et encapsulera toutes les autres boucles nécéssaire à l\textquotesingle{}affichage du combat Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a39155235e6275b4d63b9317b9561843e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_a116d70985530e3c46e5b60adc910a1fb}\label{class_s_f_m_l_combat_a116d70985530e3c46e5b60adc910a1fb}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!aff\+Boucle\+IA@{aff\+Boucle\+IA}}
+\index{aff\+Boucle\+IA@{aff\+Boucle\+IA}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{aff\+Boucle\+I\+A()}{affBoucleIA()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::aff\+Boucle\+IA (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+La boucle principale de Jeu (version combat IA) 
+
+aff\+Boucle\+IA permet de démarrer le jeu et encapsulera toutes les autres boucles nécéssaire à l\textquotesingle{}affichage du combat (version combat IA) Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a116d70985530e3c46e5b60adc910a1fb_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_ab8d4dfb3e7e4ca9722e52c1ef5fa897d}\label{class_s_f_m_l_combat_ab8d4dfb3e7e4ca9722e52c1ef5fa897d}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!aff\+Changer\+Pokemon@{aff\+Changer\+Pokemon}}
+\index{aff\+Changer\+Pokemon@{aff\+Changer\+Pokemon}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{aff\+Changer\+Pokemon()}{affChangerPokemon()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::aff\+Changer\+Pokemon (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Boucle d\textquotesingle{}affichage du menu Changer de \hyperlink{class_pokemon}{Pokemon}. 
+
+Permet de gérer le menu \hyperlink{class_pokemon}{Pokemon}, et de gérer la selection d\textquotesingle{}un \hyperlink{class_pokemon}{Pokemon} pour le changement Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_ab8d4dfb3e7e4ca9722e52c1ef5fa897d_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_ab8d4dfb3e7e4ca9722e52c1ef5fa897d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_a4b2bed6ea12c96a58e55d968b1652597}\label{class_s_f_m_l_combat_a4b2bed6ea12c96a58e55d968b1652597}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!aff\+Combat@{aff\+Combat}}
+\index{aff\+Combat@{aff\+Combat}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{aff\+Combat()}{affCombat()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::aff\+Combat (\begin{DoxyParamCaption}\item[{int \&}]{Choix\+Menu1,  }\item[{int \&}]{Choix\+Bis1,  }\item[{int \&}]{Choix\+Menu2,  }\item[{int \&}]{Choix\+Bis2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Boucle d\textquotesingle{}affichage des actions. 
+
+Permet d\textquotesingle{}afficher chaque action effectué par chaque joueur 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt out}  & {\em Choix\+Menu1} & Correspond au choix de menu du J1 (Attaquer, Changer de \hyperlink{class_pokemon}{Pokemon} ou Utiliser un \hyperlink{class_objet}{Objet}) \\
+\hline
+\mbox{\tt out}  & {\em Choix\+Bis1} & Correspond au choix du J1 en fonction du menu, quelle attaque, objet ou \hyperlink{class_pokemon}{Pokemon} \\
+\hline
+\mbox{\tt out}  & {\em Choix\+Menu2} & Correspond au choix de menu du J2 (Attaquer, Changer de \hyperlink{class_pokemon}{Pokemon} ou Utiliser un \hyperlink{class_objet}{Objet}) \\
+\hline
+\mbox{\tt out}  & {\em Choix\+Bis2} & Correspond au choix du J2 en fonction du menu, quelle attaque, objet ou \hyperlink{class_pokemon}{Pokemon} \\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a4b2bed6ea12c96a58e55d968b1652597_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a4b2bed6ea12c96a58e55d968b1652597_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_ace8cd35d8b2bbc86478a7a28bf0996b4}\label{class_s_f_m_l_combat_ace8cd35d8b2bbc86478a7a28bf0996b4}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!aff\+Gagnant@{aff\+Gagnant}}
+\index{aff\+Gagnant@{aff\+Gagnant}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{aff\+Gagnant()}{affGagnant()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::aff\+Gagnant (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Boucle d\textquotesingle{}affichage de fin de partie. 
+
+Gére l\textquotesingle{}affichage de fin de partie Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_ace8cd35d8b2bbc86478a7a28bf0996b4_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_ace8cd35d8b2bbc86478a7a28bf0996b4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_acc968da97d4c933f516e67b0356e3d73}\label{class_s_f_m_l_combat_acc968da97d4c933f516e67b0356e3d73}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!afficher\+Action@{afficher\+Action}}
+\index{afficher\+Action@{afficher\+Action}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{afficher\+Action()}{afficherAction()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::afficher\+Action (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Affichage textuel des actions effectués. 
+
+Desinne le texte des actions effectués par chaque joueur Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_acc968da97d4c933f516e67b0356e3d73_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_acc968da97d4c933f516e67b0356e3d73_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_a55c6728be410efdf2ca919a9ee44728a}\label{class_s_f_m_l_combat_a55c6728be410efdf2ca919a9ee44728a}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!aff\+Objet@{aff\+Objet}}
+\index{aff\+Objet@{aff\+Objet}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{aff\+Objet()}{affObjet()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::aff\+Objet (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Boucle d\textquotesingle{}affichage du menu objet. 
+
+Permet de gérer le menu d\textquotesingle{}objet, et de gérer la selection d\textquotesingle{}un objet à utiliser Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a55c6728be410efdf2ca919a9ee44728a_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a55c6728be410efdf2ca919a9ee44728a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_ab5de8e3048e2549352cea43a3ff636d4}\label{class_s_f_m_l_combat_ab5de8e3048e2549352cea43a3ff636d4}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!aff\+Pokemon@{aff\+Pokemon}}
+\index{aff\+Pokemon@{aff\+Pokemon}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{aff\+Pokemon()}{affPokemon()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::aff\+Pokemon (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+$\vert$brief Affichage des \hyperlink{class_pokemon}{Pokemon} actuellement en combat
+
+Desinne les sprites des \hyperlink{class_pokemon}{Pokemon} de chaque \hyperlink{class_joueur}{Joueur} étant actuellement en combat Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_ab5de8e3048e2549352cea43a3ff636d4_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_ab5de8e3048e2549352cea43a3ff636d4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_ae641a09e3a5a8e50b3fe8352207e4748}\label{class_s_f_m_l_combat_ae641a09e3a5a8e50b3fe8352207e4748}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!aff\+Tour@{aff\+Tour}}
+\index{aff\+Tour@{aff\+Tour}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{aff\+Tour()}{affTour()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::aff\+Tour (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+$\vert$brief Affichage du tour
+
+Dessine un texte dans le coin supérieure droit permettant de savoir qui doit jouer Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=337pt]{class_s_f_m_l_combat_ae641a09e3a5a8e50b3fe8352207e4748_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_ae641a09e3a5a8e50b3fe8352207e4748_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_a226dd0d639049753aef1fef95cf9a3f0}\label{class_s_f_m_l_combat_a226dd0d639049753aef1fef95cf9a3f0}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!Avantage\+Type@{Avantage\+Type}}
+\index{Avantage\+Type@{Avantage\+Type}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{Avantage\+Type()}{AvantageType()}}
+{\footnotesize\ttfamily float S\+F\+M\+L\+Combat\+::\+Avantage\+Type (\begin{DoxyParamCaption}\item[{const \hyperlink{class_pokemon}{Pokemon} \&}]{Pkmn\+IA,  }\item[{const \hyperlink{_attaque_8h_a1d1cfd8ffb84e947f82999c682b666a7}{Type} \&}]{type\+Joueur }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Calcul l\textquotesingle{}avantage d\textquotesingle{}un type par rapport aux types d\textquotesingle{}un \hyperlink{class_pokemon}{Pokemon}. 
+
+Calcul le multiplicateur de dégâts d\textquotesingle{}un type par rapport a (ou aux) type(s) d\textquotesingle{}un \hyperlink{class_pokemon}{Pokemon} en fonction de résistance et faiblesse du \hyperlink{class_pokemon}{Pokemon} \begin{DoxyReturn}{Renvoie}
+Renvoie le multiplicateur de dégâts 
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a226dd0d639049753aef1fef95cf9a3f0_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a226dd0d639049753aef1fef95cf9a3f0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_af3dbb1374820d004fdf5907397760335}\label{class_s_f_m_l_combat_af3dbb1374820d004fdf5907397760335}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!calcul\+Priorite@{calcul\+Priorite}}
+\index{calcul\+Priorite@{calcul\+Priorite}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{calcul\+Priorite()}{calculPriorite()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::calcul\+Priorite (\begin{DoxyParamCaption}\item[{int}]{Choix\+Menu1,  }\item[{int}]{Choix\+Bis1,  }\item[{int}]{Choix\+Menu2,  }\item[{int}]{Choix\+Bis2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Calcul de la priorité des Joueurs. 
+
+Calcul quel joueur a la priorité sur l\textquotesingle{}autre en fonction des actions choisies ainsi que des statistiques de chaque \hyperlink{class_pokemon}{Pokemon} 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em Choix\+Menu1} & Correspond au choix de menu du J1 (Attaquer, Changer de \hyperlink{class_pokemon}{Pokemon} ou Utiliser un \hyperlink{class_objet}{Objet}) \\
+\hline
+\mbox{\tt in}  & {\em Choix\+Bis1} & Correspond au choix du J1 en fonction du menu, quelle attaque, objet ou \hyperlink{class_pokemon}{Pokemon} \\
+\hline
+\mbox{\tt in}  & {\em Choix\+Menu2} & Correspond au choix de menu du J2 (Attaquer, Changer de \hyperlink{class_pokemon}{Pokemon} ou Utiliser un \hyperlink{class_objet}{Objet}) \\
+\hline
+\mbox{\tt in}  & {\em Choix\+Bis2} & Correspond au choix du J2 en fonction du menu, quelle attaque, objet ou \hyperlink{class_pokemon}{Pokemon} \\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_af3dbb1374820d004fdf5907397760335_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_af3dbb1374820d004fdf5907397760335_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_a2e7feee45aae418d7545cc71534e6148}\label{class_s_f_m_l_combat_a2e7feee45aae418d7545cc71534e6148}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!calcul\+Prochaine\+Position@{calcul\+Prochaine\+Position}}
+\index{calcul\+Prochaine\+Position@{calcul\+Prochaine\+Position}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{calcul\+Prochaine\+Position()}{calculProchainePosition()}}
+{\footnotesize\ttfamily int S\+F\+M\+L\+Combat\+::calcul\+Prochaine\+Position (\begin{DoxyParamCaption}\item[{sf\+::\+Event}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+$\vert$brief Calcul de la prochaine position du curseur
+
+Calcul de la prochaine position du curseur en foncton de la touche directionelle préssé par l\textquotesingle{}utilisateur ou renvoie la même position si le déplacement n\textquotesingle{}est pas autorisé 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em event} & Correspond à la touche directionelle préssé par l\textquotesingle{}utilisateur \\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a2e7feee45aae418d7545cc71534e6148_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_a06e5c66f031d48316b7d779a9589c18e}\label{class_s_f_m_l_combat_a06e5c66f031d48316b7d779a9589c18e}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!calcul\+Prochaine\+Position\+Objet@{calcul\+Prochaine\+Position\+Objet}}
+\index{calcul\+Prochaine\+Position\+Objet@{calcul\+Prochaine\+Position\+Objet}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{calcul\+Prochaine\+Position\+Objet()}{calculProchainePositionObjet()}}
+{\footnotesize\ttfamily int S\+F\+M\+L\+Combat\+::calcul\+Prochaine\+Position\+Objet (\begin{DoxyParamCaption}\item[{sf\+::\+Event}]{event,  }\item[{int}]{position\+Objet }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Calcul de la prochaine position objet. 
+
+Permet de calculer la prochaine position de l\textquotesingle{}objet en fonction de la touche directionelle préssé 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em position\+Objet} & Index de position de l\textquotesingle{}objet étant actuellement pointé par le curseur \\
+\hline
+\mbox{\tt in}  & {\em event} & Correspond à la touche qui est préssé par l\textquotesingle{}utilisateur \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Renvoie la future position du curseur sur objet, ou la même position que précédemment si le déplacement n\textquotesingle{}est pas autorisé 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a06e5c66f031d48316b7d779a9589c18e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_ab0728cc1b2fcc52112165ec8e3e14eb6}\label{class_s_f_m_l_combat_ab0728cc1b2fcc52112165ec8e3e14eb6}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!calcul\+Prochaine\+Position\+Pokemon@{calcul\+Prochaine\+Position\+Pokemon}}
+\index{calcul\+Prochaine\+Position\+Pokemon@{calcul\+Prochaine\+Position\+Pokemon}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{calcul\+Prochaine\+Position\+Pokemon()}{calculProchainePositionPokemon()}}
+{\footnotesize\ttfamily int S\+F\+M\+L\+Combat\+::calcul\+Prochaine\+Position\+Pokemon (\begin{DoxyParamCaption}\item[{sf\+::\+Event}]{event,  }\item[{int}]{position\+Pokemon }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Calcul de la prochaine position \hyperlink{class_pokemon}{Pokemon}. 
+
+Permet de calculer la prochaine position du cursueur sur \hyperlink{class_pokemon}{Pokemon} en fonction de la touche directionelle préssé 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em position\+Pokemon} & Index de position du \hyperlink{class_pokemon}{Pokemon} étant actuellement pointé par le curseur \\
+\hline
+\mbox{\tt in}  & {\em event} & Correspond à la touche qui est préssé par l\textquotesingle{}utilisateur \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+Renvoie la future position du curseur sur objet, ou la même position que précédemment si le déplacement n\textquotesingle{}est pas autorisé 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_ab0728cc1b2fcc52112165ec8e3e14eb6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_ac8720bfe637fdaa932ef45240493bbd6}\label{class_s_f_m_l_combat_ac8720bfe637fdaa932ef45240493bbd6}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!chance\+Attaquer@{chance\+Attaquer}}
+\index{chance\+Attaquer@{chance\+Attaquer}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{chance\+Attaquer()}{chanceAttaquer()}}
+{\footnotesize\ttfamily bool S\+F\+M\+L\+Combat\+::chance\+Attaquer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Chance d\textquotesingle{}attaquer. 
+
+Effectue différent test afin de savoir si il faut attaquer \begin{DoxyReturn}{Renvoie}
+Un booléen permettant de savoir si l\textquotesingle{}IA doit attaquer 
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_ac8720bfe637fdaa932ef45240493bbd6_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_ac8720bfe637fdaa932ef45240493bbd6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_a00370ff45d848befb5d35c52bd1db2d5}\label{class_s_f_m_l_combat_a00370ff45d848befb5d35c52bd1db2d5}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!chance\+Objet@{chance\+Objet}}
+\index{chance\+Objet@{chance\+Objet}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{chance\+Objet()}{chanceObjet()}}
+{\footnotesize\ttfamily bool S\+F\+M\+L\+Combat\+::chance\+Objet (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Chance d\textquotesingle{}utiliser un objet. 
+
+Effectue différent test afin de savoir si il faut utiliser un objet \begin{DoxyReturn}{Renvoie}
+Un booléen permettant de savoir si l\textquotesingle{}IA doit utiliser un objet 
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a00370ff45d848befb5d35c52bd1db2d5_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a00370ff45d848befb5d35c52bd1db2d5_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_a4ba9a6e1f0c91eb425ac83649e443375}\label{class_s_f_m_l_combat_a4ba9a6e1f0c91eb425ac83649e443375}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!chance\+Pokemon@{chance\+Pokemon}}
+\index{chance\+Pokemon@{chance\+Pokemon}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{chance\+Pokemon()}{chancePokemon()}}
+{\footnotesize\ttfamily bool S\+F\+M\+L\+Combat\+::chance\+Pokemon (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Chance de changer de \hyperlink{class_pokemon}{Pokemon}. 
+
+Effectue différent test afin de savoir si il faut utiliser un objet \begin{DoxyReturn}{Renvoie}
+Un booléen permettant de savoir si l\textquotesingle{}IA doit utiliser un objet 
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a4ba9a6e1f0c91eb425ac83649e443375_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a4ba9a6e1f0c91eb425ac83649e443375_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_ab856672c59db95d55c7c28cd3a1eee93}\label{class_s_f_m_l_combat_ab856672c59db95d55c7c28cd3a1eee93}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!changer\+Menu@{changer\+Menu}}
+\index{changer\+Menu@{changer\+Menu}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{changer\+Menu()}{changerMenu()}}
+{\footnotesize\ttfamily int S\+F\+M\+L\+Combat\+::changer\+Menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+$\vert$brief Gére le changement de menu
+
+Sélectionne dans quel boucle de menu le programme doit rentrer en fonction du choix de l\textquotesingle{}utilisateur \begin{DoxyReturn}{Renvoie}
+Renvoie l\textquotesingle{}indice du menu sélectionné par le joueur 
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_ab856672c59db95d55c7c28cd3a1eee93_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_ab856672c59db95d55c7c28cd3a1eee93_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_ab1f7a0fa82f0cfd9c0a0e1c321f5f7e7}\label{class_s_f_m_l_combat_ab1f7a0fa82f0cfd9c0a0e1c321f5f7e7}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!choix\+Attaque@{choix\+Attaque}}
+\index{choix\+Attaque@{choix\+Attaque}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{choix\+Attaque()}{choixAttaque()}}
+{\footnotesize\ttfamily int S\+F\+M\+L\+Combat\+::choix\+Attaque (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Choix de l\textquotesingle{}attaque à lancer. 
+
+Effectuent différents test pour savoir quelle attaque doit-\/être lancer \begin{DoxyReturn}{Renvoie}
+L\textquotesingle{}indice de l\textquotesingle{}attaque à lancer 
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_ab1f7a0fa82f0cfd9c0a0e1c321f5f7e7_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_ab1f7a0fa82f0cfd9c0a0e1c321f5f7e7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_ad72f480db9eb3f134e3736b1acb228c8}\label{class_s_f_m_l_combat_ad72f480db9eb3f134e3736b1acb228c8}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!choix\+Menu@{choix\+Menu}}
+\index{choix\+Menu@{choix\+Menu}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{choix\+Menu()}{choixMenu()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::choix\+Menu (\begin{DoxyParamCaption}\item[{int \&}]{Choix\+Menu2,  }\item[{int \&}]{Choix\+Bis2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Reflexion de l\textquotesingle{}IA sur l\textquotesingle{}action à effectuer. 
+
+Permet de calculer quel est l\textquotesingle{}action à effectuer et remplis ensuite Choix\+Menu2 et Choix\+Bis2 des indices des actions à effectuer 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt out}  & {\em Choix\+Menu2} & Correspond au choix de menu de l\textquotesingle{}IA (Attaquer, Changer de \hyperlink{class_pokemon}{Pokemon} ou Utiliser un \hyperlink{class_objet}{Objet}) \\
+\hline
+\mbox{\tt out}  & {\em Choix\+Bis2} & Correspond au choix de l\textquotesingle{}IA en fonction du menu, quelle attaque, objet ou \hyperlink{class_pokemon}{Pokemon} \\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_ad72f480db9eb3f134e3736b1acb228c8_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_ad72f480db9eb3f134e3736b1acb228c8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_aa22c1c2665846e97e2eef331af8420d1}\label{class_s_f_m_l_combat_aa22c1c2665846e97e2eef331af8420d1}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!choix\+Objet@{choix\+Objet}}
+\index{choix\+Objet@{choix\+Objet}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{choix\+Objet()}{choixObjet()}}
+{\footnotesize\ttfamily int S\+F\+M\+L\+Combat\+::choix\+Objet (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Choix de l\textquotesingle{}objet à utiliser. 
+
+Effectuent différents test pour savoir quel objet doit-\/être utiliser \begin{DoxyReturn}{Renvoie}
+L\textquotesingle{}indice de l\textquotesingle{}attaque à utiliser 
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_aa22c1c2665846e97e2eef331af8420d1_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_aa22c1c2665846e97e2eef331af8420d1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_a4d5b43087452661e39479026a886d1b6}\label{class_s_f_m_l_combat_a4d5b43087452661e39479026a886d1b6}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!choix\+Pokemon@{choix\+Pokemon}}
+\index{choix\+Pokemon@{choix\+Pokemon}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{choix\+Pokemon()}{choixPokemon()}}
+{\footnotesize\ttfamily int S\+F\+M\+L\+Combat\+::choix\+Pokemon (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Choix du \hyperlink{class_pokemon}{Pokemon} à faire rentrer sur le terrain. 
+
+Effectuent différents test pour savoir quel pokemon doit rentrer sur le terrain \begin{DoxyReturn}{Renvoie}
+L\textquotesingle{}indice du \hyperlink{class_pokemon}{Pokemon} à faire rentrer 
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a4d5b43087452661e39479026a886d1b6_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a4d5b43087452661e39479026a886d1b6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_aea2c9616512a2cb0c5e7e2f676a5daab}\label{class_s_f_m_l_combat_aea2c9616512a2cb0c5e7e2f676a5daab}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!dessiner\+Gagnant@{dessiner\+Gagnant}}
+\index{dessiner\+Gagnant@{dessiner\+Gagnant}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{dessiner\+Gagnant()}{dessinerGagnant()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::dessiner\+Gagnant (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Dessine l\textquotesingle{}écran de fin de partie. 
+
+Dessine l\textquotesingle{}écran de fin de partie, est utilisé dans aff\+Gagnant Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_aea2c9616512a2cb0c5e7e2f676a5daab_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_aea2c9616512a2cb0c5e7e2f676a5daab_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_a82520574af06d7d4bcb145f0a37fe691}\label{class_s_f_m_l_combat_a82520574af06d7d4bcb145f0a37fe691}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!dessiner\+Objet@{dessiner\+Objet}}
+\index{dessiner\+Objet@{dessiner\+Objet}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{dessiner\+Objet()}{dessinerObjet()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::dessiner\+Objet (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Dessine les sprites des objets. 
+
+Desinne les sprites des objets dans leur rectangle attribué, et affiche le menu de sélection d\textquotesingle{}objet Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a82520574af06d7d4bcb145f0a37fe691_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a82520574af06d7d4bcb145f0a37fe691_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_a22523f39138086a3b118a896ca214c4d}\label{class_s_f_m_l_combat_a22523f39138086a3b118a896ca214c4d}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!dessiner\+Pokemon@{dessiner\+Pokemon}}
+\index{dessiner\+Pokemon@{dessiner\+Pokemon}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{dessiner\+Pokemon()}{dessinerPokemon()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::dessiner\+Pokemon (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Dessine les sprites des \hyperlink{class_pokemon}{Pokemon}. 
+
+Desinne les sprites des \hyperlink{class_pokemon}{Pokemon} dans leur rectangle attribué et le menu de sélection de \hyperlink{class_pokemon}{Pokemon} Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a22523f39138086a3b118a896ca214c4d_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a22523f39138086a3b118a896ca214c4d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_a578125c9faee0eebfaa898b5d6ae6f6e}\label{class_s_f_m_l_combat_a578125c9faee0eebfaa898b5d6ae6f6e}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!dessiner\+Selection\+Objet@{dessiner\+Selection\+Objet}}
+\index{dessiner\+Selection\+Objet@{dessiner\+Selection\+Objet}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{dessiner\+Selection\+Objet()}{dessinerSelectionObjet()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::dessiner\+Selection\+Objet (\begin{DoxyParamCaption}\item[{int}]{position\+Objet }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Dessine le curseur de sélection. 
+
+Dessine le curseur autour du cadre de l\textquotesingle{}objet étant actuellement pointé par le curseur 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em position\+Objet} & Index de position de l\textquotesingle{}objet étant actuellement pointé par le curseur \\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a578125c9faee0eebfaa898b5d6ae6f6e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_ab37fca053d9f0e3529502c69f0de1055}\label{class_s_f_m_l_combat_ab37fca053d9f0e3529502c69f0de1055}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!dessiner\+Selection\+Pokemon@{dessiner\+Selection\+Pokemon}}
+\index{dessiner\+Selection\+Pokemon@{dessiner\+Selection\+Pokemon}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{dessiner\+Selection\+Pokemon()}{dessinerSelectionPokemon()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::dessiner\+Selection\+Pokemon (\begin{DoxyParamCaption}\item[{int}]{position\+Pokemon }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Dessine le curseur de sélection. 
+
+Dessine le curseur autour du cadre du \hyperlink{class_pokemon}{Pokemon} étant actuellement pointé par le curseur 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em position\+Pokemon} & Index de position du \hyperlink{class_pokemon}{Pokemon} étant actuellement pointé par le curseur \\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_ab37fca053d9f0e3529502c69f0de1055_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_a83899ae7d061225976857060d2a16388}\label{class_s_f_m_l_combat_a83899ae7d061225976857060d2a16388}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!ecrire\+Attaque@{ecrire\+Attaque}}
+\index{ecrire\+Attaque@{ecrire\+Attaque}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{ecrire\+Attaque()}{ecrireAttaque()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::ecrire\+Attaque (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+$\vert$brief Affichage des noms des attaque
+
+Dessine le texte designant le nom de chaque attaque possédé par le \hyperlink{class_pokemon}{Pokemon} Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a83899ae7d061225976857060d2a16388_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a83899ae7d061225976857060d2a16388_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_a557bb97c785650b8d28ff913ca86081a}\label{class_s_f_m_l_combat_a557bb97c785650b8d28ff913ca86081a}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!ecrire\+Menu@{ecrire\+Menu}}
+\index{ecrire\+Menu@{ecrire\+Menu}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{ecrire\+Menu()}{ecrireMenu()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::ecrire\+Menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+$\vert$brief Affichage des noms des menus
+
+Dessine le texte designant le nom de chaque menu des actions principale dans leur rectangle attribué Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a557bb97c785650b8d28ff913ca86081a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_a1529363beee93ae18694046822ea2e53}\label{class_s_f_m_l_combat_a1529363beee93ae18694046822ea2e53}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!get\+Combat\+Ref@{get\+Combat\+Ref}}
+\index{get\+Combat\+Ref@{get\+Combat\+Ref}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{get\+Combat\+Ref()}{getCombatRef()}}
+{\footnotesize\ttfamily \hyperlink{class_combat}{Combat} $\ast$ S\+F\+M\+L\+Combat\+::get\+Combat\+Ref (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Permet de récupérer un pointeur sur combat. 
+
+Permet de récupérer un pointeur sur le combat étant actuellement géré par l\textquotesingle{}objet de classe \hyperlink{class_s_f_m_l_combat}{S\+F\+M\+L\+Combat} \begin{DoxyReturn}{Renvoie}
+Un pointeur sur le combat étant actuellement géré 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_s_f_m_l_combat_a5d363c2d06e7f0505990bf12866d0595}\label{class_s_f_m_l_combat_a5d363c2d06e7f0505990bf12866d0595}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!init\+Fight\+Window@{init\+Fight\+Window}}
+\index{init\+Fight\+Window@{init\+Fight\+Window}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{init\+Fight\+Window()}{initFightWindow()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::init\+Fight\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+$\vert$brief Initialise la base de l\textquotesingle{}affichage du combar
+
+Desinne les fonds de chaque partie de l\textquotesingle{}affichage (menu et terrain de combat) Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a5d363c2d06e7f0505990bf12866d0595_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_a9d307eb8a3289a694486f30b56ca402d}\label{class_s_f_m_l_combat_a9d307eb8a3289a694486f30b56ca402d}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!init\+Main\+Window@{init\+Main\+Window}}
+\index{init\+Main\+Window@{init\+Main\+Window}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{init\+Main\+Window()}{initMainWindow()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::init\+Main\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+$\vert$brief Initialise les paramètres de la fenêtre
+
+Récupére la résolution de l\textquotesingle{}écran de l\textquotesingle{}utilisateur, créer la fenêtre en fonction, et stocke les valeurs de la taille de la fenêtre dans dimX et dimY Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a9d307eb8a3289a694486f30b56ca402d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_aba0eacdc425cc859b8533060ead79564}\label{class_s_f_m_l_combat_aba0eacdc425cc859b8533060ead79564}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!init\+Menu\+Window@{init\+Menu\+Window}}
+\index{init\+Menu\+Window@{init\+Menu\+Window}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{init\+Menu\+Window()}{initMenuWindow()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::init\+Menu\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+$\vert$brief Affichage des menus d\textquotesingle{}actions
+
+Desinne le menu principale permettant la sélection des actions Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_aba0eacdc425cc859b8533060ead79564_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_a2665ce99eeccb4bdb1e032086a9feb04}\label{class_s_f_m_l_combat_a2665ce99eeccb4bdb1e032086a9feb04}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!pokemon\+KO@{pokemon\+KO}}
+\index{pokemon\+KO@{pokemon\+KO}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{pokemon\+K\+O()}{pokemonKO()}}
+{\footnotesize\ttfamily int S\+F\+M\+L\+Combat\+::pokemon\+KO (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Test si un des \hyperlink{class_pokemon}{Pokemon} combattant est KO. 
+
+Test si un \hyperlink{class_pokemon}{Pokemon} est KO et enclenche le menu de changement de \hyperlink{class_pokemon}{Pokemon} \begin{DoxyReturn}{Renvoie}
+Un booléen permettant de savoir si oui ou non un \hyperlink{class_pokemon}{Pokemon} était KO 
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a2665ce99eeccb4bdb1e032086a9feb04_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a2665ce99eeccb4bdb1e032086a9feb04_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_a796b43eec3296bc9d66e2618069f5abe}\label{class_s_f_m_l_combat_a796b43eec3296bc9d66e2618069f5abe}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!se\+Deplacer@{se\+Deplacer}}
+\index{se\+Deplacer@{se\+Deplacer}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{se\+Deplacer()}{seDeplacer()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::se\+Deplacer (\begin{DoxyParamCaption}\item[{sf\+::\+Event}]{event }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+$\vert$brief Changement de position du curseur
+
+Attribue le résultat de calcul\+Prochaine\+Position dans position afin de déplacer le curseur en fonction de la touche directionelle préssé par l\textquotesingle{}utilisateur 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em event} & Correspond à la touche directionelle préssé par l\textquotesingle{}utilisateur \\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a796b43eec3296bc9d66e2618069f5abe_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a796b43eec3296bc9d66e2618069f5abe_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_ac41423229acd874f68463a462fdfce08}\label{class_s_f_m_l_combat_ac41423229acd874f68463a462fdfce08}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!se\+Deplacer\+Objet@{se\+Deplacer\+Objet}}
+\index{se\+Deplacer\+Objet@{se\+Deplacer\+Objet}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{se\+Deplacer\+Objet()}{seDeplacerObjet()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::se\+Deplacer\+Objet (\begin{DoxyParamCaption}\item[{sf\+::\+Event}]{event,  }\item[{int \&}]{position\+Objet }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Modifie position\+Objet. 
+
+Attribue à position\+Objet la valeur retourné par calcul\+Prochaine\+Position\+Objet 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt out}  & {\em position\+Objet} & Index de position de l\textquotesingle{}objet étant actuellement pointé par le curseur \\
+\hline
+\mbox{\tt in}  & {\em event} & Correspond à la touche qui est préssé par l\textquotesingle{}utilisateur \\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_ac41423229acd874f68463a462fdfce08_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_ac41423229acd874f68463a462fdfce08_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_ad6e349e747401615a1c3d5c56e59be76}\label{class_s_f_m_l_combat_ad6e349e747401615a1c3d5c56e59be76}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!se\+Deplacer\+Pokemon@{se\+Deplacer\+Pokemon}}
+\index{se\+Deplacer\+Pokemon@{se\+Deplacer\+Pokemon}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{se\+Deplacer\+Pokemon()}{seDeplacerPokemon()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::se\+Deplacer\+Pokemon (\begin{DoxyParamCaption}\item[{sf\+::\+Event}]{event,  }\item[{int \&}]{position\+Pokemon }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Modifie position\+Pokemon. 
+
+Attribue à position\+Pokemon la valeur retourné par calcul\+Prochaine\+Position\+Pokemon 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt out}  & {\em position\+Pokemon} & Index de position du \hyperlink{class_pokemon}{Pokemon} étant actuellement pointé par le curseur \\
+\hline
+\mbox{\tt in}  & {\em event} & Correspond à la touche qui est préssé par l\textquotesingle{}utilisateur \\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_ad6e349e747401615a1c3d5c56e59be76_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_ad6e349e747401615a1c3d5c56e59be76_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_a9a9295e8e7f369f0443ee5618004f0d9}\label{class_s_f_m_l_combat_a9a9295e8e7f369f0443ee5618004f0d9}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!selection\+Menu@{selection\+Menu}}
+\index{selection\+Menu@{selection\+Menu}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{selection\+Menu()}{selectionMenu()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Combat\+::selection\+Menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+$\vert$brief Affichage du menu actuellement pointé
+
+Dessine un curseur autour du menu étant actuellement selectionné par le joueur Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a9a9295e8e7f369f0443ee5618004f0d9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_af7ddb137c3bbaff70d2c566137c2cbb7}\label{class_s_f_m_l_combat_af7ddb137c3bbaff70d2c566137c2cbb7}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!test\+Pokemon\+En\+Vie@{test\+Pokemon\+En\+Vie}}
+\index{test\+Pokemon\+En\+Vie@{test\+Pokemon\+En\+Vie}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{test\+Pokemon\+En\+Vie()}{testPokemonEnVie()}}
+{\footnotesize\ttfamily bool S\+F\+M\+L\+Combat\+::test\+Pokemon\+En\+Vie (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Test si une équipe \hyperlink{class_pokemon}{Pokemon} entière est KO. 
+
+Test si une équipe \hyperlink{class_pokemon}{Pokemon} entière est KO et lance l\textquotesingle{}affichage de fin de partie \begin{DoxyReturn}{Renvoie}
+Un booléen permettant de savoir si oui ou non le combat est fini 
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_af7ddb137c3bbaff70d2c566137c2cbb7_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_af7ddb137c3bbaff70d2c566137c2cbb7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_combat_a97bf8a2d3300663aacbb8899bbbf3472}\label{class_s_f_m_l_combat_a97bf8a2d3300663aacbb8899bbbf3472}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!test\+Pokemon\+En\+Vie\+IA@{test\+Pokemon\+En\+Vie\+IA}}
+\index{test\+Pokemon\+En\+Vie\+IA@{test\+Pokemon\+En\+Vie\+IA}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{test\+Pokemon\+En\+Vie\+I\+A()}{testPokemonEnVieIA()}}
+{\footnotesize\ttfamily bool S\+F\+M\+L\+Combat\+::test\+Pokemon\+En\+Vie\+IA (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Test si un des \hyperlink{class_pokemon}{Pokemon} combattant est KO (version combat contre IA) 
+
+Test si un \hyperlink{class_pokemon}{Pokemon} est KO et enclenche le menu de changement de \hyperlink{class_pokemon}{Pokemon} \begin{DoxyReturn}{Renvoie}
+Un booléen permettant de savoir si oui ou non un \hyperlink{class_pokemon}{Pokemon} était KO 
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a97bf8a2d3300663aacbb8899bbbf3472_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_combat_a97bf8a2d3300663aacbb8899bbbf3472_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Documentation des données membres}
+\mbox{\Hypertarget{class_s_f_m_l_combat_a3dbd6e3e3626b934d91feeecfdc75f2f}\label{class_s_f_m_l_combat_a3dbd6e3e3626b934d91feeecfdc75f2f}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!boite\+Attaquer@{boite\+Attaquer}}
+\index{boite\+Attaquer@{boite\+Attaquer}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{boite\+Attaquer}{boiteAttaquer}}
+{\footnotesize\ttfamily sf\+::\+Rectangle\+Shape S\+F\+M\+L\+Combat\+::boite\+Attaquer\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Le rectangle définissant la boite \char`\"{}\+Attaquer\char`\"{}. 
+
+boite\+Attaquer représente les délimitations de la boite \char`\"{}\+Attaquer\char`\"{} dans la partie inférieure de l\textquotesingle{}affichage combat. \mbox{\Hypertarget{class_s_f_m_l_combat_a0a9270612142eaa1406152265ba839b2}\label{class_s_f_m_l_combat_a0a9270612142eaa1406152265ba839b2}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!boite\+Fuir@{boite\+Fuir}}
+\index{boite\+Fuir@{boite\+Fuir}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{boite\+Fuir}{boiteFuir}}
+{\footnotesize\ttfamily sf\+::\+Rectangle\+Shape S\+F\+M\+L\+Combat\+::boite\+Fuir\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Le rectangle définissant la boite \char`\"{}\+Fuir\char`\"{}. 
+
+boite\+Attaquer représente les délimitations de la boite \char`\"{}\+Fuir\char`\"{} dans la partie inférieure de l\textquotesingle{}affichage combat. \mbox{\Hypertarget{class_s_f_m_l_combat_a7a7d3634ff67cf57c61d343e07800586}\label{class_s_f_m_l_combat_a7a7d3634ff67cf57c61d343e07800586}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!boite\+Objet@{boite\+Objet}}
+\index{boite\+Objet@{boite\+Objet}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{boite\+Objet}{boiteObjet}}
+{\footnotesize\ttfamily sf\+::\+Rectangle\+Shape S\+F\+M\+L\+Combat\+::boite\+Objet\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Le rectangle définissant la boite \char`\"{}\+Utiliser objet\char`\"{}. 
+
+boite\+Attaquer représente les délimitations de la boite \char`\"{}\+Utiliser objet\char`\"{} dans la partie inférieure de l\textquotesingle{}affichage combat. \mbox{\Hypertarget{class_s_f_m_l_combat_a752cb4de138e2aa37f12c237efea253e}\label{class_s_f_m_l_combat_a752cb4de138e2aa37f12c237efea253e}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!boite\+Pokemon@{boite\+Pokemon}}
+\index{boite\+Pokemon@{boite\+Pokemon}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{boite\+Pokemon}{boitePokemon}}
+{\footnotesize\ttfamily sf\+::\+Rectangle\+Shape S\+F\+M\+L\+Combat\+::boite\+Pokemon\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Le rectangle définissant la boite \char`\"{}\+Changer de Pokemon\char`\"{}. 
+
+boite\+Attaquer représente les délimitations de la boite \char`\"{}\+Changer de Pokemon\char`\"{} dans la partie inférieure de l\textquotesingle{}affichage combat. \mbox{\Hypertarget{class_s_f_m_l_combat_ad76ea7634796fda2075edda681735375}\label{class_s_f_m_l_combat_ad76ea7634796fda2075edda681735375}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!Choix\+Bis@{Choix\+Bis}}
+\index{Choix\+Bis@{Choix\+Bis}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{Choix\+Bis}{ChoixBis}}
+{\footnotesize\ttfamily int $\ast$ S\+F\+M\+L\+Combat\+::\+Choix\+Bis\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Le pointeur sur le choix de Bis. 
+
+Choix\+Bis correspond à un pointeur nous permettant de gérer les choix des deux joueurs en utilisant qu\textquotesingle{}une seule et même variables. \mbox{\Hypertarget{class_s_f_m_l_combat_ac89c3f6d77a8238bf105586f861f1195}\label{class_s_f_m_l_combat_ac89c3f6d77a8238bf105586f861f1195}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!Choix\+Menu@{Choix\+Menu}}
+\index{Choix\+Menu@{Choix\+Menu}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{Choix\+Menu}{ChoixMenu}}
+{\footnotesize\ttfamily int $\ast$ S\+F\+M\+L\+Combat\+::\+Choix\+Menu\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Le pointeur sur le choix de Menu. 
+
+Choix\+Menu correspond à un pointeur nous permettant de gérer les choix des deux joueurs en utilisant qu\textquotesingle{}une seule et même variables. \mbox{\Hypertarget{class_s_f_m_l_combat_a3bddd4f06e74010cb91565b6b23a2f22}\label{class_s_f_m_l_combat_a3bddd4f06e74010cb91565b6b23a2f22}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!combat@{combat}}
+\index{combat@{combat}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{combat}{combat}}
+{\footnotesize\ttfamily \hyperlink{class_combat}{Combat} $\ast$ S\+F\+M\+L\+Combat\+::combat\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Le combat étant actuellement géré par le module. 
+
+combat correspond au combat ayant actuellement lieu, et qui est donc actuellement géré par la classe \hyperlink{class_s_f_m_l_combat}{S\+F\+M\+L\+Combat}. \mbox{\Hypertarget{class_s_f_m_l_combat_aad9f3c91f2ec93a927d14d21d18df8bf}\label{class_s_f_m_l_combat_aad9f3c91f2ec93a927d14d21d18df8bf}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!dimX@{dimX}}
+\index{dimX@{dimX}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{dimX}{dimX}}
+{\footnotesize\ttfamily unsigned int S\+F\+M\+L\+Combat\+::dimX\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+La largeur de la fenêtre de Jeu. 
+
+dimX correspond à la taille en largeur de la fenêtre de Jeu, elle est adapté en fonction de la résolution de l\textquotesingle{}écran de l\textquotesingle{}Utilisateur. \mbox{\Hypertarget{class_s_f_m_l_combat_a07171a9f601831e2ffba2cab5c072bba}\label{class_s_f_m_l_combat_a07171a9f601831e2ffba2cab5c072bba}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!dimY@{dimY}}
+\index{dimY@{dimY}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{dimY}{dimY}}
+{\footnotesize\ttfamily unsigned int S\+F\+M\+L\+Combat\+::dimY\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+La hauteur de la fenêtre de Jeu. 
+
+dimX correspond à la taille en largeur de la fenêtre de Jeu, elle est adapté en fonction de la résolution de l\textquotesingle{}écran de l\textquotesingle{}Utilisateur. \mbox{\Hypertarget{class_s_f_m_l_combat_a38592e5f22439c81e07f3ffee4012a5f}\label{class_s_f_m_l_combat_a38592e5f22439c81e07f3ffee4012a5f}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!font@{font}}
+\index{font@{font}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{font}{font}}
+{\footnotesize\ttfamily sf\+::\+Font S\+F\+M\+L\+Combat\+::font\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+La police d\textquotesingle{}écriture utilisé pour l\textquotesingle{}affichage de texte. 
+
+font est initialisé avec une police d\textquotesingle{}écriture fournis dans assets, qui est ensuite utilisé pour chaque affichage de texte. \mbox{\Hypertarget{class_s_f_m_l_combat_a78da4b3f5a924922d26db0b756531505}\label{class_s_f_m_l_combat_a78da4b3f5a924922d26db0b756531505}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!main\+Window@{main\+Window}}
+\index{main\+Window@{main\+Window}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{main\+Window}{mainWindow}}
+{\footnotesize\ttfamily sf\+::\+Render\+Window $\ast$ S\+F\+M\+L\+Combat\+::main\+Window\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Un pointeur sur la fenêtre de Jeu. 
+
+main\+Window est le pointeur permettant d\textquotesingle{}accéder et de modifier la fenêtre principale de jeu. \mbox{\Hypertarget{class_s_f_m_l_combat_aced33a85a7133efb947d8c472f770ec1}\label{class_s_f_m_l_combat_aced33a85a7133efb947d8c472f770ec1}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!pkmn\+J1@{pkmn\+J1}}
+\index{pkmn\+J1@{pkmn\+J1}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{pkmn\+J1}{pkmnJ1}}
+{\footnotesize\ttfamily sf\+::\+Rectangle\+Shape S\+F\+M\+L\+Combat\+::pkmn\+J1\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Le rectangle définissant le \hyperlink{class_pokemon}{Pokemon} du J1. 
+
+pkmn\+J1 représente les délimitations du sprite du \hyperlink{class_pokemon}{Pokemon} du \hyperlink{class_joueur}{Joueur} 1 dans la partie supérieure de l\textquotesingle{}affichage combat. \mbox{\Hypertarget{class_s_f_m_l_combat_ac85b298cc8a29f2ea61b5d1e76a4f427}\label{class_s_f_m_l_combat_ac85b298cc8a29f2ea61b5d1e76a4f427}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!pkmn\+J2@{pkmn\+J2}}
+\index{pkmn\+J2@{pkmn\+J2}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{pkmn\+J2}{pkmnJ2}}
+{\footnotesize\ttfamily sf\+::\+Rectangle\+Shape S\+F\+M\+L\+Combat\+::pkmn\+J2\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Le rectangle définissant la \hyperlink{class_pokemon}{Pokemon} du J2. 
+
+pkmn\+J2 représente les délimitations du sprite du \hyperlink{class_pokemon}{Pokemon} du \hyperlink{class_joueur}{Joueur} 2 dans la partie supérieure de l\textquotesingle{}affichage combat. \mbox{\Hypertarget{class_s_f_m_l_combat_a21d930da921cc2aa1cdc55b417c2fe0b}\label{class_s_f_m_l_combat_a21d930da921cc2aa1cdc55b417c2fe0b}} 
+\index{S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}!position@{position}}
+\index{position@{position}!S\+F\+M\+L\+Combat@{S\+F\+M\+L\+Combat}}
+\subsubsection{\texorpdfstring{position}{position}}
+{\footnotesize\ttfamily int S\+F\+M\+L\+Combat\+::position\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+La position du curseur dans les menus. 
+
+position correspond à la position dans le menu principale ainsi que dans le menu de séléction d\textquotesingle{}une \hyperlink{class_attaque}{Attaque}. 
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+/home/corentin/\+Documents/lifap4/src/\+S\+F\+M\+L\+Combat/\hyperlink{_s_f_m_l_8h}{S\+F\+M\+L.\+h}\item 
+/home/corentin/\+Documents/lifap4/src/\+S\+F\+M\+L\+Combat/\hyperlink{_s_f_m_l_8cpp}{S\+F\+M\+L.\+cpp}\end{DoxyCompactItemize}

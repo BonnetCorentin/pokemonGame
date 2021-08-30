@@ -1,0 +1,5 @@
+Spectrum 0 12 13 229 207 361 218 317 294
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

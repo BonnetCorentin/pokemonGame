@@ -1,0 +1,5 @@
+Aspicot 0 2 13 152 174 152 185 218 284
+Insecte/Megacorne.
+Insecte/Double dard.
+Insecte/Plaie Croix.
+Insecte/Dard nuee.

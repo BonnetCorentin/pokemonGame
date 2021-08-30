@@ -1,0 +1,5 @@
+Osselait 0 14 -1 218 317 196 218 185 304
+Normal/Belier.
+Normal/Charge.
+Normal/Combo Griffe.
+Normal/Coupe. 

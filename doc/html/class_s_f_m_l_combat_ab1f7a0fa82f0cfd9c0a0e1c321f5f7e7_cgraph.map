@@ -1,0 +1,8 @@
+<map id="SFMLCombat::choixAttaque" name="SFMLCombat::choixAttaque">
+<area shape="rect" id="node2" href="$class_combat.html#a4f02e335d825eb98b64d5410a590b9f8" title="Accesseur/Mutateur de PokeAdversaire. " alt="" coords="240,5,447,32"/>
+<area shape="rect" id="node3" href="$class_combat.html#a9a44a83a9c1fe5d67f0b620dab547e56" title="Accesseur/Mutateur de PokePerso. " alt="" coords="254,56,433,83"/>
+<area shape="rect" id="node4" href="$class_pokemon.html#a5688276dbf96174ceccec44d416f2df6" title="Accesseur d&#39;une attaque du tableau d&#39;attaque par pointeur. " alt="" coords="244,107,443,133"/>
+<area shape="rect" id="node5" href="$class_attaque.html#af43d72ec9abad98f04e21e245cece692" title="Accesseur de type. " alt="" coords="282,157,405,184"/>
+<area shape="rect" id="node6" href="$class_s_f_m_l_combat.html#a226dd0d639049753aef1fef95cf9a3f0" title="Calcul l&#39;avantage d&#39;un type par rapport aux types d&#39;un Pokemon. " alt="" coords="246,208,441,235"/>
+<area shape="rect" id="node7" href="$class_pokemon.html#a3d9cc7fe1b38d8d8ea3ef499116c0eac" title="Accesseur d&#39;un type du tableau. " alt="" coords="495,208,656,235"/>
+</map>

@@ -1,0 +1,51 @@
+<map id="SFMLCombat::affBoucle" name="SFMLCombat::affBoucle">
+<area shape="rect" id="node2" href="$class_s_f_m_l_combat.html#a9d307eb8a3289a694486f30b56ca402d" title="SFMLCombat::initMainWindow" alt="" coords="230,633,433,660"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_combat.html#af7ddb137c3bbaff70d2c566137c2cbb7" title="Test si une équipe Pokemon entière est KO. " alt="" coords="220,684,443,711"/>
+<area shape="rect" id="node17" href="$class_combat.html#a2848c91d76a09943dd5effb1904f1937" title="Changer le tour de Jeu. " alt="" coords="1330,1207,1501,1233"/>
+<area shape="rect" id="node19" href="$class_s_f_m_l_combat.html#a5d363c2d06e7f0505990bf12866d0595" title="SFMLCombat::initFightWindow" alt="" coords="783,1283,987,1309"/>
+<area shape="rect" id="node20" href="$class_s_f_m_l_combat.html#aba0eacdc425cc859b8533060ead79564" title="SFMLCombat::initMenuWindow" alt="" coords="782,1232,989,1259"/>
+<area shape="rect" id="node21" href="$class_s_f_m_l_combat.html#a9a9295e8e7f369f0443ee5618004f0d9" title="SFMLCombat::selectionMenu" alt="" coords="788,760,983,787"/>
+<area shape="rect" id="node22" href="$class_s_f_m_l_combat.html#ab5de8e3048e2549352cea43a3ff636d4" title="SFMLCombat::affPokemon" alt="" coords="795,979,976,1005"/>
+<area shape="rect" id="node24" href="$class_s_f_m_l_combat.html#ad5ab6d579c0da644135ae1e51e44f890" title="SFMLCombat::affBarreDeVie" alt="" coords="789,928,982,955"/>
+<area shape="rect" id="node31" href="$class_s_f_m_l_combat.html#ab856672c59db95d55c7c28cd3a1eee93" title="SFMLCombat::changerMenu" alt="" coords="237,935,426,961"/>
+<area shape="rect" id="node33" href="$class_s_f_m_l_combat.html#a796b43eec3296bc9d66e2618069f5abe" title="SFMLCombat::seDeplacer" alt="" coords="797,1739,974,1765"/>
+<area shape="rect" id="node42" href="$class_s_f_m_l_combat.html#a4b2bed6ea12c96a58e55d968b1652597" title="Boucle d&#39;affichage des actions. " alt="" coords="520,1283,692,1309"/>
+<area shape="rect" id="node49" href="$class_s_f_m_l_combat.html#a557bb97c785650b8d28ff913ca86081a" title="SFMLCombat::ecrireMenu" alt="" coords="244,1536,419,1563"/>
+<area shape="rect" id="node50" href="$class_s_f_m_l_combat.html#ae641a09e3a5a8e50b3fe8352207e4748" title="SFMLCombat::affTour" alt="" coords="255,1409,407,1436"/>
+<area shape="rect" id="node4" href="$class_combat.html#a9a44a83a9c1fe5d67f0b620dab547e56" title="Accesseur/Mutateur de PokePerso. " alt="" coords="1063,1333,1242,1360"/>
+<area shape="rect" id="node5" href="$class_pokemon.html#a97e2f2b4b811d5e2bbcb038fb70f57ce" title="Accesseur de la variable NbPV. " alt="" coords="1355,659,1476,685"/>
+<area shape="rect" id="node6" href="$class_combat.html#abbaadce2f31d9b12645481cc74a021b2" title="Test si le combat est fini. " alt="" coords="542,136,670,163"/>
+<area shape="rect" id="node8" href="$class_combat.html#a292caf86cb2c8ecbf9ecd055e6a028c0" title="Mutateur de quiJoue. " alt="" coords="1081,1637,1224,1664"/>
+<area shape="rect" id="node9" href="$class_s_f_m_l_combat.html#ab8d4dfb3e7e4ca9722e52c1ef5fa897d" title="Boucle d&#39;affichage du menu Changer de Pokemon. " alt="" coords="491,684,721,711"/>
+<area shape="rect" id="node12" href="$class_combat.html#a4f02e335d825eb98b64d5410a590b9f8" title="Accesseur/Mutateur de PokeAdversaire. " alt="" coords="1049,928,1256,955"/>
+<area shape="rect" id="node28" href="$class_s_f_m_l_combat.html#ace8cd35d8b2bbc86478a7a28bf0996b4" title="Boucle d&#39;affichage de fin de partie. " alt="" coords="519,339,693,365"/>
+<area shape="rect" id="node7" href="$class_personnage.html#abd45dd4e1a4099a6300c037fc41e1037" title="Accesseur d&#39;un pokémon du tableau de pokémon. " alt="" coords="785,35,986,61"/>
+<area shape="rect" id="node10" href="$class_combat.html#aed2119127fb9b7ed023dd481927c27aa" title="Accesseur de quiJoue. " alt="" coords="1081,1283,1224,1309"/>
+<area shape="rect" id="node11" href="$class_s_f_m_l_combat.html#a2665ce99eeccb4bdb1e032086a9feb04" title="Test si un des Pokemon combattant est KO. " alt="" coords="794,659,977,685"/>
+<area shape="rect" id="node13" href="$class_combat.html#af72bd31264a8cdeeb3f3f8c30c727d33" title="Accesseur/Mutateur de Joueur. " alt="" coords="1075,440,1230,467"/>
+<area shape="rect" id="node14" href="$class_personnage.html#aeab0448ba1e833d57ee17827e3a6ac0d" title="Accesseur d&#39;un pokémon du tableau de pokémon par référence. " alt="" coords="1304,339,1527,365"/>
+<area shape="rect" id="node15" href="$class_combat.html#a59088f5725884e9c363ad72a946c82ef" title="Accesseur/Mutateur de Adversaire. " alt="" coords="1064,491,1241,517"/>
+<area shape="rect" id="node16" href="$class_combat.html#a567eab49812ecbd2d694e8cf064e800a" title="Changer de Pokemon. " alt="" coords="1055,979,1250,1005"/>
+<area shape="rect" id="node18" href="$class_s_f_m_l_combat.html#ad6e349e747401615a1c3d5c56e59be76" title="Modifie positionPokemon. " alt="" coords="769,491,1001,517"/>
+<area shape="rect" id="node26" href="$class_s_f_m_l_combat.html#a22523f39138086a3b118a896ca214c4d" title="Dessine les sprites des Pokemon. " alt="" coords="778,237,993,264"/>
+<area shape="rect" id="node27" href="$class_s_f_m_l_combat.html#ab37fca053d9f0e3529502c69f0de1055" title="Dessine le curseur de sélection. " alt="" coords="778,542,993,583"/>
+<area shape="rect" id="node23" href="$class_pokemon.html#aca789a69b00c4e4189571507539bbc30" title="Accesseur de la variable nom. " alt="" coords="1087,776,1218,803"/>
+<area shape="rect" id="node25" href="$class_pokemon.html#af11b525fb21bb7fbb86c43d1ddad738a" title="Accesseur de la variable NbPVMax. " alt="" coords="1342,877,1489,904"/>
+<area shape="rect" id="node29" href="$class_s_f_m_l_combat.html#aea2c9616512a2cb0c5e7e2f676a5daab" title="Dessine l&#39;écran de fin de partie. " alt="" coords="781,339,990,365"/>
+<area shape="rect" id="node30" href="$class_personnage.html#a411597dd00afced2f6eeb70461833dbe" title="Accesseur de la variable nom. " alt="" coords="1080,827,1225,853"/>
+<area shape="rect" id="node32" href="$class_s_f_m_l_combat.html#a8803b5fb491ebcba31787b0aa20a9c07" title="Boucle d&#39;affichage du menu attaque. " alt="" coords="521,1181,691,1208"/>
+<area shape="rect" id="node38" href="$class_s_f_m_l_combat.html#a55c6728be410efdf2ca919a9ee44728a" title="Boucle d&#39;affichage du menu objet. " alt="" coords="527,928,685,955"/>
+<area shape="rect" id="node35" href="$class_s_f_m_l_combat.html#a83899ae7d061225976857060d2a16388" title="SFMLCombat::ecrireAttaque" alt="" coords="791,1485,979,1512"/>
+<area shape="rect" id="node34" href="$class_s_f_m_l_combat.html#a2e7feee45aae418d7545cc71534e6148" title="SFMLCombat::calculProchaine\lPosition" alt="" coords="1051,1723,1254,1765"/>
+<area shape="rect" id="node36" href="$class_pokemon.html#a5688276dbf96174ceccec44d416f2df6" title="Accesseur d&#39;une attaque du tableau d&#39;attaque par pointeur. " alt="" coords="1053,1409,1252,1436"/>
+<area shape="rect" id="node37" href="$class_attaque.html#a2d3e865f856f681f79934680b25ac372" title="Accesseur de nom. " alt="" coords="1092,1473,1213,1500"/>
+<area shape="rect" id="node39" href="$class_s_f_m_l_combat.html#ac41423229acd874f68463a462fdfce08" title="Modifie positionObjet. " alt="" coords="781,877,989,904"/>
+<area shape="rect" id="node40" href="$class_s_f_m_l_combat.html#a82520574af06d7d4bcb145f0a37fe691" title="Dessine les sprites des objets. " alt="" coords="790,608,981,635"/>
+<area shape="rect" id="node41" href="$class_s_f_m_l_combat.html#a578125c9faee0eebfaa898b5d6ae6f6e" title="Dessine le curseur de sélection. " alt="" coords="778,811,993,853"/>
+<area shape="rect" id="node43" href="$class_s_f_m_l_combat.html#af3dbb1374820d004fdf5907397760335" title="Calcul de la priorité des Joueurs. " alt="" coords="792,1587,979,1613"/>
+<area shape="rect" id="node46" href="$class_s_f_m_l_combat.html#acc968da97d4c933f516e67b0356e3d73" title="Affichage textuel des actions effectués. " alt="" coords="790,1080,981,1107"/>
+<area shape="rect" id="node44" href="$class_pokemon.html#a04a02b9ee3a43d25596b6d934ef861ba" title="Accesseur de la variable vitesse. " alt="" coords="1079,1587,1226,1613"/>
+<area shape="rect" id="node45" href="$class_combat.html#aa06e658e7fb4ab91174ba4d832588bae" title="Accesseur de PokePerso. " alt="" coords="1059,1536,1246,1563"/>
+<area shape="rect" id="node47" href="$class_combat.html#a310a968bf21791e88753ca6c6a024d8d" title="Lance une attaque. " alt="" coords="1075,1232,1231,1259"/>
+<area shape="rect" id="node48" href="$class_combat.html#a3ab678df151ed9210806f89d1aeb47ab" title="Utilise un Objet. " alt="" coords="1080,1181,1225,1208"/>
+</map>

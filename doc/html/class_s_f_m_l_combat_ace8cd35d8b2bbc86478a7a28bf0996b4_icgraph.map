@@ -1,0 +1,6 @@
+<map id="SFMLCombat::affGagnant" name="SFMLCombat::affGagnant">
+<area shape="rect" id="node2" href="$class_s_f_m_l_combat.html#af7ddb137c3bbaff70d2c566137c2cbb7" title="Test si une équipe Pokemon entière est KO. " alt="" coords="228,5,451,32"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_combat.html#a97bf8a2d3300663aacbb8899bbbf3472" title="Test si un des Pokemon combattant est KO (version combat contre IA) " alt="" coords="237,57,441,98"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_combat.html#a39155235e6275b4d63b9317b9561843e" title="La boucle principale de Jeu. " alt="" coords="505,5,671,32"/>
+<area shape="rect" id="node5" href="$class_s_f_m_l_combat.html#a116d70985530e3c46e5b60adc910a1fb" title="La boucle principale de Jeu (version combat IA) " alt="" coords="499,64,677,91"/>
+</map>

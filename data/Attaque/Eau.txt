@@ -1,0 +1,21 @@
+
+Cascade. 
+1 80 100 15 0.
+Ciclédo. 
+1 150 100 5 1.
+Coquilame. 
+1 75 95 10 0.
+Hydroblast. 
+1 150 90 5 1.
+Hydrocanon.
+1 110 80 5 1.
+Hydroqueue.
+1 90 90 10 0.
+Onde Originelle. 
+1 110 85 10 1.
+Pistolet a eau. 
+1 40 100 25 1.
+Surf. 
+1 90 100 15 1.
+Vibraqua.
+1 60 100 20 1.

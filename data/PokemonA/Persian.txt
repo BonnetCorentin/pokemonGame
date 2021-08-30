@@ -1,0 +1,5 @@
+Persian 0 6 -1 251 240 251 262 361 334 
+Normal/Belier.
+Normal/Charge.
+Normal/Combo Griffe.
+Normal/Coupe. 

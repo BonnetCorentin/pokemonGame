@@ -1,0 +1,5 @@
+Voltali 0 5 -1 317 240 350 251 394 334 
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

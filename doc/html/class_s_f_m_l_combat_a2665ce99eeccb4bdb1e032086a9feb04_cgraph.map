@@ -1,0 +1,5 @@
+<map id="SFMLCombat::pokemonKO" name="SFMLCombat::pokemonKO">
+<area shape="rect" id="node2" href="$class_combat.html#a9a44a83a9c1fe5d67f0b620dab547e56" title="Accesseur/Mutateur de PokePerso. " alt="" coords="250,5,429,32"/>
+<area shape="rect" id="node3" href="$class_pokemon.html#a97e2f2b4b811d5e2bbcb038fb70f57ce" title="Accesseur de la variable NbPV. " alt="" coords="279,56,400,83"/>
+<area shape="rect" id="node4" href="$class_combat.html#a4f02e335d825eb98b64d5410a590b9f8" title="Accesseur/Mutateur de PokeAdversaire. " alt="" coords="236,107,443,133"/>
+</map>

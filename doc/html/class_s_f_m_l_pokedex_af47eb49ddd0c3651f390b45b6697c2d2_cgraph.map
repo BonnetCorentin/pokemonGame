@@ -1,0 +1,5 @@
+<map id="SFMLPokedex::chargerIemePokemon" name="SFMLPokedex::chargerIemePokemon">
+<area shape="rect" id="node2" href="$class_pokemon.html#a26771eddf70badfce2fe1aeaf2d89b81" title="charge dans le pokemon tous les informations contenues dans un fichier " alt="" coords="251,5,433,32"/>
+<area shape="rect" id="node4" href="$class_personnage.html#ae9e94e72e002695ae1461aa538e5e880" title="Mutateur d&#39;un pokémon du tableu de pokémon. " alt="" coords="241,56,443,83"/>
+<area shape="rect" id="node3" href="$class_attaque.html#ac6a1ff465a27d926b72807354e6587eb" title="Charge une attaque à partir d&#39;un fichier. " alt="" coords="491,5,687,32"/>
+</map>

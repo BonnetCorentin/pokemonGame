@@ -1,0 +1,17 @@
+acier 3
+combat 16 
+dragon 4
+eau 1
+electrik 5
+feu 0
+glace 8
+insecte 2
+normal 6
+plante 15
+poison 13
+psy 9
+roche 10
+sol 14
+spectre 12
+tenebre 11
+vol 7

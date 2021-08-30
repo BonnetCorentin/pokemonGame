@@ -1,0 +1,5 @@
+Poissoroy 0 1 -1 284 251 251 311 258 364
+Eau/Coquilame.
+Eau/Hydrocanon.
+Eau/Hydroblast.
+Eau/Surf.

@@ -1,0 +1,746 @@
+\hypertarget{class_s_f_m_l_pokedex}{}\section{Référence de la classe S\+F\+M\+L\+Pokedex}
+\label{class_s_f_m_l_pokedex}\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+
+
+La classe gérant le principale affichage graphique.  
+
+
+
+
+{\ttfamily \#include \char`\"{}src/\+S\+F\+M\+L\+Pokedex/\+S\+F\+M\+L\+Pokedex.\+h\char`\"{}}
+
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_s_f_m_l_pokedex_a94d68bf080f6b2503fa8e867663a4b2b}{S\+F\+M\+L\+Pokedex} (sf\+::\+Render\+Window \&fenetre)
+\begin{DoxyCompactList}\small\item\em Constructeur de \hyperlink{class_s_f_m_l_pokedex}{S\+F\+M\+L\+Pokedex}. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_pokedex_a7caf472eeb1060d9ce88c7cf3cb4bbb8}{boucle\+Affichage} ()
+\begin{DoxyCompactList}\small\item\em La boucle principale du Pokedex. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_pokedex_a0b447d5b74964d395264d6d5e50aadbd}{boucle\+Affichage\+Avec\+Joueur} (\hyperlink{class_joueur}{Joueur} \&joueur, unsigned int i)
+\begin{DoxyCompactList}\small\item\em La boucle principale du Pokedex avec joueur. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_pokedex_af47eb49ddd0c3651f390b45b6697c2d2}{charger\+Ieme\+Pokemon} (\hyperlink{class_joueur}{Joueur} \&joueur, unsigned int i) const
+\begin{DoxyCompactList}\small\item\em La fonction de chargement. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Fonctions membres privées}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_s_f_m_l_pokedex_a7693d7d78e637f1839f0459985cb59e3}{dessiner\+Pokemon} ()
+\begin{DoxyCompactList}\small\item\em Dessiner le Pokémon. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_pokedex_a9760b492343dc3c07d49ec86f2160a95}{dessiner\+Bas} ()
+\begin{DoxyCompactList}\small\item\em Dessine l\textquotesingle{}espace du bas. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_pokedex_ae5f87a7a8a5cb0e6d151f15646d7e4af}{dessiner\+Default} ()
+\begin{DoxyCompactList}\small\item\em Remet un rectangle a default. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_pokedex_a4cec507ffcc5916c32c8b14211c991fa}{dessiner\+Selection} ()
+\begin{DoxyCompactList}\small\item\em Lance le tutoriel. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_pokedex_a3729d8001348235c5ad12245cdb61b28}{recuperer\+Nom\+Pokemon} (sf\+::\+Text \&text, sf\+::\+Text \&type1, sf\+::\+Text \&type2, sf\+::\+Text \&\hyperlink{class_s_f_m_l_pokedex_a418ba384fed946ddca305937083441e8}{niveau\+Avant\+Debloque}, sf\+::\+Text \&nombre\+Pv)
+\begin{DoxyCompactList}\small\item\em Recupere un Pokémon. \end{DoxyCompactList}\item 
+std\+::string \hyperlink{class_s_f_m_l_pokedex_a16ac63df885664b02c66b06dd1cfa9ef}{recuperer\+Type\+String} (int \hyperlink{_attaque_8h_a1d1cfd8ffb84e947f82999c682b666a7}{Type}, sf\+::\+Texture \&t)
+\begin{DoxyCompactList}\small\item\em Recupere type d\textquotesingle{}un Pokémon. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_pokedex_a94f3d84825cc9bac5efff4123b7cc154}{changer\+Page} ()
+\begin{DoxyCompactList}\small\item\em Change de page. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_pokedex_a9528e644324e4b4c6f0b0a3e7fcdde79}{Changer\+Page\+Souris} ()
+\begin{DoxyCompactList}\small\item\em Change de page. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+sf\+::\+Render\+Window $\ast$ \hyperlink{class_s_f_m_l_pokedex_ab1c7f0857b4d7ca6b7d908684d5bd834}{menu\+Window}
+\begin{DoxyCompactList}\small\item\em Un pointeur sur la fenêtre du menu. \end{DoxyCompactList}\item 
+sf\+::\+Texture \hyperlink{class_s_f_m_l_pokedex_a74225d2a42d36a1914a45325bc36fa6e}{retour}
+\begin{DoxyCompactList}\small\item\em une texture. \end{DoxyCompactList}\item 
+sf\+::\+Texture \hyperlink{class_s_f_m_l_pokedex_a4ef635a4200985034d8b0f8c1cc200b8}{type\+Pokemon}
+\begin{DoxyCompactList}\small\item\em une texture. \end{DoxyCompactList}\item 
+sf\+::\+Texture \hyperlink{class_s_f_m_l_pokedex_abd3915db6d7443e178ee3e70c5759169}{type\+Pokemon2}
+\begin{DoxyCompactList}\small\item\em une texture. \end{DoxyCompactList}\item 
+sf\+::\+Music \hyperlink{class_s_f_m_l_pokedex_a1ef2187090948d629a72070792240799}{music}
+\begin{DoxyCompactList}\small\item\em Une musique. \end{DoxyCompactList}\item 
+sf\+::\+Rectangle\+Shape \hyperlink{class_s_f_m_l_pokedex_a8f77186aadf9a6ff658ab2e2dfb3fe8e}{fond\+Principale}
+\begin{DoxyCompactList}\small\item\em Un rectangle. \end{DoxyCompactList}\item 
+sf\+::\+Rectangle\+Shape \hyperlink{class_s_f_m_l_pokedex_aeb5376123a919717951f1d8a68fae12f}{tab\+Pokedex} \mbox{[}151\mbox{]}
+\begin{DoxyCompactList}\small\item\em Un rectangle. \end{DoxyCompactList}\item 
+sf\+::\+Rectangle\+Shape \hyperlink{class_s_f_m_l_pokedex_a1ab75884d1bfab5c12a6392c5a432804}{rectangle\+Fleche\+Droite}
+\begin{DoxyCompactList}\small\item\em Un rectangle. \end{DoxyCompactList}\item 
+sf\+::\+Rectangle\+Shape \hyperlink{class_s_f_m_l_pokedex_af6db22bfff2b35c6ce7f143f577b9843}{rectangle\+Fleche\+Gauche}
+\begin{DoxyCompactList}\small\item\em Un rectangle. \end{DoxyCompactList}\item 
+sf\+::\+Rectangle\+Shape \hyperlink{class_s_f_m_l_pokedex_a7be0bd58ffc62f4ddf173e4421337834}{back}
+\begin{DoxyCompactList}\small\item\em Un rectangle. \end{DoxyCompactList}\item 
+sf\+::\+Rectangle\+Shape \hyperlink{class_s_f_m_l_pokedex_a29894b0514a87a4433935300bb81817f}{carte}
+\begin{DoxyCompactList}\small\item\em Un rectangle. \end{DoxyCompactList}\item 
+sf\+::\+Rectangle\+Shape \hyperlink{class_s_f_m_l_pokedex_a51173885dca46730a4ed3ecd51ea7c07}{pokemon\+Bas}
+\begin{DoxyCompactList}\small\item\em Un rectangle. \end{DoxyCompactList}\item 
+sf\+::\+Rectangle\+Shape \hyperlink{class_s_f_m_l_pokedex_aa8a2ab411eb1fe32c6e803604e2bc089}{element\+Pokemon}
+\begin{DoxyCompactList}\small\item\em Un rectangle. \end{DoxyCompactList}\item 
+sf\+::\+Rectangle\+Shape \hyperlink{class_s_f_m_l_pokedex_a52190554b9cb690232c204cd1741e44e}{element\+Pokemon2}
+\begin{DoxyCompactList}\small\item\em Un rectangle. \end{DoxyCompactList}\item 
+sf\+::\+Text \hyperlink{class_s_f_m_l_pokedex_a663ce281a41674035ab1f632f4f26c45}{bas\+De\+Page}
+\begin{DoxyCompactList}\small\item\em Un texte. \end{DoxyCompactList}\item 
+sf\+::\+Text \hyperlink{class_s_f_m_l_pokedex_a68eca06ace0197ee2f3c2df95ebc38f7}{flech\+Retour}
+\begin{DoxyCompactList}\small\item\em Un texte. \end{DoxyCompactList}\item 
+sf\+::\+Text \hyperlink{class_s_f_m_l_pokedex_a8a50323dc304817b241e621de75c98da}{pokemon\+Choisis}
+\begin{DoxyCompactList}\small\item\em Un texte. \end{DoxyCompactList}\item 
+sf\+::\+Text \hyperlink{class_s_f_m_l_pokedex_a418ba384fed946ddca305937083441e8}{niveau\+Avant\+Debloque}
+\begin{DoxyCompactList}\small\item\em Un texte. \end{DoxyCompactList}\item 
+sf\+::\+Font \hyperlink{class_s_f_m_l_pokedex_aacfb7ae2339b52abe0b241d7e232e6ae}{font}
+\begin{DoxyCompactList}\small\item\em une police d\textquotesingle{}écriture. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_s_f_m_l_pokedex_a933421afd4da00a1a3e1f5cf812d72af}{position}
+\begin{DoxyCompactList}\small\item\em un entier signé \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_s_f_m_l_pokedex_a506ab03c641853b9907b0c24184b8a1a}{curseur\+Droit}
+\begin{DoxyCompactList}\small\item\em un entier signé \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_s_f_m_l_pokedex_a23f07085352a8278d016ce1b40508a0b}{curseur\+Gauche}
+\begin{DoxyCompactList}\small\item\em un entier signé \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_s_f_m_l_pokedex_ab29c78ecc96b716fa28e59374aba8be4}{dimX}
+\begin{DoxyCompactList}\small\item\em un entier signé \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_s_f_m_l_pokedex_a1b01bf762bbe23e56fe0f5a7a767871b}{dimY}
+\begin{DoxyCompactList}\small\item\em un entier signé \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_s_f_m_l_pokedex_a13017856ab5c1378aadf46aa09c33b1c}{nb\+Pokemon\+Niveau}
+\begin{DoxyCompactList}\small\item\em un entier signé \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_s_f_m_l_pokedex_ae112351a9ce9d53bc25d4ffcb3f13d1c}{niveau\+Joueur}
+\begin{DoxyCompactList}\small\item\em un entier signé \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_s_f_m_l_pokedex_a054d94b92748c63069467337b15b3b81}{nb\+Page}
+\begin{DoxyCompactList}\small\item\em un entier signé \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_s_f_m_l_pokedex_a0c00916cec331e0b16f52744bca0978f}{rouge}
+\begin{DoxyCompactList}\small\item\em un entier signé \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_s_f_m_l_pokedex_aa310919f725f9aadde9a77849cb18bf5}{vert}
+\begin{DoxyCompactList}\small\item\em un entier signé \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_s_f_m_l_pokedex_a3d5463056d4494bdff42fdf7c79da5ff}{bleu}
+\begin{DoxyCompactList}\small\item\em un entier signé \end{DoxyCompactList}\item 
+std\+::string \hyperlink{class_s_f_m_l_pokedex_ad0c89f220e7cf46a05aa2ea8d68843d8}{Pokedex} \mbox{[}151\mbox{]}
+\begin{DoxyCompactList}\small\item\em Une chaîne de caractère. \end{DoxyCompactList}\item 
+bool \hyperlink{class_s_f_m_l_pokedex_a8c16438639f1b205188fbd00f04791bf}{si\+Fleche\+Gauche}
+\begin{DoxyCompactList}\small\item\em un boléen. \end{DoxyCompactList}\item 
+bool \hyperlink{class_s_f_m_l_pokedex_a4403115ebd1ffb08d990151197d53a29}{a\+Deux\+Type}
+\begin{DoxyCompactList}\small\item\em un boléen. \end{DoxyCompactList}\item 
+bool \hyperlink{class_s_f_m_l_pokedex_a773410b0979da4ed7a7792b80b0a7a99}{fin}
+\begin{DoxyCompactList}\small\item\em un boléen. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+La classe gérant le principale affichage graphique. 
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_s_f_m_l_pokedex_a94d68bf080f6b2503fa8e867663a4b2b}\label{class_s_f_m_l_pokedex_a94d68bf080f6b2503fa8e867663a4b2b}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{S\+F\+M\+L\+Pokedex()}{SFMLPokedex()}}
+{\footnotesize\ttfamily S\+F\+M\+L\+Pokedex\+::\+S\+F\+M\+L\+Pokedex (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{fenetre }\end{DoxyParamCaption})}
+
+
+
+Constructeur de \hyperlink{class_s_f_m_l_pokedex}{S\+F\+M\+L\+Pokedex}. 
+
+Construit un objet de type \hyperlink{class_s_f_m_l_combat}{S\+F\+M\+L\+Combat} en utilisant une fenêtre déjà crée 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt out}  & {\em fenetre} & correspond à la fenêtre que \hyperlink{class_s_f_m_l_pokedex}{S\+F\+M\+L\+Pokedex} utilisera comme fenêtre de jeu. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_s_f_m_l_pokedex_a7caf472eeb1060d9ce88c7cf3cb4bbb8}\label{class_s_f_m_l_pokedex_a7caf472eeb1060d9ce88c7cf3cb4bbb8}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!boucle\+Affichage@{boucle\+Affichage}}
+\index{boucle\+Affichage@{boucle\+Affichage}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{boucle\+Affichage()}{boucleAffichage()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Pokedex\+::boucle\+Affichage (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+La boucle principale du Pokedex. 
+
+boucle\+Affichage permet de lancer le Pokédex et possede toutes les autres fonctions permettant de se déplacer dedans Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_pokedex_a7caf472eeb1060d9ce88c7cf3cb4bbb8_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_pokedex_a7caf472eeb1060d9ce88c7cf3cb4bbb8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_pokedex_a0b447d5b74964d395264d6d5e50aadbd}\label{class_s_f_m_l_pokedex_a0b447d5b74964d395264d6d5e50aadbd}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!boucle\+Affichage\+Avec\+Joueur@{boucle\+Affichage\+Avec\+Joueur}}
+\index{boucle\+Affichage\+Avec\+Joueur@{boucle\+Affichage\+Avec\+Joueur}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{boucle\+Affichage\+Avec\+Joueur()}{boucleAffichageAvecJoueur()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Pokedex\+::boucle\+Affichage\+Avec\+Joueur (\begin{DoxyParamCaption}\item[{\hyperlink{class_joueur}{Joueur} \&}]{joueur,  }\item[{unsigned int}]{i }\end{DoxyParamCaption})}
+
+
+
+La boucle principale du Pokedex avec joueur. 
+
+boucle\+Affichage\+Avec\+Joueur permet au joueur de choisir 6 Pokémons 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt out}  & {\em joueur} & correspond au joueur selectionné \\
+\hline
+\mbox{\tt in}  & {\em i} & correpond au i-\/ème Pokémon \\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_pokedex_a0b447d5b74964d395264d6d5e50aadbd_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_pokedex_a0b447d5b74964d395264d6d5e50aadbd_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_pokedex_a94f3d84825cc9bac5efff4123b7cc154}\label{class_s_f_m_l_pokedex_a94f3d84825cc9bac5efff4123b7cc154}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!changer\+Page@{changer\+Page}}
+\index{changer\+Page@{changer\+Page}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{changer\+Page()}{changerPage()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Pokedex\+::changer\+Page (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Change de page. 
+
+changer\+Page permet de changer de page quand la touche \char`\"{}\+Entrée\char`\"{} est enfoncée Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_pokedex_a94f3d84825cc9bac5efff4123b7cc154_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_pokedex_a9528e644324e4b4c6f0b0a3e7fcdde79}\label{class_s_f_m_l_pokedex_a9528e644324e4b4c6f0b0a3e7fcdde79}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!Changer\+Page\+Souris@{Changer\+Page\+Souris}}
+\index{Changer\+Page\+Souris@{Changer\+Page\+Souris}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{Changer\+Page\+Souris()}{ChangerPageSouris()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Pokedex\+::\+Changer\+Page\+Souris (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Change de page. 
+
+Changer\+Page\+Souris permet de changer de page lorsque l\textquotesingle{}utilisateur clique sur l\textquotesingle{}une des deux flèches Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_pokedex_a9528e644324e4b4c6f0b0a3e7fcdde79_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_pokedex_a9528e644324e4b4c6f0b0a3e7fcdde79_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_pokedex_af47eb49ddd0c3651f390b45b6697c2d2}\label{class_s_f_m_l_pokedex_af47eb49ddd0c3651f390b45b6697c2d2}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!charger\+Ieme\+Pokemon@{charger\+Ieme\+Pokemon}}
+\index{charger\+Ieme\+Pokemon@{charger\+Ieme\+Pokemon}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{charger\+Ieme\+Pokemon()}{chargerIemePokemon()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Pokedex\+::charger\+Ieme\+Pokemon (\begin{DoxyParamCaption}\item[{\hyperlink{class_joueur}{Joueur} \&}]{joueur,  }\item[{unsigned int}]{i }\end{DoxyParamCaption}) const}
+
+
+
+La fonction de chargement. 
+
+charger\+Ieme\+Pokemon permet de charger les 6 Pokémons selectionnés 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt out}  & {\em joueur} & correspond au joueur selectionné \\
+\hline
+\mbox{\tt in}  & {\em i} & correpond au i-\/ème Pokémon \\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_pokedex_af47eb49ddd0c3651f390b45b6697c2d2_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_pokedex_af47eb49ddd0c3651f390b45b6697c2d2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_pokedex_a9760b492343dc3c07d49ec86f2160a95}\label{class_s_f_m_l_pokedex_a9760b492343dc3c07d49ec86f2160a95}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!dessiner\+Bas@{dessiner\+Bas}}
+\index{dessiner\+Bas@{dessiner\+Bas}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{dessiner\+Bas()}{dessinerBas()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Pokedex\+::dessiner\+Bas (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Dessine l\textquotesingle{}espace du bas. 
+
+Permet de dessiner tout l\textquotesingle{}espace du bas et d\textquotesingle{}harmoniser le tout Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_pokedex_a9760b492343dc3c07d49ec86f2160a95_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_pokedex_a9760b492343dc3c07d49ec86f2160a95_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_pokedex_ae5f87a7a8a5cb0e6d151f15646d7e4af}\label{class_s_f_m_l_pokedex_ae5f87a7a8a5cb0e6d151f15646d7e4af}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!dessiner\+Default@{dessiner\+Default}}
+\index{dessiner\+Default@{dessiner\+Default}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{dessiner\+Default()}{dessinerDefault()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Pokedex\+::dessiner\+Default (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Remet un rectangle a default. 
+
+dessiner\+Default permet de dessiner les rectangles non selectionne à leurs couleurs de base Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_pokedex_ae5f87a7a8a5cb0e6d151f15646d7e4af_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_pokedex_a7693d7d78e637f1839f0459985cb59e3}\label{class_s_f_m_l_pokedex_a7693d7d78e637f1839f0459985cb59e3}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!dessiner\+Pokemon@{dessiner\+Pokemon}}
+\index{dessiner\+Pokemon@{dessiner\+Pokemon}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{dessiner\+Pokemon()}{dessinerPokemon()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Pokedex\+::dessiner\+Pokemon (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Dessiner le Pokémon. 
+
+Permet de récuperer des informations sur un Pokémon, et de dessiner ses informations à l\textquotesingle{}écran Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_pokedex_a7693d7d78e637f1839f0459985cb59e3_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_pokedex_a4cec507ffcc5916c32c8b14211c991fa}\label{class_s_f_m_l_pokedex_a4cec507ffcc5916c32c8b14211c991fa}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!dessiner\+Selection@{dessiner\+Selection}}
+\index{dessiner\+Selection@{dessiner\+Selection}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{dessiner\+Selection()}{dessinerSelection()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Pokedex\+::dessiner\+Selection (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Lance le tutoriel. 
+
+lire\+Tuto permet d\textquotesingle{}afficher le fichier texte contenant le tutoriel Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_pokedex_a4cec507ffcc5916c32c8b14211c991fa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_pokedex_a3729d8001348235c5ad12245cdb61b28}\label{class_s_f_m_l_pokedex_a3729d8001348235c5ad12245cdb61b28}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!recuperer\+Nom\+Pokemon@{recuperer\+Nom\+Pokemon}}
+\index{recuperer\+Nom\+Pokemon@{recuperer\+Nom\+Pokemon}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{recuperer\+Nom\+Pokemon()}{recupererNomPokemon()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Pokedex\+::recuperer\+Nom\+Pokemon (\begin{DoxyParamCaption}\item[{sf\+::\+Text \&}]{text,  }\item[{sf\+::\+Text \&}]{type1,  }\item[{sf\+::\+Text \&}]{type2,  }\item[{sf\+::\+Text \&}]{niveau\+Avant\+Debloque,  }\item[{sf\+::\+Text \&}]{nombre\+Pv }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Recupere un Pokémon. 
+
+recuperer\+Nom\+Pokemon permet des recuperer toutes les informations sur un Pokémon et de les stocker dans ses variables 
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt out}  & {\em text} & correspond au nom du pokémon \\
+\hline
+\mbox{\tt out}  & {\em type1} & correspond au premier type du Pokémon \\
+\hline
+\mbox{\tt out}  & {\em type2} & correspond au deuxième type du Pokémon \\
+\hline
+\mbox{\tt out}  & {\em niveau\+Avant\+Debloque} & correspond au niveu qu\textquotesingle{}il faut avoir pour débloquer ce Pokémon \\
+\hline
+\mbox{\tt out}  & {\em nombre\+Pv} & correspond au nombre de PV du Pokémon \\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_pokedex_a3729d8001348235c5ad12245cdb61b28_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_pokedex_a3729d8001348235c5ad12245cdb61b28_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_pokedex_a16ac63df885664b02c66b06dd1cfa9ef}\label{class_s_f_m_l_pokedex_a16ac63df885664b02c66b06dd1cfa9ef}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!recuperer\+Type\+String@{recuperer\+Type\+String}}
+\index{recuperer\+Type\+String@{recuperer\+Type\+String}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{recuperer\+Type\+String()}{recupererTypeString()}}
+{\footnotesize\ttfamily std\+::string S\+F\+M\+L\+Pokedex\+::recuperer\+Type\+String (\begin{DoxyParamCaption}\item[{int}]{Type,  }\item[{sf\+::\+Texture \&}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Recupere type d\textquotesingle{}un Pokémon. 
+
+recuperer\+Type\+String recupere le type du Pokémon en version string il ajuste également les pixels selon le type du Pokémon, et charge la texture correspond au type 
+\begin{DoxyParams}{Paramètres}
+{\em } & \\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_pokedex_a16ac63df885664b02c66b06dd1cfa9ef_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Documentation des données membres}
+\mbox{\Hypertarget{class_s_f_m_l_pokedex_a4403115ebd1ffb08d990151197d53a29}\label{class_s_f_m_l_pokedex_a4403115ebd1ffb08d990151197d53a29}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!a\+Deux\+Type@{a\+Deux\+Type}}
+\index{a\+Deux\+Type@{a\+Deux\+Type}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{a\+Deux\+Type}{aDeuxType}}
+{\footnotesize\ttfamily bool S\+F\+M\+L\+Pokedex\+::a\+Deux\+Type\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+un boléen. 
+
+a\+Deux\+Type permet de savoir si le Pokémon a deux types \mbox{\Hypertarget{class_s_f_m_l_pokedex_a7be0bd58ffc62f4ddf173e4421337834}\label{class_s_f_m_l_pokedex_a7be0bd58ffc62f4ddf173e4421337834}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!back@{back}}
+\index{back@{back}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{back}{back}}
+{\footnotesize\ttfamily sf\+::\+Rectangle\+Shape S\+F\+M\+L\+Pokedex\+::back\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Un rectangle. 
+
+back correspond au rectangle contenant la fleche retour \mbox{\Hypertarget{class_s_f_m_l_pokedex_a663ce281a41674035ab1f632f4f26c45}\label{class_s_f_m_l_pokedex_a663ce281a41674035ab1f632f4f26c45}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!bas\+De\+Page@{bas\+De\+Page}}
+\index{bas\+De\+Page@{bas\+De\+Page}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{bas\+De\+Page}{basDePage}}
+{\footnotesize\ttfamily sf\+::\+Text S\+F\+M\+L\+Pokedex\+::bas\+De\+Page\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Un texte. 
+
+bas\+De\+Page est la variable contenant le numéro de page \mbox{\Hypertarget{class_s_f_m_l_pokedex_a3d5463056d4494bdff42fdf7c79da5ff}\label{class_s_f_m_l_pokedex_a3d5463056d4494bdff42fdf7c79da5ff}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!bleu@{bleu}}
+\index{bleu@{bleu}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{bleu}{bleu}}
+{\footnotesize\ttfamily unsigned int S\+F\+M\+L\+Pokedex\+::bleu\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+un entier signé 
+
+bleu contient la valeur du pixel bleu \mbox{\Hypertarget{class_s_f_m_l_pokedex_a29894b0514a87a4433935300bb81817f}\label{class_s_f_m_l_pokedex_a29894b0514a87a4433935300bb81817f}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!carte@{carte}}
+\index{carte@{carte}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{carte}{carte}}
+{\footnotesize\ttfamily sf\+::\+Rectangle\+Shape S\+F\+M\+L\+Pokedex\+::carte\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Un rectangle. 
+
+carte correspond au rectangle contenant toutes les informations par rapport à un \hyperlink{class_pokemon}{Pokemon} donné \mbox{\Hypertarget{class_s_f_m_l_pokedex_a506ab03c641853b9907b0c24184b8a1a}\label{class_s_f_m_l_pokedex_a506ab03c641853b9907b0c24184b8a1a}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!curseur\+Droit@{curseur\+Droit}}
+\index{curseur\+Droit@{curseur\+Droit}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{curseur\+Droit}{curseurDroit}}
+{\footnotesize\ttfamily unsigned int S\+F\+M\+L\+Pokedex\+::curseur\+Droit\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+un entier signé 
+
+curseur\+Droit représente la valeur de la position du curseur droit \mbox{\Hypertarget{class_s_f_m_l_pokedex_a23f07085352a8278d016ce1b40508a0b}\label{class_s_f_m_l_pokedex_a23f07085352a8278d016ce1b40508a0b}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!curseur\+Gauche@{curseur\+Gauche}}
+\index{curseur\+Gauche@{curseur\+Gauche}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{curseur\+Gauche}{curseurGauche}}
+{\footnotesize\ttfamily unsigned int S\+F\+M\+L\+Pokedex\+::curseur\+Gauche\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+un entier signé 
+
+curseur\+Gauche représente la valeur de la position du curseur gauche \mbox{\Hypertarget{class_s_f_m_l_pokedex_ab29c78ecc96b716fa28e59374aba8be4}\label{class_s_f_m_l_pokedex_ab29c78ecc96b716fa28e59374aba8be4}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!dimX@{dimX}}
+\index{dimX@{dimX}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{dimX}{dimX}}
+{\footnotesize\ttfamily unsigned int S\+F\+M\+L\+Pokedex\+::dimX\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+un entier signé 
+
+dimX represente la taille de la longueur de la fenêtre \mbox{\Hypertarget{class_s_f_m_l_pokedex_a1b01bf762bbe23e56fe0f5a7a767871b}\label{class_s_f_m_l_pokedex_a1b01bf762bbe23e56fe0f5a7a767871b}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!dimY@{dimY}}
+\index{dimY@{dimY}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{dimY}{dimY}}
+{\footnotesize\ttfamily unsigned int S\+F\+M\+L\+Pokedex\+::dimY\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+un entier signé 
+
+dimY represente la largeur de la longueur de la fenêtre \mbox{\Hypertarget{class_s_f_m_l_pokedex_aa8a2ab411eb1fe32c6e803604e2bc089}\label{class_s_f_m_l_pokedex_aa8a2ab411eb1fe32c6e803604e2bc089}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!element\+Pokemon@{element\+Pokemon}}
+\index{element\+Pokemon@{element\+Pokemon}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{element\+Pokemon}{elementPokemon}}
+{\footnotesize\ttfamily sf\+::\+Rectangle\+Shape S\+F\+M\+L\+Pokedex\+::element\+Pokemon\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Un rectangle. 
+
+element\+Pokemon correspond au rectangle contenant l\textquotesingle{}image du premier type du \hyperlink{class_pokemon}{Pokemon} \mbox{\Hypertarget{class_s_f_m_l_pokedex_a52190554b9cb690232c204cd1741e44e}\label{class_s_f_m_l_pokedex_a52190554b9cb690232c204cd1741e44e}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!element\+Pokemon2@{element\+Pokemon2}}
+\index{element\+Pokemon2@{element\+Pokemon2}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{element\+Pokemon2}{elementPokemon2}}
+{\footnotesize\ttfamily sf\+::\+Rectangle\+Shape S\+F\+M\+L\+Pokedex\+::element\+Pokemon2\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Un rectangle. 
+
+element\+Pokemon2 correspond au rectangle contenant l\textquotesingle{}image du deuxième type du \hyperlink{class_pokemon}{Pokemon} \mbox{\Hypertarget{class_s_f_m_l_pokedex_a773410b0979da4ed7a7792b80b0a7a99}\label{class_s_f_m_l_pokedex_a773410b0979da4ed7a7792b80b0a7a99}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!fin@{fin}}
+\index{fin@{fin}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{fin}{fin}}
+{\footnotesize\ttfamily bool S\+F\+M\+L\+Pokedex\+::fin\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+un boléen. 
+
+fin a pour but de savoir s\textquotesingle{}il faut sortir du Pokédex ou non \mbox{\Hypertarget{class_s_f_m_l_pokedex_a68eca06ace0197ee2f3c2df95ebc38f7}\label{class_s_f_m_l_pokedex_a68eca06ace0197ee2f3c2df95ebc38f7}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!flech\+Retour@{flech\+Retour}}
+\index{flech\+Retour@{flech\+Retour}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{flech\+Retour}{flechRetour}}
+{\footnotesize\ttfamily sf\+::\+Text S\+F\+M\+L\+Pokedex\+::flech\+Retour\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Un texte. 
+
+flech\+Retour est la variable contenant le texte qui informe comment revenir en arrière \mbox{\Hypertarget{class_s_f_m_l_pokedex_a8f77186aadf9a6ff658ab2e2dfb3fe8e}\label{class_s_f_m_l_pokedex_a8f77186aadf9a6ff658ab2e2dfb3fe8e}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!fond\+Principale@{fond\+Principale}}
+\index{fond\+Principale@{fond\+Principale}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{fond\+Principale}{fondPrincipale}}
+{\footnotesize\ttfamily sf\+::\+Rectangle\+Shape S\+F\+M\+L\+Pokedex\+::fond\+Principale\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Un rectangle. 
+
+fond\+Principale correspond au rectangle de fond de la fenêtre principale \mbox{\Hypertarget{class_s_f_m_l_pokedex_aacfb7ae2339b52abe0b241d7e232e6ae}\label{class_s_f_m_l_pokedex_aacfb7ae2339b52abe0b241d7e232e6ae}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!font@{font}}
+\index{font@{font}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{font}{font}}
+{\footnotesize\ttfamily sf\+::\+Font S\+F\+M\+L\+Pokedex\+::font\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+une police d\textquotesingle{}écriture. 
+
+font contient une des polices d\textquotesingle{}écritures \mbox{\Hypertarget{class_s_f_m_l_pokedex_ab1c7f0857b4d7ca6b7d908684d5bd834}\label{class_s_f_m_l_pokedex_ab1c7f0857b4d7ca6b7d908684d5bd834}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!menu\+Window@{menu\+Window}}
+\index{menu\+Window@{menu\+Window}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{menu\+Window}{menuWindow}}
+{\footnotesize\ttfamily sf\+::\+Render\+Window $\ast$ S\+F\+M\+L\+Pokedex\+::menu\+Window\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Un pointeur sur la fenêtre du menu. 
+
+window\+Fermeture est le pointeur permettant d\textquotesingle{}accéder et de modifier la fenêtre du menu. \mbox{\Hypertarget{class_s_f_m_l_pokedex_a1ef2187090948d629a72070792240799}\label{class_s_f_m_l_pokedex_a1ef2187090948d629a72070792240799}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!music@{music}}
+\index{music@{music}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{music}{music}}
+{\footnotesize\ttfamily sf\+::\+Music S\+F\+M\+L\+Pokedex\+::music\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Une musique. 
+
+music est la variable contenant la musique du Pokedex \mbox{\Hypertarget{class_s_f_m_l_pokedex_a054d94b92748c63069467337b15b3b81}\label{class_s_f_m_l_pokedex_a054d94b92748c63069467337b15b3b81}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!nb\+Page@{nb\+Page}}
+\index{nb\+Page@{nb\+Page}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{nb\+Page}{nbPage}}
+{\footnotesize\ttfamily unsigned int S\+F\+M\+L\+Pokedex\+::nb\+Page\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+un entier signé 
+
+nb\+Page contient le numéro de la page actuelle \mbox{\Hypertarget{class_s_f_m_l_pokedex_a13017856ab5c1378aadf46aa09c33b1c}\label{class_s_f_m_l_pokedex_a13017856ab5c1378aadf46aa09c33b1c}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!nb\+Pokemon\+Niveau@{nb\+Pokemon\+Niveau}}
+\index{nb\+Pokemon\+Niveau@{nb\+Pokemon\+Niveau}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{nb\+Pokemon\+Niveau}{nbPokemonNiveau}}
+{\footnotesize\ttfamily unsigned int S\+F\+M\+L\+Pokedex\+::nb\+Pokemon\+Niveau\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+un entier signé 
+
+nb\+Pokemon\+Niveau représente le nombre de Pokémon par page \mbox{\Hypertarget{class_s_f_m_l_pokedex_a418ba384fed946ddca305937083441e8}\label{class_s_f_m_l_pokedex_a418ba384fed946ddca305937083441e8}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!niveau\+Avant\+Debloque@{niveau\+Avant\+Debloque}}
+\index{niveau\+Avant\+Debloque@{niveau\+Avant\+Debloque}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{niveau\+Avant\+Debloque}{niveauAvantDebloque}}
+{\footnotesize\ttfamily sf\+::\+Text S\+F\+M\+L\+Pokedex\+::niveau\+Avant\+Debloque\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Un texte. 
+
+niveau\+Avant\+Debloque est la variable contenant le niveau qu\textquotesingle{}il faut pour débloquer tel ou tel Pokémon \mbox{\Hypertarget{class_s_f_m_l_pokedex_ae112351a9ce9d53bc25d4ffcb3f13d1c}\label{class_s_f_m_l_pokedex_ae112351a9ce9d53bc25d4ffcb3f13d1c}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!niveau\+Joueur@{niveau\+Joueur}}
+\index{niveau\+Joueur@{niveau\+Joueur}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{niveau\+Joueur}{niveauJoueur}}
+{\footnotesize\ttfamily unsigned int S\+F\+M\+L\+Pokedex\+::niveau\+Joueur\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+un entier signé 
+
+niveau\+Joueur contient le niveau du joueur actuel \mbox{\Hypertarget{class_s_f_m_l_pokedex_ad0c89f220e7cf46a05aa2ea8d68843d8}\label{class_s_f_m_l_pokedex_ad0c89f220e7cf46a05aa2ea8d68843d8}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!Pokedex@{Pokedex}}
+\index{Pokedex@{Pokedex}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{Pokedex}{Pokedex}}
+{\footnotesize\ttfamily sf\+::string S\+F\+M\+L\+Pokedex\+::\+Pokedex\mbox{[}151\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Une chaîne de caractère. 
+
+Pokedex contient tous les noms des Pokémons \mbox{\Hypertarget{class_s_f_m_l_pokedex_a51173885dca46730a4ed3ecd51ea7c07}\label{class_s_f_m_l_pokedex_a51173885dca46730a4ed3ecd51ea7c07}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!pokemon\+Bas@{pokemon\+Bas}}
+\index{pokemon\+Bas@{pokemon\+Bas}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{pokemon\+Bas}{pokemonBas}}
+{\footnotesize\ttfamily sf\+::\+Rectangle\+Shape S\+F\+M\+L\+Pokedex\+::pokemon\+Bas\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Un rectangle. 
+
+pokemon\+Bas correpond au rectangle contenant l\textquotesingle{}image du Pokémon \mbox{\Hypertarget{class_s_f_m_l_pokedex_a8a50323dc304817b241e621de75c98da}\label{class_s_f_m_l_pokedex_a8a50323dc304817b241e621de75c98da}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!pokemon\+Choisis@{pokemon\+Choisis}}
+\index{pokemon\+Choisis@{pokemon\+Choisis}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{pokemon\+Choisis}{pokemonChoisis}}
+{\footnotesize\ttfamily sf\+::\+Text S\+F\+M\+L\+Pokedex\+::pokemon\+Choisis\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Un texte. 
+
+pokemon\+Choisis est la variable contenant le texte informant des Pokémons que le joueur a choisit \mbox{\Hypertarget{class_s_f_m_l_pokedex_a933421afd4da00a1a3e1f5cf812d72af}\label{class_s_f_m_l_pokedex_a933421afd4da00a1a3e1f5cf812d72af}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!position@{position}}
+\index{position@{position}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{position}{position}}
+{\footnotesize\ttfamily unsigned int S\+F\+M\+L\+Pokedex\+::position\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+un entier signé 
+
+position represente la palce à laquelle le curseur se trouve \mbox{\Hypertarget{class_s_f_m_l_pokedex_a1ab75884d1bfab5c12a6392c5a432804}\label{class_s_f_m_l_pokedex_a1ab75884d1bfab5c12a6392c5a432804}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!rectangle\+Fleche\+Droite@{rectangle\+Fleche\+Droite}}
+\index{rectangle\+Fleche\+Droite@{rectangle\+Fleche\+Droite}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{rectangle\+Fleche\+Droite}{rectangleFlecheDroite}}
+{\footnotesize\ttfamily sf\+::\+Rectangle\+Shape S\+F\+M\+L\+Pokedex\+::rectangle\+Fleche\+Droite\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Un rectangle. 
+
+rectangle\+Fleche\+Droite correspond au rectangle contenant la flèche de droite \mbox{\Hypertarget{class_s_f_m_l_pokedex_af6db22bfff2b35c6ce7f143f577b9843}\label{class_s_f_m_l_pokedex_af6db22bfff2b35c6ce7f143f577b9843}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!rectangle\+Fleche\+Gauche@{rectangle\+Fleche\+Gauche}}
+\index{rectangle\+Fleche\+Gauche@{rectangle\+Fleche\+Gauche}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{rectangle\+Fleche\+Gauche}{rectangleFlecheGauche}}
+{\footnotesize\ttfamily sf\+::\+Rectangle\+Shape S\+F\+M\+L\+Pokedex\+::rectangle\+Fleche\+Gauche\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Un rectangle. 
+
+rectangle\+Fleche\+Gauche correspond au rectangle contenant la flèche de gauche \mbox{\Hypertarget{class_s_f_m_l_pokedex_a74225d2a42d36a1914a45325bc36fa6e}\label{class_s_f_m_l_pokedex_a74225d2a42d36a1914a45325bc36fa6e}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!retour@{retour}}
+\index{retour@{retour}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{retour}{retour}}
+{\footnotesize\ttfamily sf\+::\+Texture S\+F\+M\+L\+Pokedex\+::retour\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+une texture. 
+
+retour est la texture contenant la flèche retour \mbox{\Hypertarget{class_s_f_m_l_pokedex_a0c00916cec331e0b16f52744bca0978f}\label{class_s_f_m_l_pokedex_a0c00916cec331e0b16f52744bca0978f}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!rouge@{rouge}}
+\index{rouge@{rouge}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{rouge}{rouge}}
+{\footnotesize\ttfamily unsigned int S\+F\+M\+L\+Pokedex\+::rouge\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+un entier signé 
+
+rouge contient la valeur du pixel rouge \mbox{\Hypertarget{class_s_f_m_l_pokedex_a8c16438639f1b205188fbd00f04791bf}\label{class_s_f_m_l_pokedex_a8c16438639f1b205188fbd00f04791bf}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!si\+Fleche\+Gauche@{si\+Fleche\+Gauche}}
+\index{si\+Fleche\+Gauche@{si\+Fleche\+Gauche}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{si\+Fleche\+Gauche}{siFlecheGauche}}
+{\footnotesize\ttfamily bool S\+F\+M\+L\+Pokedex\+::si\+Fleche\+Gauche\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+un boléen. 
+
+si\+Fleche\+Gauche permet de savoir si le curseur est sur la flèche gauche ou non \mbox{\Hypertarget{class_s_f_m_l_pokedex_aeb5376123a919717951f1d8a68fae12f}\label{class_s_f_m_l_pokedex_aeb5376123a919717951f1d8a68fae12f}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!tab\+Pokedex@{tab\+Pokedex}}
+\index{tab\+Pokedex@{tab\+Pokedex}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{tab\+Pokedex}{tabPokedex}}
+{\footnotesize\ttfamily sf\+::\+Rectangle\+Shape S\+F\+M\+L\+Pokedex\+::tab\+Pokedex\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Un rectangle. 
+
+tab\+Pokedex correspond aux rectangles qui contiennent les différents Pokémons. \mbox{\Hypertarget{class_s_f_m_l_pokedex_a4ef635a4200985034d8b0f8c1cc200b8}\label{class_s_f_m_l_pokedex_a4ef635a4200985034d8b0f8c1cc200b8}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!type\+Pokemon@{type\+Pokemon}}
+\index{type\+Pokemon@{type\+Pokemon}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{type\+Pokemon}{typePokemon}}
+{\footnotesize\ttfamily sf\+::\+Texture S\+F\+M\+L\+Pokedex\+::type\+Pokemon\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+une texture. 
+
+type\+Pokemon est la texture contenant l\textquotesingle{}image du premier type du Pokémon \mbox{\Hypertarget{class_s_f_m_l_pokedex_abd3915db6d7443e178ee3e70c5759169}\label{class_s_f_m_l_pokedex_abd3915db6d7443e178ee3e70c5759169}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!type\+Pokemon2@{type\+Pokemon2}}
+\index{type\+Pokemon2@{type\+Pokemon2}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{type\+Pokemon2}{typePokemon2}}
+{\footnotesize\ttfamily sf\+::\+Texture S\+F\+M\+L\+Pokedex\+::type\+Pokemon2\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+une texture. 
+
+type\+Pokemon2 est la texture contenant l\textquotesingle{}image du deuxieme type du Pokémon \mbox{\Hypertarget{class_s_f_m_l_pokedex_aa310919f725f9aadde9a77849cb18bf5}\label{class_s_f_m_l_pokedex_aa310919f725f9aadde9a77849cb18bf5}} 
+\index{S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}!vert@{vert}}
+\index{vert@{vert}!S\+F\+M\+L\+Pokedex@{S\+F\+M\+L\+Pokedex}}
+\subsubsection{\texorpdfstring{vert}{vert}}
+{\footnotesize\ttfamily unsigned int S\+F\+M\+L\+Pokedex\+::vert\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+un entier signé 
+
+vert contient la valeur du pixel vert 
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+/home/corentin/\+Documents/lifap4/src/\+S\+F\+M\+L\+Pokedex/\hyperlink{_s_f_m_l_pokedex_8h}{S\+F\+M\+L\+Pokedex.\+h}\item 
+/home/corentin/\+Documents/lifap4/src/\+S\+F\+M\+L\+Pokedex/\hyperlink{_s_f_m_l_pokedex_8cpp}{S\+F\+M\+L\+Pokedex.\+cpp}\end{DoxyCompactItemize}

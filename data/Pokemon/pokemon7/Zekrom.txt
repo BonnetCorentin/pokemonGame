@@ -1,0 +1,5 @@
+Zekrom 0 4 5 328 372 372 438 306 404
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

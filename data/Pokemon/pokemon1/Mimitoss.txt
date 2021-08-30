@@ -1,0 +1,5 @@
+Mimitoss 0 2 13 229 218 196 229 207 324
+Insecte/Megacorne.
+Insecte/Double dard.
+Insecte/Plaie Croix.
+Insecte/Dard nuee.

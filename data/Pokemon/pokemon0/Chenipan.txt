@@ -1,0 +1,5 @@
+Chenipan 0 2 -1 152 185 152 174 207 294
+Insecte/Megacorne.
+Insecte/Double dard.
+Insecte/Plaie Croix.
+Insecte/Dard nuee.

@@ -1,0 +1,5 @@
+Crefollet 0 9 -1 339 339 339 339 284 364 
+Psy/Choc mental.
+Psy/Cauchemar.
+Psy/Rafale psy.
+Tenebre/Morsure.

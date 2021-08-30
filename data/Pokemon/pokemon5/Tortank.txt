@@ -1,0 +1,5 @@
+Tortank 0 1 -1 339 328 295 291 280 362
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

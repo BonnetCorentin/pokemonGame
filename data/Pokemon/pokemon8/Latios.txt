@@ -1,0 +1,5 @@
+Latios 0 4 7 350 284 394 306 350 364
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

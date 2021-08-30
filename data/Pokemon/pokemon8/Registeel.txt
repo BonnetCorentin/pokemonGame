@@ -1,0 +1,5 @@
+Registeel 0 3 -1 438 438 273 273 218 364
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

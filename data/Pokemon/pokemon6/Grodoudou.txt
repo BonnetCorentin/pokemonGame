@@ -1,0 +1,5 @@
+Grodoudou 0 6 17 218 207 273 262 207 484 
+Normal/Belier.
+Normal/Charge.
+Normal/Combo Griffe.
+Normal/Coupe. 

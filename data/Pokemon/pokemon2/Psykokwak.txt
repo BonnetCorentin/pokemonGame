@@ -1,0 +1,5 @@
+Psykokwak 0 1 -1 218 214 251 223 229 304
+Eau/Coquilame.
+Eau/Hydrocanon.
+Eau/Hydroblast.
+Eau/Surf.

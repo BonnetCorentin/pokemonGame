@@ -1,0 +1,5 @@
+Tadmorv 0 13 -1 218 218 196 284 163 364 
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

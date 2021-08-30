@@ -1,0 +1,5 @@
+Draco 0 4 -1 262 251 262 293 262 326
+Dragon/Colere.
+Dragon/Draco Charge.
+Dragon/Draco Choc.
+Dragon/Draco Griffe.

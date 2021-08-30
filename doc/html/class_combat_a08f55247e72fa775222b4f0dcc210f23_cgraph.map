@@ -1,0 +1,4 @@
+<map id="Combat::CalculSTAB" name="Combat::CalculSTAB">
+<area shape="rect" id="node2" href="$class_attaque.html#af43d72ec9abad98f04e21e245cece692" title="Accesseur de type. " alt="" coords="221,5,343,32"/>
+<area shape="rect" id="node3" href="$class_pokemon.html#a3d9cc7fe1b38d8d8ea3ef499116c0eac" title="Accesseur d&#39;un type du tableau. " alt="" coords="201,56,363,83"/>
+</map>

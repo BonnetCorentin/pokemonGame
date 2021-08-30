@@ -1,0 +1,7 @@
+<map id="Personnage::getIemePokemon" name="Personnage::getIemePokemon">
+<area shape="rect" id="node2" href="$class_objet.html#ab75ba7bf1170582a4d50ba8848be2848" title="Accesseur de la variable TypeObjet. " alt="" coords="269,5,408,32"/>
+<area shape="rect" id="node3" href="$class_objet.html#af58cf55dc5f3e8435c5499676ada3023" title="Accesseur de la variable quantite. " alt="" coords="275,56,403,83"/>
+<area shape="rect" id="node4" href="$class_personnage.html#abec36eb0310adc71f3375297fc590c65" title="Constructeur par défaut qui initialise le nom du personnage à &quot;Default&quot;. " alt="" coords="255,107,423,133"/>
+<area shape="rect" id="node5" href="$class_personnage.html#a411597dd00afced2f6eeb70461833dbe" title="Accesseur de la variable nom. " alt="" coords="266,157,411,184"/>
+<area shape="rect" id="node6" href="$class_objet.html#a29be0a2d83cdebac4fedd495e3824515" title="Accesseur de la variable nomObjet. " alt="" coords="269,208,408,235"/>
+</map>

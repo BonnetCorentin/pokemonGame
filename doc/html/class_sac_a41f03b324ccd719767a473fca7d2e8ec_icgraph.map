@@ -1,0 +1,11 @@
+<map id="Sac::getIemeObjetRef" name="Sac::getIemeObjetRef">
+<area shape="rect" id="node2" href="$class_personnage.html#a6b3462a550a38c9e9163495c2b2015f4" title="Accesseur d&#39;un objet dans le sac par référence. " alt="" coords="211,5,390,47"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_combat.html#acc968da97d4c933f516e67b0356e3d73" title="Affichage textuel des actions effectués. " alt="" coords="637,71,828,98"/>
+<area shape="rect" id="node8" href="$class_s_f_m_l_combat.html#a82520574af06d7d4bcb145f0a37fe691" title="Dessine les sprites des objets. " alt="" coords="205,122,396,149"/>
+<area shape="rect" id="node3" href="$class_combat.html#a3ab678df151ed9210806f89d1aeb47ab" title="Utilise un Objet. " alt="" coords="444,17,589,43"/>
+<area shape="rect" id="node5" href="$class_s_f_m_l_combat.html#a4b2bed6ea12c96a58e55d968b1652597" title="Boucle d&#39;affichage des actions. " alt="" coords="885,71,1057,98"/>
+<area shape="rect" id="node6" href="$class_s_f_m_l_combat.html#a39155235e6275b4d63b9317b9561843e" title="La boucle principale de Jeu. " alt="" coords="1119,71,1286,98"/>
+<area shape="rect" id="node7" href="$class_s_f_m_l_combat.html#a116d70985530e3c46e5b60adc910a1fb" title="La boucle principale de Jeu (version combat IA) " alt="" coords="1113,122,1292,149"/>
+<area shape="rect" id="node9" href="$class_s_f_m_l_combat.html#a55c6728be410efdf2ca919a9ee44728a" title="Boucle d&#39;affichage du menu objet. " alt="" coords="654,122,811,149"/>
+<area shape="rect" id="node10" href="$class_s_f_m_l_combat.html#ab856672c59db95d55c7c28cd3a1eee93" title="SFMLCombat::changerMenu" alt="" coords="876,122,1065,149"/>
+</map>

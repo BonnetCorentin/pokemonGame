@@ -1,0 +1,5 @@
+Alakazam 0 9 -1 295 207 405 218 372 314 
+Psy/Choc mental.
+Psy/Cauchemar.
+Psy/Rafale psy.
+Tenebre/Morsure.

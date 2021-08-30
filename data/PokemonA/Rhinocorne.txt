@@ -1,0 +1,5 @@
+Rhinocorne 0 10 14 174 317 174 295 163 364 
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

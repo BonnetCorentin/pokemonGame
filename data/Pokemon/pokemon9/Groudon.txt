@@ -1,0 +1,5 @@
+Groudon 0 14 -1 306 416 328 438 306 404
+Feu/Boutefeu.
+Feu/Canicule.
+Feu/Feu saint.
+Feu/Roue de feu.

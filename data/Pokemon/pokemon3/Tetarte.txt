@@ -1,0 +1,5 @@
+Tetarte 0 1 -1 218 251 218 251 306 334 
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

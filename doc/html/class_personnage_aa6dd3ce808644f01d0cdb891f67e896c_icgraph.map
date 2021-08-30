@@ -1,0 +1,6 @@
+<map id="Personnage::getSac" name="Personnage::getSac">
+<area shape="rect" id="node2" href="$class_personnage.html#a6727627eb37382d3d8f12514551df9bd" title="surcharge de l&#39;opérateur égal " alt="" coords="203,5,357,32"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_combat.html#aa22c1c2665846e97e2eef331af8420d1" title="Choix de l&#39;objet à utiliser. " alt="" coords="193,56,367,83"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_combat.html#ad72f480db9eb3f134e3736b1acb228c8" title="Reflexion de l&#39;IA sur l&#39;action à effectuer. " alt="" coords="415,56,589,83"/>
+<area shape="rect" id="node5" href="$class_s_f_m_l_combat.html#a116d70985530e3c46e5b60adc910a1fb" title="La boucle principale de Jeu (version combat IA) " alt="" coords="637,56,816,83"/>
+</map>

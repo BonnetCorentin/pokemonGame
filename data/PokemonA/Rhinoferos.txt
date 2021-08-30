@@ -1,0 +1,5 @@
+Rhinoferos 0 14 10 207 372 207 394 196 414
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch. 

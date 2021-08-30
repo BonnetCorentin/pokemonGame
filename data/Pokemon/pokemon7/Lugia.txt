@@ -1,0 +1,5 @@
+Lugia 0 9 7 447 394 304 304 350 416
+Eau/Coquilame.
+Eau/Hydrocanon.
+Eau/Hydroblast.
+Eau/Surf.

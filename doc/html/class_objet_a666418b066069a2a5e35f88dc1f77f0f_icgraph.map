@@ -1,0 +1,4 @@
+<map id="Objet::setNomObjet" name="Objet::setNomObjet">
+<area shape="rect" id="node2" href="$class_sac.html#a67fa840e9b489995f7df6a9ed2acdb48" title="Mutateur du nom d&#39;un objet du sac. " alt="" coords="192,5,351,32"/>
+<area shape="rect" id="node3" href="$class_sac.html#a0cf1af6ea1eb5a6f64f8b37a3f2d5a4b" title="Constructeur par défaut qui initialise le sac avec des objets et met leur quantité à 5..." alt="" coords="399,5,475,32"/>
+</map>

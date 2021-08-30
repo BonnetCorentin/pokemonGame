@@ -1,0 +1,5 @@
+Voltorbe 0 5 -1 229 218 229 174 328 284
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

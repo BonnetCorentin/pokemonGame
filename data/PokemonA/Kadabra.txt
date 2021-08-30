@@ -1,0 +1,5 @@
+Kadabra 0 9 -1 262 174 372 185 339 284
+Psy/Choc mental.
+Psy/Cauchemar.
+Psy/Rafale psy.
+Tenebre/Morsure.

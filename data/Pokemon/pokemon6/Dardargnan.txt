@@ -1,0 +1,5 @@
+Dardargnan 0 2 13 284 196 207 284 273 334 
+Insecte/Megacorne.
+Insecte/Double dard.
+Insecte/Plaie Croix.
+Insecte/Dard nuee.

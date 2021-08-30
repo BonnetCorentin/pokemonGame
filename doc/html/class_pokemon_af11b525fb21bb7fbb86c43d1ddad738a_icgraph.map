@@ -1,0 +1,20 @@
+<map id="Pokemon::getPVMax" name="Pokemon::getPVMax">
+<area shape="rect" id="node2" href="$class_combat.html#a3ab678df151ed9210806f89d1aeb47ab" title="Utilise un Objet. " alt="" coords="235,264,380,291"/>
+<area shape="rect" id="node7" href="$class_pokemon.html#a1702b9d4b17a506f4f14a1f0ac142553" title="test toutes les fonctions de la classe " alt="" coords="221,467,394,493"/>
+<area shape="rect" id="node8" href="$class_s_f_m_l_combat.html#a22523f39138086a3b118a896ca214c4d" title="Dessine les sprites des Pokemon. " alt="" coords="200,112,415,139"/>
+<area shape="rect" id="node13" href="$class_s_f_m_l_combat.html#ad5ab6d579c0da644135ae1e51e44f890" title="SFMLCombat::affBarreDeVie" alt="" coords="211,188,404,215"/>
+<area shape="rect" id="node16" href="$class_s_f_m_l_combat.html#ac8720bfe637fdaa932ef45240493bbd6" title="Chance d&#39;attaquer. " alt="" coords="206,315,409,341"/>
+<area shape="rect" id="node18" href="$class_s_f_m_l_combat.html#a00370ff45d848befb5d35c52bd1db2d5" title="Chance d&#39;utiliser un objet. " alt="" coords="215,365,399,392"/>
+<area shape="rect" id="node19" href="$class_s_f_m_l_combat.html#aa22c1c2665846e97e2eef331af8420d1" title="Choix de l&#39;objet à utiliser. " alt="" coords="221,416,394,443"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_combat.html#acc968da97d4c933f516e67b0356e3d73" title="Affichage textuel des actions effectués. " alt="" coords="483,289,673,316"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_combat.html#a4b2bed6ea12c96a58e55d968b1652597" title="Boucle d&#39;affichage des actions. " alt="" coords="767,247,939,273"/>
+<area shape="rect" id="node5" href="$class_s_f_m_l_combat.html#a39155235e6275b4d63b9317b9561843e" title="La boucle principale de Jeu. " alt="" coords="1018,137,1185,164"/>
+<area shape="rect" id="node6" href="$class_s_f_m_l_combat.html#a116d70985530e3c46e5b60adc910a1fb" title="La boucle principale de Jeu (version combat IA) " alt="" coords="1012,247,1191,273"/>
+<area shape="rect" id="node9" href="$class_s_f_m_l_combat.html#ab8d4dfb3e7e4ca9722e52c1ef5fa897d" title="Boucle d&#39;affichage du menu Changer de Pokemon. " alt="" coords="463,87,693,113"/>
+<area shape="rect" id="node10" href="$class_s_f_m_l_combat.html#af7ddb137c3bbaff70d2c566137c2cbb7" title="Test si une équipe Pokemon entière est KO. " alt="" coords="741,79,964,105"/>
+<area shape="rect" id="node11" href="$class_s_f_m_l_combat.html#ab856672c59db95d55c7c28cd3a1eee93" title="SFMLCombat::changerMenu" alt="" coords="758,196,947,223"/>
+<area shape="rect" id="node12" href="$class_s_f_m_l_combat.html#a97bf8a2d3300663aacbb8899bbbf3472" title="Test si un des Pokemon combattant est KO (version combat contre IA) " alt="" coords="751,130,955,171"/>
+<area shape="rect" id="node14" href="$class_s_f_m_l_combat.html#a8803b5fb491ebcba31787b0aa20a9c07" title="Boucle d&#39;affichage du menu attaque. " alt="" coords="493,137,663,164"/>
+<area shape="rect" id="node15" href="$class_s_f_m_l_combat.html#a55c6728be410efdf2ca919a9ee44728a" title="Boucle d&#39;affichage du menu objet. " alt="" coords="499,188,657,215"/>
+<area shape="rect" id="node17" href="$class_s_f_m_l_combat.html#ad72f480db9eb3f134e3736b1acb228c8" title="Reflexion de l&#39;IA sur l&#39;action à effectuer. " alt="" coords="491,391,665,417"/>
+</map>

@@ -1,0 +1,5 @@
+Rafflesia 0 15 13 306 295 328 284 218 354 
+Plante/Canon Graine.
+Plante/Fouet lianes.
+Plante/Lame feuille.
+Plante/Poing Dard.

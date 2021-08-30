@@ -1,0 +1,12 @@
+<map id="/home/corentin/Documents/lifap4/src/SFMLMenu/SFMLMenu.cpp" name="/home/corentin/Documents/lifap4/src/SFMLMenu/SFMLMenu.cpp">
+<area shape="rect" id="node2" href="$_s_f_m_l_menu_8h.html" title="Documentation du module SFMLMenu. " alt="" coords="518,95,618,121"/>
+<area shape="rect" id="node18" href="$_s_f_m_l_8h.html" title="Documentation du module SFML.cpp. " alt="" coords="783,169,948,196"/>
+<area shape="rect" id="node21" href="$_s_f_m_l_charger_8h_source.html" title="../SFMLCharger/SFMLCharger.h" alt="" coords="880,95,1091,121"/>
+<area shape="rect" id="node7" href="$_s_f_m_l_pokedex_8h.html" title="Documentation du module SFMLPokedex. " alt="" coords="284,169,505,196"/>
+<area shape="rect" id="node8" href="$_pokemon_8h.html" title="Classe Pokemon qui gère un pokémon et qui contient son type d&#39;objet,son nom,sa description et sa quan..." alt="" coords="419,393,578,420"/>
+<area shape="rect" id="node16" href="$_personnage_8h.html" title="Module gérant un Personnage dans PokePEIP. " alt="" coords="569,319,756,345"/>
+<area shape="rect" id="node9" href="$_objet_8h.html" title="Module gérant un objet dans le jeu PokePEIP. " alt="" coords="654,468,765,495"/>
+<area shape="rect" id="node11" href="$_attaque_8h.html" title="Documentation du module Attaque. Le module Attaque représente les attaques qui seront utilisés par le..." alt="" coords="339,468,477,495"/>
+<area shape="rect" id="node17" href="$_sac_8h_source.html" title="../Sac/Sac.h" alt="" coords="658,393,753,420"/>
+<area shape="rect" id="node20" href="$_combat_8h.html" title="Documentation du module Combat. Le module Combat représente un combat entre deux joueurs, et chaque joueur combat avec une équipe de 6 Pokemon. " alt="" coords="1115,244,1256,271"/>
+</map>

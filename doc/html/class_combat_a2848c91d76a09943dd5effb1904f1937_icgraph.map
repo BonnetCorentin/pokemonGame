@@ -1,0 +1,14 @@
+<map id="Combat::changerQuiJoue" name="Combat::changerQuiJoue">
+<area shape="rect" id="node2" href="$class_combat.html#a567eab49812ecbd2d694e8cf064e800a" title="Changer de Pokemon. " alt="" coords="224,192,419,218"/>
+<area shape="rect" id="node5" href="$class_s_f_m_l_combat.html#a39155235e6275b4d63b9317b9561843e" title="La boucle principale de Jeu. " alt="" coords="1022,98,1189,125"/>
+<area shape="rect" id="node7" href="$class_s_f_m_l_combat.html#a116d70985530e3c46e5b60adc910a1fb" title="La boucle principale de Jeu (version combat IA) " alt="" coords="1016,233,1195,260"/>
+<area shape="rect" id="node11" href="$class_combat.html#a3ab678df151ed9210806f89d1aeb47ab" title="Utilise un Objet. " alt="" coords="249,90,394,117"/>
+<area shape="rect" id="node12" href="$class_combat.html#a310a968bf21791e88753ca6c6a024d8d" title="Lance une attaque. " alt="" coords="243,141,399,168"/>
+<area shape="rect" id="node13" href="$class_s_f_m_l_combat.html#ad72f480db9eb3f134e3736b1acb228c8" title="Reflexion de l&#39;IA sur l&#39;action à effectuer. " alt="" coords="495,288,669,314"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_combat.html#ab8d4dfb3e7e4ca9722e52c1ef5fa897d" title="Boucle d&#39;affichage du menu Changer de Pokemon. " alt="" coords="467,177,697,204"/>
+<area shape="rect" id="node8" href="$class_s_f_m_l_combat.html#a97bf8a2d3300663aacbb8899bbbf3472" title="Test si un des Pokemon combattant est KO (version combat contre IA) " alt="" coords="755,226,959,267"/>
+<area shape="rect" id="node9" href="$class_s_f_m_l_combat.html#acc968da97d4c933f516e67b0356e3d73" title="Affichage textuel des actions effectués. " alt="" coords="487,109,677,136"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_combat.html#af7ddb137c3bbaff70d2c566137c2cbb7" title="Test si une équipe Pokemon entière est KO. " alt="" coords="745,124,968,150"/>
+<area shape="rect" id="node6" href="$class_s_f_m_l_combat.html#ab856672c59db95d55c7c28cd3a1eee93" title="SFMLCombat::changerMenu" alt="" coords="762,174,951,201"/>
+<area shape="rect" id="node10" href="$class_s_f_m_l_combat.html#a4b2bed6ea12c96a58e55d968b1652597" title="Boucle d&#39;affichage des actions. " alt="" coords="771,73,943,100"/>
+</map>

@@ -1,0 +1,5 @@
+Suicune 0 1 -1 361 361 306 273 295 404
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

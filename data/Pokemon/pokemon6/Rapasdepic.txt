@@ -1,0 +1,5 @@
+Rapasdepic 0 6 7 243 251 243 306 328 334
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

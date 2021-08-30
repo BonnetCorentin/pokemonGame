@@ -1,0 +1,5 @@
+Keldeo 0 1 16 306 306 392 267 346 386 
+Normal/Belier.
+Normal/Charge.
+Normal/Combo Griffe.
+Normal/Coupe. 

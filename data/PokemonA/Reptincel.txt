@@ -1,0 +1,5 @@
+Reptincel 0 0 -1 251 236 284 249 284 320
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

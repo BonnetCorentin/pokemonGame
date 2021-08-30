@@ -1,0 +1,5 @@
+Sabelette 0 14 -1 174 295 152 273 196 304
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

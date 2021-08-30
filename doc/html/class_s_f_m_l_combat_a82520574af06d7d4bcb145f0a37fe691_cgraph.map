@@ -1,0 +1,9 @@
+<map id="SFMLCombat::dessinerObjet" name="SFMLCombat::dessinerObjet">
+<area shape="rect" id="node2" href="$class_combat.html#aed2119127fb9b7ed023dd481927c27aa" title="Accesseur de quiJoue. " alt="" coords="261,5,404,32"/>
+<area shape="rect" id="node3" href="$class_combat.html#af72bd31264a8cdeeb3f3f8c30c727d33" title="Accesseur/Mutateur de Joueur. " alt="" coords="255,56,410,83"/>
+<area shape="rect" id="node4" href="$class_personnage.html#acb7d9ff9b6b6753b8c93fae58f428db1" title="Accesseur du sac par référence. " alt="" coords="252,107,413,133"/>
+<area shape="rect" id="node5" href="$class_combat.html#a59088f5725884e9c363ad72a946c82ef" title="Accesseur/Mutateur de Adversaire. " alt="" coords="244,157,421,184"/>
+<area shape="rect" id="node6" href="$class_sac.html#a41f03b324ccd719767a473fca7d2e8ec" title="Accesseur d&#39;un objet du sac par référence. " alt="" coords="257,208,409,235"/>
+<area shape="rect" id="node7" href="$class_objet.html#a29be0a2d83cdebac4fedd495e3824515" title="Accesseur de la variable nomObjet. " alt="" coords="263,259,402,285"/>
+<area shape="rect" id="node8" href="$class_objet.html#a3352afeefcae6415b3c73112fd588ab5" title="Accesseur de la variable quantite. " alt="" coords="269,309,397,336"/>
+</map>

@@ -1,0 +1,5 @@
+Celebi 0 9 15 328 328 328 328 328 404
+Psy/Cauchemar.
+Psy/Rafale psy.
+Psy/Choc psy.
+Tenebre/Morsure.

@@ -1,0 +1,5 @@
+Minidraco 0 4 -1 218 207 218 249 218 286
+Dragon/Colere.
+Dragon/Draco Charge.
+Dragon/Draco Choc.
+Dragon/Draco Griffe.

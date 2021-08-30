@@ -1,0 +1,362 @@
+\hypertarget{class_sac}{}\section{Référence de la classe Sac}
+\label{class_sac}\index{Sac@{Sac}}
+
+
+Graphe de collaboration de Sac\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=146pt]{class_sac__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sac_a0cf1af6ea1eb5a6f64f8b37a3f2d5a4b}\label{class_sac_a0cf1af6ea1eb5a6f64f8b37a3f2d5a4b}} 
+\hyperlink{class_sac_a0cf1af6ea1eb5a6f64f8b37a3f2d5a4b}{Sac} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut qui initialise le sac avec des objets et met leur quantité à 5. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_sac_a051e0f7f295c899a0af5cfb8f82b0483}{get\+Type\+Objet\+Ieme} (unsigned int i) const
+\begin{DoxyCompactList}\small\item\em Accesseur du type d\textquotesingle{}un objet du sac. \end{DoxyCompactList}\item 
+std\+::string \hyperlink{class_sac_ad8d86e7c53ae92e33c8eb89ca5033b55}{get\+Nom\+Objet\+Ieme} (unsigned int i) const
+\begin{DoxyCompactList}\small\item\em Accesseur du nom d\textquotesingle{}un objet du sac. \end{DoxyCompactList}\item 
+\hyperlink{class_objet}{Objet} \hyperlink{class_sac_af8d00752356d84df7e235c8aeded571b}{get\+Ieme\+Objet} (unsigned int i) const
+\begin{DoxyCompactList}\small\item\em Accesseur d\textquotesingle{}un objet du sac. \end{DoxyCompactList}\item 
+\hyperlink{class_objet}{Objet} $\ast$ \hyperlink{class_sac_a41f03b324ccd719767a473fca7d2e8ec}{get\+Ieme\+Objet\+Ref} (unsigned int i)
+\begin{DoxyCompactList}\small\item\em Accesseur d\textquotesingle{}un objet du sac par référence. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_sac_a09dbee93f5c31ed563d87171de923d8c}{get\+Quantite\+Objet\+Ieme} (unsigned int i) const
+\begin{DoxyCompactList}\small\item\em Accesseur d\textquotesingle{}un objet du sac. \end{DoxyCompactList}\item 
+void \hyperlink{class_sac_afa8ad056c3e5ac4de8daecc6d9772580}{set\+Quantite\+Objet\+Ieme} (unsigned int i, unsigned int nombre)
+\begin{DoxyCompactList}\small\item\em Mutateur de la quantité d\textquotesingle{}un objet du sac. \end{DoxyCompactList}\item 
+void \hyperlink{class_sac_a67fa840e9b489995f7df6a9ed2acdb48}{set\+Nom\+Objet\+Ieme} (unsigned int i, const std\+::string \&nom)
+\begin{DoxyCompactList}\small\item\em Mutateur du nom d\textquotesingle{}un objet du sac. \end{DoxyCompactList}\item 
+void \hyperlink{class_sac_a7b750145a41ee6598eba31d6568efa77}{set\+Type\+Objet\+Ieme} (unsigned int i, const Type\+Objet \&type)
+\begin{DoxyCompactList}\small\item\em Mutateur du type d\textquotesingle{}un objet du sac. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_sac_a568f800ad7ed33cafc6351cd778ac017}\label{class_sac_a568f800ad7ed33cafc6351cd778ac017}} 
+void \hyperlink{class_sac_a568f800ad7ed33cafc6351cd778ac017}{init\+Sac} ()
+\begin{DoxyCompactList}\small\item\em Met toutes les quantités des objets du sac à 5. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_sac_af291d902c93e5157bcfa5d2f24bff291}\label{class_sac_af291d902c93e5157bcfa5d2f24bff291}} 
+void \hyperlink{class_sac_af291d902c93e5157bcfa5d2f24bff291}{vider\+Sac} ()
+\begin{DoxyCompactList}\small\item\em Met toutes les quantités des objets du sac à 0. \end{DoxyCompactList}\item 
+void \hyperlink{class_sac_a1dee8b8525a1e9c00a8f0f3da5cdd4d2}{augmenter\+Quantite\+Objet\+Ieme} (unsigned int i, unsigned int nb)
+\begin{DoxyCompactList}\small\item\em Augmente la quantité d\textquotesingle{}un objet du sac. \end{DoxyCompactList}\item 
+void \hyperlink{class_sac_aac56c261612ca7c522ebee38644fbb98}{diminuer\+Quantite\+Objet\+Ieme} (unsigned int i, unsigned int nb)
+\begin{DoxyCompactList}\small\item\em Diminue la quantité d\textquotesingle{}un objet du sac. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_sac_abe28c6d7970457e6ebf9850a762054e5}\label{class_sac_abe28c6d7970457e6ebf9850a762054e5}} 
+void \hyperlink{class_sac_abe28c6d7970457e6ebf9850a762054e5}{test\+Regression} ()
+\begin{DoxyCompactList}\small\item\em test toutes les fonctions de la classe \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sac_a73cc9bc84514b23af99237d014bfb1b5}\label{class_sac_a73cc9bc84514b23af99237d014bfb1b5}} 
+\hyperlink{class_objet}{Objet} \hyperlink{class_sac_a73cc9bc84514b23af99237d014bfb1b5}{Sac\+A\+Dos} \mbox{[}16\mbox{]}
+\begin{DoxyCompactList}\small\item\em tableau de 16 objets contenus dans le sac \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_sac_a1dee8b8525a1e9c00a8f0f3da5cdd4d2}\label{class_sac_a1dee8b8525a1e9c00a8f0f3da5cdd4d2}} 
+\index{Sac@{Sac}!augmenter\+Quantite\+Objet\+Ieme@{augmenter\+Quantite\+Objet\+Ieme}}
+\index{augmenter\+Quantite\+Objet\+Ieme@{augmenter\+Quantite\+Objet\+Ieme}!Sac@{Sac}}
+\subsubsection{\texorpdfstring{augmenter\+Quantite\+Objet\+Ieme()}{augmenterQuantiteObjetIeme()}}
+{\footnotesize\ttfamily void Sac\+::augmenter\+Quantite\+Objet\+Ieme (\begin{DoxyParamCaption}\item[{unsigned int}]{i,  }\item[{unsigned int}]{nb }\end{DoxyParamCaption})}
+
+
+
+Augmente la quantité d\textquotesingle{}un objet du sac. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & entier postif contenant l\textquotesingle{}index de l\textquotesingle{}objet \\
+\hline
+\mbox{\tt in}  & {\em nb} & entier postif contenant la quantité à augmenter \\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_sac_a1dee8b8525a1e9c00a8f0f3da5cdd4d2_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_sac_a1dee8b8525a1e9c00a8f0f3da5cdd4d2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_sac_aac56c261612ca7c522ebee38644fbb98}\label{class_sac_aac56c261612ca7c522ebee38644fbb98}} 
+\index{Sac@{Sac}!diminuer\+Quantite\+Objet\+Ieme@{diminuer\+Quantite\+Objet\+Ieme}}
+\index{diminuer\+Quantite\+Objet\+Ieme@{diminuer\+Quantite\+Objet\+Ieme}!Sac@{Sac}}
+\subsubsection{\texorpdfstring{diminuer\+Quantite\+Objet\+Ieme()}{diminuerQuantiteObjetIeme()}}
+{\footnotesize\ttfamily void Sac\+::diminuer\+Quantite\+Objet\+Ieme (\begin{DoxyParamCaption}\item[{unsigned int}]{i,  }\item[{unsigned int}]{nb }\end{DoxyParamCaption})}
+
+
+
+Diminue la quantité d\textquotesingle{}un objet du sac. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & entier postif contenant l\textquotesingle{}index de l\textquotesingle{}objet \\
+\hline
+\mbox{\tt in}  & {\em nb} & entier postif contenant la quantité à diminuer \\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_sac_aac56c261612ca7c522ebee38644fbb98_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_sac_aac56c261612ca7c522ebee38644fbb98_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_sac_af8d00752356d84df7e235c8aeded571b}\label{class_sac_af8d00752356d84df7e235c8aeded571b}} 
+\index{Sac@{Sac}!get\+Ieme\+Objet@{get\+Ieme\+Objet}}
+\index{get\+Ieme\+Objet@{get\+Ieme\+Objet}!Sac@{Sac}}
+\subsubsection{\texorpdfstring{get\+Ieme\+Objet()}{getIemeObjet()}}
+{\footnotesize\ttfamily \hyperlink{class_objet}{Objet} Sac\+::get\+Ieme\+Objet (\begin{DoxyParamCaption}\item[{unsigned int}]{i }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur d\textquotesingle{}un objet du sac. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & entier postif contenant l\textquotesingle{}index de l\textquotesingle{}objet \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un \hyperlink{class_objet}{Objet} contenant l\textquotesingle{}objet 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_sac_af8d00752356d84df7e235c8aeded571b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_sac_a41f03b324ccd719767a473fca7d2e8ec}\label{class_sac_a41f03b324ccd719767a473fca7d2e8ec}} 
+\index{Sac@{Sac}!get\+Ieme\+Objet\+Ref@{get\+Ieme\+Objet\+Ref}}
+\index{get\+Ieme\+Objet\+Ref@{get\+Ieme\+Objet\+Ref}!Sac@{Sac}}
+\subsubsection{\texorpdfstring{get\+Ieme\+Objet\+Ref()}{getIemeObjetRef()}}
+{\footnotesize\ttfamily \hyperlink{class_objet}{Objet} $\ast$ Sac\+::get\+Ieme\+Objet\+Ref (\begin{DoxyParamCaption}\item[{unsigned int}]{i }\end{DoxyParamCaption})}
+
+
+
+Accesseur d\textquotesingle{}un objet du sac par référence. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & entier postif contenant l\textquotesingle{}index de l\textquotesingle{}objet \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un pointeur vers un objet du sac 
+\end{DoxyReturn}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_sac_a41f03b324ccd719767a473fca7d2e8ec_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_sac_ad8d86e7c53ae92e33c8eb89ca5033b55}\label{class_sac_ad8d86e7c53ae92e33c8eb89ca5033b55}} 
+\index{Sac@{Sac}!get\+Nom\+Objet\+Ieme@{get\+Nom\+Objet\+Ieme}}
+\index{get\+Nom\+Objet\+Ieme@{get\+Nom\+Objet\+Ieme}!Sac@{Sac}}
+\subsubsection{\texorpdfstring{get\+Nom\+Objet\+Ieme()}{getNomObjetIeme()}}
+{\footnotesize\ttfamily std\+::string Sac\+::get\+Nom\+Objet\+Ieme (\begin{DoxyParamCaption}\item[{unsigned int}]{i }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur du nom d\textquotesingle{}un objet du sac. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & entier postif contenant l\textquotesingle{}index de l\textquotesingle{}objet \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne une chaîne de caractère contenant le nom de l\textquotesingle{}objet 
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{class_sac_ad8d86e7c53ae92e33c8eb89ca5033b55_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=341pt]{class_sac_ad8d86e7c53ae92e33c8eb89ca5033b55_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_sac_a09dbee93f5c31ed563d87171de923d8c}\label{class_sac_a09dbee93f5c31ed563d87171de923d8c}} 
+\index{Sac@{Sac}!get\+Quantite\+Objet\+Ieme@{get\+Quantite\+Objet\+Ieme}}
+\index{get\+Quantite\+Objet\+Ieme@{get\+Quantite\+Objet\+Ieme}!Sac@{Sac}}
+\subsubsection{\texorpdfstring{get\+Quantite\+Objet\+Ieme()}{getQuantiteObjetIeme()}}
+{\footnotesize\ttfamily unsigned int Sac\+::get\+Quantite\+Objet\+Ieme (\begin{DoxyParamCaption}\item[{unsigned int}]{i }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur d\textquotesingle{}un objet du sac. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & entier postif contenant l\textquotesingle{}index de l\textquotesingle{}objet \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un entier postif contenant la quantité de l\textquotesingle{}objet 
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{class_sac_a09dbee93f5c31ed563d87171de923d8c_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_sac_a09dbee93f5c31ed563d87171de923d8c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_sac_a051e0f7f295c899a0af5cfb8f82b0483}\label{class_sac_a051e0f7f295c899a0af5cfb8f82b0483}} 
+\index{Sac@{Sac}!get\+Type\+Objet\+Ieme@{get\+Type\+Objet\+Ieme}}
+\index{get\+Type\+Objet\+Ieme@{get\+Type\+Objet\+Ieme}!Sac@{Sac}}
+\subsubsection{\texorpdfstring{get\+Type\+Objet\+Ieme()}{getTypeObjetIeme()}}
+{\footnotesize\ttfamily unsigned int Sac\+::get\+Type\+Objet\+Ieme (\begin{DoxyParamCaption}\item[{unsigned int}]{i }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur du type d\textquotesingle{}un objet du sac. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & entier postif contenant l\textquotesingle{}index de l\textquotesingle{}objet \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+retourne un entier positif contenant le type de l\textquotesingle{}objet 
+\end{DoxyReturn}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=340pt]{class_sac_a051e0f7f295c899a0af5cfb8f82b0483_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{class_sac_a051e0f7f295c899a0af5cfb8f82b0483_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_sac_a67fa840e9b489995f7df6a9ed2acdb48}\label{class_sac_a67fa840e9b489995f7df6a9ed2acdb48}} 
+\index{Sac@{Sac}!set\+Nom\+Objet\+Ieme@{set\+Nom\+Objet\+Ieme}}
+\index{set\+Nom\+Objet\+Ieme@{set\+Nom\+Objet\+Ieme}!Sac@{Sac}}
+\subsubsection{\texorpdfstring{set\+Nom\+Objet\+Ieme()}{setNomObjetIeme()}}
+{\footnotesize\ttfamily void Sac\+::set\+Nom\+Objet\+Ieme (\begin{DoxyParamCaption}\item[{unsigned int}]{i,  }\item[{const std\+::string \&}]{nom }\end{DoxyParamCaption})}
+
+
+
+Mutateur du nom d\textquotesingle{}un objet du sac. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & entier postif contenant l\textquotesingle{}index de l\textquotesingle{}objet \\
+\hline
+\mbox{\tt in}  & {\em nom} & chaîne de caractère contenant le nom de l\textquotesingle{}objet à copier \\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{class_sac_a67fa840e9b489995f7df6a9ed2acdb48_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=292pt]{class_sac_a67fa840e9b489995f7df6a9ed2acdb48_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_sac_afa8ad056c3e5ac4de8daecc6d9772580}\label{class_sac_afa8ad056c3e5ac4de8daecc6d9772580}} 
+\index{Sac@{Sac}!set\+Quantite\+Objet\+Ieme@{set\+Quantite\+Objet\+Ieme}}
+\index{set\+Quantite\+Objet\+Ieme@{set\+Quantite\+Objet\+Ieme}!Sac@{Sac}}
+\subsubsection{\texorpdfstring{set\+Quantite\+Objet\+Ieme()}{setQuantiteObjetIeme()}}
+{\footnotesize\ttfamily void Sac\+::set\+Quantite\+Objet\+Ieme (\begin{DoxyParamCaption}\item[{unsigned int}]{i,  }\item[{unsigned int}]{nombre }\end{DoxyParamCaption})}
+
+
+
+Mutateur de la quantité d\textquotesingle{}un objet du sac. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & entier postif contenant l\textquotesingle{}index de l\textquotesingle{}objet \\
+\hline
+\mbox{\tt in}  & {\em nombre} & entier postif contenant la quantité de l\textquotesingle{}objet à copier \\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=347pt]{class_sac_afa8ad056c3e5ac4de8daecc6d9772580_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_sac_afa8ad056c3e5ac4de8daecc6d9772580_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_sac_a7b750145a41ee6598eba31d6568efa77}\label{class_sac_a7b750145a41ee6598eba31d6568efa77}} 
+\index{Sac@{Sac}!set\+Type\+Objet\+Ieme@{set\+Type\+Objet\+Ieme}}
+\index{set\+Type\+Objet\+Ieme@{set\+Type\+Objet\+Ieme}!Sac@{Sac}}
+\subsubsection{\texorpdfstring{set\+Type\+Objet\+Ieme()}{setTypeObjetIeme()}}
+{\footnotesize\ttfamily void Sac\+::set\+Type\+Objet\+Ieme (\begin{DoxyParamCaption}\item[{unsigned int}]{i,  }\item[{const Type\+Objet \&}]{type }\end{DoxyParamCaption})}
+
+
+
+Mutateur du type d\textquotesingle{}un objet du sac. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & entier postif contenant l\textquotesingle{}index de l\textquotesingle{}objet \\
+\hline
+\mbox{\tt in}  & {\em type} & Type\+Objet contenant le type de l\textquotesingle{}objet à copier \\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=340pt]{class_sac_a7b750145a41ee6598eba31d6568efa77_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=293pt]{class_sac_a7b750145a41ee6598eba31d6568efa77_icgraph}
+\end{center}
+\end{figure}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+/home/corentin/\+Documents/lifap4/src/\+Sac/Sac.\+h\item 
+/home/corentin/\+Documents/lifap4/src/\+Sac/\hyperlink{_sac_8cpp}{Sac.\+cpp}\end{DoxyCompactItemize}

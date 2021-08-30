@@ -1,0 +1,8 @@
+<map id="Combat::getPokePerso" name="Combat::getPokePerso">
+<area shape="rect" id="node2" href="$class_s_f_m_l_combat.html#ac8720bfe637fdaa932ef45240493bbd6" title="Chance d&#39;attaquer. " alt="" coords="215,5,417,32"/>
+<area shape="rect" id="node5" href="$class_s_f_m_l_combat.html#a4ba9a6e1f0c91eb425ac83649e443375" title="Chance de changer de Pokemon. " alt="" coords="212,56,420,83"/>
+<area shape="rect" id="node6" href="$class_s_f_m_l_combat.html#a4d5b43087452661e39479026a886d1b6" title="Choix du Pokemon à faire rentrer sur le terrain. " alt="" coords="217,107,415,133"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_combat.html#ad72f480db9eb3f134e3736b1acb228c8" title="Reflexion de l&#39;IA sur l&#39;action à effectuer. " alt="" coords="483,52,657,79"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_combat.html#a116d70985530e3c46e5b60adc910a1fb" title="La boucle principale de Jeu (version combat IA) " alt="" coords="720,81,899,108"/>
+<area shape="rect" id="node7" href="$class_s_f_m_l_combat.html#a97bf8a2d3300663aacbb8899bbbf3472" title="Test si un des Pokemon combattant est KO (version combat contre IA) " alt="" coords="468,103,672,145"/>
+</map>

@@ -1,0 +1,149 @@
+\hypertarget{class_adversaire}{}\section{Référence de la classe Adversaire}
+\label{class_adversaire}\index{Adversaire@{Adversaire}}
+
+
+Classe \hyperlink{class_adversaire}{Adversaire} hérité de la classe \hyperlink{class_personnage}{Personnage} qui gère un adversaire et qui contient son nombre de défaites,de victoires,son niveau et son argent.  
+
+
+
+
+{\ttfamily \#include $<$Personnage.\+h$>$}
+
+
+
+Graphe d\textquotesingle{}héritage de Adversaire\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=148pt]{class_adversaire__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Graphe de collaboration de Adversaire\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=263pt]{class_adversaire__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_adversaire_a370755e176eeccec79136e5386231b6a}\label{class_adversaire_a370755e176eeccec79136e5386231b6a}} 
+\hyperlink{class_adversaire_a370755e176eeccec79136e5386231b6a}{Adversaire} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par défaut qui appel le constructeur par défaut de \hyperlink{class_personnage}{Personnage} et qui initialise objet\+Donnee à N\+U\+LL et argent\+Donnee à 0. \end{DoxyCompactList}\item 
+\hyperlink{class_adversaire_a7db6fc6be761ea8aef77e6b4e582dcf0}{Adversaire} (const std\+::string \&n)
+\begin{DoxyCompactList}\small\item\em Constructeur qui appelle le constructeur de \hyperlink{class_personnage}{Personnage} avec un paramètre et qui initialise objet\+Donnee à N\+U\+LL et argent\+Donnee à 0. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_adversaire_a9a60993cd401bb4f74a826228552a731}\label{class_adversaire_a9a60993cd401bb4f74a826228552a731}} 
+\hyperlink{class_adversaire_a9a60993cd401bb4f74a826228552a731}{$\sim$\+Adversaire} ()
+\begin{DoxyCompactList}\small\item\em Destructeur qui appelle la fonction detruire\+Objet. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{class_adversaire_a8b95db33d9233f0edcc2d870cc2242c3}{get\+Argent\+Donnee} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de la variable argent\+Donnee. \end{DoxyCompactList}\item 
+\hyperlink{class_objet}{Objet} $\ast$ \hyperlink{class_adversaire_a3d500d03df6faf0b30c8be33561f0942}{get\+Objet\+Donne} () const
+\begin{DoxyCompactList}\small\item\em Accesseur de la variable objet\+Donné \end{DoxyCompactList}\item 
+void \hyperlink{class_adversaire_ab8371ffdc0fc9a934212e05fbf3fedc2}{set\+Argent\+Donnee} (unsigned int i)
+\begin{DoxyCompactList}\small\item\em Mutateur de la variable argent\+Donnee. \end{DoxyCompactList}\item 
+void \hyperlink{class_adversaire_a96bed950b5172bbda0a2ddab2b1ff68c}{set\+Objet\+Donne} (const \hyperlink{class_objet}{Objet} \&o)
+\begin{DoxyCompactList}\small\item\em Mutateur de la variable argent\+Donnee. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_adversaire_ac0a12a8a849f87161ccc844cee731374}\label{class_adversaire_ac0a12a8a849f87161ccc844cee731374}} 
+void \hyperlink{class_adversaire_ac0a12a8a849f87161ccc844cee731374}{detruire\+Objet} ()
+\begin{DoxyCompactList}\small\item\em Delete l\textquotesingle{}objet et qui le fait pointer sur N\+U\+LL. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_adversaire_a5540f25c07c308dcc31328501a980c1c}\label{class_adversaire_a5540f25c07c308dcc31328501a980c1c}} 
+void \hyperlink{class_adversaire_a5540f25c07c308dcc31328501a980c1c}{charger\+Adversaire} (unsigned int niveau)
+\begin{DoxyCompactList}\small\item\em charge dans un fichier tout le contenu de l\textquotesingle{}adversaire \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_adversaire_a61c74ca96d42538068613e40a20229cf}\label{class_adversaire_a61c74ca96d42538068613e40a20229cf}} 
+unsigned int \hyperlink{class_adversaire_a61c74ca96d42538068613e40a20229cf}{argent\+Donnee}
+\begin{DoxyCompactList}\small\item\em entier postif contenant l\textquotesingle{}argent donné par l\textquotesingle{}adversaire \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_adversaire_ad431344bd026692b52766f838ef999fb}\label{class_adversaire_ad431344bd026692b52766f838ef999fb}} 
+\hyperlink{class_objet}{Objet} $\ast$ \hyperlink{class_adversaire_ad431344bd026692b52766f838ef999fb}{objet\+Donnee}
+\begin{DoxyCompactList}\small\item\em pointeur vers \hyperlink{class_objet}{Objet} contenant l\textquotesingle{}objet donné par l\textquotesingle{}adversaire \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Classe \hyperlink{class_adversaire}{Adversaire} hérité de la classe \hyperlink{class_personnage}{Personnage} qui gère un adversaire et qui contient son nombre de défaites,de victoires,son niveau et son argent. 
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_adversaire_a7db6fc6be761ea8aef77e6b4e582dcf0}\label{class_adversaire_a7db6fc6be761ea8aef77e6b4e582dcf0}} 
+\index{Adversaire@{Adversaire}!Adversaire@{Adversaire}}
+\index{Adversaire@{Adversaire}!Adversaire@{Adversaire}}
+\subsubsection{\texorpdfstring{Adversaire()}{Adversaire()}}
+{\footnotesize\ttfamily Adversaire\+::\+Adversaire (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{n }\end{DoxyParamCaption})}
+
+
+
+Constructeur qui appelle le constructeur de \hyperlink{class_personnage}{Personnage} avec un paramètre et qui initialise objet\+Donnee à N\+U\+LL et argent\+Donnee à 0. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em n} & nom du personnage à copier \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_adversaire_a8b95db33d9233f0edcc2d870cc2242c3}\label{class_adversaire_a8b95db33d9233f0edcc2d870cc2242c3}} 
+\index{Adversaire@{Adversaire}!get\+Argent\+Donnee@{get\+Argent\+Donnee}}
+\index{get\+Argent\+Donnee@{get\+Argent\+Donnee}!Adversaire@{Adversaire}}
+\subsubsection{\texorpdfstring{get\+Argent\+Donnee()}{getArgentDonnee()}}
+{\footnotesize\ttfamily unsigned int Adversaire\+::get\+Argent\+Donnee (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de la variable argent\+Donnee. 
+
+\begin{DoxyReturn}{Renvoie}
+retourne un entier positif contenant l\textquotesingle{}argent donné par l\textquotesingle{}adversaire 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_adversaire_a3d500d03df6faf0b30c8be33561f0942}\label{class_adversaire_a3d500d03df6faf0b30c8be33561f0942}} 
+\index{Adversaire@{Adversaire}!get\+Objet\+Donne@{get\+Objet\+Donne}}
+\index{get\+Objet\+Donne@{get\+Objet\+Donne}!Adversaire@{Adversaire}}
+\subsubsection{\texorpdfstring{get\+Objet\+Donne()}{getObjetDonne()}}
+{\footnotesize\ttfamily \hyperlink{class_objet}{Objet} $\ast$ Adversaire\+::get\+Objet\+Donne (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur de la variable objet\+Donné 
+
+\begin{DoxyReturn}{Renvoie}
+retourne un pointeur vers l\textquotesingle{}objet donné par l\textquotesingle{}adversaire 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_adversaire_ab8371ffdc0fc9a934212e05fbf3fedc2}\label{class_adversaire_ab8371ffdc0fc9a934212e05fbf3fedc2}} 
+\index{Adversaire@{Adversaire}!set\+Argent\+Donnee@{set\+Argent\+Donnee}}
+\index{set\+Argent\+Donnee@{set\+Argent\+Donnee}!Adversaire@{Adversaire}}
+\subsubsection{\texorpdfstring{set\+Argent\+Donnee()}{setArgentDonnee()}}
+{\footnotesize\ttfamily void Adversaire\+::set\+Argent\+Donnee (\begin{DoxyParamCaption}\item[{unsigned int}]{i }\end{DoxyParamCaption})}
+
+
+
+Mutateur de la variable argent\+Donnee. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em i} & entier positif contenant l\textquotesingle{}argent à donné à copier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_adversaire_a96bed950b5172bbda0a2ddab2b1ff68c}\label{class_adversaire_a96bed950b5172bbda0a2ddab2b1ff68c}} 
+\index{Adversaire@{Adversaire}!set\+Objet\+Donne@{set\+Objet\+Donne}}
+\index{set\+Objet\+Donne@{set\+Objet\+Donne}!Adversaire@{Adversaire}}
+\subsubsection{\texorpdfstring{set\+Objet\+Donne()}{setObjetDonne()}}
+{\footnotesize\ttfamily void Adversaire\+::set\+Objet\+Donne (\begin{DoxyParamCaption}\item[{const \hyperlink{class_objet}{Objet} \&}]{o }\end{DoxyParamCaption})}
+
+
+
+Mutateur de la variable argent\+Donnee. 
+
+
+\begin{DoxyParams}[1]{Paramètres}
+\mbox{\tt in}  & {\em o} & \hyperlink{class_objet}{Objet} contenant l\textquotesingle{}objet à donné à copier \\
+\hline
+\end{DoxyParams}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+/home/corentin/\+Documents/lifap4/src/\+Personnage/\hyperlink{_personnage_8h}{Personnage.\+h}\item 
+/home/corentin/\+Documents/lifap4/src/\+Personnage/\hyperlink{_personnage_8cpp}{Personnage.\+cpp}\end{DoxyCompactItemize}

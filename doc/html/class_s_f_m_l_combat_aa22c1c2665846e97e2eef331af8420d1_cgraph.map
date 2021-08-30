@@ -1,0 +1,12 @@
+<map id="SFMLCombat::choixObjet" name="SFMLCombat::choixObjet">
+<area shape="rect" id="node2" href="$class_combat.html#a4f02e335d825eb98b64d5410a590b9f8" title="Accesseur/Mutateur de PokeAdversaire. " alt="" coords="227,5,433,32"/>
+<area shape="rect" id="node3" href="$class_combat.html#a59088f5725884e9c363ad72a946c82ef" title="Accesseur/Mutateur de Adversaire. " alt="" coords="241,56,419,83"/>
+<area shape="rect" id="node4" href="$class_personnage.html#aa6dd3ce808644f01d0cdb891f67e896c" title="Accesseur du sac. " alt="" coords="260,107,400,133"/>
+<area shape="rect" id="node5" href="$class_pokemon.html#a97e2f2b4b811d5e2bbcb038fb70f57ce" title="Accesseur de la variable NbPV. " alt="" coords="269,157,391,184"/>
+<area shape="rect" id="node6" href="$class_pokemon.html#af11b525fb21bb7fbb86c43d1ddad738a" title="Accesseur de la variable NbPVMax. " alt="" coords="257,208,403,235"/>
+<area shape="rect" id="node7" href="$class_sac.html#af8d00752356d84df7e235c8aeded571b" title="Accesseur d&#39;un objet du sac. " alt="" coords="265,259,395,285"/>
+<area shape="rect" id="node8" href="$class_objet.html#a3352afeefcae6415b3c73112fd588ab5" title="Accesseur de la variable quantite. " alt="" coords="266,309,394,336"/>
+<area shape="rect" id="node9" href="$class_pokemon.html#aad16e1f997ee22fe4f0ec385c5bdbc55" title="Accesseur d&#39;une attaque du tableau d&#39;attaque par référence. " alt="" coords="241,360,419,387"/>
+<area shape="rect" id="node10" href="$class_attaque.html#a651deeca5e47dd04929bd1c9d013c86e" title="Accesseur de nbPPMax. " alt="" coords="253,411,407,437"/>
+<area shape="rect" id="node11" href="$class_attaque.html#aa95b1e494a9c24dfd28c585e46cd1eb8" title="Accesseur de nbPP. " alt="" coords="266,461,394,488"/>
+</map>

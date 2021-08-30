@@ -1,0 +1,9 @@
+<map id="SFMLCombat::dessinerPokemon" name="SFMLCombat::dessinerPokemon">
+<area shape="rect" id="node2" href="$class_combat.html#aed2119127fb9b7ed023dd481927c27aa" title="Accesseur de quiJoue. " alt="" coords="308,5,451,32"/>
+<area shape="rect" id="node3" href="$class_combat.html#af72bd31264a8cdeeb3f3f8c30c727d33" title="Accesseur/Mutateur de Joueur. " alt="" coords="302,56,457,83"/>
+<area shape="rect" id="node4" href="$class_combat.html#a59088f5725884e9c363ad72a946c82ef" title="Accesseur/Mutateur de Adversaire. " alt="" coords="291,107,468,133"/>
+<area shape="rect" id="node5" href="$class_personnage.html#aeab0448ba1e833d57ee17827e3a6ac0d" title="Accesseur d&#39;un pokémon du tableau de pokémon par référence. " alt="" coords="268,157,491,184"/>
+<area shape="rect" id="node6" href="$class_pokemon.html#aca789a69b00c4e4189571507539bbc30" title="Accesseur de la variable nom. " alt="" coords="314,208,445,235"/>
+<area shape="rect" id="node7" href="$class_pokemon.html#a97e2f2b4b811d5e2bbcb038fb70f57ce" title="Accesseur de la variable NbPV. " alt="" coords="319,259,440,285"/>
+<area shape="rect" id="node8" href="$class_pokemon.html#af11b525fb21bb7fbb86c43d1ddad738a" title="Accesseur de la variable NbPVMax. " alt="" coords="306,309,453,336"/>
+</map>

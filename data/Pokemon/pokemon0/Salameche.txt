@@ -1,0 +1,5 @@
+Salameche 0 0 -1 218 203 240 223 251 282
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

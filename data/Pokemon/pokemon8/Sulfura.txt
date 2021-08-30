@@ -1,0 +1,5 @@
+Sulfura 0 0 7 295 306 383 328 306 384 
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

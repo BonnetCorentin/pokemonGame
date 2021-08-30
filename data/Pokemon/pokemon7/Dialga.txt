@@ -1,0 +1,5 @@
+Dialga 0 3 4 328 372 438 372 306 404
+Electrik/Plasma punch.
+Eau/Hydrocanon.
+Feu/Roue de feu.
+Plante/Vegan Attack.

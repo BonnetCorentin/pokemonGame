@@ -1,0 +1,5 @@
+Abra 0 9 -1 229 141 339 152 306 254 
+Psy/Choc mental.
+Psy/Cauchemar.
+Psy/Rafale psy.
+Tenebre/Morsure.

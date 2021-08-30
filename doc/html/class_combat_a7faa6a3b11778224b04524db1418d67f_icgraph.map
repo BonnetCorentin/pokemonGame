@@ -1,0 +1,9 @@
+<map id="Combat::getJoueurGagnant" name="Combat::getJoueurGagnant">
+<area shape="rect" id="node2" href="$class_combat.html#a044df77ec24b76ca8b1cc3dde0de5049" title="Destructeur de Combat. " alt="" coords="275,5,406,32"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_combat.html#aea2c9616512a2cb0c5e7e2f676a5daab" title="Dessine l&#39;écran de fin de partie. " alt="" coords="236,56,445,83"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_combat.html#ace8cd35d8b2bbc86478a7a28bf0996b4" title="Boucle d&#39;affichage de fin de partie. " alt="" coords="493,56,668,83"/>
+<area shape="rect" id="node5" href="$class_s_f_m_l_combat.html#af7ddb137c3bbaff70d2c566137c2cbb7" title="Test si une équipe Pokemon entière est KO. " alt="" coords="716,27,939,53"/>
+<area shape="rect" id="node7" href="$class_s_f_m_l_combat.html#a97bf8a2d3300663aacbb8899bbbf3472" title="Test si un des Pokemon combattant est KO (version combat contre IA) " alt="" coords="725,78,929,119"/>
+<area shape="rect" id="node6" href="$class_s_f_m_l_combat.html#a39155235e6275b4d63b9317b9561843e" title="La boucle principale de Jeu. " alt="" coords="993,27,1159,53"/>
+<area shape="rect" id="node8" href="$class_s_f_m_l_combat.html#a116d70985530e3c46e5b60adc910a1fb" title="La boucle principale de Jeu (version combat IA) " alt="" coords="987,85,1165,112"/>
+</map>

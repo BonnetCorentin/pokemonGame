@@ -1,0 +1,5 @@
+Drattak 0 4 7 284 284 350 405 328 394
+Dragon/Colere.
+Dragon/Draco Charge.
+Dragon/Draco Choc.
+Dragon/Draco Griffe.

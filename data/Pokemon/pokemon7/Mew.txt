@@ -1,0 +1,5 @@
+Mew 0 9 -1 328 328 328 328 328 404
+Psy/Choc mental.
+Psy/Cauchemar.
+Psy/Rafale psy.
+Tenebre/Morsure.

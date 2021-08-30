@@ -1,0 +1,5 @@
+Kangourex 0 6 -1 284 284 196 317 306 414 
+Normal/Belier.
+Normal/Charge.
+Normal/Combo Griffe.
+Normal/Coupe. 

@@ -1,0 +1,5 @@
+Carapuce 0 1 -1 218 203 240 223 251 282
+Eau/Coquilame.
+Eau/Hydrocanon.
+Eau/Hydroblast.
+Eau/Surf.

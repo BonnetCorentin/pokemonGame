@@ -1,0 +1,12 @@
+<map id="Attaque::getPrecision" name="Attaque::getPrecision">
+<area shape="rect" id="node2" href="$class_attaque.html#a21b14fe41db692f8e38aa1821a3519b9" title="Opérateur égale de Attaque. " alt="" coords="229,5,359,32"/>
+<area shape="rect" id="node3" href="$class_attaque.html#a8017dbfbf4af62e113d27d093a2786c6" title="Charge une attaque à partir d&#39;un fichier. " alt="" coords="213,56,375,83"/>
+<area shape="rect" id="node4" href="$class_combat.html#a310a968bf21791e88753ca6c6a024d8d" title="Lance une attaque. " alt="" coords="216,107,372,133"/>
+<area shape="rect" id="node9" href="$class_s_f_m_l_combat.html#a83899ae7d061225976857060d2a16388" title="SFMLCombat::ecrireAttaque" alt="" coords="200,157,388,184"/>
+<area shape="rect" id="node5" href="$class_s_f_m_l_combat.html#acc968da97d4c933f516e67b0356e3d73" title="Affichage textuel des actions effectués. " alt="" coords="436,107,627,133"/>
+<area shape="rect" id="node6" href="$class_s_f_m_l_combat.html#a4b2bed6ea12c96a58e55d968b1652597" title="Boucle d&#39;affichage des actions. " alt="" coords="683,107,855,133"/>
+<area shape="rect" id="node7" href="$class_s_f_m_l_combat.html#a39155235e6275b4d63b9317b9561843e" title="La boucle principale de Jeu. " alt="" coords="918,107,1085,133"/>
+<area shape="rect" id="node8" href="$class_s_f_m_l_combat.html#a116d70985530e3c46e5b60adc910a1fb" title="La boucle principale de Jeu (version combat IA) " alt="" coords="912,157,1091,184"/>
+<area shape="rect" id="node10" href="$class_s_f_m_l_combat.html#a8803b5fb491ebcba31787b0aa20a9c07" title="Boucle d&#39;affichage du menu attaque. " alt="" coords="446,157,617,184"/>
+<area shape="rect" id="node11" href="$class_s_f_m_l_combat.html#ab856672c59db95d55c7c28cd3a1eee93" title="SFMLCombat::changerMenu" alt="" coords="675,157,864,184"/>
+</map>

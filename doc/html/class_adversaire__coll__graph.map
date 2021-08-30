@@ -1,0 +1,7 @@
+<map id="Adversaire" name="Adversaire">
+<area shape="rect" id="node2" href="$class_personnage.html" title="Classe Personnage qui gère un personnage et qui contient son nom, son équipe pokémon et son sac..." alt="" coords="75,184,166,211"/>
+<area shape="rect" id="node3" href="$class_sac.html" title="Sac" alt="" coords="59,95,105,121"/>
+<area shape="rect" id="node4" href="$class_objet.html" title="Classe Objet qui gère un objet et qui contient son type d&#39;objet,son nom,sa description et sa quantité..." alt="" coords="22,5,75,32"/>
+<area shape="rect" id="node5" href="$class_pokemon.html" title="Pokemon" alt="" coords="138,95,215,121"/>
+<area shape="rect" id="node6" href="$class_attaque.html" title="La classe représentant les Attaques des Pokemon. " alt="" coords="143,5,210,32"/>
+</map>

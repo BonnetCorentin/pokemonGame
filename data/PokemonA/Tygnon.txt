@@ -1,0 +1,5 @@
+Tygnon 0 16 -1 350 282 185 339 274 304
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

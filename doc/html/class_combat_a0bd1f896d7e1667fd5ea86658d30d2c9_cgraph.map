@@ -1,0 +1,4 @@
+<map id="Combat::CalculEfficaciteType" name="Combat::CalculEfficaciteType">
+<area shape="rect" id="node2" href="$class_attaque.html#af43d72ec9abad98f04e21e245cece692" title="Accesseur de type. " alt="" coords="270,5,393,32"/>
+<area shape="rect" id="node3" href="$class_pokemon.html#a3d9cc7fe1b38d8d8ea3ef499116c0eac" title="Accesseur d&#39;un type du tableau. " alt="" coords="251,56,412,83"/>
+</map>

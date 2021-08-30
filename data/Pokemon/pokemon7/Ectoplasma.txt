@@ -1,0 +1,5 @@
+Ectoplasma 0 12 13 273 240 394 251 350 324 
+Tenebre/Morsure.
+Tenebre/Poursuite.
+Tenebre/Tranche nuit.
+Tenebre/Trou noir.

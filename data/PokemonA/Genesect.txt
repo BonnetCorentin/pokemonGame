@@ -1,0 +1,5 @@
+Genesect 0 2 3 317 317 372 372 326 346 
+Poison/Acide.
+Poison/Bomb beurk.
+Poison/Detritus.
+Poison/Dard venin.

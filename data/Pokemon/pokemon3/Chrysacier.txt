@@ -1,0 +1,5 @@
+Chrysacier 0 2 -1 163 229 163 152 174 304
+Insecte/Megacorne.
+Insecte/Double dard.
+Insecte/Plaie Croix.
+Insecte/Dard nuee.

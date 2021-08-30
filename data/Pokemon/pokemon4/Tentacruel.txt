@@ -1,0 +1,5 @@
+Tentacruel 0 1 13 372 251 284 262 328 364
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

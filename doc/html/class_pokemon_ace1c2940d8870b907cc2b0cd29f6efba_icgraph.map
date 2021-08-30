@@ -1,0 +1,8 @@
+<map id="Pokemon::getAttaqueSpeciale" name="Pokemon::getAttaqueSpeciale">
+<area shape="rect" id="node2" href="$class_combat.html#a310a968bf21791e88753ca6c6a024d8d" title="Lance une attaque. " alt="" coords="261,31,417,57"/>
+<area shape="rect" id="node7" href="$class_pokemon.html#a1702b9d4b17a506f4f14a1f0ac142553" title="test toutes les fonctions de la classe " alt="" coords="252,81,425,108"/>
+<area shape="rect" id="node3" href="$class_s_f_m_l_combat.html#acc968da97d4c933f516e67b0356e3d73" title="Affichage textuel des actions effectués. " alt="" coords="473,31,664,57"/>
+<area shape="rect" id="node4" href="$class_s_f_m_l_combat.html#a4b2bed6ea12c96a58e55d968b1652597" title="Boucle d&#39;affichage des actions. " alt="" coords="712,31,884,57"/>
+<area shape="rect" id="node5" href="$class_s_f_m_l_combat.html#a39155235e6275b4d63b9317b9561843e" title="La boucle principale de Jeu. " alt="" coords="938,5,1105,32"/>
+<area shape="rect" id="node6" href="$class_s_f_m_l_combat.html#a116d70985530e3c46e5b60adc910a1fb" title="La boucle principale de Jeu (version combat IA) " alt="" coords="932,56,1111,83"/>
+</map>

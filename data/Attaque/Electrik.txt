@@ -1,0 +1,17 @@
+
+Charge Foudre. 
+5 130 85 5 0.
+Crocs Eclair.
+5 65 95 15 0.
+Eclair. 
+5 40 100 30 1.
+Elecanon. 
+5 120 50 5 1.
+Etincelle.
+5 65 100 20 0.
+Fatal Foudre. 
+5 110 70 10 1.
+Plasma punch. 
+5 100 100 15 0.
+Poing eclair. 
+5 75 100 15 0.

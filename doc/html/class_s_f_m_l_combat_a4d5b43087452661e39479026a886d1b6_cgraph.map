@@ -1,0 +1,9 @@
+<map id="SFMLCombat::choixPokemon" name="SFMLCombat::choixPokemon">
+<area shape="rect" id="node2" href="$class_combat.html#a6f3c9e5df27cfb30359dcb0425a45f6d" title="Accesseur de PokePerso. " alt="" coords="283,5,441,32"/>
+<area shape="rect" id="node3" href="$class_combat.html#a59088f5725884e9c363ad72a946c82ef" title="Accesseur/Mutateur de Adversaire. " alt="" coords="273,56,451,83"/>
+<area shape="rect" id="node4" href="$class_personnage.html#aeab0448ba1e833d57ee17827e3a6ac0d" title="Accesseur d&#39;un pokémon du tableau de pokémon par référence. " alt="" coords="251,107,473,133"/>
+<area shape="rect" id="node5" href="$class_combat.html#a4f02e335d825eb98b64d5410a590b9f8" title="Accesseur/Mutateur de PokeAdversaire. " alt="" coords="259,157,465,184"/>
+<area shape="rect" id="node6" href="$class_pokemon.html#a97e2f2b4b811d5e2bbcb038fb70f57ce" title="Accesseur de la variable NbPV. " alt="" coords="301,208,423,235"/>
+<area shape="rect" id="node7" href="$class_pokemon.html#a3d9cc7fe1b38d8d8ea3ef499116c0eac" title="Accesseur d&#39;un type du tableau. " alt="" coords="521,284,683,311"/>
+<area shape="rect" id="node8" href="$class_s_f_m_l_combat.html#a226dd0d639049753aef1fef95cf9a3f0" title="Calcul l&#39;avantage d&#39;un type par rapport aux types d&#39;un Pokemon. " alt="" coords="265,309,459,336"/>
+</map>

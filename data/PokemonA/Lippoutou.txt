@@ -1,0 +1,5 @@
+Lippoutou 0 8 9 317 185 361 218 317 334
+Normal/Belier.
+Normal/Charge.
+Normal/Combo Griffe.
+Normal/Coupe. 

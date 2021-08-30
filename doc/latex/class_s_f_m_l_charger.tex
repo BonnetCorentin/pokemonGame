@@ -1,0 +1,204 @@
+\hypertarget{class_s_f_m_l_charger}{}\section{Référence de la classe S\+F\+M\+L\+Charger}
+\label{class_s_f_m_l_charger}\index{S\+F\+M\+L\+Charger@{S\+F\+M\+L\+Charger}}
+
+
+Classe \hyperlink{class_s_f_m_l_charger}{S\+F\+M\+L\+Charger} qui gère l\textquotesingle{}affichage du chargement des joueurs.  
+
+
+
+
+{\ttfamily \#include $<$S\+F\+M\+L\+Charger.\+h$>$}
+
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_s_f_m_l_charger_a2b47aabcd697f29be30d47d84321ba7e}{S\+F\+M\+L\+Charger} (sf\+::\+Render\+Window \&Window)
+\begin{DoxyCompactList}\small\item\em Constructeur qui initialise toutes les variables de la classe et qui copie la fenetre passée en paramètre dans une nouvelle fenêtre. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_s_f_m_l_charger_ae0c05ca2ca2080579fe94cc5e8f8b00c}\label{class_s_f_m_l_charger_ae0c05ca2ca2080579fe94cc5e8f8b00c}} 
+void \hyperlink{class_s_f_m_l_charger_ae0c05ca2ca2080579fe94cc5e8f8b00c}{boucle\+Affichage} ()
+\begin{DoxyCompactList}\small\item\em La boucle principale de Jeu et qui permet de démarrer le jeu et encapsuler toutes les autres boucles nécéssaire à l\textquotesingle{}affichage du combat. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Fonctions membres privées}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_s_f_m_l_charger_a75660d35cc51c9efa18f1b3b46af14bc}\label{class_s_f_m_l_charger_a75660d35cc51c9efa18f1b3b46af14bc}} 
+void \hyperlink{class_s_f_m_l_charger_a75660d35cc51c9efa18f1b3b46af14bc}{action} ()
+\begin{DoxyCompactList}\small\item\em En fonction de l\textquotesingle{}action du joueur, action va appeller de nouvelle fonction. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_s_f_m_l_charger_a8383210117de42ee9eb4f2642cde599e}\label{class_s_f_m_l_charger_a8383210117de42ee9eb4f2642cde599e}} 
+void \hyperlink{class_s_f_m_l_charger_a8383210117de42ee9eb4f2642cde599e}{dessiner\+Default} ()
+\begin{DoxyCompactList}\small\item\em Dessine avec le format defaut un rectangle en fonction de la postion. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_s_f_m_l_charger_a95d81b6e6b28deb26f571d58bba3765c}\label{class_s_f_m_l_charger_a95d81b6e6b28deb26f571d58bba3765c}} 
+void \hyperlink{class_s_f_m_l_charger_a95d81b6e6b28deb26f571d58bba3765c}{dessiner\+Selection} ()
+\begin{DoxyCompactList}\small\item\em Dessine avec le format selection un rectangle en fonction de la postion. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_charger_a4c3135a3fa16c88f94cbef9c2ca2c2d8}{chargement\+Nouveau\+Joueur} (\hyperlink{class_joueur}{Joueur} \&joueur)
+\begin{DoxyCompactList}\small\item\em S\textquotesingle{}occupe d\textquotesingle{}initialiser un nouveau joueur puis de le sauvegarder dans un fichier. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_charger_a988a052585ee0fe9e61535d5027a6f81}{lancer\+Combat} (\hyperlink{class_joueur}{Joueur} \&joueur, \hyperlink{class_adversaire}{Adversaire} \&adversaire)
+\begin{DoxyCompactList}\small\item\em S\textquotesingle{}occupe d\textquotesingle{}initialiser un nouveau joueur puis de le sauvegarder dans un fichier. \end{DoxyCompactList}\item 
+void \hyperlink{class_s_f_m_l_charger_a67c610529df46560908104f963d741f1}{ouvrir\+Pokedex} (\hyperlink{class_joueur}{Joueur} \&joueur)
+\begin{DoxyCompactList}\small\item\em S\textquotesingle{}occupe d\textquotesingle{}initialiser les pokémons du joueur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Attributs privés}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_s_f_m_l_charger_a22566e686e62fa3031d12579a30820c0}\label{class_s_f_m_l_charger_a22566e686e62fa3031d12579a30820c0}} 
+sf\+::\+Render\+Window $\ast$ \hyperlink{class_s_f_m_l_charger_a22566e686e62fa3031d12579a30820c0}{fenetre\+Principale}
+\begin{DoxyCompactList}\small\item\em Pointeur vers un Render\+Window contenant la fenetre principale. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_s_f_m_l_charger_a855b7e89c52bed336a9c981b6ca21db0}\label{class_s_f_m_l_charger_a855b7e89c52bed336a9c981b6ca21db0}} 
+sf\+::\+Texture \hyperlink{class_s_f_m_l_charger_a855b7e89c52bed336a9c981b6ca21db0}{fondchoixcombat}
+\begin{DoxyCompactList}\small\item\em Texture contenant le fond de la case combat. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_s_f_m_l_charger_a74d88d4ad823e52ed214986e6c093085}\label{class_s_f_m_l_charger_a74d88d4ad823e52ed214986e6c093085}} 
+sf\+::\+Rectangle\+Shape \hyperlink{class_s_f_m_l_charger_a74d88d4ad823e52ed214986e6c093085}{rectangle\+Fond}
+\begin{DoxyCompactList}\small\item\em Rectangle\+Shape contenant le rectangle de fond de la fenêtre principale. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_s_f_m_l_charger_acdb6877e468dd982981ad3f930861315}\label{class_s_f_m_l_charger_acdb6877e468dd982981ad3f930861315}} 
+sf\+::\+Rectangle\+Shape \hyperlink{class_s_f_m_l_charger_acdb6877e468dd982981ad3f930861315}{nouveau\+Joueur}
+\begin{DoxyCompactList}\small\item\em Rectangle\+Shape contenant le rectangle de la case nouveau\+Joueur. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_s_f_m_l_charger_a89dc19954372341f8bdb9df5b25a59ce}\label{class_s_f_m_l_charger_a89dc19954372341f8bdb9df5b25a59ce}} 
+sf\+::\+Rectangle\+Shape \hyperlink{class_s_f_m_l_charger_a89dc19954372341f8bdb9df5b25a59ce}{ancien\+Joueur}
+\begin{DoxyCompactList}\small\item\em Rectangle\+Shape contenant le rectangle de la case ancien\+Joueur. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_s_f_m_l_charger_a08e12d8905d4cb98061106c9dbbe0c38}\label{class_s_f_m_l_charger_a08e12d8905d4cb98061106c9dbbe0c38}} 
+sf\+::\+Rectangle\+Shape \hyperlink{class_s_f_m_l_charger_a08e12d8905d4cb98061106c9dbbe0c38}{jouer2\+V2}
+\begin{DoxyCompactList}\small\item\em Rectangle\+Shape contenant le rectangle pour lancer une partie en 2\+V2. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_s_f_m_l_charger_a5374261a235a864e1aab7ab6f9daf6d7}\label{class_s_f_m_l_charger_a5374261a235a864e1aab7ab6f9daf6d7}} 
+sf\+::\+Text \hyperlink{class_s_f_m_l_charger_a5374261a235a864e1aab7ab6f9daf6d7}{ancien}
+\begin{DoxyCompactList}\small\item\em Text contenant le text de la case ancien\+Joueur. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_s_f_m_l_charger_aac6ac907056dad6fcc50c405c237aecc}\label{class_s_f_m_l_charger_aac6ac907056dad6fcc50c405c237aecc}} 
+sf\+::\+Text \hyperlink{class_s_f_m_l_charger_aac6ac907056dad6fcc50c405c237aecc}{nouveau}
+\begin{DoxyCompactList}\small\item\em Text contenant le text de la case nouveau\+Joueur. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_s_f_m_l_charger_a112fce58c6e9178fdca0e486055c92af}\label{class_s_f_m_l_charger_a112fce58c6e9178fdca0e486055c92af}} 
+sf\+::\+Text \hyperlink{class_s_f_m_l_charger_a112fce58c6e9178fdca0e486055c92af}{J2\+V2}
+\begin{DoxyCompactList}\small\item\em Text contenant le text de la case jouer2\+V2. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_s_f_m_l_charger_a6f1b210f0f04ebab59f47def0ba33a0a}\label{class_s_f_m_l_charger_a6f1b210f0f04ebab59f47def0ba33a0a}} 
+sf\+::\+Text \hyperlink{class_s_f_m_l_charger_a6f1b210f0f04ebab59f47def0ba33a0a}{affichage}
+\begin{DoxyCompactList}\small\item\em Text contenant le text de la case affichage. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_s_f_m_l_charger_aa47e87e890becc0c6c941b9535d04a3e}\label{class_s_f_m_l_charger_aa47e87e890becc0c6c941b9535d04a3e}} 
+sf\+::\+Font \hyperlink{class_s_f_m_l_charger_aa47e87e890becc0c6c941b9535d04a3e}{font}
+\begin{DoxyCompactList}\small\item\em Text contenant la premier police d\textquotesingle{}écriture. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_s_f_m_l_charger_af611d8c33bb2fddd5012a427de40e4e0}\label{class_s_f_m_l_charger_af611d8c33bb2fddd5012a427de40e4e0}} 
+sf\+::\+Font \hyperlink{class_s_f_m_l_charger_af611d8c33bb2fddd5012a427de40e4e0}{font2}
+\begin{DoxyCompactList}\small\item\em Text contenant la deuxieme police d\textquotesingle{}écriture. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_s_f_m_l_charger_a4c8bcb49a0351ee8a9d6171fe4042e3e}\label{class_s_f_m_l_charger_a4c8bcb49a0351ee8a9d6171fe4042e3e}} 
+sf\+::\+Font \hyperlink{class_s_f_m_l_charger_a4c8bcb49a0351ee8a9d6171fe4042e3e}{font3}
+\begin{DoxyCompactList}\small\item\em Text contenant la troisieme police d\textquotesingle{}écriture. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_s_f_m_l_charger_ab4ae50759f35955dbe20f3b8a3da70e7}\label{class_s_f_m_l_charger_ab4ae50759f35955dbe20f3b8a3da70e7}} 
+unsigned int \hyperlink{class_s_f_m_l_charger_ab4ae50759f35955dbe20f3b8a3da70e7}{dimX}
+\begin{DoxyCompactList}\small\item\em Entier positif contenant la dimension en X de l\textquotesingle{}écran. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_s_f_m_l_charger_a9300de5c9453c86ce1221b490ff1152b}\label{class_s_f_m_l_charger_a9300de5c9453c86ce1221b490ff1152b}} 
+unsigned int \hyperlink{class_s_f_m_l_charger_a9300de5c9453c86ce1221b490ff1152b}{dimY}
+\begin{DoxyCompactList}\small\item\em Entier positif contenant la dimension en Y de l\textquotesingle{}écran. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_s_f_m_l_charger_a45ec6f2520cc838a91654605af533b4e}\label{class_s_f_m_l_charger_a45ec6f2520cc838a91654605af533b4e}} 
+unsigned int \hyperlink{class_s_f_m_l_charger_a45ec6f2520cc838a91654605af533b4e}{position}
+\begin{DoxyCompactList}\small\item\em Entier positif contenant la position du curseur. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_s_f_m_l_charger_a36a115432c7bcd65e2dd38f20b8be70e}\label{class_s_f_m_l_charger_a36a115432c7bcd65e2dd38f20b8be70e}} 
+bool \hyperlink{class_s_f_m_l_charger_a36a115432c7bcd65e2dd38f20b8be70e}{fin}
+\begin{DoxyCompactList}\small\item\em Booleen contenant si le chargement est finit. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_s_f_m_l_charger_af2f96b2c5fa4f5ab08b5b2c7b6e5dd2d}\label{class_s_f_m_l_charger_af2f96b2c5fa4f5ab08b5b2c7b6e5dd2d}} 
+std\+::string \hyperlink{class_s_f_m_l_charger_af2f96b2c5fa4f5ab08b5b2c7b6e5dd2d}{texte\+Rentre}
+\begin{DoxyCompactList}\small\item\em Chaine de caractere contenant le prenom rentre par le joueur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Description détaillée}
+Classe \hyperlink{class_s_f_m_l_charger}{S\+F\+M\+L\+Charger} qui gère l\textquotesingle{}affichage du chargement des joueurs. 
+
+\subsection{Documentation des constructeurs et destructeur}
+\mbox{\Hypertarget{class_s_f_m_l_charger_a2b47aabcd697f29be30d47d84321ba7e}\label{class_s_f_m_l_charger_a2b47aabcd697f29be30d47d84321ba7e}} 
+\index{S\+F\+M\+L\+Charger@{S\+F\+M\+L\+Charger}!S\+F\+M\+L\+Charger@{S\+F\+M\+L\+Charger}}
+\index{S\+F\+M\+L\+Charger@{S\+F\+M\+L\+Charger}!S\+F\+M\+L\+Charger@{S\+F\+M\+L\+Charger}}
+\subsubsection{\texorpdfstring{S\+F\+M\+L\+Charger()}{SFMLCharger()}}
+{\footnotesize\ttfamily S\+F\+M\+L\+Charger\+::\+S\+F\+M\+L\+Charger (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{Window }\end{DoxyParamCaption})}
+
+
+
+Constructeur qui initialise toutes les variables de la classe et qui copie la fenetre passée en paramètre dans une nouvelle fenêtre. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em } & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Documentation des fonctions membres}
+\mbox{\Hypertarget{class_s_f_m_l_charger_a4c3135a3fa16c88f94cbef9c2ca2c2d8}\label{class_s_f_m_l_charger_a4c3135a3fa16c88f94cbef9c2ca2c2d8}} 
+\index{S\+F\+M\+L\+Charger@{S\+F\+M\+L\+Charger}!chargement\+Nouveau\+Joueur@{chargement\+Nouveau\+Joueur}}
+\index{chargement\+Nouveau\+Joueur@{chargement\+Nouveau\+Joueur}!S\+F\+M\+L\+Charger@{S\+F\+M\+L\+Charger}}
+\subsubsection{\texorpdfstring{chargement\+Nouveau\+Joueur()}{chargementNouveauJoueur()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Charger\+::chargement\+Nouveau\+Joueur (\begin{DoxyParamCaption}\item[{\hyperlink{class_joueur}{Joueur} \&}]{joueur }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+S\textquotesingle{}occupe d\textquotesingle{}initialiser un nouveau joueur puis de le sauvegarder dans un fichier. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em } & \\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_charger_a4c3135a3fa16c88f94cbef9c2ca2c2d8_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_charger_a4c3135a3fa16c88f94cbef9c2ca2c2d8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_charger_a988a052585ee0fe9e61535d5027a6f81}\label{class_s_f_m_l_charger_a988a052585ee0fe9e61535d5027a6f81}} 
+\index{S\+F\+M\+L\+Charger@{S\+F\+M\+L\+Charger}!lancer\+Combat@{lancer\+Combat}}
+\index{lancer\+Combat@{lancer\+Combat}!S\+F\+M\+L\+Charger@{S\+F\+M\+L\+Charger}}
+\subsubsection{\texorpdfstring{lancer\+Combat()}{lancerCombat()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Charger\+::lancer\+Combat (\begin{DoxyParamCaption}\item[{\hyperlink{class_joueur}{Joueur} \&}]{joueur,  }\item[{\hyperlink{class_adversaire}{Adversaire} \&}]{adversaire }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+S\textquotesingle{}occupe d\textquotesingle{}initialiser un nouveau joueur puis de le sauvegarder dans un fichier. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em } & \\
+\hline
+\end{DoxyParams}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_charger_a988a052585ee0fe9e61535d5027a6f81_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_f_m_l_charger_a67c610529df46560908104f963d741f1}\label{class_s_f_m_l_charger_a67c610529df46560908104f963d741f1}} 
+\index{S\+F\+M\+L\+Charger@{S\+F\+M\+L\+Charger}!ouvrir\+Pokedex@{ouvrir\+Pokedex}}
+\index{ouvrir\+Pokedex@{ouvrir\+Pokedex}!S\+F\+M\+L\+Charger@{S\+F\+M\+L\+Charger}}
+\subsubsection{\texorpdfstring{ouvrir\+Pokedex()}{ouvrirPokedex()}}
+{\footnotesize\ttfamily void S\+F\+M\+L\+Charger\+::ouvrir\+Pokedex (\begin{DoxyParamCaption}\item[{\hyperlink{class_joueur}{Joueur} \&}]{joueur }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+S\textquotesingle{}occupe d\textquotesingle{}initialiser les pokémons du joueur. 
+
+
+\begin{DoxyParams}{Paramètres}
+{\em } & \\
+\hline
+\end{DoxyParams}
+Voici le graphe d\textquotesingle{}appel pour cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_charger_a67c610529df46560908104f963d741f1_cgraph}
+\end{center}
+\end{figure}
+Voici le graphe des appelants de cette fonction \+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_f_m_l_charger_a67c610529df46560908104f963d741f1_icgraph}
+\end{center}
+\end{figure}
+
+
+La documentation de cette classe a été générée à partir des fichiers suivants \+:\begin{DoxyCompactItemize}
+\item 
+/home/corentin/\+Documents/lifap4/src/\+S\+F\+M\+L\+Charger/S\+F\+M\+L\+Charger.\+h\item 
+/home/corentin/\+Documents/lifap4/src/\+S\+F\+M\+L\+Charger/\hyperlink{_s_f_m_l_charger_8cpp}{S\+F\+M\+L\+Charger.\+cpp}\end{DoxyCompactItemize}

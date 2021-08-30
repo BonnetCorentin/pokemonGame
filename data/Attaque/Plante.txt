@@ -1,0 +1,15 @@
+
+Canon Graine. 
+15 100 80 15 0.
+Feuillage. 
+15 100 40 40 0.
+Fouet lianes.
+15 100 45 35 0. 
+Megafouet.
+15 85 120 10 0.
+Lame feuille.
+15 90 100 15 0. 
+Vegan Attack.
+15 90 150 5 1.
+Poing Dard.
+15 100 60 15 0.

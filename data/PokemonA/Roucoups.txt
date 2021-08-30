@@ -1,0 +1,5 @@
+Roucoups 0 6 7 218 229 218 240 265 330 
+Electrik/Charge Foudre.
+Electrik/Crocs Eclair.
+Electrik/Fatal Foudre.
+Electrik/Plasma punch.

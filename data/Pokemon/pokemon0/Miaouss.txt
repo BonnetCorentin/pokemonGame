@@ -1,0 +1,5 @@
+Miaouss 0 6 -1 196 185 196 207 306 284 
+Normal/Belier.
+Normal/Charge.
+Normal/Combo Griffe.
+Normal/Coupe. 

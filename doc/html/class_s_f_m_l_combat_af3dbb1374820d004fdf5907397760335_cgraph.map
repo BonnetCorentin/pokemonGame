@@ -1,0 +1,6 @@
+<map id="SFMLCombat::calculPriorite" name="SFMLCombat::calculPriorite">
+<area shape="rect" id="node2" href="$class_combat.html#a292caf86cb2c8ecbf9ecd055e6a028c0" title="Mutateur de quiJoue. " alt="" coords="262,5,405,32"/>
+<area shape="rect" id="node3" href="$class_combat.html#a9a44a83a9c1fe5d67f0b620dab547e56" title="Accesseur/Mutateur de PokePerso. " alt="" coords="244,56,423,83"/>
+<area shape="rect" id="node4" href="$class_pokemon.html#a04a02b9ee3a43d25596b6d934ef861ba" title="Accesseur de la variable vitesse. " alt="" coords="260,107,407,133"/>
+<area shape="rect" id="node5" href="$class_combat.html#aa06e658e7fb4ab91174ba4d832588bae" title="Accesseur de PokePerso. " alt="" coords="240,157,427,184"/>
+</map>
